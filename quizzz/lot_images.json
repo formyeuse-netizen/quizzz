@@ -1,0 +1,492 @@
+[
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Tour Eiffel",
+  "alias": [
+   "la Tour Eiffel"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/960px-Tour_Eiffel_Wikimedia_Commons.jpg",
+  "sujet_image": "Tour Eiffel"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Statue de la Liberté",
+  "alias": [
+   "la Statue de la Liberté"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Statue_of_Liberty%2C_statue%2C_Liberty_Island%2C_New_York.jpg/960px-Statue_of_Liberty%2C_statue%2C_Liberty_Island%2C_New_York.jpg",
+  "sujet_image": "Statue de la Liberté"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Tour de Pise",
+  "alias": [
+   "la Tour de Pise",
+   "tour penchée de Pise"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Exterior_of_the_Leaning_Tower_%28Pisa%29_in_April_2024.jpg/960px-Exterior_of_the_Leaning_Tower_%28Pisa%29_in_April_2024.jpg",
+  "sujet_image": "Tour de Pise"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Colisée",
+  "alias": [
+   "le Colisée",
+   "Colisée de Rome"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/960px-Colosseo_2020.jpg",
+  "sujet_image": "Colisée"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Taj Mahal",
+  "alias": [
+   "le Taj Mahal"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg/960px-Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+  "sujet_image": "Taj Mahal"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Big Ben",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster%2C_London.jpg/960px-Elizabeth_Tower_and_the_north_front_of_the_Palace_of_Westminster%2C_London.jpg",
+  "sujet_image": "Big Ben"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Pyramides de Gizeh",
+  "alias": [
+   "pyramides d'Égypte",
+   "les pyramides",
+   "pyramide de Gizeh"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/All_Gizah_Pyramids.jpg/960px-All_Gizah_Pyramids.jpg",
+  "sujet_image": "Pyramides de Gizeh"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Sagrada Familia",
+  "alias": [
+   "Sagrada Família",
+   "la Sagrada Familia"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/SF_maig_2026.jpg/960px-SF_maig_2026.jpg",
+  "sujet_image": "Sagrada Familia"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Mont Rushmore",
+  "alias": [
+   "le Mont Rushmore"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mount_Rushmore_detail_view_%28100MP%29.jpg/960px-Mount_Rushmore_detail_view_%28100MP%29.jpg",
+  "sujet_image": "Mont Rushmore"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Golden Gate Bridge",
+  "alias": [
+   "le Golden Gate",
+   "pont du Golden Gate"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/GG-ftpoint-bridge-2.jpg/960px-GG-ftpoint-bridge-2.jpg",
+  "sujet_image": "Golden Gate Bridge"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Opéra de Sydney",
+  "alias": [
+   "l'Opéra de Sydney"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sydney_Opera_House_from_Circular_Quay%2C_2023%2C_10.jpg/960px-Sydney_Opera_House_from_Circular_Quay%2C_2023%2C_10.jpg",
+  "sujet_image": "Opéra de Sydney"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Arc de triomphe",
+  "alias": [
+   "l'Arc de triomphe"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg/960px-Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg",
+  "sujet_image": "Arc de triomphe"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Grande Muraille de Chine",
+  "alias": [
+   "Grande Muraille",
+   "muraille de Chine"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Great_Wall_of_China_July_2006.JPG/960px-Great_Wall_of_China_July_2006.JPG",
+  "sujet_image": "Grande Muraille de Chine"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "Napoléon",
+  "alias": [
+   "Napoléon Bonaparte",
+   "Bonaparte"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project_2.jpg/960px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project_2.jpg",
+  "sujet_image": "Napoléon"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "Einstein",
+  "alias": [
+   "Albert Einstein"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Albert_Einstein_Head_cleaned.jpg/960px-Albert_Einstein_Head_cleaned.jpg",
+  "sujet_image": "Einstein"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "Gandhi",
+  "alias": [
+   "Mahatma Gandhi"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/960px-Mahatma-Gandhi%2C_studio%2C_1931.jpg",
+  "sujet_image": "Gandhi"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "Lincoln",
+  "alias": [
+   "Abraham Lincoln"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/960px-Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+  "sujet_image": "Lincoln"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "Churchill",
+  "alias": [
+   "Winston Churchill"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sir_Winston_Churchill_-_19086236948_%28cropped2%29.jpg/960px-Sir_Winston_Churchill_-_19086236948_%28cropped2%29.jpg",
+  "sujet_image": "Churchill"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "Mandela",
+  "alias": [
+   "Nelson Mandela"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/960px-Nelson_Mandela_1994.jpg",
+  "sujet_image": "Mandela"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "Che Guevara",
+  "alias": [
+   "le Che",
+   "Guevara"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg/960px-Che_Guevara_-_Guerrillero_Heroico_by_Alberto_Korda.jpg",
+  "sujet_image": "Che Guevara"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "Léonard de Vinci",
+  "alias": [
+   "de Vinci",
+   "Vinci"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Francesco_Melzi_-_Portrait_of_Leonardo.png/960px-Francesco_Melzi_-_Portrait_of_Leonardo.png",
+  "sujet_image": "Léonard de Vinci"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "Martin Luther King",
+  "alias": [
+   "Luther King",
+   "MLK"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Martin_Luther_King%2C_Jr..jpg/960px-Martin_Luther_King%2C_Jr..jpg",
+  "sujet_image": "Martin Luther King"
+ },
+ {
+  "question": "Qui est ce personnage historique ?",
+  "reponse": "De Gaulle",
+  "alias": [
+   "Charles de Gaulle",
+   "général de Gaulle"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/De_Gaulle-OWI_%283x4_cropped%29_%282%29.jpg/960px-De_Gaulle-OWI_%283x4_cropped%29_%282%29.jpg",
+  "sujet_image": "De Gaulle"
+ },
+ {
+  "question": "Quel est ce tableau célèbre ?",
+  "reponse": "La Joconde",
+  "alias": [
+   "Joconde",
+   "Mona Lisa"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg",
+  "sujet_image": "La Joconde"
+ },
+ {
+  "question": "Quel est ce tableau célèbre ?",
+  "reponse": "Le Cri",
+  "alias": [
+   "Le Cri de Munch"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Edvard_Munch_-_The_Scream.jpg/960px-Edvard_Munch_-_The_Scream.jpg",
+  "sujet_image": "Le Cri"
+ },
+ {
+  "question": "Quel est ce tableau célèbre ?",
+  "reponse": "La Jeune Fille à la perle",
+  "alias": [
+   "jeune fille à la perle"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/960px-1665_Girl_with_a_Pearl_Earring.jpg",
+  "sujet_image": "La Jeune Fille à la perle"
+ },
+ {
+  "question": "Quel est ce tableau célèbre ?",
+  "reponse": "La Naissance de Vénus",
+  "alias": [
+   "naissance de Vénus"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/960px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg",
+  "sujet_image": "La Naissance de Vénus"
+ },
+ {
+  "question": "Quel est ce tableau célèbre ?",
+  "reponse": "La Liberté guidant le peuple",
+  "alias": [
+   "la liberté guidant le peuple"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg/960px-La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg",
+  "sujet_image": "La Liberté guidant le peuple"
+ },
+ {
+  "question": "Quelle marque a ce logo ?",
+  "reponse": "Adidas",
+  "alias": [],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Adidas_2022_logo.svg/960px-Adidas_2022_logo.svg.png",
+  "sujet_image": "Adidas"
+ },
+ {
+  "question": "Quelle marque a ce logo ?",
+  "reponse": "McDonald's",
+  "alias": [
+   "McDo",
+   "McDonalds"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/960px-McDonald%27s_Golden_Arches.svg.png",
+  "sujet_image": "McDonald's"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Messi",
+  "alias": [
+   "Lionel Messi",
+   "Leo Messi"
+  ],
+  "categorie": "football",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/960px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg",
+  "sujet_image": "Messi"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Cristiano Ronaldo",
+  "alias": [
+   "Ronaldo",
+   "CR7",
+   "Cristiano"
+  ],
+  "categorie": "football",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/960px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg",
+  "sujet_image": "Cristiano Ronaldo"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Mbappé",
+  "alias": [
+   "Mbappe",
+   "Kylian Mbappé"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Kylian_Mbappe_-_France_v_Norway_-_26_June_2026_%28cropped%29.jpg/960px-Kylian_Mbappe_-_France_v_Norway_-_26_June_2026_%28cropped%29.jpg",
+  "sujet_image": "Mbappé"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Zidane",
+  "alias": [
+   "Zinédine Zidane",
+   "Zizou"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Zinedine_Zidane_by_Tasnim_03.jpg",
+  "sujet_image": "Zidane"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Neymar",
+  "alias": [],
+  "categorie": "football",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg/960px-Neymar_Junior_Brazil_V_Morocco_13_June_2026-40.jpg",
+  "sujet_image": "Neymar"
+ },
+ {
+  "question": "Quel joueur de NBA est-ce ?",
+  "reponse": "LeBron James",
+  "alias": [
+   "LeBron",
+   "Lebron"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lebron_James_2022small.jpg/960px-Lebron_James_2022small.jpg",
+  "sujet_image": "LeBron James"
+ },
+ {
+  "question": "Quel joueur de NBA est-ce ?",
+  "reponse": "Stephen Curry",
+  "alias": [
+   "Curry",
+   "Steph Curry"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Stephen_Curry_Shooting_%28cropped%29.jpg/960px-Stephen_Curry_Shooting_%28cropped%29.jpg",
+  "sujet_image": "Stephen Curry"
+ },
+ {
+  "question": "Quel joueur de NBA est-ce ?",
+  "reponse": "Michael Jordan",
+  "alias": [
+   "Jordan",
+   "MJ"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Michael_Jordan_in_2014.jpg",
+  "sujet_image": "Michael Jordan"
+ },
+ {
+  "question": "Quel joueur de NBA est-ce ?",
+  "reponse": "Kobe Bryant",
+  "alias": [
+   "Kobe",
+   "Bryant"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Kobe_Bryant_2015.jpg/960px-Kobe_Bryant_2015.jpg",
+  "sujet_image": "Kobe Bryant"
+ },
+ {
+  "question": "Quel sportif est-ce ?",
+  "reponse": "Usain Bolt",
+  "alias": [
+   "Bolt"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Usain_Bolt_Rio_100m_final_2016i-cr.jpg/960px-Usain_Bolt_Rio_100m_final_2016i-cr.jpg",
+  "sujet_image": "Usain Bolt"
+ },
+ {
+  "question": "Quel sportif est-ce ?",
+  "reponse": "Roger Federer",
+  "alias": [
+   "Federer"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Roger_Federer_%2826_June_2009%2C_Wimbledon%29_2.jpg/960px-Roger_Federer_%2826_June_2009%2C_Wimbledon%29_2.jpg",
+  "sujet_image": "Roger Federer"
+ },
+ {
+  "question": "Quel sportif est-ce ?",
+  "reponse": "Rafael Nadal",
+  "alias": [
+   "Nadal"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Rafael_Nadal_2011_Roland_Garros_2011.jpg/960px-Rafael_Nadal_2011_Roland_Garros_2011.jpg",
+  "sujet_image": "Rafael Nadal"
+ },
+ {
+  "question": "Quel sportif est-ce ?",
+  "reponse": "Michael Schumacher",
+  "alias": [
+   "Schumacher"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile",
+  "url_image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Michael_Schumacher%2C_September_2005.jpg",
+  "sujet_image": "Michael Schumacher"
+ }
+]

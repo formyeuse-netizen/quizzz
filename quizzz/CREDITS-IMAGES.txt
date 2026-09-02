@@ -1,0 +1,37 @@
+CREDITS DES IMAGES
+==================
+
+Ce jeu utilise des images provenant de sources autorisant leur affichage :
+
+- Drapeaux : flagcdn.com (domaine public).
+- Monuments, personnages, tableaux, logos, sportifs :
+  Wikimedia Commons (upload.wikimedia.org) — licences libres / domaine public.
+- Affiches de FILMS : The Movie Database (TMDb) via image.tmdb.org.
+- Affiches de SERIES : TVmaze (static.tvmaze.com).
+- Jaquettes d'ANIMES : Kitsu (media.kitsu.app).
+
+------------------------------------------------------------
+  MENTIONS A AFFICHER SI TU PUBLIES LE SITE EN LIGNE
+------------------------------------------------------------
+
+1) TMDb (OBLIGATOIRE selon leurs conditions) — mets ce texte quelque part
+   sur le site (page "A propos" ou pied de page) :
+
+   « Ce produit utilise l'API TMDB mais n'est ni approuve ni certifie
+     par TMDB. »
+   (EN : "This product uses the TMDB API but is not endorsed or certified by TMDB.")
+
+2) Wikimedia Commons : beaucoup d'images sont libres mais certaines (photos
+   de sportifs, monuments) sont sous licence Creative Commons qui demande de
+   citer l'auteur. Le plus simple : une page "Credits" qui renvoie vers
+   Wikimedia Commons. Claude peut generer la liste complete sur demande.
+
+3) TVmaze et Kitsu : une mention "Donnees series via TVmaze, animes via Kitsu"
+   suffit.
+
+------------------------------------------------------------
+Note : les affiches de films/series et jaquettes d'animes sont des visuels
+officiels distribues par ces services pour ce type d'usage. On n'utilise PAS
+de captures de scenes (celles-la ne sont pas libres et casseraient).
+
+Tu peux toujours ajouter tes propres photos : voir LISEZ-MOI-PHOTOS.txt.

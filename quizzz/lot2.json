@@ -1,0 +1,1450 @@
+[
+ {
+  "question": "Quelle est la capitale de l'Algérie ?",
+  "reponse": "Alger",
+  "alias": [
+   "Algiers",
+   "El Djazair"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle mer borde tout le nord de l'Algérie ?",
+  "reponse": "Méditerranée",
+  "alias": [
+   "mer Méditerranée",
+   "la Méditerranée"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est la monnaie officielle de l'Algérie ?",
+  "reponse": "Dinar",
+  "alias": [
+   "dinar algérien",
+   "DZD",
+   "le dinar"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel immense désert couvre la majeure partie du sud de l'Algérie ?",
+  "reponse": "Sahara",
+  "alias": [
+   "le Sahara"
+  ],
+  "categorie": "algerie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel genre musical populaire est né dans la région d'Oran ?",
+  "reponse": "Raï",
+  "alias": [
+   "le raï",
+   "rai"
+  ],
+  "categorie": "algerie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle chaîne de montagnes traverse le nord de l'Algérie ?",
+  "reponse": "Atlas",
+  "alias": [
+   "l'Atlas",
+   "Atlas tellien",
+   "montagnes de l'Atlas"
+  ],
+  "categorie": "algerie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel site romain antique classé à l'UNESCO se trouve près de Batna ?",
+  "reponse": "Timgad",
+  "alias": [
+   "Thamugadi"
+  ],
+  "categorie": "algerie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Qui fut le premier président de l'Algérie indépendante ?",
+  "reponse": "Ahmed Ben Bella",
+  "alias": [
+   "Ben Bella"
+  ],
+  "categorie": "algerie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel est le plus long fleuve d'Algérie ?",
+  "reponse": "Chelif",
+  "alias": [
+   "Cheliff",
+   "oued Chelif",
+   "Chéliff"
+  ],
+  "categorie": "algerie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle ville de l'ouest algérien est le deuxième plus grand centre urbain du pays ?",
+  "reponse": "Oran",
+  "alias": [
+   "Wahran"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel massif montagneux du grand sud abrite le point culminant du pays ?",
+  "reponse": "Hoggar",
+  "alias": [
+   "le Hoggar",
+   "Ahaggar"
+  ],
+  "categorie": "algerie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle ville côtière de Kabylie est un grand port pétrolier de l'est ?",
+  "reponse": "Béjaïa",
+  "alias": [
+   "Bejaia",
+   "Bgayet"
+  ],
+  "categorie": "algerie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "De quelle couleur est l'étoile et le croissant sur le drapeau algérien ?",
+  "reponse": "Rouge",
+  "alias": [
+   "le rouge"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel plat national à base de semoule est emblématique du Maghreb ?",
+  "reponse": "Couscous",
+  "alias": [
+   "le couscous"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle oasis du sud algérien est surnommée la 'perle du désert' avec ses vallées du M'Zab ?",
+  "reponse": "Ghardaïa",
+  "alias": [
+   "Ghardaia"
+  ],
+  "categorie": "algerie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de joueurs composent une équipe de football sur le terrain ?",
+  "reponse": "11",
+  "alias": [
+   "onze"
+  ],
+  "categorie": "football",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel pays a remporté la Coupe du monde de football 2018 ?",
+  "reponse": "France",
+  "alias": [
+   "la France"
+  ],
+  "categorie": "football",
+  "difficulte": "facile"
+ },
+ {
+  "question": "De quelle couleur est le carton qui exclut définitivement un joueur ?",
+  "reponse": "Rouge",
+  "alias": [
+   "carton rouge",
+   "le rouge"
+  ],
+  "categorie": "football",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel joueur argentin a soulevé la Coupe du monde 2022 au Qatar ?",
+  "reponse": "Messi",
+  "alias": [
+   "Lionel Messi",
+   "Leo Messi"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel club espagnol détient le record de victoires en Ligue des champions ?",
+  "reponse": "Real Madrid",
+  "alias": [
+   "Real",
+   "le Real"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "En quelle année a eu lieu la toute première Coupe du monde de football ?",
+  "reponse": "1930",
+  "alias": [
+   "en 1930"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel joueur français détient le record de buts en une seule Coupe du monde (13 en 1958) ?",
+  "reponse": "Just Fontaine",
+  "alias": [
+   "Fontaine"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel pays a remporté la première Coupe du monde, en 1930 ?",
+  "reponse": "Uruguay",
+  "alias": [
+   "l'Uruguay"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel défenseur italien a remporté le Ballon d'Or en 2006 ?",
+  "reponse": "Cannavaro",
+  "alias": [
+   "Fabio Cannavaro"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de temps dure un match de football réglementaire, en minutes ?",
+  "reponse": "90",
+  "alias": [
+   "quatre-vingt-dix",
+   "90 minutes"
+  ],
+  "categorie": "football",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel attaquant portugais a remporté cinq Ballons d'Or et joué au Real Madrid ?",
+  "reponse": "Cristiano Ronaldo",
+  "alias": [
+   "Ronaldo",
+   "CR7",
+   "Cristiano"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel pays a gagné la Coupe du monde 2014 au Brésil ?",
+  "reponse": "Allemagne",
+  "alias": [
+   "l'Allemagne"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel club anglais est surnommé les 'Red Devils' ?",
+  "reponse": "Manchester United",
+  "alias": [
+   "Man United",
+   "Manchester",
+   "Man U"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Comment appelle-t-on la zone d'où l'on tire un penalty ?",
+  "reponse": "Point de penalty",
+  "alias": [
+   "point de pénalty",
+   "penalty",
+   "point de réparation"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel sélectionneur a mené l'équipe de France au titre de champion du monde 2018 ?",
+  "reponse": "Didier Deschamps",
+  "alias": [
+   "Deschamps"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de points vaut un panier tiré derrière la ligne à trois points ?",
+  "reponse": "3",
+  "alias": [
+   "trois",
+   "3 points"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle équipe de Chicago Michael Jordan a-t-il menée à six titres ?",
+  "reponse": "Chicago Bulls",
+  "alias": [
+   "Bulls",
+   "les Bulls"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de joueurs par équipe sont sur le terrain au basket ?",
+  "reponse": "5",
+  "alias": [
+   "cinq"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel joueur surnommé 'King James' a joué à Cleveland, Miami et Los Angeles ?",
+  "reponse": "LeBron James",
+  "alias": [
+   "LeBron",
+   "James",
+   "Lebron"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel pivot surnommé 'Shaq' a dominé avec les Lakers au début des années 2000 ?",
+  "reponse": "Shaquille O'Neal",
+  "alias": [
+   "Shaq",
+   "O'Neal",
+   "Shaquille"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel meneur des Warriors est considéré comme le meilleur shooteur à trois points de l'histoire ?",
+  "reponse": "Stephen Curry",
+  "alias": [
+   "Curry",
+   "Steph Curry"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle franchise a réalisé la saison record de 73 victoires en 2015-2016 ?",
+  "reponse": "Golden State Warriors",
+  "alias": [
+   "Warriors",
+   "Golden State",
+   "les Warriors"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel joueur allemand a mené Dallas au titre NBA en 2011 ?",
+  "reponse": "Dirk Nowitzki",
+  "alias": [
+   "Nowitzki"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de titres de MVP de la saison Michael Jordan a-t-il remportés ?",
+  "reponse": "5",
+  "alias": [
+   "cinq"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quelle ville jouent les Lakers ?",
+  "reponse": "Los Angeles",
+  "alias": [
+   "LA"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel joueur surnommé 'Black Mamba' a passé toute sa carrière aux Lakers ?",
+  "reponse": "Kobe Bryant",
+  "alias": [
+   "Kobe",
+   "Bryant"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel trophée récompense l'équipe championne NBA ?",
+  "reponse": "Larry O'Brien",
+  "alias": [
+   "trophée Larry O'Brien",
+   "Larry O'Brien Trophy"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "De quel pays vient le joueur Giannis Antetokounmpo, star des Bucks ?",
+  "reponse": "Grèce",
+  "alias": [
+   "la Grèce",
+   "grec"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de temps dure un match NBA (hors prolongation), en minutes ?",
+  "reponse": "48",
+  "alias": [
+   "quarante-huit",
+   "48 minutes"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel pivot camerounais a été drafté n°1 par Philadelphie en 1996 ?",
+  "reponse": "Joel Embiid",
+  "alias": [
+   "Embiid"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien d'anneaux composent le symbole olympique ?",
+  "reponse": "5",
+  "alias": [
+   "cinq"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel sport utilise-t-on un volant plutôt qu'une balle ?",
+  "reponse": "Badminton",
+  "alias": [
+   "le badminton"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Tous les combien d'années ont lieu les Jeux olympiques d'été ?",
+  "reponse": "4",
+  "alias": [
+   "quatre",
+   "4 ans"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel nageur américain détient le record de médailles olympiques ?",
+  "reponse": "Michael Phelps",
+  "alias": [
+   "Phelps"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Combien de joueurs compte une équipe de volley-ball sur le terrain ?",
+  "reponse": "6",
+  "alias": [
+   "six"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel pays se dispute le tournoi de tennis de Wimbledon ?",
+  "reponse": "Angleterre",
+  "alias": [
+   "Royaume-Uni",
+   "Grande-Bretagne",
+   "l'Angleterre"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel boxeur américain se surnommait 'The Greatest' ?",
+  "reponse": "Mohamed Ali",
+  "alias": [
+   "Mohammed Ali",
+   "Muhammad Ali",
+   "Cassius Clay",
+   "Ali"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de trous compte un parcours de golf standard ?",
+  "reponse": "18",
+  "alias": [
+   "dix-huit"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle course cycliste française est surnommée 'la Grande Boucle' ?",
+  "reponse": "Tour de France",
+  "alias": [
+   "le Tour de France",
+   "le Tour"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de bases faut-il toucher pour marquer un point au baseball ?",
+  "reponse": "4",
+  "alias": [
+   "quatre"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel sport se pratique sur un tatami avec des ceintures de couleur ?",
+  "reponse": "Judo",
+  "alias": [
+   "le judo"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Sur quelle surface glacée se joue le hockey sur glace ?",
+  "reponse": "Glace",
+  "alias": [
+   "la glace",
+   "patinoire"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel pilote allemand détient sept titres de champion du monde de Formule 1 avec Ferrari ?",
+  "reponse": "Michael Schumacher",
+  "alias": [
+   "Schumacher"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel joueur serbe de tennis détient le record de titres du Grand Chelem en simple messieurs ?",
+  "reponse": "Novak Djokovic",
+  "alias": [
+   "Djokovic",
+   "Nole"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de points vaut un essai transformé au rugby (essai + transformation) ?",
+  "reponse": "7",
+  "alias": [
+   "sept"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel manga de pirates créé par Eiichiro Oda suit Monkey D. Luffy ?",
+  "reponse": "One Piece",
+  "alias": [
+   "Onepiece"
+  ],
+  "categorie": "anime",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel Pokémon jaune électrique est la mascotte de la franchise ?",
+  "reponse": "Pikachu",
+  "alias": [],
+  "categorie": "anime",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel ninja blond rêve de devenir Hokage dans le manga de Masashi Kishimoto ?",
+  "reponse": "Naruto",
+  "alias": [
+   "Naruto Uzumaki"
+  ],
+  "categorie": "anime",
+  "difficulte": "facile"
+ },
+ {
+  "question": "À quelle race de guerriers Goku appartient-il dans Dragon Ball ?",
+  "reponse": "Saiyan",
+  "alias": [
+   "Saïyen",
+   "Saiyajin",
+   "Saiyen",
+   "Saïyan"
+  ],
+  "categorie": "anime",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel manga de Hajime Isayama oppose des humains à des géants mangeurs d'hommes ?",
+  "reponse": "L'Attaque des Titans",
+  "alias": [
+   "Attack on Titan",
+   "Shingeki no Kyojin",
+   "Attaque des Titans",
+   "SNK"
+  ],
+  "categorie": "anime",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment s'appelle le shinigami qui laisse tomber son carnet dans Death Note ?",
+  "reponse": "Ryuk",
+  "alias": [
+   "Ryuuk"
+  ],
+  "categorie": "anime",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le nom complet du garçon qui utilise le cahier dans Death Note ?",
+  "reponse": "Light Yagami",
+  "alias": [
+   "Light",
+   "Yagami",
+   "Kira"
+  ],
+  "categorie": "anime",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel est le nom du démon renard à neuf queues scellé en Naruto ?",
+  "reponse": "Kurama",
+  "alias": [
+   "Kyubi",
+   "Kyuubi",
+   "Kyūbi",
+   "renard à neuf queues"
+  ],
+  "categorie": "anime",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel réalisateur a cofondé le Studio Ghibli et réalisé 'Mon voisin Totoro' ?",
+  "reponse": "Hayao Miyazaki",
+  "alias": [
+   "Miyazaki"
+  ],
+  "categorie": "anime",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans Dragon Ball, quelles sept sphères magiques exaucent un vœu une fois réunies ?",
+  "reponse": "Dragon Balls",
+  "alias": [
+   "boules de cristal",
+   "dragon ball",
+   "les Dragon Balls"
+  ],
+  "categorie": "anime",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel jeune homme veut devenir le meilleur dresseur dans la série Pokémon ?",
+  "reponse": "Sacha",
+  "alias": [
+   "Ash",
+   "Ash Ketchum",
+   "Satoshi"
+  ],
+  "categorie": "anime",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel manga de Akira Toriyama suit les aventures de Son Goku ?",
+  "reponse": "Dragon Ball",
+  "alias": [
+   "Dragonball"
+  ],
+  "categorie": "anime",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans One Piece, quel titre suprême tout pirate cherche à obtenir ?",
+  "reponse": "Roi des pirates",
+  "alias": [
+   "Seigneur des pirates",
+   "le Roi des pirates"
+  ],
+  "categorie": "anime",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel démon-slayer au kimono à damier vert et noir est le héros de Demon Slayer ?",
+  "reponse": "Tanjiro",
+  "alias": [
+   "Tanjiro Kamado",
+   "Tanjirou"
+  ],
+  "categorie": "anime",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Comment s'appelle le village caché où grandit Naruto (nom français) ?",
+  "reponse": "Village caché de la feuille",
+  "alias": [
+   "Konoha",
+   "village de la feuille",
+   "la feuille"
+  ],
+  "categorie": "anime",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel réalisateur a signé Titanic et Avatar ?",
+  "reponse": "James Cameron",
+  "alias": [
+   "Cameron"
+  ],
+  "categorie": "film",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel film Leonardo DiCaprio joue-t-il Jack sur un paquebot qui coule ?",
+  "reponse": "Titanic",
+  "alias": [],
+  "categorie": "film",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle saga se déroule dans une galaxie 'très très lointaine' ?",
+  "reponse": "Star Wars",
+  "alias": [
+   "La Guerre des étoiles",
+   "Guerre des étoiles"
+  ],
+  "categorie": "film",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel acteur incarne Iron Man dans les films Marvel ?",
+  "reponse": "Robert Downey Jr",
+  "alias": [
+   "Downey",
+   "RDJ",
+   "Robert Downey"
+  ],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel film de 1994 raconte la vie de Forrest, incarné par Tom Hanks ?",
+  "reponse": "Forrest Gump",
+  "alias": [
+   "Gump"
+  ],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Qui a réalisé Le Parrain, sorti en 1972 ?",
+  "reponse": "Francis Ford Coppola",
+  "alias": [
+   "Coppola"
+  ],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel réalisateur britannique est surnommé 'le maître du suspense' ?",
+  "reponse": "Alfred Hitchcock",
+  "alias": [
+   "Hitchcock"
+  ],
+  "categorie": "film",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel film d'animation Pixar de 2008 met en scène un petit robot nettoyeur sur Terre ?",
+  "reponse": "WALL-E",
+  "alias": [
+   "Wall-E",
+   "Wall E",
+   "Walle"
+  ],
+  "categorie": "film",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel film de Christopher Nolan de 2010 explore le rêve dans le rêve ?",
+  "reponse": "Inception",
+  "alias": [],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel personnage de Star Wars est le père de Luke Skywalker ?",
+  "reponse": "Dark Vador",
+  "alias": [
+   "Darth Vader",
+   "Vador",
+   "Anakin",
+   "Anakin Skywalker"
+  ],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle actrice incarne Hermione Granger dans les films Harry Potter ?",
+  "reponse": "Emma Watson",
+  "alias": [
+   "Watson"
+  ],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel film de 1999 des Wachowski montre Neo découvrant que la réalité est simulée ?",
+  "reponse": "Matrix",
+  "alias": [
+   "The Matrix"
+  ],
+  "categorie": "film",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel long-métrage a été le premier film d'animation entièrement en images de synthèse, en 1995 ?",
+  "reponse": "Toy Story",
+  "alias": [],
+  "categorie": "film",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel réalisateur a créé Pulp Fiction et Kill Bill ?",
+  "reponse": "Quentin Tarantino",
+  "alias": [
+   "Tarantino"
+  ],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel film de 1993 de Spielberg fait revivre des dinosaures dans un parc ?",
+  "reponse": "Jurassic Park",
+  "alias": [],
+  "categorie": "film",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de côtés a un hexagone ?",
+  "reponse": "6",
+  "alias": [
+   "six"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle planète est la plus proche du Soleil ?",
+  "reponse": "Mercure",
+  "alias": [
+   "la planète Mercure"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de continents compte la Terre ?",
+  "reponse": "7",
+  "alias": [
+   "sept"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel organe pompe le sang dans le corps humain ?",
+  "reponse": "Cœur",
+  "alias": [
+   "le coeur",
+   "coeur"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel gaz les plantes absorbent-elles pour la photosynthèse ?",
+  "reponse": "Dioxyde de carbone",
+  "alias": [
+   "CO2",
+   "gaz carbonique"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Combien d'os compte le squelette d'un adulte humain ?",
+  "reponse": "206",
+  "alias": [
+   "deux cent six"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel scientifique a formulé la théorie de la relativité ?",
+  "reponse": "Albert Einstein",
+  "alias": [
+   "Einstein"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle langue compte le plus de locuteurs natifs dans le monde ?",
+  "reponse": "Chinois",
+  "alias": [
+   "mandarin",
+   "chinois mandarin",
+   "le chinois"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel élément chimique a pour symbole 'Au' ?",
+  "reponse": "Or",
+  "alias": [
+   "l'or",
+   "gold"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de minutes y a-t-il dans une heure ?",
+  "reponse": "60",
+  "alias": [
+   "soixante"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le plus grand organe du corps humain ?",
+  "reponse": "Peau",
+  "alias": [
+   "la peau"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel liquide rouge transporte l'oxygène dans le corps ?",
+  "reponse": "Sang",
+  "alias": [
+   "le sang"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel philosophe grec fut le maître d'Alexandre le Grand ?",
+  "reponse": "Aristote",
+  "alias": [],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de touches compte un piano standard ?",
+  "reponse": "88",
+  "alias": [
+   "quatre-vingt-huit"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est la formule chimique de l'eau ?",
+  "reponse": "H2O",
+  "alias": [
+   "h2o",
+   "H₂O"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la capitale de la France ?",
+  "reponse": "Paris",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le plus grand océan du monde ?",
+  "reponse": "Pacifique",
+  "alias": [
+   "océan Pacifique",
+   "le Pacifique"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est la capitale du Japon ?",
+  "reponse": "Tokyo",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le plus haut sommet du monde ?",
+  "reponse": "Everest",
+  "alias": [
+   "mont Everest",
+   "l'Everest"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel pays compte le plus d'habitants au monde ?",
+  "reponse": "Inde",
+  "alias": [
+   "l'Inde"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le plus grand désert chaud du monde ?",
+  "reponse": "Sahara",
+  "alias": [
+   "le Sahara"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le plus petit État du monde par sa superficie ?",
+  "reponse": "Vatican",
+  "alias": [
+   "le Vatican",
+   "cité du Vatican"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel pays est le plus peuplé du continent africain ?",
+  "reponse": "Nigeria",
+  "alias": [
+   "le Nigéria",
+   "Nigéria"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est la capitale de l'Australie ?",
+  "reponse": "Canberra",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Sur quel continent se trouve l'Égypte majoritairement ?",
+  "reponse": "Afrique",
+  "alias": [
+   "l'Afrique"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel fleuve traverse Le Caire et l'Égypte du sud au nord ?",
+  "reponse": "Nil",
+  "alias": [
+   "le Nil"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la plus grande île du monde ?",
+  "reponse": "Groenland",
+  "alias": [
+   "le Groenland"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel pays a la forme d'une botte en Europe ?",
+  "reponse": "Italie",
+  "alias": [
+   "l'Italie"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle chaîne de montagnes sépare l'Europe de l'Asie ?",
+  "reponse": "Oural",
+  "alias": [
+   "l'Oural",
+   "monts Oural"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est la capitale des États-Unis ?",
+  "reponse": "Washington",
+  "alias": [
+   "Washington D.C.",
+   "Washington DC"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "En quelle année a eu lieu la prise de la Bastille ?",
+  "reponse": "1789",
+  "alias": [
+   "en 1789"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Qui fut le premier président des États-Unis ?",
+  "reponse": "George Washington",
+  "alias": [
+   "Washington"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel mur, tombé en 1989, séparait l'Allemagne en deux ?",
+  "reponse": "Mur de Berlin",
+  "alias": [
+   "Berlin",
+   "le mur de Berlin"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel empereur français a été vaincu à Waterloo en 1815 ?",
+  "reponse": "Napoléon",
+  "alias": [
+   "Napoléon Bonaparte",
+   "Bonaparte",
+   "Napoleon"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "En quelle année a commencé la Première Guerre mondiale ?",
+  "reponse": "1914",
+  "alias": [
+   "en 1914"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle civilisation antique a bâti les pyramides de Gizeh ?",
+  "reponse": "Égyptiens",
+  "alias": [
+   "les Égyptiens",
+   "Égypte",
+   "égyptienne",
+   "Egyptiens"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Qui a peint la Joconde ?",
+  "reponse": "Léonard de Vinci",
+  "alias": [
+   "de Vinci",
+   "Vinci"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel navigateur génois atteint l'Amérique en 1492 ?",
+  "reponse": "Christophe Colomb",
+  "alias": [
+   "Colomb",
+   "Colombo"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle reine fut la dernière souveraine de l'Égypte antique ptolémaïque ?",
+  "reponse": "Cléopâtre",
+  "alias": [
+   "Cleopatre",
+   "Cléopâtre VII"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "En quelle année s'est terminée la Seconde Guerre mondiale ?",
+  "reponse": "1945",
+  "alias": [
+   "en 1945"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel général corse est devenu empereur des Français en 1804 ?",
+  "reponse": "Napoléon",
+  "alias": [
+   "Napoléon Bonaparte",
+   "Bonaparte"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle grande muraille a été construite pour protéger la Chine des invasions ?",
+  "reponse": "Grande Muraille de Chine",
+  "alias": [
+   "Grande Muraille",
+   "muraille de Chine"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel pharaon a été retrouvé intact dans son tombeau par Howard Carter en 1922 ?",
+  "reponse": "Toutânkhamon",
+  "alias": [
+   "Toutankhamon",
+   "Tutankhamon",
+   "Toutankhamun"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel homme politique a mené l'Inde à l'indépendance par la non-violence ?",
+  "reponse": "Gandhi",
+  "alias": [
+   "Mahatma Gandhi"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel empire dirigé par les césars avait Rome pour capitale ?",
+  "reponse": "Empire romain",
+  "alias": [
+   "Rome",
+   "les Romains",
+   "l'Empire romain"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle force nous attire vers le sol ?",
+  "reponse": "Gravité",
+  "alias": [
+   "la gravité",
+   "pesanteur",
+   "la pesanteur"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel savant a formulé la loi de la gravitation universelle ?",
+  "reponse": "Newton",
+  "alias": [
+   "Isaac Newton"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la puissance ?",
+  "reponse": "Watt",
+  "alias": [
+   "le watt",
+   "W"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel type d'énergie possède un objet en mouvement ?",
+  "reponse": "Énergie cinétique",
+  "alias": [
+   "cinétique",
+   "energie cinetique"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle particule au centre de l'atome ne porte aucune charge ?",
+  "reponse": "Neutron",
+  "alias": [
+   "le neutron"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle célèbre équation d'Einstein relie l'énergie à la masse ?",
+  "reponse": "E=mc2",
+  "alias": [
+   "E=mc²",
+   "emc2",
+   "e egale mc2"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle unité mesure la fréquence ?",
+  "reponse": "Hertz",
+  "alias": [
+   "le hertz",
+   "Hz"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel physicien allemand est à l'origine du principe d'incertitude ?",
+  "reponse": "Heisenberg",
+  "alias": [
+   "Werner Heisenberg"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la température dans le système international ?",
+  "reponse": "Kelvin",
+  "alias": [
+   "le kelvin",
+   "K"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel appareil mesure la température ?",
+  "reponse": "Thermomètre",
+  "alias": [
+   "le thermomètre",
+   "thermometre"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de l'intensité d'un courant électrique ?",
+  "reponse": "Ampère",
+  "alias": [
+   "l'ampère",
+   "A",
+   "ampere"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Sous quel état l'eau se trouve-t-elle à 0 degré Celsius ou moins ?",
+  "reponse": "Solide",
+  "alias": [
+   "glace",
+   "l'état solide",
+   "solide (glace)"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel phénomène décompose la lumière blanche en arc-en-ciel à travers un prisme ?",
+  "reponse": "Réfraction",
+  "alias": [
+   "la réfraction",
+   "refraction",
+   "dispersion"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle grandeur mesure-t-on en volts ?",
+  "reponse": "Tension",
+  "alias": [
+   "la tension",
+   "tension électrique",
+   "voltage",
+   "différence de potentiel"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel scientifique a découvert la radioactivité avec Pierre Curie ?",
+  "reponse": "Marie Curie",
+  "alias": [
+   "Curie",
+   "Marie Sklodowska"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ }
+]

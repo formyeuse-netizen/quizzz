@@ -1,0 +1,53 @@
+=====================================================
+  AJOUTER DES QUESTIONS AVEC PHOTOS
+=====================================================
+
+Le jeu affiche maintenant des images ! Il y a deja 30 questions
+"Quel pays a ce drapeau ?" qui marchent toutes seules (les drapeaux
+viennent d'internet, donc il faut juste que les telephones aient internet).
+
+-----------------------------------------------------
+  METTRE TES PROPRES PHOTOS (tes potes, des memes, etc.)
+-----------------------------------------------------
+
+1) Dans ton dossier "quizzz", il y a (ou il se cree tout seul quand tu
+   lances le serveur) un dossier appele "images".
+   Mets-y tes photos, par exemple :  yacine.jpg
+
+2) Cree un petit fichier texte, par exemple  mes_photos.json ,
+   et ecris dedans sur ce modele (respecte bien les [ ] et les { } ) :
+
+[
+ {
+  "question": "Qui est sur la photo ?",
+  "reponse": "Yacine",
+  "alias": ["Yaya"],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "/images/yacine.jpg"
+ }
+]
+
+   - "url_image" commence toujours par  /images/  suivi du nom exact
+     du fichier photo (attention aux majuscules/minuscules).
+   - Tu peux mettre plusieurs questions : separe chaque { ... } par une virgule.
+   - "alias" = les autres reponses acceptees (surnoms, ecritures differentes).
+
+3) Charge-les dans la banque en tapant dans l'invite de commandes
+   (dans le dossier quizzz) :
+
+       py charger.py mes_photos.json
+
+4) Relance le serveur ( py serveur.py ) et joue : la photo apparaitra !
+
+-----------------------------------------------------
+  IMAGES DEPUIS INTERNET
+-----------------------------------------------------
+Tu peux aussi mettre une adresse internet complete dans "url_image",
+par exemple "https://.../photo.png". Dans ce cas les telephones doivent
+avoir internet pour voir l'image.
+
+-----------------------------------------------------
+Le plus simple : envoie-moi tes photos ou dis-moi ce que tu veux comme
+questions a images, et je te prepare le fichier tout pret.
+=====================================================

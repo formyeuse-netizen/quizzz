@@ -1,0 +1,308 @@
+[
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "France",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/fr.png",
+  "sujet_image": "France"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Japon",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/jp.png",
+  "sujet_image": "Japon"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Algérie",
+  "alias": [
+   "Algeria"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/dz.png",
+  "sujet_image": "Algérie"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Canada",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/ca.png",
+  "sujet_image": "Canada"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Brésil",
+  "alias": [
+   "Bresil"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/br.png",
+  "sujet_image": "Brésil"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "États-Unis",
+  "alias": [
+   "USA",
+   "Etats-Unis",
+   "Amérique",
+   "Amerique"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/us.png",
+  "sujet_image": "États-Unis"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Royaume-Uni",
+  "alias": [
+   "Angleterre",
+   "UK",
+   "Grande-Bretagne",
+   "Royaume Uni"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/gb.png",
+  "sujet_image": "Royaume-Uni"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Chine",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/cn.png",
+  "sujet_image": "Chine"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Suisse",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/ch.png",
+  "sujet_image": "Suisse"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Allemagne",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "facile",
+  "url_image": "https://flagcdn.com/w320/de.png",
+  "sujet_image": "Allemagne"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Espagne",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/es.png",
+  "sujet_image": "Espagne"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Italie",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/it.png",
+  "sujet_image": "Italie"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Portugal",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/pt.png",
+  "sujet_image": "Portugal"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Maroc",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/ma.png",
+  "sujet_image": "Maroc"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Tunisie",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/tn.png",
+  "sujet_image": "Tunisie"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Argentine",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/ar.png",
+  "sujet_image": "Argentine"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Turquie",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/tr.png",
+  "sujet_image": "Turquie"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Corée du Sud",
+  "alias": [
+   "Coree du Sud",
+   "Corée",
+   "Coree"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/kr.png",
+  "sujet_image": "Corée du Sud"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Grèce",
+  "alias": [
+   "Grece"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/gr.png",
+  "sujet_image": "Grèce"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Mexique",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/mx.png",
+  "sujet_image": "Mexique"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Égypte",
+  "alias": [
+   "Egypte"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/eg.png",
+  "sujet_image": "Égypte"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Inde",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen",
+  "url_image": "https://flagcdn.com/w320/in.png",
+  "sujet_image": "Inde"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Pays-Bas",
+  "alias": [
+   "Hollande",
+   "Netherlands",
+   "Pays Bas"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://flagcdn.com/w320/nl.png",
+  "sujet_image": "Pays-Bas"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Belgique",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://flagcdn.com/w320/be.png",
+  "sujet_image": "Belgique"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Sénégal",
+  "alias": [
+   "Senegal"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://flagcdn.com/w320/sn.png",
+  "sujet_image": "Sénégal"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Nigeria",
+  "alias": [
+   "Nigéria",
+   "le Nigeria"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://flagcdn.com/w320/ng.png",
+  "sujet_image": "Nigeria"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Arabie saoudite",
+  "alias": [
+   "Arabie",
+   "Arabie Saoudite"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://flagcdn.com/w320/sa.png",
+  "sujet_image": "Arabie saoudite"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Suède",
+  "alias": [
+   "Suede"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://flagcdn.com/w320/se.png",
+  "sujet_image": "Suède"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Russie",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://flagcdn.com/w320/ru.png",
+  "sujet_image": "Russie"
+ },
+ {
+  "question": "Quel pays a ce drapeau ?",
+  "reponse": "Australie",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "difficile",
+  "url_image": "https://flagcdn.com/w320/au.png",
+  "sujet_image": "Australie"
+ }
+]

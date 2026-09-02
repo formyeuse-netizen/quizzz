@@ -1,0 +1,938 @@
+[
+ {
+  "question": "Quelle langue, avec le tamazight, est officielle en Algérie ?",
+  "reponse": "Arabe",
+  "alias": [
+   "l'arabe",
+   "langue arabe"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel pays voisin se trouve à l'ouest de l'Algérie ?",
+  "reponse": "Maroc",
+  "alias": [
+   "le Maroc"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel pays voisin se trouve à l'est de l'Algérie ?",
+  "reponse": "Tunisie",
+  "alias": [
+   "la Tunisie"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle couleur, avec le blanc, domine le drapeau algérien ?",
+  "reponse": "Vert",
+  "alias": [
+   "le vert"
+  ],
+  "categorie": "algerie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel quartier historique fortifié d'Alger est classé à l'UNESCO ?",
+  "reponse": "Casbah",
+  "alias": [
+   "la Casbah",
+   "Casbah d'Alger"
+  ],
+  "categorie": "algerie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle grande ville de l'est algérien est célèbre pour ses ponts spectaculaires ?",
+  "reponse": "Constantine",
+  "alias": [],
+  "categorie": "algerie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment surnomme-t-on la ville de Constantine pour ses nombreux ponts ?",
+  "reponse": "Ville des ponts",
+  "alias": [
+   "la ville des ponts",
+   "cité des ponts"
+  ],
+  "categorie": "algerie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel écrivain algérien est l'auteur du roman 'Nedjma', paru en 1956 ?",
+  "reponse": "Kateb Yacine",
+  "alias": [
+   "Kateb"
+  ],
+  "categorie": "algerie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel athlète algérien a remporté l'or olympique du 1500 m en 1996 ?",
+  "reponse": "Noureddine Morceli",
+  "alias": [
+   "Morceli"
+  ],
+  "categorie": "algerie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle athlète algérienne a été championne olympique du 1500 m en 1992 ?",
+  "reponse": "Hassiba Boulmerka",
+  "alias": [
+   "Boulmerka"
+  ],
+  "categorie": "algerie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de mi-temps compte un match de football ?",
+  "reponse": "2",
+  "alias": [
+   "deux"
+  ],
+  "categorie": "football",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de points rapporte une victoire en championnat de football ?",
+  "reponse": "3",
+  "alias": [
+   "trois"
+  ],
+  "categorie": "football",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle compétition oppose les meilleurs clubs d'Europe ?",
+  "reponse": "Ligue des champions",
+  "alias": [
+   "Champions League",
+   "C1",
+   "la Ligue des champions"
+  ],
+  "categorie": "football",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel club catalan est le grand rival du Real Madrid ?",
+  "reponse": "Barcelone",
+  "alias": [
+   "FC Barcelone",
+   "Barça",
+   "Barca",
+   "Barcelona"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel pays a organisé la Coupe du monde de football 2022 ?",
+  "reponse": "Qatar",
+  "alias": [
+   "le Qatar"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel Brésilien surnommé 'O Rei' a remporté trois Coupes du monde ?",
+  "reponse": "Pelé",
+  "alias": [
+   "Pele"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel stade le Real Madrid joue-t-il ses matchs à domicile ?",
+  "reponse": "Santiago Bernabéu",
+  "alias": [
+   "Bernabeu",
+   "Bernabéu",
+   "Santiago Bernabeu"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel Français a inscrit un triplé en finale de la Coupe du monde 2022 ?",
+  "reponse": "Mbappé",
+  "alias": [
+   "Kylian Mbappé",
+   "Mbappe"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel sélectionneur a mené l'Algérie au sacre de la CAN 2019 ?",
+  "reponse": "Djamel Belmadi",
+  "alias": [
+   "Belmadi"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel club algérois est surnommé par le sigle 'USMA' ?",
+  "reponse": "USM Alger",
+  "alias": [
+   "USMA",
+   "USM Alger",
+   "Union sportive de la médina d'Alger"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel pays le basket-ball a-t-il été inventé ?",
+  "reponse": "États-Unis",
+  "alias": [
+   "USA",
+   "Etats-Unis",
+   "Amérique"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de quart-temps compte un match NBA ?",
+  "reponse": "4",
+  "alias": [
+   "quatre"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de points vaut un lancer franc réussi ?",
+  "reponse": "1",
+  "alias": [
+   "un",
+   "1 point"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quelle ville jouent les Celtics ?",
+  "reponse": "Boston",
+  "alias": [],
+  "categorie": "nba",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel meneur surnommé 'The Answer' a marqué l'histoire des Sixers de Philadelphie ?",
+  "reponse": "Allen Iverson",
+  "alias": [
+   "Iverson"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel trophée récompense le meilleur joueur de la saison régulière NBA ?",
+  "reponse": "MVP",
+  "alias": [
+   "Most Valuable Player"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle équipe de Miami a triomphé avec le trio LeBron-Wade-Bosh ?",
+  "reponse": "Miami Heat",
+  "alias": [
+   "Heat",
+   "Miami"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel joueur a dépassé Kareem pour devenir le meilleur marqueur de l'histoire NBA ?",
+  "reponse": "LeBron James",
+  "alias": [
+   "LeBron",
+   "Lebron"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est la seule franchise canadienne de NBA ?",
+  "reponse": "Toronto Raptors",
+  "alias": [
+   "Raptors",
+   "Toronto"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel meneur des Lakers surnommé 'Magic' a dominé les années 1980 ?",
+  "reponse": "Magic Johnson",
+  "alias": [
+   "Magic",
+   "Johnson"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel sport marque-t-on des 'touchdowns' ?",
+  "reponse": "Football américain",
+  "alias": [
+   "football americain",
+   "NFL",
+   "foot US",
+   "foot americain"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel sport se joue avec un club et une petite balle blanche sur un green ?",
+  "reponse": "Golf",
+  "alias": [
+   "le golf"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de minutes dure un round de boxe professionnelle classique ?",
+  "reponse": "3",
+  "alias": [
+   "trois"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile"
+ },
+ {
+  "question": "De quel pays le judo est-il originaire ?",
+  "reponse": "Japon",
+  "alias": [
+   "le Japon"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on la grande compétition de football entre nations africaines ?",
+  "reponse": "CAN",
+  "alias": [
+   "Coupe d'Afrique des nations",
+   "Coupe d'Afrique"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel sprinteur jamaïcain détient le record du monde du 100 mètres ?",
+  "reponse": "Usain Bolt",
+  "alias": [
+   "Bolt"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Combien de joueurs compte une équipe de rugby à XV sur le terrain ?",
+  "reponse": "15",
+  "alias": [
+   "quinze"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle épreuve d'athlétisme masculine réunit dix disciplines ?",
+  "reponse": "Décathlon",
+  "alias": [
+   "decathlon",
+   "le décathlon"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel joueur suisse a longtemps détenu le record de titres du Grand Chelem en tennis ?",
+  "reponse": "Roger Federer",
+  "alias": [
+   "Federer"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de sets faut-il gagner pour remporter un match du Grand Chelem chez les messieurs ?",
+  "reponse": "3",
+  "alias": [
+   "trois"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans Pokémon, comment s'appelle l'organisation de méchants la plus connue de la 1re génération ?",
+  "reponse": "Team Rocket",
+  "alias": [
+   "la Team Rocket",
+   "Rocket"
+  ],
+  "categorie": "anime",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans One Piece, quel type de fruit confère des pouvoirs à qui le mange ?",
+  "reponse": "Fruit du démon",
+  "alias": [
+   "fruits du démon",
+   "fruit du diable",
+   "Akuma no Mi",
+   "fruit du demon"
+  ],
+  "categorie": "anime",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel Pokémon de départ, petit lézard de feu, évolue en Dracaufeu ?",
+  "reponse": "Salamèche",
+  "alias": [
+   "Salameche",
+   "Charmander"
+  ],
+  "categorie": "anime",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel manga de basket met en scène le lycée Shohoku et Hanamichi Sakuragi ?",
+  "reponse": "Slam Dunk",
+  "alias": [
+   "Slamdunk"
+  ],
+  "categorie": "anime",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le surnom d'Izuku Midoriya, le héros de My Hero Academia ?",
+  "reponse": "Deku",
+  "alias": [
+   "Izuku Midoriya",
+   "Midoriya",
+   "Izuku"
+  ],
+  "categorie": "anime",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment s'appelle le chat robot bleu venu du futur dans le manga d'enfance culte ?",
+  "reponse": "Doraemon",
+  "alias": [],
+  "categorie": "anime",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel anime des années 1990 met en scène le pilote Shinji et des robots géants 'Eva' ?",
+  "reponse": "Evangelion",
+  "alias": [
+   "Neon Genesis Evangelion",
+   "Neon Genesis"
+  ],
+  "categorie": "anime",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel manga sombre de Kentaro Miura suit le mercenaire Guts et son immense épée ?",
+  "reponse": "Berserk",
+  "alias": [],
+  "categorie": "anime",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans Naruto, quel est le grand rival aux cheveux noirs du héros ?",
+  "reponse": "Sasuke",
+  "alias": [
+   "Sasuke Uchiha",
+   "Uchiha"
+  ],
+  "categorie": "anime",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel studio d'animation est célèbre pour la qualité de Demon Slayer ?",
+  "reponse": "Ufotable",
+  "alias": [],
+  "categorie": "anime",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel super-héros milliardaire protège Gotham déguisé en chauve-souris ?",
+  "reponse": "Batman",
+  "alias": [
+   "Bruce Wayne"
+  ],
+  "categorie": "film",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle princesse Disney s'endort après avoir croqué une pomme empoisonnée ?",
+  "reponse": "Blanche-Neige",
+  "alias": [
+   "Blanche Neige"
+  ],
+  "categorie": "film",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel jouet cowboy est le héros de la saga Toy Story ?",
+  "reponse": "Woody",
+  "alias": [],
+  "categorie": "film",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel film de James Cameron sorti en 2009 se déroule sur la planète Pandora ?",
+  "reponse": "Avatar",
+  "alias": [],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel acteur incarne le pirate Jack Sparrow dans Pirates des Caraïbes ?",
+  "reponse": "Johnny Depp",
+  "alias": [
+   "Depp"
+  ],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel film Pixar suit un poisson-clown à la recherche de son fils ?",
+  "reponse": "Le Monde de Nemo",
+  "alias": [
+   "Nemo",
+   "Monde de Nemo",
+   "Finding Nemo"
+  ],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle trilogie de Peter Jackson adapte l'œuvre de Tolkien avec des hobbits ?",
+  "reponse": "Le Seigneur des anneaux",
+  "alias": [
+   "Seigneur des anneaux",
+   "Lord of the Rings",
+   "LOTR"
+  ],
+  "categorie": "film",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel réalisateur mexicain a remporté l'Oscar pour 'La Forme de l'eau' ?",
+  "reponse": "Guillermo del Toro",
+  "alias": [
+   "del Toro",
+   "Guillermo del toro"
+  ],
+  "categorie": "film",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel acteur incarne un Joker inoubliable dans 'The Dark Knight' (2008) ?",
+  "reponse": "Heath Ledger",
+  "alias": [
+   "Ledger"
+  ],
+  "categorie": "film",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel studio japonais a réalisé 'Le Voyage de Chihiro' ?",
+  "reponse": "Studio Ghibli",
+  "alias": [
+   "Ghibli"
+  ],
+  "categorie": "film",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de jours compte une année non bissextile ?",
+  "reponse": "365",
+  "alias": [
+   "trois cent soixante-cinq"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle couleur obtient-on en mélangeant du bleu et du jaune ?",
+  "reponse": "Vert",
+  "alias": [
+   "le vert"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de doigts compte une main humaine ?",
+  "reponse": "5",
+  "alias": [
+   "cinq"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel métal précieux a pour symbole chimique 'Ag' ?",
+  "reponse": "Argent",
+  "alias": [
+   "l'argent",
+   "silver"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la plus grande planète du système solaire ?",
+  "reponse": "Jupiter",
+  "alias": [
+   "la planète Jupiter"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel organe permet la respiration chez l'être humain ?",
+  "reponse": "Poumons",
+  "alias": [
+   "les poumons",
+   "poumon"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel philosophe a écrit 'Je pense donc je suis' ?",
+  "reponse": "Descartes",
+  "alias": [
+   "René Descartes"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Combien de cordes possède une guitare classique standard ?",
+  "reponse": "6",
+  "alias": [
+   "six"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel est l'élément chimique le plus abondant dans l'univers ?",
+  "reponse": "Hydrogène",
+  "alias": [
+   "l'hydrogène",
+   "hydrogene",
+   "H"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel appareil enregistre l'intensité des tremblements de terre ?",
+  "reponse": "Sismographe",
+  "alias": [
+   "le sismographe",
+   "sismographe"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel pays a pour capitale Madrid ?",
+  "reponse": "Espagne",
+  "alias": [
+   "l'Espagne"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Sur quel continent se trouve le Brésil ?",
+  "reponse": "Amérique du Sud",
+  "alias": [
+   "Amerique du Sud",
+   "Amérique du sud"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel océan borde la côte ouest de l'Afrique ?",
+  "reponse": "Atlantique",
+  "alias": [
+   "océan Atlantique",
+   "l'Atlantique"
+  ],
+  "categorie": "geographie",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est la capitale de l'Italie ?",
+  "reponse": "Rome",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel pays est surnommé 'le pays du Soleil-Levant' ?",
+  "reponse": "Japon",
+  "alias": [
+   "le Japon"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le plus long fleuve d'Amérique du Sud ?",
+  "reponse": "Amazone",
+  "alias": [
+   "l'Amazone",
+   "fleuve Amazone"
+  ],
+  "categorie": "geographie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la capitale de l'Allemagne ?",
+  "reponse": "Berlin",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la capitale du Canada ?",
+  "reponse": "Ottawa",
+  "alias": [],
+  "categorie": "geographie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle mer presque fermée sépare l'Europe de l'Afrique du Nord ?",
+  "reponse": "Méditerranée",
+  "alias": [
+   "mer Méditerranée",
+   "la Méditerranée"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel est le plus long fleuve d'Afrique ?",
+  "reponse": "Nil",
+  "alias": [
+   "le Nil"
+  ],
+  "categorie": "geographie",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "En quelle année l'Homme a-t-il marché sur la Lune pour la première fois ?",
+  "reponse": "1969",
+  "alias": [
+   "en 1969"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel roi de France était surnommé le 'Roi-Soleil' ?",
+  "reponse": "Louis XIV",
+  "alias": [
+   "Louis 14",
+   "Louis quatorze"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Qui dirigeait l'Allemagne nazie durant la Seconde Guerre mondiale ?",
+  "reponse": "Hitler",
+  "alias": [
+   "Adolf Hitler"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle ville était le cœur de l'Empire romain antique ?",
+  "reponse": "Rome",
+  "alias": [],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel explorateur portugais a atteint l'Inde par la mer en contournant l'Afrique ?",
+  "reponse": "Vasco de Gama",
+  "alias": [
+   "de Gama",
+   "Vasco da Gama"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on la rivalité URSS - États-Unis sans affrontement direct après 1945 ?",
+  "reponse": "Guerre froide",
+  "alias": [
+   "la guerre froide"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle civilisation d'Amérique centrale est célèbre pour son calendrier et ses pyramides ?",
+  "reponse": "Mayas",
+  "alias": [
+   "les Mayas",
+   "civilisation maya",
+   "Maya"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel conquérant mongol a fondé le plus vaste empire terrestre de l'histoire ?",
+  "reponse": "Gengis Khan",
+  "alias": [
+   "Genghis Khan",
+   "Gengis Kahn"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "En quelle année le paquebot Titanic a-t-il coulé ?",
+  "reponse": "1912",
+  "alias": [
+   "en 1912"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle bataille de 1815 marque la défaite finale de Napoléon ?",
+  "reponse": "Waterloo",
+  "alias": [
+   "bataille de Waterloo"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle étoile se trouve au centre de notre système solaire ?",
+  "reponse": "Soleil",
+  "alias": [
+   "le Soleil"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel astre naturel tourne autour de la Terre ?",
+  "reponse": "Lune",
+  "alias": [
+   "la Lune"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "À quelle température, en degrés Celsius, l'eau bout-elle au niveau de la mer ?",
+  "reponse": "100",
+  "alias": [
+   "cent",
+   "100 degrés"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de l'énergie dans le système international ?",
+  "reponse": "Joule",
+  "alias": [
+   "le joule",
+   "J"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment nomme-t-on le passage direct d'un solide à l'état gazeux ?",
+  "reponse": "Sublimation",
+  "alias": [
+   "la sublimation"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle grandeur, exprimée en kilogrammes, mesure la quantité de matière d'un corps ?",
+  "reponse": "Masse",
+  "alias": [
+   "la masse"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel instrument mesure la pression atmosphérique ?",
+  "reponse": "Baromètre",
+  "alias": [
+   "le baromètre",
+   "barometre"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on la particule élémentaire de la lumière ?",
+  "reponse": "Photon",
+  "alias": [
+   "le photon"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel savant anglais a énoncé les trois lois du mouvement ?",
+  "reponse": "Newton",
+  "alias": [
+   "Isaac Newton"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle force s'oppose au glissement entre deux surfaces en contact ?",
+  "reponse": "Frottement",
+  "alias": [
+   "frottements",
+   "le frottement",
+   "la friction"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ }
+]

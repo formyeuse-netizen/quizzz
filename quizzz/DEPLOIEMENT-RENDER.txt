@@ -1,0 +1,61 @@
+================================================================
+   METTRE LE QUIZ EN LIGNE 24/7 AVEC RENDER  (guide clic par clic)
+================================================================
+
+Ton jeu marche tel quel sur Render. J'ai ajouté 2 fichiers de config
+(requirements.txt et render.yaml) : ne les supprime pas.
+
+Il te faut 2 comptes GRATUITS : GitHub (pour stocker le code) et
+Render (pour l'héberger). ~10 minutes en tout.
+
+----------------------------------------------------------------
+ÉTAPE 1 — METTRE LE CODE SUR GITHUB
+----------------------------------------------------------------
+1. Va sur  github.com  → crée un compte gratuit (Sign up).
+2. En haut à droite : bouton "+" → "New repository".
+3. Repository name :  quizzz
+   Coche "Public". Clique "Create repository".
+4. Sur la page qui s'ouvre, clique le lien
+   "uploading an existing file".
+5. Ouvre ton dossier quizzz sur ton PC, sélectionne TOUS les fichiers
+   (serveur.py, index.html, matching.py, charger.py, questions.db,
+    requirements.txt, render.yaml, et les fichiers lot*.json)
+   et glisse-les dans la page GitHub.
+   >> Important : mets bien "questions.db" (c'est ta banque de questions).
+   >> Si tu as un dossier "images" avec tes photos perso, glisse-le aussi.
+6. En bas, clique "Commit changes".
+
+----------------------------------------------------------------
+ÉTAPE 2 — DÉPLOYER SUR RENDER
+----------------------------------------------------------------
+1. Va sur  render.com  → "Get Started" → "Sign in with GitHub"
+   (autorise Render à voir tes repos).
+2. Dans le tableau de bord : bouton "New +" → "Blueprint".
+3. Choisis ton repository "quizzz" → "Connect".
+   (Render lit tout seul le fichier render.yaml et configure le service.)
+4. Clique "Apply" / "Create".
+5. Attends 1 à 3 minutes (Render installe et démarre le jeu).
+   Quand c'est vert / "Live", c'est en ligne.
+6. En haut de la page du service, tu vois l'adresse, du genre :
+   https://quizzz-xxxx.onrender.com
+   >> C'EST TON SITE. Partage ce lien, tes amis cliquent et jouent.
+
+----------------------------------------------------------------
+BON À SAVOIR
+----------------------------------------------------------------
+- VERSION GRATUITE : si personne ne joue pendant ~15 min, le site
+  "s'endort". Le premier joueur suivant attend ~30-50 s le réveil,
+  puis tout est fluide. Ça ne coûte rien.
+- POUR ENLEVER L'ENDORMISSEMENT : dans Render, ouvre ton service →
+  "Settings" → "Instance Type" → passe à "Starter" (~7 $/mois).
+- METTRE À JOUR LES QUESTIONS : quand tu enrichis questions.db,
+  re-uploade-le sur GitHub (repo → questions.db → "Upload files" ou
+  l'icône crayon) ; Render redéploie tout seul en ~2 min.
+- NOM DE DOMAINE (optionnel) : tu peux acheter monquiz.com (~10-12 €/an)
+  et le brancher dans Render → Settings → Custom Domain.
+- CRÉDITS : garde la mention TMDb (voir CREDITS-IMAGES.txt) quelque part
+  sur le site avant de le partager largement.
+
+Besoin d'aide à une étape ? Dis-moi où tu bloques (ou envoie une capture),
+je te débloque.
+================================================================
