@@ -233,6 +233,15 @@ class Salon:
         if not verifier_reponse(texte, self.question["reponse"],
                                 self.question["alias"]):
             await self.envoyer(joueur, {"type": "rate"})
+            # On montre l'essai rate a tout le monde (le fil des reponses).
+            essai = (texte or "").strip()[:40]
+            if essai:
+                await self.diffuser({
+                    "type": "essai",
+                    "pseudo": joueur["pseudo"],
+                    "texte": essai,
+                    "bon": False,
+                })
             return
 
         ecoule = time.time() - self.debut
@@ -247,6 +256,13 @@ class Salon:
 
         joueur["score"] += gagnes
         joueur["trouve"] = True
+
+        # Bonne reponse : on l'annonce dans le fil SANS reveler le mot.
+        await self.diffuser({
+            "type": "essai",
+            "pseudo": joueur["pseudo"],
+            "bon": True,
+        })
 
         await self.envoyer(joueur, {
             "type": "trouve", "points": gagnes, "premier": premier})
