@@ -123,7 +123,7 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 }
 #v-image{
   width:100%; max-height:300px; object-fit:contain; border-radius:16px;
-  background:var(--surface); margin:4px 0 20px;
+  background:#fff; padding:10px; box-sizing:border-box; margin:4px 0 20px;
 }
 #saisie.faux{border-color:var(--rate); animation:secousse .3s}
 @keyframes secousse{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
@@ -259,7 +259,8 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 const $ = s => document.querySelector(s);
 const CATS = {algerie:"Algerie", football:"Football", nba:"NBA", sport:"Sport",
   anime:"Anime", film:"Film", series:"Series", culture_g:"Culture G", geographie:"Geographie",
-  histoire:"Histoire", physique:"Physique", musique:"Musique"};
+  histoire:"Histoire", physique:"Physique", musique:"Musique",
+  animaux:"Animaux", voitures:"Voitures", jeuxvideo:"Jeux vidéo", logos:"Logos", drapeaux:"Drapeaux"};
 const DIFS = {facile:"Facile", moyen:"Moyen", difficile:"Difficile"};
 
 let ws, jeton, jeSuisHote = false, monPseudo = "";
