@@ -370,13 +370,17 @@ async def websocket(ws: WebSocket):
                 salon.difficultes = difs or list(DIFFICULTES)
                 await salon.diffuser_etat()
 
-            elif action == "demarrer" and jeton == salon.hote:
-                if salon.etat in ("salon", "fini"):
+            elif action == "demarrer":
+                # N'importe quel joueur peut (re)lancer : le gagnant n'est pas
+                # forcement l'hote. Verrou pour eviter un double-lancement.
+                if (salon.etat in ("salon", "fini")
+                        and (salon.boucle is None or salon.boucle.done())):
                     for j in salon.joueurs.values():
                         j["score"] = 0
                         j["trouve"] = False
                     salon.deja_posees = []
                     salon.numero = 0
+                    salon.etat = "manche"   # verrou synchrone anti double-lancement
                     salon.boucle = asyncio.create_task(salon.jouer())
 
             elif action == "reponse":

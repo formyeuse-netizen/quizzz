@@ -164,6 +164,12 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 <body>
 <div id="app">
 
+  <!-- BARRE HAUT (code du salon + retour accueil) -->
+  <div id="topbar" style="display:none; align-items:center; justify-content:space-between; margin-bottom:16px; gap:12px">
+    <span id="v-code-mini" style="font-family:var(--wordmark); font-size:22px; letter-spacing:.14em; color:var(--signal)"></span>
+    <button id="b-home" class="mini discret" title="Revenir a l'accueil">&#8962; Accueil</button>
+  </div>
+
   <!-- ACCUEIL -->
   <div class="ecran actif" id="ec-accueil">
     <div class="entete">
@@ -276,6 +282,7 @@ $("#pseudo").value = localStorage.getItem("pseudo") || "";
 function ecran(id){
   document.querySelectorAll(".ecran").forEach(e => e.classList.remove("actif"));
   $("#ec-" + id).classList.add("actif");
+  $("#topbar").style.display = (id === "accueil") ? "none" : "flex";
 }
 function erreur(txt){
   const e = $("#err"); e.textContent = txt; e.style.display = "block";
@@ -305,11 +312,13 @@ function recevoir(m){
 
   if (m.type === "entre"){
     $("#v-code").textContent = m.code;
+    $("#v-code-mini").textContent = "Salon " + m.code;
     $("#code").value = m.code;
     ecran("salon");
   }
 
   if (m.type === "salon"){
+    if (m.code) $("#v-code-mini").textContent = "Salon " + m.code;
     const moi = m.joueurs.find(j => j.pseudo === monPseudo);
     jeSuisHote = moi ? moi.hote : false;
     cats = m.categories; difs = m.difficultes;
@@ -404,7 +413,7 @@ function recevoir(m){
     const g = m.joueurs[0];
     $("#v-gagnant").innerHTML = `<span>${g.pseudo}</span><br>gagne`;
     $("#v-classement").innerHTML = m.joueurs.map(ligneJoueur).join("");
-    $("#b-rejouer").style.display = jeSuisHote ? "block" : "none";
+    $("#b-rejouer").style.display = "block";   // n'importe qui peut relancer
     ecran("fin");
   }
 }
@@ -444,6 +453,11 @@ $("#b-rejoindre").onclick = () => {
 };
 $("#b-demarrer").onclick = () => envoyer({type:"demarrer"});
 $("#b-rejouer").onclick = () => envoyer({type:"demarrer"});
+$("#b-home").onclick = () => {
+  // On repasse sur l'accueil AVANT de fermer : evite la reconnexion auto.
+  ecran("accueil");
+  try { if (ws) ws.close(); } catch (e) {}
+};
 $("#b-signaler").onclick = e => {
   envoyer({type:"signaler"});
   e.target.textContent = "Signalee, merci"; e.target.disabled = true;
