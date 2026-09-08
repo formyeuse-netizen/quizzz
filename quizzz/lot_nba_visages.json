@@ -1,0 +1,2354 @@
+[
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Kevin Durant",
+  "alias": [
+   "Durant"
+  ],
+  "categorie": "nba",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kevin_Durant_Feb_2014.jpg?width=500",
+  "sujet_image": "Kevin Durant"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Predrag Stojaković",
+  "alias": [
+   "Stojaković"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peja_Stojakovic_Mavs_cropped.jpg?width=500",
+  "sujet_image": "Predrag Stojaković"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Hidayet Türkoğlu",
+  "alias": [
+   "Türkoğlu"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hedo_Turkoglu.jpg?width=500",
+  "sujet_image": "Hidayet Türkoğlu"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jason Kidd",
+  "alias": [
+   "Kidd"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jason_Kidd.jpg?width=500",
+  "sujet_image": "Jason Kidd"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Andreï Kirilenko",
+  "alias": [
+   "Kirilenko"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrei_Kirilenko_in_2011.jpg?width=500",
+  "sujet_image": "Andreï Kirilenko"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Kevin Love",
+  "alias": [
+   "Love"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kevin_Love_and_Kyrie_Irving_%28cropped%29.jpg?width=500",
+  "sujet_image": "Kevin Love"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Elgin Baylor",
+  "alias": [
+   "Baylor"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elgin_Baylor_Night_program-%28cropped%29.jpg?width=500",
+  "sujet_image": "Elgin Baylor"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Luol Deng",
+  "alias": [
+   "Deng"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Deng2-20190120_%28cropped%29.jpg?width=500",
+  "sujet_image": "Luol Deng"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jimmy Butler",
+  "alias": [
+   "Butler"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CES_2026_-_Jimmy_Butler_01_%28cropped%29.jpg?width=500",
+  "sujet_image": "Jimmy Butler"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Andre Iguodala",
+  "alias": [
+   "Iguodala"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heat_Andre_Iguodala_%28cropped%29.jpg?width=500",
+  "sujet_image": "Andre Iguodala"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Gilbert Arenas",
+  "alias": [
+   "Arenas"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gilbert_arenas_2008.jpg?width=500",
+  "sujet_image": "Gilbert Arenas"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jayson Tatum",
+  "alias": [
+   "Tatum"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jayson_Tatum_%2851688503300%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Jayson Tatum"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Draymond Green",
+  "alias": [
+   "Green"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Draymond_Green_2019.jpg?width=500",
+  "sujet_image": "Draymond Green"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Joakim Noah",
+  "alias": [
+   "Noah"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joakim_Noah_3.jpg?width=500",
+  "sujet_image": "Joakim Noah"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Lamar Odom",
+  "alias": [
+   "Odom"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lamar_Odom_2012_Shankbone.JPG?width=500",
+  "sujet_image": "Lamar Odom"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Bojan Bogdanović",
+  "alias": [
+   "Bogdanović"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bojan_Bogdanovic_%28cropped%29.jpg?width=500",
+  "sujet_image": "Bojan Bogdanović"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Serge Ibaka",
+  "alias": [
+   "Ibaka"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Serge_Ibaka%2C_Markieff_Morris_%2826715101498%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Serge Ibaka"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Miloš Teodosić",
+  "alias": [
+   "Teodosić"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Milos_Teodosic_Italy_%28cropped%29.jpg?width=500",
+  "sujet_image": "Miloš Teodosić"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Victor Wembanyama",
+  "alias": [
+   "Wembanyama"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Wembanyama_San_Antonio_Spurs_2024.jpg?width=500",
+  "sujet_image": "Victor Wembanyama"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Rasheed Wallace",
+  "alias": [
+   "Wallace"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rasheed_Wallace_2_cropped.jpg?width=500",
+  "sujet_image": "Rasheed Wallace"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Amar'e Stoudemire",
+  "alias": [
+   "Stoudemire"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amar%27e_Stoudemire_free_throw.jpg?width=500",
+  "sujet_image": "Amar'e Stoudemire"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Lenny Wilkens",
+  "alias": [
+   "Wilkens"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lenny_Wilkens_2013.jpg?width=500",
+  "sujet_image": "Lenny Wilkens"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Bill Walton",
+  "alias": [
+   "Walton"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill_walton_blazers_photo.jpg?width=500",
+  "sujet_image": "Bill Walton"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Steve Kerr",
+  "alias": [
+   "Kerr"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe_Biden_Steph_Curry_Steve_Kerr_P20230117AS-1347_%28cropped%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Steve Kerr"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Gary Payton",
+  "alias": [
+   "Payton"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gary_Payton%2C_Miami_Heat_circa_2007_%28cropped%29.jpg?width=500",
+  "sujet_image": "Gary Payton"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Rudy Gobert",
+  "alias": [
+   "Gobert"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudy_Gobert.jpg?width=500",
+  "sujet_image": "Rudy Gobert"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Dominique Wilkins",
+  "alias": [
+   "Wilkins"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dominique_Wilkins_2022.jpg?width=500",
+  "sujet_image": "Dominique Wilkins"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jrue Holiday",
+  "alias": [
+   "Holiday"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Celtics_at_Wizards_2024-12-021_%28cropped%29.jpg?width=500",
+  "sujet_image": "Jrue Holiday"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Enes Kanter Freedom",
+  "alias": [
+   "Freedom"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Enes_Kanter_%2851687645921%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Enes Kanter Freedom"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "José Manuel Calderón",
+  "alias": [
+   "Calderón"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jose_Calderon_%2834293586395%29.jpg?width=500",
+  "sujet_image": "José Manuel Calderón"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Clyde Drexler",
+  "alias": [
+   "Drexler"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clyde_Drexler_02.jpg?width=500",
+  "sujet_image": "Clyde Drexler"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Shawn Marion",
+  "alias": [
+   "Marion"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shawn_Marion_2013-03-27_%281%29.jpg?width=500",
+  "sujet_image": "Shawn Marion"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Pete Maravich",
+  "alias": [
+   "Maravich"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pete_Maravich_1977.jpeg?width=500",
+  "sujet_image": "Pete Maravich"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Zaza Pachulia",
+  "alias": [
+   "Pachulia"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zaza_Pachulia_driving_to_basket_%28cropped%29.jpg?width=500",
+  "sujet_image": "Zaza Pachulia"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Chris Mullin",
+  "alias": [
+   "Mullin"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris_Mullin.jpg?width=500",
+  "sujet_image": "Chris Mullin"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Juan Carlos Navarro",
+  "alias": [
+   "Navarro"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Juan_Carlos_Navarro_2013.jpg?width=500",
+  "sujet_image": "Juan Carlos Navarro"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jerry Lucas",
+  "alias": [
+   "Lucas"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jerry_Lucas_1961.jpeg?width=500",
+  "sujet_image": "Jerry Lucas"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Darko Miličić",
+  "alias": [
+   "Miličić"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Darko_Milicic_cropped.jpg?width=500",
+  "sujet_image": "Darko Miličić"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Kevin McHale",
+  "alias": [
+   "McHale"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kevin_McHale_2012_press_conference_-_headshot.jpg?width=500",
+  "sujet_image": "Kevin McHale"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Tayshaun Prince",
+  "alias": [
+   "Prince"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tayshaun_Prince.jpg?width=500",
+  "sujet_image": "Tayshaun Prince"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "George Mikan",
+  "alias": [
+   "Mikan"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/George_mikan_1958_press_photo.jpg?width=500",
+  "sujet_image": "George Mikan"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Pat Riley",
+  "alias": [
+   "Riley"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pat_Riley_speaks_at_Eglin_Air_Force_Base_%28cropped%29.jpg?width=500",
+  "sujet_image": "Pat Riley"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Deron Williams",
+  "alias": [
+   "Williams"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Deron_Williams_Nets_2.jpg?width=500",
+  "sujet_image": "Deron Williams"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Rick Barry",
+  "alias": [
+   "Barry"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rick_Barry.jpg?width=500",
+  "sujet_image": "Rick Barry"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Goran Dragić",
+  "alias": [
+   "Dragić"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Goran_Dragi%C4%87_2026.jpg?width=500",
+  "sujet_image": "Goran Dragić"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Karl-Anthony Towns",
+  "alias": [
+   "Towns"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karl-Anthony_Towns_2015.jpg?width=500",
+  "sujet_image": "Karl-Anthony Towns"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Ben Wallace",
+  "alias": [
+   "Wallace"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/BenWallaceCloseup_%28cropped%29.jpg?width=500",
+  "sujet_image": "Ben Wallace"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Leandro Barbosa",
+  "alias": [
+   "Barbosa"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leandro_Barbosa_Rio_2016cr.jpg?width=500",
+  "sujet_image": "Leandro Barbosa"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Andrew Bogut",
+  "alias": [
+   "Bogut"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrew_Bogut_%28cropped%29.jpg?width=500",
+  "sujet_image": "Andrew Bogut"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "DeMar DeRozan",
+  "alias": [
+   "DeRozan"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/DeMar_DeRozan_2022.jpg?width=500",
+  "sujet_image": "DeMar DeRozan"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Bob Pettit",
+  "alias": [
+   "Pettit"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bpetitt2013.jpg?width=500",
+  "sujet_image": "Bob Pettit"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Ja Morant",
+  "alias": [
+   "Morant"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ja_Morant_2021.jpg?width=500",
+  "sujet_image": "Ja Morant"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Šarūnas Marčiulionis",
+  "alias": [
+   "Marčiulionis"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarunas_Marciulionis_in_Armenia_2.jpg?width=500",
+  "sujet_image": "Šarūnas Marčiulionis"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Tyson Chandler",
+  "alias": [
+   "Chandler"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyson_Chandler_Mavs_cropped.jpg?width=500",
+  "sujet_image": "Tyson Chandler"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Andrea Bargnani",
+  "alias": [
+   "Bargnani"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea_Bargnani.JPG?width=500",
+  "sujet_image": "Andrea Bargnani"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "LaMarcus Aldridge",
+  "alias": [
+   "Aldridge"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/LaMarcus_Aldridge_%2851830745547%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "LaMarcus Aldridge"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Aleksandar Đorđević",
+  "alias": [
+   "Đorđević"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aleksandar_%C4%90or%C4%91evi%C4%87_Fenerbah%C3%A7e_Basketball_20210913_%281%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Aleksandar Đorđević"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Domantas Sabonis",
+  "alias": [
+   "Sabonis"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Domantas_Sabonis_by_Augustas_Didzgalvis_%28cropped%29.jpg?width=500",
+  "sujet_image": "Domantas Sabonis"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "James Worthy",
+  "alias": [
+   "Worthy"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/James_Worthy_at_UNC_Basketball_game._February_10%2C_2007.jpg?width=500",
+  "sujet_image": "James Worthy"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Alonzo Mourning",
+  "alias": [
+   "Mourning"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alonzo_Mourning.jpg?width=500",
+  "sujet_image": "Alonzo Mourning"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Robert Parish",
+  "alias": [
+   "Parish"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Parish.jpg?width=500",
+  "sujet_image": "Robert Parish"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Grant Hill",
+  "alias": [
+   "Hill"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1_grant_hill_2019_%28cropped%29.jpg?width=500",
+  "sujet_image": "Grant Hill"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Ersan İlyasova",
+  "alias": [
+   "İlyasova"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ersan_Ilyasova_%2834041818796%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Ersan İlyasova"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jonas Valančiūnas",
+  "alias": [
+   "Valančiūnas"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jonas_Valanciunas_2022_by_Augustas_Didzgalvis.jpg?width=500",
+  "sujet_image": "Jonas Valančiūnas"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Joel Embiid",
+  "alias": [
+   "Embiid"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joel_Embiid_2019.jpg?width=500",
+  "sujet_image": "Joel Embiid"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Alexeï Chved",
+  "alias": [
+   "Chved"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexey_Shved_%40_BC_UNICS_%282025-12-28%29_-_0_13.jpg?width=500",
+  "sujet_image": "Alexeï Chved"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Doc Rivers",
+  "alias": [
+   "Rivers"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rivers_76ers.jpg?width=500",
+  "sujet_image": "Doc Rivers"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Rudy Fernández",
+  "alias": [
+   "Fernández"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudy_Fern%C3%A1ndez_2016_%28cropped%29.jpg?width=500",
+  "sujet_image": "Rudy Fernández"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Nicolas Batum",
+  "alias": [
+   "Batum"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_Batum_2012.jpg?width=500",
+  "sujet_image": "Nicolas Batum"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Carlos Boozer",
+  "alias": [
+   "Boozer"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlos_Boozer.jpg?width=500",
+  "sujet_image": "Carlos Boozer"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "JaVale McGee",
+  "alias": [
+   "McGee"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/J_McGee_-_Wizards_vs_Heat_2009-04-04.jpg?width=500",
+  "sujet_image": "JaVale McGee"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Žydrūnas Ilgauskas",
+  "alias": [
+   "Ilgauskas"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zydrunas_Ilgauskas_Cleveland_Cavaliers.jpg?width=500",
+  "sujet_image": "Žydrūnas Ilgauskas"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Manute Bol",
+  "alias": [
+   "Bol"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Manute_Bol_at_Bridgeport_Knights_1984.jpg?width=500",
+  "sujet_image": "Manute Bol"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Andrew Wiggins",
+  "alias": [
+   "Wiggins"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrew_Wiggins_Huntington_%28cropped%29.jpg?width=500",
+  "sujet_image": "Andrew Wiggins"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Muggsy Bogues",
+  "alias": [
+   "Bogues"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Muggsy_Bogues_%28250128-Z-KG453-1009%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Muggsy Bogues"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Marcin Gortat",
+  "alias": [
+   "Gortat"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marcin_Gortat_13_%28cropped%29.jpg?width=500",
+  "sujet_image": "Marcin Gortat"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Šarūnas Jasikevičius",
+  "alias": [
+   "Jasikevičius"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C5%A0ar%C5%ABnas_Jasikevi%C4%8Dius_Fenerbah%C3%A7e_Basketbol_Euroleague_20260409_%283%29.jpg?width=500",
+  "sujet_image": "Šarūnas Jasikevičius"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Kristaps Porziņģis",
+  "alias": [
+   "Porziņģis"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kristaps_Porzi%C5%86%C4%A3is_2022.jpg?width=500",
+  "sujet_image": "Kristaps Porziņģis"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Dennis Schröder",
+  "alias": [
+   "Schröder"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-07-03_Basketball%2C_M%C3%A4nner%2C_European_Qualifiers%2C_Deutschland_-_Polen_1DX_1386_by_Stepro_%28cropped%29.jpg?width=500",
+  "sujet_image": "Dennis Schröder"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jaylen Brown",
+  "alias": [
+   "Brown"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaylen_Brown_2017.jpg?width=500",
+  "sujet_image": "Jaylen Brown"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Boris Diaw",
+  "alias": [
+   "Diaw"
+  ],
+  "categorie": "nba",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boris_Diaw%2C_France_-_Canada_July_2011.jpg?width=500",
+  "sujet_image": "Boris Diaw"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Mike Bibby",
+  "alias": [
+   "Bibby"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike_Bibby_Kings.jpg?width=500",
+  "sujet_image": "Mike Bibby"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Nate Robinson",
+  "alias": [
+   "Robinson"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nate_Robinson.jpg?width=500",
+  "sujet_image": "Nate Robinson"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Lonzo Ball",
+  "alias": [
+   "Ball"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lonzo_Ball_%2849487881388%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Lonzo Ball"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Zach LaVine",
+  "alias": [
+   "LaVine"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zach_LaVine_%282022_All-Star_Weekend%29.jpg?width=500",
+  "sujet_image": "Zach LaVine"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Tyrese Haliburton",
+  "alias": [
+   "Haliburton"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrese_Haliburton_%2851923778880%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Tyrese Haliburton"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Joe Johnson",
+  "alias": [
+   "Johnson"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe_Johnson_%2851902632002%29.jpg?width=500",
+  "sujet_image": "Joe Johnson"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Emeka Okafor",
+  "alias": [
+   "Okafor"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Emeka_Okafor_Washington_at_Orlando_002.jpg?width=500",
+  "sujet_image": "Emeka Okafor"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Marco Belinelli",
+  "alias": [
+   "Belinelli"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marco_Belinelli_2021.jpg?width=500",
+  "sujet_image": "Marco Belinelli"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Richard Hamilton",
+  "alias": [
+   "Hamilton"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Hamilton_180422-D-SW162-1588_%2827762040388%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Richard Hamilton"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Edrice Adebayo",
+  "alias": [
+   "Adebayo"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20160330_MCDAAG_Bam_Adebayo_with_the_ball.jpg?width=500",
+  "sujet_image": "Edrice Adebayo"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Elton Brand",
+  "alias": [
+   "Brand"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elton_Brand_10.jpg?width=500",
+  "sujet_image": "Elton Brand"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Dino Rađa",
+  "alias": [
+   "Rađa"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/DinoRadjaPanathinaikos.jpg?width=500",
+  "sujet_image": "Dino Rađa"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Álex Abrines",
+  "alias": [
+   "Abrines"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-03-07_ALBA_Berlin_gegen_FC_Barcelona_B%C3%A0squet_%28EuroLeague_2024-25%29_by_Sandro_Halank%E2%80%93020.jpg?width=500",
+  "sujet_image": "Álex Abrines"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Chris Webber",
+  "alias": [
+   "Webber"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris_Webber_NBA_Asia_Challenge_2010.jpg?width=500",
+  "sujet_image": "Chris Webber"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Gerald Wallace",
+  "alias": [
+   "Wallace"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/WallaceNets.jpg?width=500",
+  "sujet_image": "Gerald Wallace"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "DeMarcus Cousins",
+  "alias": [
+   "Cousins"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1_demarcus_cousins_2019_%28cropped%29.jpg?width=500",
+  "sujet_image": "DeMarcus Cousins"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Danilo Gallinari",
+  "alias": [
+   "Gallinari"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danilo_Gallinari_20260826_%283%29_%28cropped%29.JPG?width=500",
+  "sujet_image": "Danilo Gallinari"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "DeAndre Jordan",
+  "alias": [
+   "Jordan"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/DeAndre_Jordan.jpg?width=500",
+  "sujet_image": "DeAndre Jordan"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Penny Hardaway",
+  "alias": [
+   "Hardaway"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/HBCUAllstarBasketball4223-118_%2852802377149%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Penny Hardaway"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Saša Vujačić",
+  "alias": [
+   "Vujačić"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sasha_Vujacic_2017.jpg?width=500",
+  "sujet_image": "Saša Vujačić"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Walt Frazier",
+  "alias": [
+   "Frazier"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Walt_Frazier_%28cropped%29.jpg?width=500",
+  "sujet_image": "Walt Frazier"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Timofeï Mozgov",
+  "alias": [
+   "Mozgov"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Timofey_Mozgov_-_22016707911_%28cropped%29.jpg?width=500",
+  "sujet_image": "Timofeï Mozgov"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Willis Reed",
+  "alias": [
+   "Reed"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Willis_Reed_1972_publicity_photo.jpg?width=500",
+  "sujet_image": "Willis Reed"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jusuf Nurkić",
+  "alias": [
+   "Nurkić"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jusuf_Nurki%C4%87_against_the_Cleveland_Cavaliers_%28cropped%29.jpg?width=500",
+  "sujet_image": "Jusuf Nurkić"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Brandon Roy",
+  "alias": [
+   "Roy"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brandon_Roy_Wizards.jpg?width=500",
+  "sujet_image": "Brandon Roy"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Greg Oden",
+  "alias": [
+   "Oden"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Greg_Oden.jpg?width=500",
+  "sujet_image": "Greg Oden"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jermaine O'Neal",
+  "alias": [
+   "O'Neal"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jermaine_O%27Neal_smiling.jpg?width=500",
+  "sujet_image": "Jermaine O'Neal"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Luis Scola",
+  "alias": [
+   "Scola"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luis_Scola_Italy_%28cropped%29.jpg?width=500",
+  "sujet_image": "Luis Scola"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Dave Cowens",
+  "alias": [
+   "Cowens"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dave_Cowens.jpeg?width=500",
+  "sujet_image": "Dave Cowens"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Ömer Aşık",
+  "alias": [
+   "Aşık"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Omer_Asik_Rockets.jpg?width=500",
+  "sujet_image": "Ömer Aşık"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Donovan Mitchell",
+  "alias": [
+   "Mitchell"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Donovan_Mitchell_cavs_2023_%28cropped%29.jpg?width=500",
+  "sujet_image": "Donovan Mitchell"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Nenê",
+  "alias": [],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nene_Mar-2012.jpg?width=500",
+  "sujet_image": "Nenê"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Michael Redd",
+  "alias": [
+   "Redd"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/ReddBucks.jpg?width=500",
+  "sujet_image": "Michael Redd"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Nikola Mirotić",
+  "alias": [
+   "Mirotić"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-22_ALBA_Berlin_gegen_FC_Barcelona_B%C3%A0squet_%28EuroLeague_2021-22%29_by_Sandro_Halank%E2%80%93014.jpg?width=500",
+  "sujet_image": "Nikola Mirotić"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Kyle Lowry",
+  "alias": [
+   "Lowry"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyle_Lowry_%2817283761882%29.jpg?width=500",
+  "sujet_image": "Kyle Lowry"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jalen Brunson",
+  "alias": [
+   "Brunson"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jalen_Brunson_2023_%28cropped%29.jpg?width=500",
+  "sujet_image": "Jalen Brunson"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jamal Murray",
+  "alias": [
+   "Murray"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamal_Murray_free_throw_%28cropped%29.jpg?width=500",
+  "sujet_image": "Jamal Murray"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Cedi Osman",
+  "alias": [
+   "Osman"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cedi_Osman_6_T%C3%BCrkiye_20250220_%284%29.jpg?width=500",
+  "sujet_image": "Cedi Osman"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Isaiah Thomas",
+  "alias": [
+   "Thomas"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2019_Isaiah_Thomas_%2848823805453%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Isaiah Thomas"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Shareef Abdur-Rahim",
+  "alias": [
+   "Abdur-Rahim"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A8%D0%B0%D1%80%D0%B8%D1%84_%D0%90%D0%B1%D0%B4%D1%83%D1%80-%D0%A0%D0%B0%D1%85%D0%B8%D0%BC_2019.png?width=500",
+  "sujet_image": "Shareef Abdur-Rahim"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Patrick Mills",
+  "alias": [
+   "Mills"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Patty_Mills_2017.jpg?width=500",
+  "sujet_image": "Patrick Mills"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Baron Davis",
+  "alias": [
+   "Davis"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baron_Davis_March_2012.jpg?width=500",
+  "sujet_image": "Baron Davis"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Stephon Marbury",
+  "alias": [
+   "Marbury"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephon_Marbury_%40_Amazon_Fishbowl_2.jpg?width=500",
+  "sujet_image": "Stephon Marbury"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Lauri Markkanen",
+  "alias": [
+   "Markkanen"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lauri_Markkanen%2C_Cavaliers_vs_Rockets_on_December_15%2C_2021_%28cropped%29.jpg?width=500",
+  "sujet_image": "Lauri Markkanen"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Pascal Siakam",
+  "alias": [
+   "Siakam"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pascal_Siakam_2018.jpg?width=500",
+  "sujet_image": "Pascal Siakam"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Mehmet Okur",
+  "alias": [
+   "Okur"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mehmet_Okur_%28cropped%29.jpg?width=500",
+  "sujet_image": "Mehmet Okur"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Khris Middleton",
+  "alias": [
+   "Middleton"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2025_Khris_Middleton_%28cropped%29.jpg?width=500",
+  "sujet_image": "Khris Middleton"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jorge Garbajosa",
+  "alias": [
+   "Garbajosa"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jorge_Garbajosa_20241002_%281%29.jpg?width=500",
+  "sujet_image": "Jorge Garbajosa"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jason Richardson",
+  "alias": [
+   "Richardson"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jason_Richardson.jpg?width=500",
+  "sujet_image": "Jason Richardson"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Tiago Splitter",
+  "alias": [
+   "Splitter"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2024-10-29_ALBA_Berlin_gegen_Paris_Basketball_%28EuroLeague_2024-25%29_by_Sandro_Halank%E2%80%93132.jpg?width=500",
+  "sujet_image": "Tiago Splitter"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Evan Fournier",
+  "alias": [
+   "Fournier"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Evan_Fournier_1.JPG?width=500",
+  "sujet_image": "Evan Fournier"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Aaron Gordon",
+  "alias": [
+   "Gordon"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aaron_Gordon_2019_%28cropped%29.jpg?width=500",
+  "sujet_image": "Aaron Gordon"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Sergio Rodríguez",
+  "alias": [
+   "Rodríguez"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sergio_Rodriguez_Italy_%28cropped%29.jpg?width=500",
+  "sujet_image": "Sergio Rodríguez"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Rudy Gay",
+  "alias": [
+   "Gay"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudy_Gay_Kings.jpg?width=500",
+  "sujet_image": "Rudy Gay"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Mitch Richmond",
+  "alias": [
+   "Richmond"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mitch_Richmond_cropped.jpg?width=500",
+  "sujet_image": "Mitch Richmond"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Alex Len",
+  "alias": [
+   "Len"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alex_Len_2020.jpg?width=500",
+  "sujet_image": "Alex Len"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Bill Bradley",
+  "alias": [
+   "Bradley"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bill-Bradley-2020.jpg?width=500",
+  "sujet_image": "Bill Bradley"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Chris Kaman",
+  "alias": [
+   "Kaman"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris_Kaman.jpg?width=500",
+  "sujet_image": "Chris Kaman"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Brook Lopez",
+  "alias": [
+   "Lopez"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brook_Lopez_20260826_%284%29_%28cropped%29.JPG?width=500",
+  "sujet_image": "Brook Lopez"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Shawn Bradley",
+  "alias": [
+   "Bradley"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bradley%2C_Shawn_%282008%29_2.jpg?width=500",
+  "sujet_image": "Shawn Bradley"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Gheorghe Mureșan",
+  "alias": [
+   "Mureșan"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gheorghe_Muresan_%2815833043052%29.jpg?width=500",
+  "sujet_image": "Gheorghe Mureșan"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Eric Gordon",
+  "alias": [
+   "Gordon"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eric_Gordon_in_2019_%28cropped%29.jpg?width=500",
+  "sujet_image": "Eric Gordon"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "David Andersen",
+  "alias": [
+   "Andersen"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Andersen_%28cropped%29.jpg?width=500",
+  "sujet_image": "David Andersen"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Nikola Vučević",
+  "alias": [
+   "Vučević"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nikola_Vu%C4%8Devi%C4%87_4_Montenegro_20250823_%285%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Nikola Vučević"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Carlos Delfino",
+  "alias": [
+   "Delfino"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlos_Delfino.jpg?width=500",
+  "sujet_image": "Carlos Delfino"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Joe Dumars",
+  "alias": [
+   "Dumars"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe_Dumars.jpg?width=500",
+  "sujet_image": "Joe Dumars"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Dave Bing",
+  "alias": [
+   "Bing"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/David_Bing_3928ded5aacd10b21cded561668a0444_%281%29.jpg?width=500",
+  "sujet_image": "Dave Bing"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jan Veselý",
+  "alias": [
+   "Veselý"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2021-10-12_ALBA_Berlin_gegen_Fenerbah%C3%A7e_SK_%28EuroLeague_2021-22%29_by_Sandro_Halank%E2%80%93007.jpg?width=500",
+  "sujet_image": "Jan Veselý"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Rui Hachimura",
+  "alias": [
+   "Hachimura"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2019_Rui_Hachimura_dribble_%2848824158846%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Rui Hachimura"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Willy Hernangómez",
+  "alias": [
+   "Hernangómez"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-03-07_ALBA_Berlin_gegen_FC_Barcelona_B%C3%A0squet_%28EuroLeague_2024-25%29_by_Sandro_Halank%E2%80%93054.jpg?width=500",
+  "sujet_image": "Willy Hernangómez"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "George Gervin",
+  "alias": [
+   "Gervin"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/George_Gervin_ABA.jpeg?width=500",
+  "sujet_image": "George Gervin"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Steven Adams",
+  "alias": [
+   "Adams"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Steven_Adams_%2832049572304%29.jpg?width=500",
+  "sujet_image": "Steven Adams"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Kemba Walker",
+  "alias": [
+   "Walker"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kemba_Walker_2019.jpg?width=500",
+  "sujet_image": "Kemba Walker"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Dario Šarić",
+  "alias": [
+   "Šarić"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dario_Saric%2C_Austria_v_Croatia.jpg?width=500",
+  "sujet_image": "Dario Šarić"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Zion Williamson",
+  "alias": [
+   "Williamson"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zion_Williamson_2020.jpg?width=500",
+  "sujet_image": "Zion Williamson"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Harrison Barnes",
+  "alias": [
+   "Barnes"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Harrison_Barnes_in_2019_%28cropped%29.jpg?width=500",
+  "sujet_image": "Harrison Barnes"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Ben Simmons",
+  "alias": [
+   "Simmons"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben_Simmons_for_the_Brooklyn_Nets_%28cropped%29.jpg?width=500",
+  "sujet_image": "Ben Simmons"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Trae Young",
+  "alias": [
+   "Young"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trae_Young_%282022_All-Star_Weekend%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Trae Young"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Nate Archibald",
+  "alias": [
+   "Archibald"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nate_Archibald_1974.jpeg?width=500",
+  "sujet_image": "Nate Archibald"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Bob McAdoo",
+  "alias": [
+   "McAdoo"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bob_McAdoo_in_2009.jpg?width=500",
+  "sujet_image": "Bob McAdoo"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Shawn Kemp",
+  "alias": [
+   "Kemp"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shawn_Kemp_%289523772347%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Shawn Kemp"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Andrew Bynum",
+  "alias": [
+   "Bynum"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bynum_In_Philly_cropped.jpg?width=500",
+  "sujet_image": "Andrew Bynum"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Danny Green",
+  "alias": [
+   "Green"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danny_Green%281%29.jpg?width=500",
+  "sujet_image": "Danny Green"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Earl Boykins",
+  "alias": [
+   "Boykins"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Earl_Boykins_Bucks.jpg?width=500",
+  "sujet_image": "Earl Boykins"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Richard Jefferson",
+  "alias": [
+   "Jefferson"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Richard_Jefferson_2017.jpg?width=500",
+  "sujet_image": "Richard Jefferson"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Mirza Teletović",
+  "alias": [
+   "Teletović"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mirza_Teletovic_Nets.jpg?width=500",
+  "sujet_image": "Mirza Teletović"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Danny Granger",
+  "alias": [
+   "Granger"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Danny_Granger_in_2005.jpg?width=500",
+  "sujet_image": "Danny Granger"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Tim Hardaway",
+  "alias": [
+   "Hardaway"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20150902_Quest_Multisport_clinic_Tim_Hardaway_%281%29.JPG?width=500",
+  "sujet_image": "Tim Hardaway"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Tornike Shengelia",
+  "alias": [
+   "Shengelia"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tornike_Shengelia_21_Virtus_Pallacanestro_Bologna_Euroleague_20250131_%289%29.jpg?width=500",
+  "sujet_image": "Tornike Shengelia"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Anthony Bennett",
+  "alias": [
+   "Bennett"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anthony_Bennett_by_Jeremy_Rincon.jpg?width=500",
+  "sujet_image": "Anthony Bennett"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Al Horford",
+  "alias": [
+   "Horford"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Al_Horford_of_the_Boston_Celtics_during_an_event_celebrating_the_team%E2%80%99s_2024_NBA_Championship_on_November_21%2C_2024_on_the_South_Lawn_of_the_White_House_%28cropped%29.jpg?width=500",
+  "sujet_image": "Al Horford"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Gordon Hayward",
+  "alias": [
+   "Hayward"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20140814_World_Basketball_Festival_Gordon_Hayward.JPG?width=500",
+  "sujet_image": "Gordon Hayward"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Kyle Korver",
+  "alias": [
+   "Korver"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kyle_Korver_%2825756529437%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Kyle Korver"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Bradley Beal",
+  "alias": [
+   "Beal"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bradley_Beal_2020.jpg?width=500",
+  "sujet_image": "Bradley Beal"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Tomáš Satoranský",
+  "alias": [
+   "Satoranský"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-03-07_ALBA_Berlin_gegen_FC_Barcelona_B%C3%A0squet_%28EuroLeague_2024-25%29_by_Sandro_Halank%E2%80%93075.jpg?width=500",
+  "sujet_image": "Tomáš Satoranský"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "J. J. Redick",
+  "alias": [
+   "Redick"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/J.J._Redick_20131118_Clippers_v_Grizzles.jpg?width=500",
+  "sujet_image": "J. J. Redick"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "D'Angelo Russell",
+  "alias": [
+   "Russell"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%27Angelo_Russell_%2851733686752%29_%28cropped%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "D'Angelo Russell"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Marcus Smart",
+  "alias": [
+   "Smart"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/MarcusSmart2021_%28cropped%29.jpg?width=500",
+  "sujet_image": "Marcus Smart"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Derrick White",
+  "alias": [
+   "White"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boston_Celtics_player_Derrick_White_on_November_21%2C_2024_at_the_White_House_%28cropped%29.jpg?width=500",
+  "sujet_image": "Derrick White"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jameer Nelson",
+  "alias": [
+   "Nelson"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jameer_Nelson_pump_fake_cropped.jpg?width=500",
+  "sujet_image": "Jameer Nelson"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jeff Green",
+  "alias": [
+   "Green"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jeff_Green.jpg?width=500",
+  "sujet_image": "Jeff Green"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Brandon Ingram",
+  "alias": [
+   "Ingram"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brandon_Ingram_2020.jpg?width=500",
+  "sujet_image": "Brandon Ingram"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Paul Arizin",
+  "alias": [
+   "Arizin"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paul_Arizin_50-62.JPG?width=500",
+  "sujet_image": "Paul Arizin"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "LaMelo Ball",
+  "alias": [
+   "Ball"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/LaMelo_Ball_%28cropped%29.jpg?width=500",
+  "sujet_image": "LaMelo Ball"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Trevor Ariza",
+  "alias": [
+   "Ariza"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trevor_Ariza_Wizards.jpg?width=500",
+  "sujet_image": "Trevor Ariza"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jo Jo White",
+  "alias": [
+   "White"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jojo_white_press_photo.jpg?width=500",
+  "sujet_image": "Jo Jo White"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Antonio McDyess",
+  "alias": [
+   "McDyess"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mcdyess_free_throw.jpg?width=500",
+  "sujet_image": "Antonio McDyess"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jamal Crawford",
+  "alias": [
+   "Crawford"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamal_Crawford_2011.jpg?width=500",
+  "sujet_image": "Jamal Crawford"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Viktor Khryapa",
+  "alias": [
+   "Khryapa"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Victor_Khryapa_31_PBC_CSKA_Moscow_20171027_%283%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Viktor Khryapa"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Mario Hezonja",
+  "alias": [
+   "Hezonja"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mario_Hezonja_11_Real_Madrid_Baloncesto_Euroleague_20260409_%284%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Mario Hezonja"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Michael Beasley",
+  "alias": [
+   "Beasley"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Beasley_Heat.jpg?width=500",
+  "sujet_image": "Michael Beasley"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Robert Horry",
+  "alias": [
+   "Horry"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Robert_Horry.jpg?width=500",
+  "sujet_image": "Robert Horry"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Ron Harper",
+  "alias": [
+   "Harper"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ron_Harper.jpg?width=500",
+  "sujet_image": "Ron Harper"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Jason Terry",
+  "alias": [
+   "Terry"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jason_Terry_3.jpg?width=500",
+  "sujet_image": "Jason Terry"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Christian Laettner",
+  "alias": [
+   "Laettner"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Christian_Laettner_at_Yahoo_event.jpg?width=500",
+  "sujet_image": "Christian Laettner"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Rashard Lewis",
+  "alias": [
+   "Lewis"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rashard_Lewis.jpg?width=500",
+  "sujet_image": "Rashard Lewis"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Mario Chalmers",
+  "alias": [
+   "Chalmers"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mario-Chalmers-KU-vs-UT-Feb-11-08.jpg?width=500",
+  "sujet_image": "Mario Chalmers"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Shane Battier",
+  "alias": [
+   "Battier"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shane_Battier_Houston.jpg?width=500",
+  "sujet_image": "Shane Battier"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Darius Songaila",
+  "alias": [
+   "Songaila"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Darius_Songaila_Wizards.jpg?width=500",
+  "sujet_image": "Darius Songaila"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Dante Exum",
+  "alias": [
+   "Exum"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2022-03-22_ALBA_Berlin_gegen_FC_Barcelona_B%C3%A0squet_%28EuroLeague_2021-22%29_by_Sandro_Halank%E2%80%93056.jpg?width=500",
+  "sujet_image": "Dante Exum"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Kelly Olynyk",
+  "alias": [
+   "Olynyk"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93014.jpg?width=500",
+  "sujet_image": "Kelly Olynyk"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Joe Ingles",
+  "alias": [
+   "Ingles"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joe_Ingles_Utah_%28cropped%29.jpg?width=500",
+  "sujet_image": "Joe Ingles"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Matthew Dellavedova",
+  "alias": [
+   "Dellavedova"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Matthew_Dellavedova_%2849166301537%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Matthew Dellavedova"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Ben Gordon",
+  "alias": [
+   "Gordon"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ben_Gordon_4105090834.jpg?width=500",
+  "sujet_image": "Ben Gordon"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Josh Smith",
+  "alias": [
+   "Smith"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Josh_Smith_2014.jpg?width=500",
+  "sujet_image": "Josh Smith"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Wes Unseld",
+  "alias": [
+   "Unseld"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wes_Unseld_1975.jpeg?width=500",
+  "sujet_image": "Wes Unseld"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Boban Marjanović",
+  "alias": [
+   "Marjanović"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boban_Marjanovi%C4%87_51_Fenerbah%C3%A7e_Basketbol_TBSL_20241006_%281%29.jpg?width=500",
+  "sujet_image": "Boban Marjanović"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Julius Randle",
+  "alias": [
+   "Randle"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Julius_Randle_with_Lakers.jpg?width=500",
+  "sujet_image": "Julius Randle"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Linas Kleiza",
+  "alias": [
+   "Kleiza"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Linas_Kleiza1.2009-07-31_%28cropped%29.jpg?width=500",
+  "sujet_image": "Linas Kleiza"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Nando de Colo",
+  "alias": [
+   "Colo"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nando_de_Colo_12_Fenerbah%C3%A7e_Basketbol_Euroleague_20260116_%281%29.jpg?width=500",
+  "sujet_image": "Nando de Colo"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Dolph Schayes",
+  "alias": [
+   "Schayes"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dolph_Schayes.jpeg?width=500",
+  "sujet_image": "Dolph Schayes"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Dennis Johnson",
+  "alias": [
+   "Johnson"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dennis_Johnson_Lipofsky.jpg?width=500",
+  "sujet_image": "Dennis Johnson"
+ },
+ {
+  "question": "Quel basketteur est-ce ?",
+  "reponse": "Franz Wagner",
+  "alias": [
+   "Wagner"
+  ],
+  "categorie": "nba",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2023-08-09_Deutschland_gegen_Kanada_%28Basketball-L%C3%A4nderspiel%29_by_Sandro_Halank%E2%80%93138.jpg?width=500",
+  "sujet_image": "Franz Wagner"
+ }
+]

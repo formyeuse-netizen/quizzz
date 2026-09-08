@@ -1,0 +1,319 @@
+[
+ {
+  "question": "Quelle est cette langue : « مرحبا (marhaba) » ?",
+  "reponse": "arabe",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « 你好 (nǐ hǎo) » ?",
+  "reponse": "chinois",
+  "alias": [
+   "mandarin"
+  ],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « こんにちは (konnichiwa) » ?",
+  "reponse": "japonais",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « 안녕하세요 (annyeonghaseyo) » ?",
+  "reponse": "coréen",
+  "alias": [
+   "coreen"
+  ],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « Привет (privet) » ?",
+  "reponse": "russe",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « Καλημέρα (kaliméra) » ?",
+  "reponse": "grec",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « שלום (shalom) » ?",
+  "reponse": "hébreu",
+  "alias": [
+   "hebreu"
+  ],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est cette langue : « नमस्ते (namasté) » ?",
+  "reponse": "hindi",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est cette langue : « สวัสดี (sawasdee) » ?",
+  "reponse": "thaï",
+  "alias": [
+   "thai",
+   "thailandais"
+  ],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est cette langue : « Բարև (barev) » ?",
+  "reponse": "arménien",
+  "alias": [
+   "armenien"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « გამარჯობა (gamarjoba) » ?",
+  "reponse": "géorgien",
+  "alias": [
+   "georgien"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « ሰላም (selam) » ?",
+  "reponse": "amharique",
+  "alias": [
+   "ethiopien"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « নমস্কার (nomoshkar) » ?",
+  "reponse": "bengali",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « வணக்கம் (vanakkam) » ?",
+  "reponse": "tamoul",
+  "alias": [
+   "tamil"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Hola » ?",
+  "reponse": "espagnol",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « Ciao » ?",
+  "reponse": "italien",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « Guten Tag » ?",
+  "reponse": "allemand",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « Olá » ?",
+  "reponse": "portugais",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est cette langue : « Goedendag » ?",
+  "reponse": "néerlandais",
+  "alias": [
+   "neerlandais",
+   "hollandais"
+  ],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est cette langue : « Dzień dobry » ?",
+  "reponse": "polonais",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est cette langue : « Ahoj » ?",
+  "reponse": "tchèque",
+  "alias": [
+   "tcheque"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Hej » ?",
+  "reponse": "suédois",
+  "alias": [
+   "suedois"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Kiitos » ?",
+  "reponse": "finnois",
+  "alias": [
+   "finlandais"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Szia » ?",
+  "reponse": "hongrois",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Bună ziua » ?",
+  "reponse": "roumain",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est cette langue : « Merhaba » ?",
+  "reponse": "turc",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est cette langue : « Terima kasih » ?",
+  "reponse": "indonésien",
+  "alias": [
+   "indonesien",
+   "malais"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Xin chào » ?",
+  "reponse": "vietnamien",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est cette langue : « Jambo » ?",
+  "reponse": "swahili",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Sawubona » ?",
+  "reponse": "zoulou",
+  "alias": [
+   "zulu"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Hello » ?",
+  "reponse": "anglais",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « Bonjour » ?",
+  "reponse": "français",
+  "alias": [
+   "francais"
+  ],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « Aloha » ?",
+  "reponse": "hawaïen",
+  "alias": [
+   "hawaien",
+   "hawaii"
+  ],
+  "categorie": "langues",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est cette langue : « Saluton » ?",
+  "reponse": "espéranto",
+  "alias": [
+   "esperanto"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Përshëndetje » ?",
+  "reponse": "albanais",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Kaixo » ?",
+  "reponse": "basque",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Dia duit » ?",
+  "reponse": "irlandais",
+  "alias": [
+   "gaelique",
+   "gaélique"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Kamusta » ?",
+  "reponse": "philippin",
+  "alias": [
+   "tagalog",
+   "filipino"
+  ],
+  "categorie": "langues",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est cette langue : « Salve » ?",
+  "reponse": "latin",
+  "alias": [],
+  "categorie": "langues",
+  "difficulte": "moyen"
+ }
+]

@@ -1,0 +1,767 @@
+[
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "tigre",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sibirischer_tiger_de_edit02.jpg?width=500",
+  "sujet_image": "tigre"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "éléphant d'afrique",
+  "alias": [
+   "elephant d'afrique",
+   "éléphant"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/African_Bush_Elephant.jpg?width=500",
+  "sujet_image": "éléphant d'afrique"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "zèbre",
+  "alias": [
+   "zebre"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Equus_quagga_burchellii_-_Etosha%2C_2014.jpg?width=500",
+  "sujet_image": "zèbre"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "rhinocéros",
+  "alias": [
+   "rhinoceros",
+   "rhinocéros blanc"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rhinoc%C3%A9ros_blanc_JHE.jpg?width=500",
+  "sujet_image": "rhinocéros"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "hippopotame",
+  "alias": [
+   "hippo"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hipop%C3%B3tamos_%28Hippopotamus_amphibius%29%2C_parque_nacional_de_Chobe%2C_Botsuana%2C_2018-07-28%2C_DD_81.jpg?width=500",
+  "sujet_image": "hippopotame"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "gorille",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stavenn_Gorilla_gorilla_00.jpg?width=500",
+  "sujet_image": "gorille"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "panda géant",
+  "alias": [
+   "panda",
+   "panda geant"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Panda_at_the_Chengdu_Research_Base_of_Giant_Panda_Breeding%2C_Chengdu%2C_China_-_panoramio.jpg?width=500",
+  "sujet_image": "panda géant"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "panda roux",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ailurus_mosaic.jpg?width=500",
+  "sujet_image": "panda roux"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "koala",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Koala_climbing_tree.jpg?width=500",
+  "sujet_image": "koala"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "kangourou",
+  "alias": [
+   "kangourou roux"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Red_kangaroo_-_melbourne_zoo.jpg?width=500",
+  "sujet_image": "kangourou"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "manchot empereur",
+  "alias": [
+   "manchot",
+   "pingouin"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Emperor_Penguin_Manchot_empereur.jpg?width=500",
+  "sujet_image": "manchot empereur"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "flamant rose",
+  "alias": [
+   "flamant"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/010_Greater_flamingos_male_and_female_in_the_Camargue_during_mating_season_Photo_by_Giles_Laurent.jpg?width=500",
+  "sujet_image": "flamant rose"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "paon",
+  "alias": [
+   "paon bleu"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/023_Indian_peafowl_in_Jim_Corbett_National_Park_Photo_by_Giles_Laurent.jpg?width=500",
+  "sujet_image": "paon"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "chouette hulotte",
+  "alias": [
+   "chouette"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tawny_wiki.jpg?width=500",
+  "sujet_image": "chouette hulotte"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "aigle royal",
+  "alias": [
+   "aigle"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg?width=500",
+  "sujet_image": "aigle royal"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "faucon pèlerin",
+  "alias": [
+   "faucon"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Faucon_pelerin_7_mai.jpg?width=500",
+  "sujet_image": "faucon pèlerin"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "ara",
+  "alias": [
+   "ara bleu",
+   "perroquet"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue-and-Yellow-Macaw.jpg?width=500",
+  "sujet_image": "ara"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cygne",
+  "alias": [
+   "cygne tuberculé"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CygneVaires.jpg?width=500",
+  "sujet_image": "cygne"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "canard colvert",
+  "alias": [
+   "canard",
+   "colvert"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_male_female_quadrat.jpg?width=500",
+  "sujet_image": "canard colvert"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cheval",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mangalarga_Marchador_Conforma%C3%A7%C3%A3o.jpg?width=500",
+  "sujet_image": "cheval"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "âne",
+  "alias": [
+   "ane"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%82ne_ari%C3%A8ge.jpg?width=500",
+  "sujet_image": "âne"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "mouton",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flock_of_sheep.jpg?width=500",
+  "sujet_image": "mouton"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "chèvre",
+  "alias": [
+   "chevre"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/She-goat_J1.jpg?width=500",
+  "sujet_image": "chèvre"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "lapin",
+  "alias": [
+   "lapin de garenne"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oryctolagus_cuniculus_Tasmania_2.jpg?width=500",
+  "sujet_image": "lapin"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "écureuil",
+  "alias": [
+   "ecureuil",
+   "écureuil roux"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eichh%C3%B6rnchen_D%C3%BCsseldorf_Hofgarten_edit.jpg?width=500",
+  "sujet_image": "écureuil"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "hérisson",
+  "alias": [
+   "herisson"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erinaceus_europaeus_LC0119.jpg?width=500",
+  "sujet_image": "hérisson"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "renard",
+  "alias": [
+   "renard roux"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait_of_a_red_fox_in_Rautas_fj%C3%A4llurskog.jpg?width=500",
+  "sujet_image": "renard"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cerf",
+  "alias": [
+   "cerf élaphe"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cervus_elaphus_Luc_Viatour_6.jpg?width=500",
+  "sujet_image": "cerf"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "castor",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/American_Beaver.jpg?width=500",
+  "sujet_image": "castor"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "loutre",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Loutre_des_pyrenees_baronnies_2004.jpg?width=500",
+  "sujet_image": "loutre"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "phoque",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Phoca_vitulina_he.jpg?width=500",
+  "sujet_image": "phoque"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "otarie",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zalophus_californianus_-_Morro_Bay.jpg?width=500",
+  "sujet_image": "otarie"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "requin blanc",
+  "alias": [
+   "requin",
+   "grand requin blanc"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_White_Shark_%2814730796397%29.jpg?width=500",
+  "sujet_image": "requin blanc"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "pieuvre",
+  "alias": [
+   "poulpe",
+   "pieuvre commune"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Octopus_vulgaris_2.jpg?width=500",
+  "sujet_image": "pieuvre"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "hippocampe",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hippocampus_barbouri_01.JPG?width=500",
+  "sujet_image": "hippocampe"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "homard",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/KreeftbijDenOsse.jpg?width=500",
+  "sujet_image": "homard"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "tortue géante",
+  "alias": [
+   "tortue",
+   "tortue géante des galapagos"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tortue_g%C3%A9ante.jpg?width=500",
+  "sujet_image": "tortue géante"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "crocodile",
+  "alias": [
+   "crocodile du nil"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/NileCrocodile.jpg?width=500",
+  "sujet_image": "crocodile"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cobra royal",
+  "alias": [
+   "cobra"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg?width=500",
+  "sujet_image": "cobra royal"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "salamandre",
+  "alias": [
+   "salamandre tachetée"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Salamandra_salamandra_MHNT_1.jpg?width=500",
+  "sujet_image": "salamandre"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "abeille",
+  "alias": [
+   "abeille domestique"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%28MHNT%29_Apis_mellifera_%28female%29_-_on_viburnum_tinus_flowers.jpg?width=500",
+  "sujet_image": "abeille"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "lama",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/White_Llama_%28Lama_glama%29.jpg?width=500",
+  "sujet_image": "lama"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "alpaga",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%BClmen%2C_B%C3%B6rnste%2C_Alpakas_--_2020_--_5462.jpg?width=500",
+  "sujet_image": "alpaga"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "bison",
+  "alias": [
+   "bison d'amérique"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bison_bison_009.jpg?width=500",
+  "sujet_image": "bison"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "gnou",
+  "alias": [
+   "gnou bleu"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blue_Wildebeest%2C_Ngorongoro.jpg?width=500",
+  "sujet_image": "gnou"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "gazelle",
+  "alias": [
+   "gazelle de thomson"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gacela_de_Thomson_%28Eudorcas_thomsonii%29%2C_parque_nacional_de_Amboseli%2C_Kenia%2C_2024-05-23%2C_DD_09.jpg?width=500",
+  "sujet_image": "gazelle"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "guépard",
+  "alias": [
+   "guepard"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/TheCheethcat.jpg?width=500",
+  "sujet_image": "guépard"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "jaguar",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaguar_full.jpg?width=500",
+  "sujet_image": "jaguar"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "puma",
+  "alias": [
+   "couguar",
+   "cougar"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Puma_concolor_stanleyana_-_Texas_Park_-_Lanzarote_-PC07.jpg?width=500",
+  "sujet_image": "puma"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "suricate",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Suricata_suricatta18082009b.jpg?width=500",
+  "sujet_image": "suricate"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "ornithorynque",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ornithorhynchus.jpg?width=500",
+  "sujet_image": "ornithorynque"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "toucan",
+  "alias": [
+   "toucan toco"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/006_Toco_toucan_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg?width=500",
+  "sujet_image": "toucan"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "héron",
+  "alias": [
+   "heron",
+   "héron cendré"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_2013-09-16_2.jpg?width=500",
+  "sujet_image": "héron"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cigogne",
+  "alias": [
+   "cigogne blanche"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stork_%28Palic%2C_Serbia%29.jpg?width=500",
+  "sujet_image": "cigogne"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "corbeau",
+  "alias": [
+   "grand corbeau"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_corax_%28Common_Raven%29%2C_Yosemite_NP%2C_CA%2C_US_-_Diliff.jpg?width=500",
+  "sujet_image": "corbeau"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "yak",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bos_grunniens_at_Yundrok_Yumtso_Lake.jpg?width=500",
+  "sujet_image": "yak"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "renne",
+  "alias": [
+   "caribou"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20070818-0001-strolling_reindeer.jpg?width=500",
+  "sujet_image": "renne"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "buffle",
+  "alias": [
+   "buffle d'afrique"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Syncerus_caffer.jpg?width=500",
+  "sujet_image": "buffle"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cachalot",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sperm_whale_12.jpg?width=500",
+  "sujet_image": "cachalot"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "baleine bleue",
+  "alias": [
+   "rorqual bleu",
+   "baleine"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg?width=500",
+  "sujet_image": "baleine bleue"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "raie manta",
+  "alias": [
+   "raie",
+   "manta"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giant_pacific_manta.jpg?width=500",
+  "sujet_image": "raie manta"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "saumon",
+  "alias": [
+   "saumon atlantique"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Salmo_salar-Atlantic_Salmon-Atlanterhavsparken_Norway_%28cropped%29.JPG?width=500",
+  "sujet_image": "saumon"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "wombat",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vombatus_ursinus_-Maria_Island_National_Park.jpg?width=500",
+  "sujet_image": "wombat"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "okapi",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Okapi2.jpg?width=500",
+  "sujet_image": "okapi"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "paresseux",
+  "alias": [],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bradypus.jpg?width=500",
+  "sujet_image": "paresseux"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "tatou",
+  "alias": [
+   "tatou à neuf bandes"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dasypus_novemcinctus.jpg?width=500",
+  "sujet_image": "tatou"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "pélican",
+  "alias": [
+   "pelican",
+   "pélican blanc"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelikan_Walvis_Bay.jpg?width=500",
+  "sujet_image": "pélican"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "truite",
+  "alias": [
+   "truite arc-en-ciel"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Truite_arc-en-ciel.jpg?width=500",
+  "sujet_image": "truite"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "grenouille",
+  "alias": [
+   "grenouille rousse"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grasfrosch-Rana-temporaria-side.jpg?width=500",
+  "sujet_image": "grenouille"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "coq",
+  "alias": [
+   "coq domestique",
+   "poule"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Male_and_female_chicken_sitting_together.jpg?width=500",
+  "sujet_image": "coq"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cochon",
+  "alias": [
+   "porc",
+   "cochon domestique"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pigs_in_the_Altai_Mountains._Village_Ortolyk.jpg?width=500",
+  "sujet_image": "cochon"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "vache",
+  "alias": [
+   "bovin"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beautiful_Swiss_cows_-_panoramio.jpg?width=500",
+  "sujet_image": "vache"
+ }
+]

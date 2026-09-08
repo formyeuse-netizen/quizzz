@@ -1,0 +1,980 @@
+[
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Pierre-Emerick Aubameyang",
+  "alias": [
+   "Aubameyang"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1%20Pierre-Emerick%20Aubameyang%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Pierre-Emerick Aubameyang"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Paul Scholes",
+  "alias": [
+   "Scholes"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/P%20Scholes.jpg?width=500",
+  "sujet_image": "Paul Scholes"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Diego Costa",
+  "alias": [
+   "Costa"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Iran%20and%20Spain%20match%20at%20the%20FIFA%20World%20Cup%2023.jpg?width=500",
+  "sujet_image": "Diego Costa"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Rodri Hernández",
+  "alias": [
+   "Hernández"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rodri%20France%20v%20Spain%207.24.26-096.jpg?width=500",
+  "sujet_image": "Rodri Hernández"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Achraf Hakimi",
+  "alias": [
+   "Hakimi"
+  ],
+  "categorie": "football",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Achraf%20Hakimi%20Morocco%20v%20Norway%207%20June%202026-16.jpg?width=500",
+  "sujet_image": "Achraf Hakimi"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Mario Gómez",
+  "alias": [
+   "Gómez"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mario%20gomez.jpg?width=500",
+  "sujet_image": "Mario Gómez"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Ivan Perišić",
+  "alias": [
+   "Perišić"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ivan%20Perisic%20Croatia%20v%20Portugal%202%20July%202026-033.jpg?width=500",
+  "sujet_image": "Ivan Perišić"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Hidetoshi Nakata",
+  "alias": [
+   "Nakata"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hidetoshi%20Nakata%20in%20Okinawa%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Hidetoshi Nakata"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Javier Zanetti",
+  "alias": [
+   "Zanetti"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Metalist-Inter%20%282%29.jpg?width=500",
+  "sujet_image": "Javier Zanetti"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Ashley Cole",
+  "alias": [
+   "Cole"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/ACole.JPG?width=500",
+  "sujet_image": "Ashley Cole"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Aaron Ramsey",
+  "alias": [
+   "Ramsey"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aaron%20Ramsey%202019.jpg?width=500",
+  "sujet_image": "Aaron Ramsey"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Wojciech Szczęsny",
+  "alias": [
+   "Szczęsny"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wojciech%20Szcz%C4%99sny.png?width=500",
+  "sujet_image": "Wojciech Szczęsny"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Roberto Firmino",
+  "alias": [
+   "Firmino"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20180610%20FIFA%20Friendly%20Match%20Austria%20vs.%20Brazil%20Roberto%20Firmino%20850%201557.jpg?width=500",
+  "sujet_image": "Roberto Firmino"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Keylor Navas",
+  "alias": [
+   "Navas"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Keylor%20Navas%202018%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Keylor Navas"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Diogo Jota",
+  "alias": [
+   "Jota"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Diogo%20Jota%202025%20Cropped.jpg?width=500",
+  "sujet_image": "Diogo Jota"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Patrick Vieira",
+  "alias": [
+   "Vieira"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrick%20Vieira%20NYCFC.JPG?width=500",
+  "sujet_image": "Patrick Vieira"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Andreï Archavine",
+  "alias": [
+   "Archavine"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrey%20Arshavin%202021.jpg?width=500",
+  "sujet_image": "Andreï Archavine"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Paolo Rossi",
+  "alias": [
+   "Rossi"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paolo%20Rossi%20Vicenza%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Paolo Rossi"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Hristo Stoitchkov",
+  "alias": [
+   "Stoitchkov"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stoichkov%20in%202016.jpg?width=500",
+  "sujet_image": "Hristo Stoitchkov"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Álvaro Arbeloa",
+  "alias": [
+   "Arbeloa"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%81lvaro%20Arbeloa.jpg?width=500",
+  "sujet_image": "Álvaro Arbeloa"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Xherdan Shaqiri",
+  "alias": [
+   "Shaqiri"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xherdan%20Shaqiri%202018.jpg?width=500",
+  "sujet_image": "Xherdan Shaqiri"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Arda Turan",
+  "alias": [
+   "Turan"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arda%20Turan%2C%20Ey%C3%BCpspor%20Teknik%20Direkt%C3%B6r%C3%BC%2C%201%20Eyl%C3%BCl%202024%20Kas%C4%B1mpa%C5%9Fa%20Stadyumu.jpg?width=500",
+  "sujet_image": "Arda Turan"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Joshua Kimmich",
+  "alias": [
+   "Kimmich"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joshua%20Kimmich%20Ecuador%20v%20Germany%2025%20June%202026-149.jpg?width=500",
+  "sujet_image": "Joshua Kimmich"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Bukayo Saka",
+  "alias": [
+   "Saka"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bukayo%20Saka%20England%20v%20Ghana%2023%20June%202026-057%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Bukayo Saka"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Klaas-Jan Huntelaar",
+  "alias": [
+   "Huntelaar"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klaas-Jan%20Huntelaar%202011.jpg?width=500",
+  "sujet_image": "Klaas-Jan Huntelaar"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Nicolas Anelka",
+  "alias": [
+   "Anelka"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas%20Anelka%204720.jpg?width=500",
+  "sujet_image": "Nicolas Anelka"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Ashley Young",
+  "alias": [
+   "Young"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ashley%20Young%202018-06-13%201.jpg?width=500",
+  "sujet_image": "Ashley Young"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Dani Carvajal",
+  "alias": [
+   "Carvajal"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/UEFA%20EURO%20qualifiers%20Sweden%20vs%20Spain%2020191015%20Dani%20Carvajal%2010%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Dani Carvajal"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Álvaro Morata",
+  "alias": [
+   "Morata"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%81lvaro%20Morata.jpg?width=500",
+  "sujet_image": "Álvaro Morata"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Leonardo Bonucci",
+  "alias": [
+   "Bonucci"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20150616%20-%20Portugal%20-%20Italie%20-%20Gen%C3%A8ve%20-%20Leonardo%20Bonucci.jpg?width=500",
+  "sujet_image": "Leonardo Bonucci"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Mario Kempes",
+  "alias": [
+   "Kempes"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mario%20Kempes%20Argentina%20v%20Spain%2019%20July%202026-036%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Mario Kempes"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Marc-André ter Stegen",
+  "alias": [
+   "Stegen",
+   "Marc-André Stegen"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marc-Andre%20Ter%20Stegen%20ACCI%20FCBARCELONA%20Turisme%20Catalunya%20gira%20pretemporada%20CATPRESS.jpg?width=500",
+  "sujet_image": "Marc-André ter Stegen"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Michael Laudrup",
+  "alias": [
+   "Laudrup"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael-Laudrup-Nov2008%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Michael Laudrup"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Deco",
+  "alias": [],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Deco%2021dec2006.jpg?width=500",
+  "sujet_image": "Deco"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Memphis Depay",
+  "alias": [
+   "Depay"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Memphis%20Depay%202019.jpg?width=500",
+  "sujet_image": "Memphis Depay"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Patrice Évra",
+  "alias": [
+   "Évra"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Patrice%20Evra%20%2852472689279%29%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Patrice Évra"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Javier Hernández Balcázar",
+  "alias": [
+   "Balcázar",
+   "Javier Balcázar"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Javier%20Hern%C3%A1ndez%20Paley%20Center%20Fox%20Sports%20Soccer-12.jpg?width=500",
+  "sujet_image": "Javier Hernández Balcázar"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Megan Rapinoe",
+  "alias": [
+   "Rapinoe"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Megan%20Rapinoe%20Stat%20Sports%202.jpg?width=500",
+  "sujet_image": "Megan Rapinoe"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "André Schürrle",
+  "alias": [
+   "Schürrle"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sch%C3%BCrrle%202019.jpg?width=500",
+  "sujet_image": "André Schürrle"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Gabriel Batistuta",
+  "alias": [
+   "Batistuta"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gabriel%20batistuta.jpg?width=500",
+  "sujet_image": "Gabriel Batistuta"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Dunga",
+  "alias": [],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dunga061115.jpg?width=500",
+  "sujet_image": "Dunga"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Edin Džeko",
+  "alias": [
+   "Džeko"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20150331%202026%20AUT%20BIH%202177%20Edin%20D%C5%BEeko%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Edin Džeko"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Shinji Kagawa",
+  "alias": [
+   "Kagawa"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinji%20Kagawa%202018%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Shinji Kagawa"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "David Trezeguet",
+  "alias": [
+   "Trezeguet"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Trezeguet%20became%20Save%20the%20Dream%20Ambassador%2C%202017%20%28cropped%29.jpg?width=500",
+  "sujet_image": "David Trezeguet"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Christian Eriksen",
+  "alias": [
+   "Eriksen"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20140904%20-%20Christian%20Eriksen%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Christian Eriksen"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "David Alaba",
+  "alias": [
+   "Alaba"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20180610%20FIFA%20Friendly%20Match%20Austria%20vs.%20Brazil%20David%20Alaba%20850%201632.jpg?width=500",
+  "sujet_image": "David Alaba"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Michael Carrick",
+  "alias": [
+   "Carrick"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Carrick%2012042025%20%285%29%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Michael Carrick"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Éric Abidal",
+  "alias": [
+   "Abidal"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89ric%20Abidal%20-%20001.jpg?width=500",
+  "sujet_image": "Éric Abidal"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Raúl Albiol",
+  "alias": [
+   "Albiol"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/UEFA%20EURO%20qualifiers%20Sweden%20vs%20Spain%2020191015%20136%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Raúl Albiol"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Samuel Umtiti",
+  "alias": [
+   "Umtiti"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samuel%20Umtiti%202018.jpg?width=500",
+  "sujet_image": "Samuel Umtiti"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Filippo Inzaghi",
+  "alias": [
+   "Inzaghi"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Filippo%20Inzaghi%202011.jpg?width=500",
+  "sujet_image": "Filippo Inzaghi"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Park Ji-sung",
+  "alias": [
+   "Ji-sung"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Park%20Ji-sung%20G20%20Seoul%20Summit%20Ambassador%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Park Ji-sung"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Dino Zoff",
+  "alias": [
+   "Zoff"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dino%20Zoff%20-%201972%20-%20Juventus%20FC%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Dino Zoff"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Luis Enrique",
+  "alias": [
+   "Enrique"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luis%20Enrique%202014.jpg?width=500",
+  "sujet_image": "Luis Enrique"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Shinji Okazaki",
+  "alias": [
+   "Okazaki"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinji%20okazaki.jpg?width=500",
+  "sujet_image": "Shinji Okazaki"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Mikel Arteta",
+  "alias": [
+   "Arteta"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikel%20Arteta%202021%20%28cropped%29.png?width=500",
+  "sujet_image": "Mikel Arteta"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Salvatore Schillaci",
+  "alias": [
+   "Schillaci"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Salvatore%20Schillac%20croppedi.jpg?width=500",
+  "sujet_image": "Salvatore Schillaci"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Ronald Koeman",
+  "alias": [
+   "Koeman"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ronald%20Koeman%20%282014%29%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Ronald Koeman"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Pedri",
+  "alias": [],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedri%20France%20v%20Spain%207.24.26-245.jpg?width=500",
+  "sujet_image": "Pedri"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Theo Walcott",
+  "alias": [
+   "Walcott"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Theo%20walcott.jpg?width=500",
+  "sujet_image": "Theo Walcott"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Rafael van der Vaart",
+  "alias": [
+   "Vaart",
+   "Rafael Vaart"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rafael%20van%20der%20Vaart%202013%20%281%29.jpg?width=500",
+  "sujet_image": "Rafael van der Vaart"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Makoto Hasebe",
+  "alias": [
+   "Hasebe"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2022128173751%202022-05-08%20Fussball%20Eintracht%20Frankfurt%20vs%20Borussia%20M%C3%B6nchengladbach%20-%20Sven%20-%201D%20X%20MK%20II%20-%200713%20-%20AK8I7448%20%28Makoto%20Hasebe%20cropped%29.jpg?width=500",
+  "sujet_image": "Makoto Hasebe"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "John Obi Mikel",
+  "alias": [
+   "Mikel",
+   "John Mikel"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/John%20Obi%20Mikel%202018.jpg?width=500",
+  "sujet_image": "John Obi Mikel"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Diego Simeone",
+  "alias": [
+   "Simeone"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/25th%20Laureus%20World%20Sports%20Awards%20-%20Red%20Carpet%20-%20Diego%20Simeone%20-%20240422%20192621-2%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Diego Simeone"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Jens Lehmann",
+  "alias": [
+   "Lehmann"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jens%20Lehmann%20-%202019202184453%202019-07-21%20Champions%20for%20Charity%20-%203017%20-%20B70I3052%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Jens Lehmann"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Hulk",
+  "alias": [],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bayer-04%20-%20Zenit%20%2814%29.jpg?width=500",
+  "sujet_image": "Hulk"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Radamel Falcao",
+  "alias": [
+   "Falcao"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Radamel%20Falcao%20Garc%C3%ADa%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Radamel Falcao"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Per Mertesacker",
+  "alias": [
+   "Mertesacker"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/FIFA%20WC-qualification%202014%20-%20Austria%20vs.%20Germany%202012-09-11%20-%20Per%20Mertesacker%2001%20%28cropped%29.JPG?width=500",
+  "sujet_image": "Per Mertesacker"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Yūto Nagatomo",
+  "alias": [
+   "Nagatomo"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yuto%20Nagatomo%20in%202018.jpg?width=500",
+  "sujet_image": "Yūto Nagatomo"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Giuseppe Meazza",
+  "alias": [
+   "Meazza"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe%20Meazza%201935.jpg?width=500",
+  "sujet_image": "Giuseppe Meazza"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Vincent Kompany",
+  "alias": [
+   "Kompany"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent%20Kompany%20Bayern%20Munich.jpg?width=500",
+  "sujet_image": "Vincent Kompany"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Julian Draxler",
+  "alias": [
+   "Draxler"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2019-07-17%20SG%20Dynamo%20Dresden%20vs.%20Paris%20Saint-Germain%20by%20Sandro%20Halank%E2%80%93107.jpg?width=500",
+  "sujet_image": "Julian Draxler"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Dejan Lovren",
+  "alias": [
+   "Lovren"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lovren%20in%20Zenit%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Dejan Lovren"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Takumi Minamino",
+  "alias": [
+   "Minamino"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Minamino%20asse%20asm%202425.png?width=500",
+  "sujet_image": "Takumi Minamino"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Bruno Fernandes",
+  "alias": [
+   "Fernandes"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruno%20Fernandes%20USMNT%20v%20Portugal%20Mar%2031%202026-27%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Bruno Fernandes"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Jamie Vardy",
+  "alias": [
+   "Vardy"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jamie%20Vardy%202018.jpg?width=500",
+  "sujet_image": "Jamie Vardy"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Jordan Pickford",
+  "alias": [
+   "Pickford"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jordan%20Pickford%20England%20v%20Ghana%2023%20June%202026-049.jpg?width=500",
+  "sujet_image": "Jordan Pickford"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Ole Gunnar Solskjær",
+  "alias": [
+   "Solskjær",
+   "Ole Solskjær"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ole%20Gunnar%20Solskjaer%20Trondheim2011-1%20crop.jpg?width=500",
+  "sujet_image": "Ole Gunnar Solskjær"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Alan Dzagoïev",
+  "alias": [
+   "Dzagoïev"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CSKA-RM18%20%2814%29.jpg?width=500",
+  "sujet_image": "Alan Dzagoïev"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Ilkay Gündogan",
+  "alias": [
+   "Gündogan"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20180602%20FIFA%20Friendly%20Match%20Austria%20vs.%20Germany%20%C4%B0lkay%20G%C3%BCndo%C4%9Fan%20850%200728.jpg?width=500",
+  "sujet_image": "Ilkay Gündogan"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Igor Akinfeïev",
+  "alias": [
+   "Akinfeïev"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Igor%20Akinfeev%20Russia.jpg?width=500",
+  "sujet_image": "Igor Akinfeïev"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Takashi Inui",
+  "alias": [
+   "Inui"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Takashi%20Inui%20IAA%20September%202013.JPG?width=500",
+  "sujet_image": "Takashi Inui"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Francisco Román Alarcón",
+  "alias": [
+   "Alarcón",
+   "Francisco Alarcón",
+   "Isco"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Liver-RM%20%285%29%20%28cropped%202%29.jpg?width=500",
+  "sujet_image": "Francisco Román Alarcón"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Oleg Blokhine",
+  "alias": [
+   "Blokhine"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oleg%20Blokhin2013.jpg?width=500",
+  "sujet_image": "Oleg Blokhine"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Antonio Rüdiger",
+  "alias": [
+   "Rüdiger"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Antonio%20Rudiger%20Ecuador%20v%20Germany%2025%20June%202026-055%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Antonio Rüdiger"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Luke Shaw",
+  "alias": [
+   "Shaw"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luke%20Shaw%2C%20Manchester%20United%20v%20Newcastle%20United%2C%2011%20September%202021%20%2844%29%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Luke Shaw"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Davor Šuker",
+  "alias": [
+   "Šuker"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Football%20against%20poverty%202014%20-%20Davor%20%C5%A0uker%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Davor Šuker"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Gheorghe Hagi",
+  "alias": [
+   "Hagi"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lansarea%20candidaturii%20Gabrielei%20Szabo%20pentru%20Camera%20Deputatilor%2C%20Voluntari%20-%2004.05%20%2848%29%20%2814270956179%29%20%28cropped%29.jpg?width=500",
+  "sujet_image": "Gheorghe Hagi"
+ },
+ {
+  "question": "Quel joueur de football est-ce ?",
+  "reponse": "Dirk Kuyt",
+  "alias": [
+   "Kuyt"
+  ],
+  "categorie": "football",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dirk%20Kuyt%20Fenerbah%C3%A7e%2020260805%20%281%29%20%28cropped%29.JPG?width=500",
+  "sujet_image": "Dirk Kuyt"
+ }
+]
