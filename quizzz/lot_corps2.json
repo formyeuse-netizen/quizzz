@@ -1,0 +1,96 @@
+[
+ {
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "rein",
+  "alias": [],
+  "categorie": "corps",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gray1120-kidneys.png?width=500",
+  "sujet_image": "rein"
+ },
+ {
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "intestin grêle",
+  "alias": [
+   "intestin"
+  ],
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tractus_intestinalis_intestinum_tenue.svg?width=500",
+  "sujet_image": "intestin grêle"
+ },
+ {
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "gros intestin",
+  "alias": [
+   "côlon",
+   "colon",
+   "intestin"
+  ],
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tractus_intestinalis_intestinum_crassum.svg?width=500",
+  "sujet_image": "gros intestin"
+ },
+ {
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "œsophage",
+  "alias": [
+   "oesophage"
+  ],
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tractus_intestinalis_esophagus.svg?width=500",
+  "sujet_image": "œsophage"
+ },
+ {
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "dent",
+  "alias": [],
+  "categorie": "corps",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lower_wisdom_tooth.jpg?width=500",
+  "sujet_image": "dent"
+ },
+ {
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "fémur",
+  "alias": [],
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Femur_-_anterior_view2.png?width=500",
+  "sujet_image": "fémur"
+ },
+ {
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "bassin",
+  "alias": [
+   "pelvis"
+  ],
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sobo_1909_211.png?width=500",
+  "sujet_image": "bassin"
+ },
+ {
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "cage thoracique",
+  "alias": [
+   "côtes",
+   "thorax"
+  ],
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gray112.png?width=500",
+  "sujet_image": "cage thoracique"
+ },
+ {
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "rotule",
+  "alias": [],
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Patella_post.jpg?width=500",
+  "sujet_image": "rotule"
+ }
+]

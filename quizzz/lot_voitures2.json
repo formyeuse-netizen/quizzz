@@ -1,0 +1,350 @@
+[
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "ford mustang",
+  "alias": [
+   "mustang"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1965_Ford_Mustang_2D_Hardtop_Front.jpg?width=500",
+  "sujet_image": "ford mustang"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "porsche 911",
+  "alias": [
+   "911"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Porsche-911S-Targa-Classic-AVD-byRundvald.jpg?width=500",
+  "sujet_image": "porsche 911"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "jaguar type e",
+  "alias": [
+   "jaguar e-type",
+   "type e"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nationale_oldtimerdag_Zandvoort_2010%2C_1966_JAGUAR_E_TYPE_SERIE_1%2C_DE-79-04_pic2.JPG?width=500",
+  "sujet_image": "jaguar type e"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "camaro",
+  "alias": [
+   "chevrolet camaro"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1968ChevroletCamaroZ28.png?width=500",
+  "sujet_image": "camaro"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "dodge challenger",
+  "alias": [
+   "challenger"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dodge_Challenger_Texas_State_Fair_crop.jpg?width=500",
+  "sujet_image": "dodge challenger"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "combi",
+  "alias": [
+   "volkswagen combi",
+   "vw combi",
+   "combi volkswagen"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Combi-vertblanc-avg-byRundvald.jpg?width=500",
+  "sujet_image": "combi"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "golf",
+  "alias": [
+   "volkswagen golf",
+   "vw golf"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Volkswagen_Golf_1_LX_1983.jpg?width=500",
+  "sujet_image": "golf"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "300 sl",
+  "alias": [
+   "mercedes 300 sl",
+   "300sl"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1955_Mercedes-Benz_300SL_Gullwing_Coupe_34_right.jpg?width=500",
+  "sujet_image": "300 sl"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "aston martin db5",
+  "alias": [
+   "db5"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paris_-_RM_Sotheby%E2%80%99s_2016_-_Aston_Martin_DB5_-_1963_-_002.jpg?width=500",
+  "sujet_image": "aston martin db5"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "lotus esprit",
+  "alias": [
+   "esprit"
+  ],
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/London_Motor_Museum_-_38504511082.jpg?width=500",
+  "sujet_image": "lotus esprit"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "mclaren f1",
+  "alias": [],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg?width=500",
+  "sujet_image": "mclaren f1"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "alpine a110",
+  "alias": [
+   "a110"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alpine-A110-Berlinette-avant.jpg?width=500",
+  "sujet_image": "alpine a110"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "gt40",
+  "alias": [
+   "ford gt40"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Henry_Ford_Museum_July_2013_1_%281968_Ford_Mark_I%29.jpg?width=500",
+  "sujet_image": "gt40"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "shelby cobra",
+  "alias": [
+   "ac cobra",
+   "cobra"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shelby_AC_Cobra%2C_CSX2000.JPG?width=500",
+  "sujet_image": "shelby cobra"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "defender",
+  "alias": [
+   "land rover defender"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/LandRoverDefender.JPG?width=500",
+  "sujet_image": "defender"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "jeep wrangler",
+  "alias": [
+   "wrangler"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/JeepWrangler1.JPG?width=500",
+  "sujet_image": "jeep wrangler"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "hummer",
+  "alias": [
+   "hummer h1",
+   "h1"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummer_H1_Alpha_Wagon.jpg?width=500",
+  "sujet_image": "hummer"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "nissan gt-r",
+  "alias": [
+   "gtr",
+   "gt-r"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nissan_GTR_Nismo_01.jpg?width=500",
+  "sujet_image": "nissan gt-r"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "mazda mx-5",
+  "alias": [
+   "mx-5",
+   "miata"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/MX-5_RF_BMS_2026.jpg?width=500",
+  "sujet_image": "mazda mx-5"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "audi quattro",
+  "alias": [
+   "quattro"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Audi_quattro_IAA.jpg?width=500",
+  "sujet_image": "audi quattro"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "testarossa",
+  "alias": [
+   "ferrari testarossa"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ferrari_Testarossa_%2814686650099%29.jpg?width=500",
+  "sujet_image": "testarossa"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "ferrari 458",
+  "alias": [
+   "458"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/0_458_Italia.jpg?width=500",
+  "sujet_image": "ferrari 458"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "gallardo",
+  "alias": [
+   "lamborghini gallardo"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yellow_Lamborghini_Gallardo.jpg?width=500",
+  "sujet_image": "gallardo"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "clio",
+  "alias": [
+   "renault clio"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Clio_fase_1.jpg?width=500",
+  "sujet_image": "clio"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "twingo",
+  "alias": [
+   "renault twingo"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1997_Renault_Twingo_1.15_%281%29.jpg?width=500",
+  "sujet_image": "twingo"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "peugeot 208",
+  "alias": [
+   "208"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Peugeot_208_5door_facelift.jpg?width=500",
+  "sujet_image": "peugeot 208"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "fiat panda",
+  "alias": [
+   "panda"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fiat_Panda_front_20071002.jpg?width=500",
+  "sujet_image": "fiat panda"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "tesla model s",
+  "alias": [
+   "model s"
+  ],
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tesla_Model_S_%28Facelift_ab_04-2016%29_trimmed.jpg?width=500",
+  "sujet_image": "tesla model s"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "rolls-royce phantom",
+  "alias": [
+   "phantom"
+  ],
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rolls-Royce_Phantom_front_20080225.jpg?width=500",
+  "sujet_image": "rolls-royce phantom"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "trabant",
+  "alias": [
+   "trabant 601"
+  ],
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Trabant_601_Mulhouse_FRA_001.JPG?width=500",
+  "sujet_image": "trabant"
+ },
+ {
+  "question": "Quel est ce modèle de voiture ?",
+  "reponse": "lada niva",
+  "alias": [
+   "niva"
+  ],
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C_Hungexpo%2C_AMTS_2017%2C_51.jpg?width=500",
+  "sujet_image": "lada niva"
+ }
+]
