@@ -1,0 +1,535 @@
+[
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Frieren",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/rBOnrVlck7BIlGeWVlzYiZeg4l2.jpg",
+  "sujet_image": "Frieren"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "The Chosen",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/3siv3RaQrdr2tQiv9jHq71sLlzo.jpg",
+  "sujet_image": "The Chosen"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Reply 1988",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/wgmikRStgBbrzjxFVe5rhFlpL2R.jpg",
+  "sujet_image": "Reply 1988"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "One Piece",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg",
+  "sujet_image": "One Piece"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Arcane",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/5cvnxEHT3e39DvT6ARw4GNCFrB0.jpg",
+  "sujet_image": "Arcane"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "The Pitt",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/z3BkMbCy5ajZPMyKEUwsPHuz2cV.jpg",
+  "sujet_image": "The Pitt"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Fullmetal Alchemist : Brotherhood",
+  "alias": [
+   "Fullmetal Alchemist"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/2UG177tWHy7xRmMKWJHB7nAUmKd.jpg",
+  "sujet_image": "Fullmetal Alchemist : Brotherhood"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "X-Men '97",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/jIyEmnBrZtl6SEWyBoMO2hZnzMa.jpg",
+  "sujet_image": "X-Men '97"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "L'Attaque des Titans",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/rqbCbjB19amtOtFQbb3K2lgm2zv.jpg",
+  "sujet_image": "L'Attaque des Titans"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Solo Leveling",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/xMNH87maNLt9n2bMDYeI6db5VFm.jpg",
+  "sujet_image": "Solo Leveling"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Hajime no Ippo : The Fighting",
+  "alias": [
+   "Hajime no Ippo"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/uvCkSZwCTKnBtBOvDpcOvQA6xBg.jpg",
+  "sujet_image": "Hajime no Ippo : The Fighting"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Slam Dunk",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/dEANXnVRmFkSD8jcJlZ0oy8EnB1.jpg",
+  "sujet_image": "Slam Dunk"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Hunter x Hunter",
+  "alias": [
+   "HUNTER×HUNTER"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/bFKKyCI89Xq98Gul8cGox8K3sZa.jpg",
+  "sujet_image": "Hunter x Hunter"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Anne with an E",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/ywQtHG17LZhAFZyZtBflhtFMtJ7.jpg",
+  "sujet_image": "Anne with an E"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Demon Slayer : Kimetsu no Yaiba",
+  "alias": [
+   "Demon Slayer"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/3GQKYh6Trm8pxd2AypovoYQf4Ay.jpg",
+  "sujet_image": "Demon Slayer : Kimetsu no Yaiba"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Regular Show",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/bhF63Jd90gRYyTHd4y5GCGA2vX6.jpg",
+  "sujet_image": "Regular Show"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Les Carnets de l'apothicaire",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/gffVOVZ2Y9cmVIZ26Gt9ByMGCYH.jpg",
+  "sujet_image": "Les Carnets de l'apothicaire"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "The Spectacular Spider-Man",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/fypGcrQCyb9vQ7L8AM6PHCjQSBC.jpg",
+  "sujet_image": "The Spectacular Spider-Man"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "INVINCIBLE",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/9qrroces8C6R9aKr08hACNPVXdZ.jpg",
+  "sujet_image": "INVINCIBLE"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Kamisama Kiss",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/cttisz5q4LHwyRYlIj9S7oQa27v.jpg",
+  "sujet_image": "Kamisama Kiss"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Lovely Runner",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/vbkpl0ps4s5tMTUnC7SFXNzWmVr.jpg",
+  "sujet_image": "Lovely Runner"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Ranma ½",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/dI2O0d5Dkk8tpuTvCkUKQw3LNMv.jpg",
+  "sujet_image": "Ranma ½"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Death Note",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/z8IPicmEKXUO4I2UDdMEqw7RqOE.jpg",
+  "sujet_image": "Death Note"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Goblin",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/smSbK5cd8T9XHcxEUcems23BDEF.jpg",
+  "sujet_image": "Goblin"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Sakura, chasseuse de cartes",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/w6a3S1E5p3UfFcP3jkieXlAY5mz.jpg",
+  "sujet_image": "Sakura, chasseuse de cartes"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Amphibia",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/jSTglzkXYPMOI6sNdXGqGM02AP2.jpg",
+  "sujet_image": "Amphibia"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Scissor Seven",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/80AhZSbY4eYe7HZnmkqX18ZcAFj.jpg",
+  "sujet_image": "Scissor Seven"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "My Hero Academia",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/ol0H2DGp4ifBHA4JDlCpwJWxnY2.jpg",
+  "sujet_image": "My Hero Academia"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "The Originals",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/2OAoGOvysScieVhIazrWTXj2ESp.jpg",
+  "sujet_image": "The Originals"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Jujutsu Kaisen",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/qpin8cASXEVtwhzNsprHYFiOAGk.jpg",
+  "sujet_image": "Jujutsu Kaisen"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Bluey",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg",
+  "sujet_image": "Bluey"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Your Lie in April",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/x6jWDL4H9TaBLGEvyej0qKiirBU.jpg",
+  "sujet_image": "Your Lie in April"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "InuYasha",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/mVE1ULmLaYhCkBQPt3JC5xZC6T6.jpg",
+  "sujet_image": "InuYasha"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Robotech",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/aEvoRR2lcesBoKJSSqDqsppQrKJ.jpg",
+  "sujet_image": "Robotech"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Heartstopper",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/8cpXau1LjYMBjiaHUS75JmlgGsU.jpg",
+  "sujet_image": "Heartstopper"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Banana Fish",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/kzxoIVHMSwOq7Pry11vSq4ujLwz.jpg",
+  "sujet_image": "Banana Fish"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Digimon : Tamers",
+  "alias": [
+   "Digimon"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/rRoqRhFoUGUoCXSdxDjplML2SSK.jpg",
+  "sujet_image": "Digimon : Tamers"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Neon Genesis Evangelion",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/awR8ZpAmieF0Pnc1AXxcCbEUjug.jpg",
+  "sujet_image": "Neon Genesis Evangelion"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "JoJo's Bizarre Adventure",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/5mUYDoFjDlPmDvnUWSknhYjGBBh.jpg",
+  "sujet_image": "JoJo's Bizarre Adventure"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Hazbin Hotel",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/9K6QtLqyocVHgIZe4yqCIl1q2ZR.jpg",
+  "sujet_image": "Hazbin Hotel"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Konosuba : Sois béni monde merveilleux !",
+  "alias": [
+   "Konosuba"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/rvZJxD36tKoglL8fXoMMWKGQfM.jpg",
+  "sujet_image": "Konosuba : Sois béni monde merveilleux !"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Dr. STONE",
+  "alias": [
+   "Dr.STONE"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/lN13BPAEnc5iXmoxxBQHOZ1ScfZ.jpg",
+  "sujet_image": "Dr. STONE"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Kaguya-sama : Love is War",
+  "alias": [
+   "Kaguya-sama"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/dJ8yrSokdTMnhKJw06MllSfCegb.jpg",
+  "sujet_image": "Kaguya-sama : Love is War"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "The Rookie : Le Flic de Los Angeles",
+  "alias": [
+   "The Rookie"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/6iNWfGVCEfASDdlNb05TP5nG0ll.jpg",
+  "sujet_image": "The Rookie : Le Flic de Los Angeles"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Reacher",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/pF0qkRsrHkdYadPWY9AMeFZfcwk.jpg",
+  "sujet_image": "Reacher"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Mentalist",
+  "alias": [
+   "The Mentalist"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/q3pCsNvJ7CmdJUz2sJEEUY3pOPC.jpg",
+  "sujet_image": "Mentalist"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Silo",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg",
+  "sujet_image": "Silo"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "New York Unité Spéciale",
+  "alias": [
+   "Law & Order: Special Victims Unit",
+   "Law & Order"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/obtdxPgmfykYwVnvuYXC5f2xKlQ.jpg",
+  "sujet_image": "New York Unité Spéciale"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "The Gentlemen",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/yG1wltFmkX5c5ocACKfpX0tp3SY.jpg",
+  "sujet_image": "The Gentlemen"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Doraemon",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/c2oiRa7V3bQzof4wVGzLXtWJ5QU.jpg",
+  "sujet_image": "Doraemon"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "NCIS : Enquêtes Spéciales",
+  "alias": [
+   "NCIS"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/c1aBrG5s5xFa6Tbnihu2Hhj4t2q.jpg",
+  "sujet_image": "NCIS : Enquêtes Spéciales"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Good Doctor",
+  "alias": [
+   "The Good Doctor"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/f3cin9kOz4nOrlYEMxGFQhv4bdN.jpg",
+  "sujet_image": "Good Doctor"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Les Experts",
+  "alias": [
+   "CSI: Crime Scene Investigation"
+  ],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/cvlLBcQWpO9X21jDHhgPJnE2aVq.jpg",
+  "sujet_image": "Les Experts"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Doctor Who",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/vcFW09U4834DyFOeRZpsx9x1D3S.jpg",
+  "sujet_image": "Doctor Who"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "American Dad!",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/iixxhk3ycXmFqBn616pAsC3lu53.jpg",
+  "sujet_image": "American Dad!"
+ },
+ {
+  "question": "Quelle est cette série ? (image)",
+  "reponse": "Shameless",
+  "alias": [],
+  "categorie": "series",
+  "difficulte": "moyen",
+  "url_image": "https://image.tmdb.org/t/p/w780/5s9XHTB9SLPdg3mNU6BlSLnZ9Qq.jpg",
+  "sujet_image": "Shameless"
+ }
+]
