@@ -56,6 +56,20 @@ def points_pour(secondes):
     return max(1, round(10 - 9 * part))
 
 
+def indice_de(reponse):
+    """Masque la reponse en revelant seulement la 1re lettre et la longueur.
+    Ex. "The Dark Knight" -> "T•• •••• ••••••" (nb de mots + longueurs visibles)."""
+    out = []
+    premiere = True
+    for ch in reponse:
+        if ch.isalnum():
+            out.append(ch.upper() if premiere else "•")
+            premiere = False
+        else:
+            out.append(ch)
+    return "".join(out)
+
+
 # --- Acces aux questions ---------------------------------------------------
 
 def piocher(categories, difficultes, deja_posees):
@@ -114,6 +128,8 @@ class Salon:
         self.deja_posees = []
         self.numero = 0
         self.boucle = None
+        self.indice_envoye = False
+        self.stats = None
 
     # -- joueurs --
 
@@ -158,6 +174,8 @@ class Salon:
     # -- partie --
 
     async def jouer(self):
+        self.stats = {"rapide_pseudo": None, "rapide_temps": None,
+                      "firsts": {}, "colles": 0}
         try:
             while self.etat != "fini":
                 question = piocher(self.categories, self.difficultes,
@@ -178,6 +196,7 @@ class Salon:
                 self.question = question
                 self.deja_posees.append(question["id"])
                 self.premier = None
+                self.indice_envoye = False
                 self.debut = time.time()
                 self.fin_prevue = self.debut + DUREE_MANCHE
                 self.etat = "manche"
@@ -194,11 +213,23 @@ class Salon:
                     "image": question.get("image", ""),
                 })
 
+                mi_temps = self.debut + DUREE_MANCHE / 2
                 while time.time() < self.fin_prevue:
                     presents = self.actifs()
                     if presents and all(j.get("trouve") for j in presents):
                         break
+                    # Indice a mi-temps si personne n'a encore trouve.
+                    if (not self.indice_envoye and self.premier is None
+                            and time.time() >= mi_temps):
+                        self.indice_envoye = True
+                        await self.diffuser({
+                            "type": "indice",
+                            "indice": indice_de(question["reponse"]),
+                        })
                     await asyncio.sleep(0.1)
+
+                if self.premier is None:
+                    self.stats["colles"] += 1
 
                 self.etat = "pause"
                 await self.diffuser({
@@ -214,6 +245,7 @@ class Salon:
                     await self.diffuser({
                         "type": "fin_partie",
                         "joueurs": self.liste_joueurs(),
+                        "stats": self.bilan_stats(),
                     })
                     return
 
@@ -224,6 +256,18 @@ class Salon:
             await self.diffuser({"type": "erreur", "message": str(e)})
             self.etat = "salon"
             await self.diffuser_etat()
+
+    def bilan_stats(self):
+        s = self.stats or {}
+        firsts = s.get("firsts") or {}
+        roi = max(firsts.items(), key=lambda x: x[1]) if firsts else None
+        return {
+            "plus_rapide": ({"pseudo": s["rapide_pseudo"],
+                             "temps": round(s["rapide_temps"], 1)}
+                            if s.get("rapide_pseudo") else None),
+            "roi_premier": ({"pseudo": roi[0], "n": roi[1]} if roi else None),
+            "colles": s.get("colles", 0),
+        }
 
     async def traiter_reponse(self, jeton, texte):
         if self.etat != "manche" or not self.question:
@@ -258,6 +302,16 @@ class Salon:
 
         joueur["score"] += gagnes
         joueur["trouve"] = True
+
+        # Stats de la partie (podium + faits rigolos).
+        if self.stats is not None:
+            if (self.stats["rapide_temps"] is None
+                    or ecoule < self.stats["rapide_temps"]):
+                self.stats["rapide_temps"] = ecoule
+                self.stats["rapide_pseudo"] = joueur["pseudo"]
+            if premier:
+                self.stats["firsts"][joueur["pseudo"]] = (
+                    self.stats["firsts"].get(joueur["pseudo"], 0) + 1)
 
         # Bonne reponse : on l'annonce dans le fil SANS reveler le mot.
         await self.diffuser({

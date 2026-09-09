@@ -166,6 +166,28 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 .erreur{background:rgba(255,107,107,.14); color:var(--rate); padding:13px 16px;
   border-radius:13px; margin-bottom:14px; font-size:14px; display:none}
 
+/* --- podium anime --- */
+.podium{display:flex; align-items:flex-end; justify-content:center; gap:8px; margin:18px 0 22px}
+.marche{flex:1; max-width:130px; display:flex; flex-direction:column; align-items:center;
+  animation:monte .5s cubic-bezier(.2,.7,.3,1) both}
+.marche.p1{animation-delay:.35s} .marche.p2{animation-delay:.12s} .marche.p3{animation-delay:.55s}
+@keyframes monte{from{opacity:0; transform:translateY(34px)}to{opacity:1; transform:none}}
+.marche .tete{font-weight:600; font-size:14px; text-align:center; margin-bottom:6px;
+  max-width:100%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.marche .socle{width:100%; border-radius:13px 13px 0 0; background:var(--surface-haut);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px; padding:10px 4px}
+.marche .medaille{font-size:26px; line-height:1}
+.marche .sc{font-family:var(--wordmark); font-size:30px; letter-spacing:.03em; color:var(--signal)}
+.marche.p1 .socle{height:150px; background:linear-gradient(180deg,var(--signal),#B34C00)}
+.marche.p1 .sc{color:#140A00}
+.marche.p2 .socle{height:112px}
+.marche.p3 .socle{height:82px}
+.statcard{display:flex; align-items:center; gap:13px; background:var(--surface);
+  border-radius:13px; padding:12px 16px; margin-bottom:8px; font-size:14px; color:var(--doux)}
+.statcard .emo{font-size:24px; line-height:1}
+.statcard b{color:var(--clair); font-weight:600}
+.indice-mot{letter-spacing:.18em; font-family:var(--wordmark); font-size:22px; color:var(--signal)}
+
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 </style>
 </head>
@@ -261,7 +283,8 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 
   <!-- FIN -->
   <div class="ecran" id="ec-fin">
-    <h1 id="v-gagnant"></h1>
+    <div class="podium" id="v-podium"></div>
+    <div id="v-stats" style="margin-bottom:18px"></div>
     <p class="sous">Classement final</p>
     <div id="v-classement"></div>
     <button id="b-rejouer">Rejouer</button>
@@ -410,6 +433,13 @@ function recevoir(m){
     }
   }
 
+  if (m.type === "indice"){
+    const f = document.createElement("div");
+    f.className = "flash";
+    f.innerHTML = `Indice : <span class="indice-mot">${m.indice}</span>`;
+    $("#v-flash").prepend(f);
+  }
+
   if (m.type === "fin_manche"){
     clearInterval(tickeur);
     $("#v-reponse").textContent = m.reponse;
@@ -419,12 +449,32 @@ function recevoir(m){
 
   if (m.type === "fin_partie"){
     clearInterval(tickeur);
-    const g = m.joueurs[0];
-    $("#v-gagnant").innerHTML = `<span>${g.pseudo}</span><br>gagne`;
-    $("#v-classement").innerHTML = m.joueurs.map(ligneJoueur).join("");
+    const j = m.joueurs;
+    // Podium : 2e a gauche, 1er au milieu, 3e a droite.
+    const ordre = [j[1], j[0], j[2]];
+    const cls = ["p2","p1","p3"], med = ["🥈","🥇","🥉"];
+    $("#v-podium").innerHTML = ordre.map((p,i) => p ?
+      `<div class="marche ${cls[i]}"><div class="tete">${p.pseudo}</div>
+        <div class="socle"><div class="medaille">${med[i]}</div>
+        <div class="sc">${p.score}</div></div></div>` : "").join("");
+    // Stats rigolotes.
+    let s = "";
+    const st = m.stats || {};
+    if (st.plus_rapide) s += statcard("⚡","Réponse la plus rapide",
+      `${st.plus_rapide.pseudo} en ${st.plus_rapide.temps}s`);
+    if (st.roi_premier) s += statcard("🥇","Le plus souvent premier",
+      `${st.roi_premier.pseudo} · ${st.roi_premier.n}×`);
+    if (st.colles) s += statcard("🙈","Questions où personne n'a trouvé", `${st.colles}`);
+    $("#v-stats").innerHTML = s;
+    $("#v-classement").innerHTML = j.map(ligneJoueur).join("");
     $("#b-rejouer").style.display = "block";   // n'importe qui peut relancer
     ecran("fin");
   }
+}
+
+function statcard(emo, titre, valeur){
+  return `<div class="statcard"><span class="emo">${emo}</span>
+    <div>${titre}<br><b>${valeur}</b></div></div>`;
 }
 
 function ligneJoueur(j, i){
