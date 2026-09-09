@@ -199,6 +199,22 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
   background:var(--surface-haut); color:var(--clair); font-size:20px; line-height:1}
 .param.ro .step{display:none}
 
+/* --- mode equipes --- */
+.eqban{display:flex; gap:10px; margin:4px 0 16px}
+.eqban .eq{flex:1; border-radius:13px; padding:12px 8px; text-align:center}
+.eqban .eq .n{font-size:11px; text-transform:uppercase; letter-spacing:.12em}
+.eqban .eq .s{font-family:var(--wordmark); font-size:38px; line-height:1; letter-spacing:.03em}
+.eqban .eqA{background:rgba(255,90,82,.16); color:#FF5A52}
+.eqban .eqB{background:rgba(74,144,217,.18); color:#4A90D9}
+.eqban .eq.gagne{outline:2px solid currentColor}
+.dot{display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; vertical-align:middle}
+.dotA{background:#FF5A52} .dotB{background:#4A90D9}
+.choix-eq{display:flex; gap:8px}
+.choix-eq button{margin:0}
+.choix-eq .cA{background:#FF5A52; color:#fff}
+.choix-eq .cB{background:#4A90D9; color:#fff}
+.choix-eq button.off{opacity:.4}
+
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 </style>
 </head>
@@ -255,6 +271,11 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
       <div class="jetons" id="v-difs"></div>
     </div>
     <div class="bloc">
+      <label>Mode</label>
+      <div class="jetons"><span class="jeton" id="b-mode-eq">Equipes : off</span></div>
+      <div id="v-equipe-choix" style="display:none; margin-top:12px"></div>
+    </div>
+    <div class="bloc">
       <label>Reglages de la partie</label>
       <div id="v-params"></div>
     </div>
@@ -272,6 +293,7 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
       <span id="v-cat"></span>
       <span id="v-num"></span>
     </div>
+    <div id="v-eq-jeu"></div>
     <div class="compteur">
       <div class="valeur" id="v-pts">10</div>
       <div class="etiquette" id="v-pts-txt">points en jeu</div>
@@ -293,11 +315,13 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
       <div class="quoi">La reponse etait</div>
       <div class="valeur" id="v-reponse"></div>
     </div>
+    <div id="v-eq-pause"></div>
     <div id="v-scores"></div>
   </div>
 
   <!-- FIN -->
   <div class="ecran" id="ec-fin">
+    <div id="v-eq-fin"></div>
     <div class="podium" id="v-podium"></div>
     <div id="v-stats" style="margin-bottom:18px"></div>
     <p class="sous">Classement final</p>
@@ -320,6 +344,20 @@ let ws, jeton, jeSuisHote = false, monPseudo = "";
 let cats = Object.keys(CATS), difs = Object.keys(DIFS);
 let tickeur = null, finManche = 0, dureeManche = 20, figee = false;
 let regl = {duree:20, objectif:100, manches_max:0};
+let equipesOn = false, scoresEqCourant = null;
+
+function banniereEquipes(sc, gagnant){
+  if (!sc) return "";
+  const eq = (k,nom) => `<div class="eq eq${k} ${gagnant===k?"gagne":""}">
+    <div class="n">${nom}</div><div class="s">${sc[k]}</div></div>`;
+  return `<div class="eqban">${eq("A","Rouge")}${eq("B","Bleu")}</div>`;
+}
+function eqDepuisJoueurs(js){
+  if (!equipesOn) return null;
+  const s = {A:0, B:0};
+  js.forEach(j => { if (j.equipe) s[j.equipe] += j.score; });
+  return s;
+}
 
 // Un jeton stable permet de retrouver sa place apres une coupure reseau.
 jeton = localStorage.getItem("jeton");
@@ -373,8 +411,23 @@ function recevoir(m){
     if (m.duree) regl.duree = m.duree;
     if (m.objectif) regl.objectif = m.objectif;
     if (typeof m.manches_max === "number") regl.manches_max = m.manches_max;
+    equipesOn = !!m.equipes;
     dessinerJetons();
     dessinerParams();
+    // Mode equipes : bouton (cliquable par l'hote) + choix d'equipe pour soi.
+    const bm = $("#b-mode-eq");
+    bm.textContent = "Equipes : " + (equipesOn ? "on" : "off");
+    bm.classList.toggle("on", equipesOn);
+    bm.style.opacity = jeSuisHote ? "1" : ".6";
+    const choix = $("#v-equipe-choix");
+    if (equipesOn){
+      const moi2 = m.joueurs.find(j => j.pseudo === monPseudo);
+      const mine = moi2 ? moi2.equipe : null;
+      choix.style.display = "block";
+      choix.innerHTML = `<label>Ton equipe</label><div class="choix-eq">
+        <button class="cA ${mine==='A'?'':'off'}" data-eq="A">Rouge</button>
+        <button class="cB ${mine==='B'?'':'off'}" data-eq="B">Bleu</button></div>`;
+    } else { choix.style.display = "none"; }
     $("#v-joueurs").innerHTML = m.joueurs.map(ligneJoueur).join("");
     $("#b-demarrer").style.display = jeSuisHote ? "block" : "none";
     const finTxt = regl.manches_max
@@ -401,6 +454,8 @@ function recevoir(m){
     $("#v-pts").classList.remove("fige");
     $("#v-barre").classList.remove("fige","urgent");
     $("#v-pts-txt").textContent = "points en jeu";
+    $("#v-eq-jeu").innerHTML = equipesOn
+      ? banniereEquipes(scoresEqCourant || {A:0,B:0}) : "";
     ecran("jeu");
     $("#saisie").focus();
     lancerTick();
@@ -454,6 +509,10 @@ function recevoir(m){
       $("#v-flash").prepend(f);
       if (!figee) finManche = Date.now() + m.fin_dans * 1000;
     }
+    if (equipesOn && m.joueurs){
+      scoresEqCourant = eqDepuisJoueurs(m.joueurs);
+      $("#v-eq-jeu").innerHTML = banniereEquipes(scoresEqCourant);
+    }
   }
 
   if (m.type === "indice"){
@@ -466,6 +525,8 @@ function recevoir(m){
   if (m.type === "fin_manche"){
     clearInterval(tickeur);
     $("#v-reponse").textContent = m.reponse;
+    if (m.scores_equipes) scoresEqCourant = m.scores_equipes;
+    $("#v-eq-pause").innerHTML = banniereEquipes(m.scores_equipes);
     $("#v-scores").innerHTML = m.joueurs.map(ligneJoueur).join("");
     ecran("pause");
   }
@@ -473,6 +534,12 @@ function recevoir(m){
   if (m.type === "fin_partie"){
     clearInterval(tickeur);
     const j = m.joueurs;
+    let gEq = null;
+    if (m.scores_equipes){
+      const s = m.scores_equipes;
+      gEq = s.A === s.B ? null : (s.A > s.B ? "A" : "B");
+    }
+    $("#v-eq-fin").innerHTML = banniereEquipes(m.scores_equipes, gEq);
     // Podium : 2e a gauche, 1er au milieu, 3e a droite.
     const ordre = [j[1], j[0], j[2]];
     const cls = ["p2","p1","p3"], med = ["🥈","🥇","🥉"];
@@ -502,8 +569,9 @@ function statcard(emo, titre, valeur){
 
 function ligneJoueur(j, i){
   const cls = "joueur" + (j.connecte ? "" : " absent") + (j.trouve ? " ok" : "");
+  const dot = j.equipe ? `<span class="dot dot${j.equipe}"></span>` : "";
   return `<div class="${cls}"><span class="rang">${i+1}</span>
-    <span class="nom">${j.pseudo}</span><span class="pts">${j.score}</span></div>`;
+    <span class="nom">${dot}${j.pseudo}</span><span class="pts">${j.score}</span></div>`;
 }
 
 function dessinerJetons(){
@@ -585,6 +653,13 @@ document.addEventListener("click", e => {
   dessinerParams();
   envoyer({type:"reglages", categories:cats, difficultes:difs,
     duree:regl.duree, objectif:regl.objectif, manches_max:regl.manches_max});
+});
+$("#b-mode-eq").onclick = () => {
+  if (jeSuisHote) envoyer({type:"mode_equipes", actif:!equipesOn});
+};
+document.addEventListener("click", e => {
+  const b = e.target.closest(".choix-eq button");
+  if (b) envoyer({type:"choisir_equipe", equipe:b.dataset.eq});
 });
 dessinerJetons();
 </script>

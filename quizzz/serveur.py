@@ -123,6 +123,7 @@ class Salon:
         self.duree = DUREE_MANCHE       # chrono par question (reglable par l'hote)
         self.objectif = OBJECTIF        # score qui met fin a la partie
         self.manches_max = 0            # 0 = illimite (fin au score) ; sinon nb de manches
+        self.equipes = False            # mode 2 equipes (Rouge vs Bleu)
         self.etat = "salon"        # salon | manche | pause | fini
         self.question = None
         self.debut = 0
@@ -140,13 +141,26 @@ class Salon:
         return [
             {"pseudo": j["pseudo"], "score": j["score"],
              "connecte": j["ws"] is not None, "hote": jeton == self.hote,
-             "trouve": j.get("trouve", False)}
+             "trouve": j.get("trouve", False), "equipe": j.get("equipe")}
             for jeton, j in sorted(self.joueurs.items(),
                                    key=lambda x: -x[1]["score"])
         ]
 
     def actifs(self):
         return [j for j in self.joueurs.values() if j["ws"] is not None]
+
+    def equilibrer(self):
+        """Donne une equipe (A/B) a ceux qui n'en ont pas, en equilibrant."""
+        for j in self.joueurs.values():
+            if j.get("equipe") not in ("A", "B"):
+                a = sum(1 for x in self.joueurs.values() if x.get("equipe") == "A")
+                b = sum(1 for x in self.joueurs.values() if x.get("equipe") == "B")
+                j["equipe"] = "A" if a <= b else "B"
+
+    def scores_equipes(self):
+        a = sum(j["score"] for j in self.joueurs.values() if j.get("equipe") == "A")
+        b = sum(j["score"] for j in self.joueurs.values() if j.get("equipe") == "B")
+        return {"A": a, "B": b}
 
     # -- envoi --
 
@@ -174,6 +188,8 @@ class Salon:
             "objectif": self.objectif,
             "duree": self.duree,
             "manches_max": self.manches_max,
+            "equipes": self.equipes,
+            "scores_equipes": self.scores_equipes() if self.equipes else None,
         })
 
     # -- partie --
@@ -241,10 +257,15 @@ class Salon:
                     "type": "fin_manche",
                     "reponse": question["reponse"],
                     "joueurs": self.liste_joueurs(),
+                    "scores_equipes": (self.scores_equipes()
+                                       if self.equipes else None),
                 })
 
-                meilleur = max((j["score"] for j in self.joueurs.values()),
-                               default=0)
+                if self.equipes:
+                    meilleur = max(self.scores_equipes().values(), default=0)
+                else:
+                    meilleur = max((j["score"] for j in self.joueurs.values()),
+                                   default=0)
                 fini_score = meilleur >= self.objectif
                 fini_manches = self.manches_max and self.numero >= self.manches_max
                 if fini_score or fini_manches:
@@ -253,6 +274,8 @@ class Salon:
                         "type": "fin_partie",
                         "joueurs": self.liste_joueurs(),
                         "stats": self.bilan_stats(),
+                        "scores_equipes": (self.scores_equipes()
+                                           if self.equipes else None),
                     })
                     return
 
@@ -398,7 +421,10 @@ async def websocket(ws: WebSocket):
                     salon.joueurs[jeton]["pseudo"] = pseudo
                 else:
                     salon.joueurs[jeton] = {
-                        "pseudo": pseudo, "score": 0, "ws": ws, "trouve": False}
+                        "pseudo": pseudo, "score": 0, "ws": ws,
+                        "trouve": False, "equipe": None}
+                    if salon.equipes:
+                        salon.equilibrer()
                 if salon.hote not in salon.joueurs:
                     salon.hote = jeton
 
@@ -446,6 +472,18 @@ async def websocket(ws: WebSocket):
                     except (TypeError, ValueError):
                         pass
                 await salon.diffuser_etat()
+
+            elif action == "mode_equipes" and jeton == salon.hote:
+                salon.equipes = bool(message.get("actif"))
+                if salon.equipes:
+                    salon.equilibrer()
+                await salon.diffuser_etat()
+
+            elif action == "choisir_equipe":
+                e = message.get("equipe")
+                if e in ("A", "B") and jeton in salon.joueurs:
+                    salon.joueurs[jeton]["equipe"] = e
+                    await salon.diffuser_etat()
 
             elif action == "demarrer":
                 # N'importe quel joueur peut (re)lancer : le gagnant n'est pas
