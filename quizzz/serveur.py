@@ -50,9 +50,9 @@ os.makedirs("images", exist_ok=True)
 app.mount("/images", StaticFiles(directory="images"), name="images")
 
 
-def points_pour(secondes):
+def points_pour(secondes, duree=DUREE_MANCHE):
     """10 points si instantane, 1 point si on repond a la derniere seconde."""
-    part = min(max(secondes / DUREE_MANCHE, 0), 1)
+    part = min(max(secondes / duree, 0), 1)
     return max(1, round(10 - 9 * part))
 
 
@@ -120,6 +120,9 @@ class Salon:
         self.hote = None
         self.categories = list(CATEGORIES)
         self.difficultes = list(DIFFICULTES)
+        self.duree = DUREE_MANCHE       # chrono par question (reglable par l'hote)
+        self.objectif = OBJECTIF        # score qui met fin a la partie
+        self.manches_max = 0            # 0 = illimite (fin au score) ; sinon nb de manches
         self.etat = "salon"        # salon | manche | pause | fini
         self.question = None
         self.debut = 0
@@ -168,7 +171,9 @@ class Salon:
             "joueurs": self.liste_joueurs(),
             "categories": self.categories,
             "difficultes": self.difficultes,
-            "objectif": OBJECTIF,
+            "objectif": self.objectif,
+            "duree": self.duree,
+            "manches_max": self.manches_max,
         })
 
     # -- partie --
@@ -198,7 +203,7 @@ class Salon:
                 self.premier = None
                 self.indice_envoye = False
                 self.debut = time.time()
-                self.fin_prevue = self.debut + DUREE_MANCHE
+                self.fin_prevue = self.debut + self.duree
                 self.etat = "manche"
                 for j in self.joueurs.values():
                     j["trouve"] = False
@@ -209,11 +214,11 @@ class Salon:
                     "question": question["question"],
                     "categorie": question["categorie"],
                     "difficulte": question["difficulte"],
-                    "duree": DUREE_MANCHE,
+                    "duree": self.duree,
                     "image": question.get("image", ""),
                 })
 
-                mi_temps = self.debut + DUREE_MANCHE / 2
+                mi_temps = self.debut + self.duree / 2
                 while time.time() < self.fin_prevue:
                     presents = self.actifs()
                     if presents and all(j.get("trouve") for j in presents):
@@ -240,7 +245,9 @@ class Salon:
 
                 meilleur = max((j["score"] for j in self.joueurs.values()),
                                default=0)
-                if meilleur >= OBJECTIF:
+                fini_score = meilleur >= self.objectif
+                fini_manches = self.manches_max and self.numero >= self.manches_max
+                if fini_score or fini_manches:
                     self.etat = "fini"
                     await self.diffuser({
                         "type": "fin_partie",
@@ -291,14 +298,14 @@ class Salon:
             return
 
         ecoule = time.time() - self.debut
-        gagnes = points_pour(ecoule)
+        gagnes = points_pour(ecoule, self.duree)
         premier = self.premier is None
         if premier:
             self.premier = jeton
             gagnes += BONUS_PREMIER
             # La manche se termine 10 s plus tard, sans depasser la duree prevue.
             self.fin_prevue = min(time.time() + FENETRE_APRES_PREMIER,
-                                  self.debut + DUREE_MANCHE)
+                                  self.debut + self.duree)
 
         joueur["score"] += gagnes
         joueur["trouve"] = True
@@ -423,6 +430,21 @@ async def websocket(ws: WebSocket):
                         if d in DIFFICULTES]
                 salon.categories = cats or list(CATEGORIES)
                 salon.difficultes = difs or list(DIFFICULTES)
+                if "duree" in message:
+                    try:
+                        salon.duree = max(10, min(40, int(message["duree"])))
+                    except (TypeError, ValueError):
+                        pass
+                if "objectif" in message:
+                    try:
+                        salon.objectif = max(20, min(300, int(message["objectif"])))
+                    except (TypeError, ValueError):
+                        pass
+                if "manches_max" in message:
+                    try:
+                        salon.manches_max = max(0, min(50, int(message["manches_max"])))
+                    except (TypeError, ValueError):
+                        pass
                 await salon.diffuser_etat()
 
             elif action == "demarrer":

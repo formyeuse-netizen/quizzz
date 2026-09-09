@@ -188,6 +188,17 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 .statcard b{color:var(--clair); font-weight:600}
 .indice-mot{letter-spacing:.18em; font-family:var(--wordmark); font-size:22px; color:var(--signal)}
 
+/* --- reglages de partie --- */
+.param{display:flex; align-items:center; justify-content:space-between;
+  background:var(--surface); border-radius:12px; padding:10px 14px; margin-bottom:8px}
+.param .lib{color:var(--doux); font-size:14px}
+.param .ctrl{display:flex; align-items:center; gap:10px}
+.param .val{font-family:var(--wordmark); font-size:24px; color:var(--signal);
+  min-width:56px; text-align:center; letter-spacing:.02em}
+.step{width:34px; height:34px; padding:0; margin:0; border-radius:9px;
+  background:var(--surface-haut); color:var(--clair); font-size:20px; line-height:1}
+.param.ro .step{display:none}
+
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 </style>
 </head>
@@ -242,6 +253,10 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
     <div class="bloc">
       <label>Difficulte</label>
       <div class="jetons" id="v-difs"></div>
+    </div>
+    <div class="bloc">
+      <label>Reglages de la partie</label>
+      <div id="v-params"></div>
     </div>
     <div class="bloc">
       <label>Joueurs</label>
@@ -304,6 +319,7 @@ const DIFS = {facile:"Facile", moyen:"Moyen", difficile:"Difficile"};
 let ws, jeton, jeSuisHote = false, monPseudo = "";
 let cats = Object.keys(CATS), difs = Object.keys(DIFS);
 let tickeur = null, finManche = 0, dureeManche = 20, figee = false;
+let regl = {duree:20, objectif:100, manches_max:0};
 
 // Un jeton stable permet de retrouver sa place apres une coupure reseau.
 jeton = localStorage.getItem("jeton");
@@ -354,11 +370,18 @@ function recevoir(m){
     const moi = m.joueurs.find(j => j.pseudo === monPseudo);
     jeSuisHote = moi ? moi.hote : false;
     cats = m.categories; difs = m.difficultes;
+    if (m.duree) regl.duree = m.duree;
+    if (m.objectif) regl.objectif = m.objectif;
+    if (typeof m.manches_max === "number") regl.manches_max = m.manches_max;
     dessinerJetons();
+    dessinerParams();
     $("#v-joueurs").innerHTML = m.joueurs.map(ligneJoueur).join("");
     $("#b-demarrer").style.display = jeSuisHote ? "block" : "none";
+    const finTxt = regl.manches_max
+      ? `Partie en ${regl.manches_max} manches.`
+      : `Premier a ${regl.objectif} points.`;
     $("#v-attente").textContent = jeSuisHote
-      ? `Premier a ${m.objectif} points.`
+      ? finTxt
       : "En attente que l'hote lance la partie.";
     if (m.etat === "salon") ecran("salon");
   }
@@ -490,6 +513,19 @@ function dessinerJetons(){
     `<span class="jeton ${difs.includes(k)?"on":""}" data-d="${k}">${v}</span>`).join("");
 }
 
+function dessinerParams(){
+  const rows = [["duree","Chrono"], ["objectif","Score cible"], ["manches_max","Nb de manches"]];
+  const val = k => (k === "manches_max" && !regl.manches_max) ? "∞"
+    : regl[k] + (k === "duree" ? " s" : "");
+  $("#v-params").innerHTML = rows.map(([k,lib]) =>
+    `<div class="param ${jeSuisHote ? "" : "ro"}"><span class="lib">${lib}</span>
+      <div class="ctrl">
+        <button class="step" data-k="${k}" data-op="-">−</button>
+        <span class="val">${val(k)}</span>
+        <button class="step" data-k="${k}" data-op="+">+</button>
+      </div></div>`).join("");
+}
+
 // Le compteur de points qui fond : c'est lui qui met la pression.
 function lancerTick(){
   clearInterval(tickeur);
@@ -538,6 +574,17 @@ document.addEventListener("click", e => {
   if (i >= 0){ if (liste.length > 1) liste.splice(i,1); } else liste.push(cle);
   dessinerJetons();
   envoyer({type:"reglages", categories:cats, difficultes:difs});
+});
+document.addEventListener("click", e => {
+  const b = e.target.closest(".step");
+  if (!b || !jeSuisHote) return;
+  const k = b.dataset.k, op = b.dataset.op === "+" ? 1 : -1;
+  const cfg = {duree:[5,10,40], objectif:[10,20,300], manches_max:[1,0,50]};
+  const [pas,mn,mx] = cfg[k];
+  regl[k] = Math.max(mn, Math.min(mx, regl[k] + op*pas));
+  dessinerParams();
+  envoyer({type:"reglages", categories:cats, difficultes:difs,
+    duree:regl.duree, objectif:regl.objectif, manches_max:regl.manches_max});
 });
 dessinerJetons();
 </script>
