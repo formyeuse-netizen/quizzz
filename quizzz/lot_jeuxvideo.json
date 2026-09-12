@@ -1,0 +1,453 @@
+[
+ {
+  "question": "Dans quelle série incarne-t-on un plombier moustachu qui saute sur des champignons ?",
+  "reponse": "Mario",
+  "alias": [
+   "Super Mario"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel jeu de blocs colorés qui tombent faut-il aligner pour faire des lignes complètes ?",
+  "reponse": "Tetris",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quelle série vole-t-on des voitures dans une ville ouverte en pleine criminalité ?",
+  "reponse": "GTA",
+  "alias": [
+   "Grand Theft Auto"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel hérisson bleu très rapide est la mascotte de SEGA ?",
+  "reponse": "Sonic",
+  "alias": [
+   "Sonic the Hedgehog"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu attrape-t-on des créatures pour les faire combattre, avec Pikachu ?",
+  "reponse": "Pokémon",
+  "alias": [
+   "Pokemon"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle série de tir militaire à la première personne est abrégée « CoD » ?",
+  "reponse": "Call of Duty",
+  "alias": [
+   "CoD"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu d'horreur surveille-t-on des animatroniques dans une pizzeria la nuit ?",
+  "reponse": "Five Nights at Freddy's",
+  "alias": [
+   "FNAF",
+   "Five Nights at Freddys"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel jeu de simulation de vie permet de créer des personnages et de construire leur maison ?",
+  "reponse": "Les Sims",
+  "alias": [
+   "The Sims",
+   "Sims"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quelle série de course conduit-on Mario et ses amis en kart ?",
+  "reponse": "Mario Kart",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel célèbre jeu de football d'EA Sports portait ce nom jusqu'en 2023 ?",
+  "reponse": "FIFA",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quelle série incarne-t-on un assassin qui revit ses ancêtres via l'Animus ?",
+  "reponse": "Assassin's Creed",
+  "alias": [
+   "Assassins Creed",
+   "AC"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel jeu de combat est célèbre pour ses « Fatalities » sanglantes ?",
+  "reponse": "Mortal Kombat",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quelle série de Nintendo sauve-t-on une princesse en incarnant le héros Link ?",
+  "reponse": "Zelda",
+  "alias": [
+   "The Legend of Zelda"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel jeu de tir de science-fiction met en scène le Master Chief ?",
+  "reponse": "Halo",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu de rôle post-apocalyptique sort-on d'un abri appelé « Vault » ?",
+  "reponse": "Fallout",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel FPS compétitif oppose terroristes et anti-terroristes, abrégé « CS » ?",
+  "reponse": "Counter-Strike",
+  "alias": [
+   "CS",
+   "Counter Strike"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quelle série incarne-t-on l'Agent 47, un tueur à gages chauve ?",
+  "reponse": "Hitman",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel jeu de baston de Nintendo réunit tous ses personnages pour se battre ?",
+  "reponse": "Super Smash Bros",
+  "alias": [
+   "Smash Bros",
+   "Smash",
+   "Super Smash Brothers"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle série de course automobile ultra-réaliste est une exclusivité PlayStation ?",
+  "reponse": "Gran Turismo",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel jeu de course de Microsoft/Xbox est le grand rival de Gran Turismo ?",
+  "reponse": "Forza",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quelle série de stratégie construit-on une civilisation à travers les âges ?",
+  "reponse": "Civilization",
+  "alias": [
+   "Civ",
+   "Sid Meier's Civilization"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel jeu de stratégie en temps réel historique se décline en « Age of... » ?",
+  "reponse": "Age of Empires",
+  "alias": [
+   "AoE"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu d'horreur explore-t-on une ville envahie par un brouillard terrifiant ?",
+  "reponse": "Silent Hill",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle série d'infiltration met en scène le soldat Solid Snake ?",
+  "reponse": "Metal Gear",
+  "alias": [
+   "Metal Gear Solid",
+   "MGS"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel jeu de combat japonais s'affronte la famille Mishima ?",
+  "reponse": "Tekken",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel FPS culte de Valve suit le physicien Gordon Freeman ?",
+  "reponse": "Half-Life",
+  "alias": [
+   "Half Life"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quelle série de RPG en monde ouvert peut-on explorer la région de Skyrim ?",
+  "reponse": "The Elder Scrolls",
+  "alias": [
+   "Elder Scrolls",
+   "Skyrim"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel jeu de tir d'EA est connu pour ses immenses batailles à véhicules ?",
+  "reponse": "Battlefield",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu construit-on et gère-t-on entièrement sa propre ville ?",
+  "reponse": "SimCity",
+  "alias": [
+   "Sim City"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle série de plateforme met en scène un marsupial orange qui casse des caisses ?",
+  "reponse": "Crash Bandicoot",
+  "alias": [
+   "Crash"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quelle série de RPG spatial commande-t-on le Commandant Shepard ?",
+  "reponse": "Mass Effect",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle chasseuse de primes en armure spatiale est l'héroïne de cette série Nintendo ?",
+  "reponse": "Metroid",
+  "alias": [
+   "Samus"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quelle série le démon Dante chasse d'autres démons avec style ?",
+  "reponse": "Devil May Cry",
+  "alias": [
+   "DMC"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle série de RPG japonais a ses monstres dessinés par Akira Toriyama ?",
+  "reponse": "Dragon Quest",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel jeu de plateforme incarne-t-on un grand gorille amateur de bananes ?",
+  "reponse": "Donkey Kong",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle série de western en monde ouvert de Rockstar suit des hors-la-loi ?",
+  "reponse": "Red Dead",
+  "alias": [
+   "Red Dead Redemption",
+   "RDR"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quelle série d'action-aventure incarne-t-on le chasseur de trésors Nathan Drake ?",
+  "reponse": "Uncharted",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle série de tactique au tour par tour de Nintendo mêle stratégie et personnages ?",
+  "reponse": "Fire Emblem",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quelle série de robots bleus tire-t-on avec un canon monté sur le bras ?",
+  "reponse": "Mega Man",
+  "alias": [
+   "Megaman",
+   "Rockman"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle série d'aventure humoristique suit le pirate maladroit Guybrush Threepwood ?",
+  "reponse": "Monkey Island",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quelle série de tir en monde ouvert d'Ubisoft affronte-t-on des méchants charismatiques ?",
+  "reponse": "Far Cry",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel jeu de danse d'Ubisoft fait bouger devant sa télévision ?",
+  "reponse": "Just Dance",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quelle série d'action-RPG combat-on Dracula, souvent avec un fouet ?",
+  "reponse": "Castlevania",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel RPG au tour par tour se déroule dans l'univers de Donjons & Dragons (Baldur's...) ?",
+  "reponse": "Baldur's Gate",
+  "alias": [
+   "Baldurs Gate"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel jeu de plateforme incarne-t-on une boule rose qui aspire ses ennemis ?",
+  "reponse": "Kirby",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle série de tir sur la Seconde Guerre mondiale se nomme « Medal of... » ?",
+  "reponse": "Medal of Honor",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel jeu-fête de Nintendo enchaîne des mini-jeux sur un plateau de société ?",
+  "reponse": "Mario Party",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle série d'enquête judiciaire fait crier « Objection ! » au tribunal ?",
+  "reponse": "Ace Attorney",
+  "alias": [
+   "Phoenix Wright"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quelle série de course d'Ubisoft construit-on des circuits complètement fous ?",
+  "reponse": "Trackmania",
+  "alias": [
+   "Track Mania"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel FPS met en scène B.J. Blazkowicz qui combat les nazis ?",
+  "reponse": "Wolfenstein",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel jeu de plateforme incarne-t-on un héros sans bras ni jambes créé par Ubisoft ?",
+  "reponse": "Rayman",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle série de gestion permet de devenir l'entraîneur d'une équipe de football ?",
+  "reponse": "Football Manager",
+  "alias": [
+   "FM"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu conduit-on d'énormes tracteurs pour cultiver ses champs ?",
+  "reponse": "Farming Simulator",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel jeu de combat de SNK réunit ses héros dans un tournoi, abrégé « KOF » ?",
+  "reponse": "The King of Fighters",
+  "alias": [
+   "KOF",
+   "King of Fighters"
+  ],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quelle série de run-and-gun en pixel art dézingue-t-on avec humour ?",
+  "reponse": "Metal Slug",
+  "alias": [],
+  "categorie": "jeuxvideo",
+  "difficulte": "difficile"
+ }
+]
