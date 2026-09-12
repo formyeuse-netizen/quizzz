@@ -1,0 +1,245 @@
+[
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "mars",
+  "alias": [
+   "mars"
+  ],
+  "categorie": "espace",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mars_Valles_Marineris_EDIT.jpg?width=500",
+  "sujet_image": "Mars (planète)"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "jupiter",
+  "alias": [
+   "jupiter"
+  ],
+  "categorie": "espace",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hubble%E2%80%99s_observation_of_Jupiter_in_2021_%2851688147562%29.jpg?width=500",
+  "sujet_image": "Jupiter (planète)"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "saturne",
+  "alias": [
+   "saturne",
+   "saturn"
+  ],
+  "categorie": "espace",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Saturn_during_Equinox.jpg?width=500",
+  "sujet_image": "Saturne (planète)"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "terre",
+  "alias": [
+   "terre",
+   "earth"
+  ],
+  "categorie": "espace",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Blue_Marble_%28remastered%29.jpg?width=500",
+  "sujet_image": "Terre"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "vénus",
+  "alias": [
+   "vénus",
+   "venus"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/PIA23791-Venus-RealAndEnhancedContrastViews-20200608_%28cropped%29.jpg?width=500",
+  "sujet_image": "Vénus (planète)"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "mercure",
+  "alias": [
+   "mercure",
+   "mercury"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mercury_in_color_-_Prockter07_centered.jpg?width=500",
+  "sujet_image": "Mercure (planète)"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "uranus",
+  "alias": [
+   "uranus"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Uranus2.jpg?width=500",
+  "sujet_image": "Uranus (planète)"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "neptune",
+  "alias": [
+   "neptune"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Neptune_Voyager2_color_calibrated.png?width=500",
+  "sujet_image": "Neptune (planète)"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "soleil",
+  "alias": [
+   "soleil",
+   "sun"
+  ],
+  "categorie": "espace",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Sun_in_white_light.jpg?width=500",
+  "sujet_image": "Soleil"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "lune",
+  "alias": [
+   "lune",
+   "moon"
+  ],
+  "categorie": "espace",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/FullMoon2010.jpg?width=500",
+  "sujet_image": "Lune"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "pluton",
+  "alias": [
+   "pluton",
+   "pluto"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pluto_in_True_Color_-_High-Res.jpg?width=500",
+  "sujet_image": "Pluton (planète naine)"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "station spatiale internationale",
+  "alias": [
+   "station spatiale internationale",
+   "ISS",
+   "international space station",
+   "station spatiale"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_station_pictured_from_the_SpaceX_Crew_Dragon_5.jpg?width=500",
+  "sujet_image": "Station spatiale internationale"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "télescope hubble",
+  "alias": [
+   "télescope hubble",
+   "hubble",
+   "hubble telescope"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/HST-SM4.jpeg?width=500",
+  "sujet_image": "Télescope spatial Hubble"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "galaxie d'andromède",
+  "alias": [
+   "galaxie d'andromède",
+   "andromeda",
+   "andromeda galaxy"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/M31_Galaxie_d_Andromede_Hamois_25_10_2024_Luc_Viatour_annotated.jpg?width=500",
+  "sujet_image": "Galaxie d'Andromède"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "aurore boréale",
+  "alias": [
+   "aurore boréale",
+   "aurora",
+   "northern lights",
+   "aurora borealis"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Northern_Lights_timelapse.gif?width=500",
+  "sujet_image": "Aurore polaire"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "comète",
+  "alias": [
+   "comète",
+   "comet"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Comet-Hale-Bopp-29-03-1997_hires_adj.jpg?width=500",
+  "sujet_image": "Comète"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "astéroïde",
+  "alias": [
+   "astéroïde",
+   "asteroid"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/243_ida.jpg?width=500",
+  "sujet_image": "Astéroïde"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "trou noir",
+  "alias": [
+   "trou noir",
+   "black hole"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Black_hole_-_Messier_87_crop_max_res.jpg?width=500",
+  "sujet_image": "Trou noir"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "nébuleuse",
+  "alias": [
+   "nébuleuse",
+   "nebula"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Orion_Nebula_-_Hubble_2006_mosaic_18000.jpg?width=500",
+  "sujet_image": "Nébuleuse"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "éclipse solaire",
+  "alias": [
+   "éclipse solaire",
+   "solar eclipse",
+   "eclipse"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Solar_eclipse_1999_4.jpg?width=500",
+  "sujet_image": "Éclipse solaire"
+ }
+]

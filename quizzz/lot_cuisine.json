@@ -1,0 +1,530 @@
+[
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "couscous",
+  "alias": [
+   "couscous"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Moroccan_cuscus%2C_from_Casablanca%2C_September_2018.jpg?width=500",
+  "sujet_image": "Couscous"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "sushi",
+  "alias": [
+   "sushi"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nigiri_Sushi_%2826478725732%29.jpg?width=500",
+  "sujet_image": "Sushi"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "pizza",
+  "alias": [
+   "pizza"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pizza_Margherita_stu_spivack.jpg?width=500",
+  "sujet_image": "Pizza"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "tacos",
+  "alias": [
+   "tacos",
+   "taco"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/001_Tacos_de_carnitas%2C_carne_asada_y_al_pastor.jpg?width=500",
+  "sujet_image": "Taco"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "paella",
+  "alias": [
+   "paella"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paella_amb_caragols_a_un_restaurant_de_la_Patacona%2C_Alboraia.jpg?width=500",
+  "sujet_image": "Paella"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "hamburger",
+  "alias": [
+   "hamburger",
+   "burger"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/RedDot_Burger.jpg?width=500",
+  "sujet_image": "Hamburger"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "lasagnes",
+  "alias": [
+   "lasagnes",
+   "lasagna",
+   "lasagne"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lasagne_-_stonesoup.jpg?width=500",
+  "sujet_image": "Lasagnes"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "ramen",
+  "alias": [
+   "ramen"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charsiu_ramen_02.jpg?width=500",
+  "sujet_image": "Rāmen"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "houmous",
+  "alias": [
+   "houmous",
+   "hummus"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Houmous.jpg?width=500",
+  "sujet_image": "Houmous"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "falafel",
+  "alias": [
+   "falafel"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Falafels_2.jpg?width=500",
+  "sujet_image": "Falafel"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "kebab",
+  "alias": [
+   "kebab",
+   "doner"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%B6ner_kebab_slicing.jpg?width=500",
+  "sujet_image": "Döner kebab"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "tajine",
+  "alias": [
+   "tajine",
+   "tagine"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tajine_008.JPG?width=500",
+  "sujet_image": "Tajine"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "baklava",
+  "alias": [
+   "baklava"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baklava%281%29.png?width=500",
+  "sujet_image": "Baklava"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "crêpe",
+  "alias": [
+   "crêpe",
+   "crepe",
+   "pancake"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Crepes_dsc07085.jpg?width=500",
+  "sujet_image": "Crêpe"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "fondue",
+  "alias": [
+   "fondue"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fondue_p1150668.jpg?width=500",
+  "sujet_image": "Fondue savoyarde"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "raclette",
+  "alias": [
+   "raclette"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Raclette_20040817_140816.jpg?width=500",
+  "sujet_image": "Raclette (plat)"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "hot-dog",
+  "alias": [
+   "hot-dog",
+   "hot dog",
+   "hotdog"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hot_dog_allemand.jpg?width=500",
+  "sujet_image": "Hot-dog"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "burrito",
+  "alias": [
+   "burrito"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Basic_burrito.jpg?width=500",
+  "sujet_image": "Burrito"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "guacamole",
+  "alias": [
+   "guacamole"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/El_tango_guacamole.jpg?width=500",
+  "sujet_image": "Guacamole"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "pad thaï",
+  "alias": [
+   "pad thaï",
+   "pad thai"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Phat_Thai_kung_Chang_Khien_street_stall.jpg?width=500",
+  "sujet_image": "Pad thaï"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "dim sum",
+  "alias": [
+   "dim sum"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dimsum_breakfast_in_Hong_Kong.jpg?width=500",
+  "sujet_image": "Dim sum"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "pho",
+  "alias": [
+   "pho"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ph%E1%BB%9F_b%C3%B2%2C_C%E1%BA%A7u_Gi%E1%BA%A5y%2C_H%C3%A0_N%E1%BB%99i.jpg?width=500",
+  "sujet_image": "Phở"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "bibimbap",
+  "alias": [
+   "bibimbap"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean.food-Bibimbap-02.jpg?width=500",
+  "sujet_image": "Bibimbap"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "kimchi",
+  "alias": [
+   "kimchi"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Korean_cuisine-Kimchi-08.jpg?width=500",
+  "sujet_image": "Kimchi"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "tempura",
+  "alias": [
+   "tempura"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tempura_01.jpg?width=500",
+  "sujet_image": "Tempura"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "risotto",
+  "alias": [
+   "risotto"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr_-_cyclonebill_-_Risotto_med_citron_og_gr%C3%B8nne_b%C3%B8nner.jpg?width=500",
+  "sujet_image": "Risotto"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "tiramisu",
+  "alias": [
+   "tiramisu"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tiramisu_-_Raffaele_Diomede.jpg?width=500",
+  "sujet_image": "Tiramisu"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "macaron",
+  "alias": [
+   "macaron"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Macarons%2C_French_made_mini_cakes.JPG?width=500",
+  "sujet_image": "Macaron"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "ceviche",
+  "alias": [
+   "ceviche"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cebiche_de_corvina.JPG?width=500",
+  "sujet_image": "Ceviche"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "empanada",
+  "alias": [
+   "empanada"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Empanada_de_carne_guisada.jpg?width=500",
+  "sujet_image": "Empanada"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "churros",
+  "alias": [
+   "churros",
+   "churro"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Churros_Madrid.jpg?width=500",
+  "sujet_image": "Churro"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "pancake",
+  "alias": [
+   "pancake",
+   "pancakes"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Make_a_pancake.jpg?width=500",
+  "sujet_image": "Pancake"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "bretzel",
+  "alias": [
+   "bretzel",
+   "pretzel"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/BrezelnSalz02_%28cropped%29.JPG?width=500",
+  "sujet_image": "Bretzel"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "quiche",
+  "alias": [
+   "quiche"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/54._Quiche_lorraine.jpg?width=500",
+  "sujet_image": "Quiche lorraine"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "ratatouille",
+  "alias": [
+   "ratatouille"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ratatouille_001.jpg?width=500",
+  "sujet_image": "Ratatouille"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "moussaka",
+  "alias": [
+   "moussaka"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mousakas.jpg?width=500",
+  "sujet_image": "Moussaka"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "poutine",
+  "alias": [
+   "poutine"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Poutine_Qu%C3%A9b%C3%A9coise.jpg?width=500",
+  "sujet_image": "Poutine (cuisine)"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "fish and chips",
+  "alias": [
+   "fish and chips"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fish_and_chips.jpg?width=500",
+  "sujet_image": "Fish and chips"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "samoussa",
+  "alias": [
+   "samoussa",
+   "samosa"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Samosachutney.jpg?width=500",
+  "sujet_image": "Samoussa"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "biryani",
+  "alias": [
+   "biryani"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chicken_Biryani_in_Chennai.jpg?width=500",
+  "sujet_image": "Biryani"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "onigiri",
+  "alias": [
+   "onigiri",
+   "rice ball"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Onigiri_002.jpg?width=500",
+  "sujet_image": "Onigiri"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "chawarma",
+  "alias": [
+   "chawarma",
+   "shawarma"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shawarma_2.jpg?width=500",
+  "sujet_image": "Chawarma"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "donut",
+  "alias": [
+   "donut",
+   "doughnut"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Donut.jpg?width=500",
+  "sujet_image": "Donut"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "croissant",
+  "alias": [
+   "croissant"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Croissant-Petr_Kratochvil.jpg?width=500",
+  "sujet_image": "Croissant"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "rouleau de printemps",
+  "alias": [
+   "rouleau de printemps",
+   "spring roll",
+   "spring rolls"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Spring_Rolls_%283357696061%29.jpg?width=500",
+  "sujet_image": "Rouleau de printemps"
+ },
+ {
+  "question": "Quel plat est-ce ? / What dish is this?",
+  "reponse": "gaufre",
+  "alias": [
+   "gaufre",
+   "waffle"
+  ],
+  "categorie": "cuisine",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Waffles_with_Strawberries.jpg?width=500",
+  "sujet_image": "Gaufre"
+ }
+]

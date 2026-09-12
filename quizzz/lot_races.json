@@ -1,0 +1,474 @@
+[
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "labrador",
+  "alias": [
+   "labrador",
+   "lab"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Labrador_Retriever_snow.jpg?width=500",
+  "sujet_image": "Labrador Retriever"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "golden retriever",
+  "alias": [
+   "golden retriever",
+   "golden"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Golden_retriever_stehfoto.jpg?width=500",
+  "sujet_image": "Golden retriever"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "berger allemand",
+  "alias": [
+   "berger allemand",
+   "german shepherd"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Berger_allemand_en_montagne.jpg?width=500",
+  "sujet_image": "Berger allemand"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "bouledogue français",
+  "alias": [
+   "bouledogue français",
+   "french bulldog"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/A%27vigdors_Ramasseur_Des_Compliments.png?width=500",
+  "sujet_image": "Bouledogue français"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "bulldog anglais",
+  "alias": [
+   "bulldog anglais",
+   "english bulldog",
+   "bulldog"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Racib%C3%B3rz_2007_082.jpg?width=500",
+  "sujet_image": "Bulldog anglais"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "caniche",
+  "alias": [
+   "caniche",
+   "poodle"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Standard_poodle_apricot.jpg?width=500",
+  "sujet_image": "Caniche"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "husky",
+  "alias": [
+   "husky",
+   "siberian husky"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Moscow_et_Owana_de_l%E2%80%99%C3%A9levage_Of_Kolyma_Wolves.jpg?width=500",
+  "sujet_image": "Husky sibérien"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "rottweiler",
+  "alias": [
+   "rottweiler"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Prince%22_%287216225820%29.jpg?width=500",
+  "sujet_image": "Rottweiler"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "teckel",
+  "alias": [
+   "teckel",
+   "dachshund",
+   "sausage dog"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Std_Dachshund_600.jpg?width=500",
+  "sujet_image": "Teckel"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "dalmatien",
+  "alias": [
+   "dalmatien",
+   "dalmatian"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nova-zembla.jpg?width=500",
+  "sujet_image": "Dalmatien"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "dobermann",
+  "alias": [
+   "dobermann",
+   "doberman"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/DobermannSparte5.jpg?width=500",
+  "sujet_image": "Dobermann"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "carlin",
+  "alias": [
+   "carlin",
+   "pug"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carlin_noir.jpg?width=500",
+  "sujet_image": "Carlin"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "border collie",
+  "alias": [
+   "border collie",
+   "collie"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Border_collie_taking_break_at_park.jpg?width=500",
+  "sujet_image": "Border collie"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "cocker",
+  "alias": [
+   "cocker",
+   "cocker spaniel"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%22Bill%22_-_Cocker_spaniel_anglais_1.jpg?width=500",
+  "sujet_image": "Cocker anglais"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "berger australien",
+  "alias": [
+   "berger australien",
+   "australian shepherd",
+   "aussie"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mon_chien_est_parfait.png?width=500",
+  "sujet_image": "Berger australien"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "akita",
+  "alias": [
+   "akita"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Male_Akita_Inu.jpg?width=500",
+  "sujet_image": "Akita inu"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "corgi",
+  "alias": [
+   "corgi"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Welsh_Pembroke_Corgi.jpg?width=500",
+  "sujet_image": "Welsh Corgi Pembroke"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "samoyède",
+  "alias": [
+   "samoyède",
+   "samoyed"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/11.10.2015_Samoyed_%28cropped%29.jpg?width=500",
+  "sujet_image": "Samoyède (chien)"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "terre-neuve",
+  "alias": [
+   "terre-neuve",
+   "newfoundland"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Newfoundland_dog_Smoky.jpg?width=500",
+  "sujet_image": "Terre-neuve (chien)"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "chow-chow",
+  "alias": [
+   "chow-chow",
+   "chow chow",
+   "chow"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chow-chow.JPG?width=500",
+  "sujet_image": "Chow-chow"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "jack russell",
+  "alias": [
+   "jack russell"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Favolosa_Fortuna_Diamante_Violetta_Jack_1.jpg?width=500",
+  "sujet_image": "Jack Russell Terrier"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "yorkshire",
+  "alias": [
+   "yorkshire",
+   "yorkshire terrier",
+   "yorkie"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Filou_DSC01224_ji.jpg?width=500",
+  "sujet_image": "Yorkshire Terrier"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "bichon",
+  "alias": [
+   "bichon",
+   "maltese"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maltese_600.jpg?width=500",
+  "sujet_image": "Bichon maltais"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "siamois",
+  "alias": [
+   "siamois",
+   "siamese"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Siamese_cat_Vaillante.JPG?width=500",
+  "sujet_image": "Chat siamois"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "persan",
+  "alias": [
+   "persan",
+   "persian",
+   "persian cat"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chocolate_Persian.jpg?width=500",
+  "sujet_image": "Persan (chat)"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "maine coon",
+  "alias": [
+   "maine coon"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maine_Coon_silver_tabby_resting_on_a_cat_tree._Photograph_taken_indoors_on_24_March_2019.png?width=500",
+  "sujet_image": "Maine coon"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "sphynx",
+  "alias": [
+   "sphynx"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sphynx_-_cat._img_007.jpg?width=500",
+  "sujet_image": "Sphynx (chat)"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "bengal",
+  "alias": [
+   "bengal"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Best_Stalk.jpg?width=500",
+  "sujet_image": "Bengal (chat)"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "british shorthair",
+  "alias": [
+   "british shorthair"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/British_Shorthair._Female._18_months_old.jpg?width=500",
+  "sujet_image": "British Shorthair"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "chartreux",
+  "alias": [
+   "chartreux"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Keijuhovin_Boromir_Ponteva_%28Porri%29_CHA_male_EX1_CAGPIB.jpg?width=500",
+  "sujet_image": "Chartreux (chat)"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "ragdoll",
+  "alias": [
+   "ragdoll"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ragdoll_from_Gatil_Ragbelas.jpg?width=500",
+  "sujet_image": "Ragdoll"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "scottish fold",
+  "alias": [
+   "scottish fold"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scottish_Fold.jpg?width=500",
+  "sujet_image": "Scottish Fold"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "abyssin",
+  "alias": [
+   "abyssin",
+   "abyssinian"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamee01.jpg?width=500",
+  "sujet_image": "Abyssin (chat)"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "angora",
+  "alias": [
+   "angora",
+   "turkish angora"
+  ],
+  "categorie": "races",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Angora_turc_blanc_2.jpg?width=500",
+  "sujet_image": "Angora turc"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "chihuahua",
+  "alias": [
+   "chihuahua"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chihuahua1_bvdb.jpg?width=500",
+  "sujet_image": "Chihuahua"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "beagle",
+  "alias": [
+   "beagle"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beagle_600.jpg?width=500",
+  "sujet_image": "Beagle"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "boxer",
+  "alias": [
+   "boxer"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boxer_female_brown.jpg?width=500",
+  "sujet_image": "Boxer"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "saint-bernard",
+  "alias": [
+   "saint-bernard",
+   "saint bernard"
+  ],
+  "categorie": "races",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummel_Vedor_vd_Robandahoeve.jpg?width=500",
+  "sujet_image": "Saint-bernard (race de chien)"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "lévrier",
+  "alias": [
+   "lévrier",
+   "greyhound"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/GraceTheGreyhound.jpg?width=500",
+  "sujet_image": "Lévrier"
+ },
+ {
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "shiba inu",
+  "alias": [
+   "shiba inu",
+   "shiba"
+  ],
+  "categorie": "races",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Taka_Shiba.jpg?width=500",
+  "sujet_image": "Shiba"
+ }
+]

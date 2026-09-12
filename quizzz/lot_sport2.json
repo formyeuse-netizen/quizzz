@@ -1,0 +1,425 @@
+[
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "football",
+  "alias": [
+   "football",
+   "soccer"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Football_pictogram.svg?width=500",
+  "sujet_image": "Football"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "basketball",
+  "alias": [
+   "basketball",
+   "basket"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Basketball_pictogram.svg?width=500",
+  "sujet_image": "Basket-ball"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "tennis",
+  "alias": [
+   "tennis"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tennis_pictogram.svg?width=500",
+  "sujet_image": "Tennis"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "rugby",
+  "alias": [
+   "rugby"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Damian_Willemse_trying_to_stop_Ange_Capuozzo_from_scoring_a_try.jpg?width=500",
+  "sujet_image": "Rugby à XV"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "golf",
+  "alias": [
+   "golf"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Golf_pictogram.svg?width=500",
+  "sujet_image": "Golf"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "boxe",
+  "alias": [
+   "boxe",
+   "boxing"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boxing_pictogram.svg?width=500",
+  "sujet_image": "Boxe anglaise"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "natation",
+  "alias": [
+   "natation",
+   "swimming"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Swimming_pictogram.svg?width=500",
+  "sujet_image": "Natation sportive"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "cyclisme",
+  "alias": [
+   "cyclisme",
+   "cycling"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cycling_%28road%29_pictogram.svg?width=500",
+  "sujet_image": "Cyclisme sur route"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "ski",
+  "alias": [
+   "ski",
+   "skiing"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alpine_skiing_pictogram.svg?width=500",
+  "sujet_image": "Ski alpin"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "snowboard",
+  "alias": [
+   "snowboard"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Snowboarding_pictogram.svg?width=500",
+  "sujet_image": "Snowboard"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "surf",
+  "alias": [
+   "surf",
+   "surfing"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2010_mavericks_competition_edit1.jpg?width=500",
+  "sujet_image": "Surf"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "escrime",
+  "alias": [
+   "escrime",
+   "fencing"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fencing_pictogram.svg?width=500",
+  "sujet_image": "Escrime"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "judo",
+  "alias": [
+   "judo"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Uchimata-illustration.jpg?width=500",
+  "sujet_image": "Judo"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "taekwondo",
+  "alias": [
+   "taekwondo"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Milad_Kharchegani_at_the_2016_Summer_Olympics.jpg?width=500",
+  "sujet_image": "Taekwondo"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "gymnastique",
+  "alias": [
+   "gymnastique",
+   "gymnastics"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gymnastics_%28artistic%29_pictogram.svg?width=500",
+  "sujet_image": "Gymnastique artistique"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "haltérophilie",
+  "alias": [
+   "haltérophilie",
+   "weightlifting"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Weightlifting_pictogram.svg?width=500",
+  "sujet_image": "Haltérophilie"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "aviron",
+  "alias": [
+   "aviron",
+   "rowing"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rowing_pictogram.svg?width=500",
+  "sujet_image": "Aviron (sport)"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "équitation",
+  "alias": [
+   "équitation",
+   "horse riding",
+   "equestrian"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/4%C3%A8me_manche_du_championnat_suisse_de_Pony_games_2013_-_25082013_-_Laconnex_51.jpg?width=500",
+  "sujet_image": "Équitation"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "tir à l'arc",
+  "alias": [
+   "tir à l'arc",
+   "archery"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Archery_pictogram.svg?width=500",
+  "sujet_image": "Tir à l'arc"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "badminton",
+  "alias": [
+   "badminton"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Badminton_pictogram.svg?width=500",
+  "sujet_image": "Badminton"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "tennis de table",
+  "alias": [
+   "tennis de table",
+   "table tennis",
+   "ping pong"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Table_tennis_pictogram.svg?width=500",
+  "sujet_image": "Tennis de table"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "handball",
+  "alias": [
+   "handball"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Handball_pictogram.svg?width=500",
+  "sujet_image": "Handball"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "volleyball",
+  "alias": [
+   "volleyball",
+   "volley"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Volleyball_%28indoor%29_pictogram.svg?width=500",
+  "sujet_image": "Volley-ball"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "baseball",
+  "alias": [
+   "baseball"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heyward_lines_into_double_play_%2828356212176%29.jpg?width=500",
+  "sujet_image": "Baseball"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "cricket",
+  "alias": [
+   "cricket"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CricketSCG1.jpg?width=500",
+  "sujet_image": "Cricket"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "hockey sur glace",
+  "alias": [
+   "hockey sur glace",
+   "ice hockey"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ice_hockey_pictogram.svg?width=500",
+  "sujet_image": "Hockey sur glace"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "escalade",
+  "alias": [
+   "escalade",
+   "climbing"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Climbing_pictogram.svg?width=500",
+  "sujet_image": "Escalade"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "skateboard",
+  "alias": [
+   "skateboard",
+   "skateboarding"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tony_Hawk_skating_the_Ann_Arbor_skatepark_at_Veteran%27s_Memorial_Park_%28cropped%29.jpg?width=500",
+  "sujet_image": "Skateboard"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "patinage artistique",
+  "alias": [
+   "patinage artistique",
+   "figure skating"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Figure_skating_pictogram.svg?width=500",
+  "sujet_image": "Patinage artistique"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "plongeon",
+  "alias": [
+   "plongeon",
+   "diving"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Diving_pictogram.svg?width=500",
+  "sujet_image": "Plongeon"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "water-polo",
+  "alias": [
+   "water-polo",
+   "water polo"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Water_polo_pictogram.svg?width=500",
+  "sujet_image": "Water-polo"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "saut à la perche",
+  "alias": [
+   "saut à la perche",
+   "pole vault"
+  ],
+  "categorie": "sport",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pole_Vault_Sequence_3.jpg?width=500",
+  "sujet_image": "Saut à la perche"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "bowling",
+  "alias": [
+   "bowling"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CHPTEUROPE.jpg?width=500",
+  "sujet_image": "Bowling"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "lutte",
+  "alias": [
+   "lutte",
+   "wrestling"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wrestling_at_the_2016_Summer_Olympics%2C_Gazyumov_vs_Andriitsev_6.jpg?width=500",
+  "sujet_image": "Lutte (sport)"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "formule 1",
+  "alias": [
+   "formule 1",
+   "formula 1",
+   "f1"
+  ],
+  "categorie": "sport",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2010_Malaysian_GP_opening_lap.jpg?width=500",
+  "sujet_image": "Formule 1"
+ },
+ {
+  "question": "Quel est ce sport ? / Which sport is this?",
+  "reponse": "marathon",
+  "alias": [
+   "marathon"
+  ],
+  "categorie": "sport",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/BSK_CSOB_MARATON046_%2833791445325%29.jpg?width=500",
+  "sujet_image": "Marathon"
+ }
+]

@@ -1,0 +1,306 @@
+[
+ {
+  "question": "Quelle est l'unité de mesure de la résistance électrique ?",
+  "reponse": "Ohm",
+  "alias": [
+   "ohm"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la longueur dans le système international ?",
+  "reponse": "Mètre",
+  "alias": [
+   "metre",
+   "meter"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la masse dans le système international ?",
+  "reponse": "Kilogramme",
+  "alias": [
+   "kilo",
+   "kilogram",
+   "kg"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la charge électrique ?",
+  "reponse": "Coulomb",
+  "alias": [
+   "coulomb"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la pression dans le système international ?",
+  "reponse": "Pascal",
+  "alias": [
+   "pascal"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on le passage de l'état liquide à l'état gazeux ?",
+  "reponse": "Vaporisation",
+  "alias": [
+   "évaporation",
+   "evaporation",
+   "vaporization",
+   "vaporisation"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on le passage de l'état gazeux à l'état liquide ?",
+  "reponse": "Condensation",
+  "alias": [
+   "liquéfaction",
+   "condensation"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on le passage de l'état solide à l'état liquide ?",
+  "reponse": "Fusion",
+  "alias": [
+   "melting",
+   "fusion"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Comment appelle-t-on le passage de l'état liquide à l'état solide ?",
+  "reponse": "Solidification",
+  "alias": [
+   "solidification",
+   "freezing"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle grandeur physique mesure-t-on en degrés Celsius ?",
+  "reponse": "Température",
+  "alias": [
+   "temperature"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel savant grec a énoncé le principe de la poussée sur un corps plongé dans l'eau ?",
+  "reponse": "Archimède",
+  "alias": [
+   "Archimede",
+   "Archimedes"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle particule du noyau atomique porte une charge positive ?",
+  "reponse": "Proton",
+  "alias": [
+   "proton"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Combien de temps met la lumière du Soleil pour atteindre la Terre, environ ?",
+  "reponse": "8 minutes",
+  "alias": [
+   "huit minutes",
+   "8 min",
+   "eight minutes",
+   "8 minutes"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel appareil sert à mesurer une tension électrique ?",
+  "reponse": "Voltmètre",
+  "alias": [
+   "voltmetre",
+   "voltmeter"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel appareil sert à mesurer l'intensité d'un courant électrique ?",
+  "reponse": "Ampèremètre",
+  "alias": [
+   "amperemetre",
+   "ammeter",
+   "amperemeter"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "L'intensité de quel phénomène mesure-t-on en décibels ?",
+  "reponse": "Son",
+  "alias": [
+   "le son",
+   "bruit",
+   "sound"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "À quelle vitesse le son se propage-t-il dans l'air, en mètres par seconde ?",
+  "reponse": "340",
+  "alias": [
+   "343",
+   "environ 340"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel type d'énergie possède un objet situé en hauteur ?",
+  "reponse": "Énergie potentielle",
+  "alias": [
+   "potentielle",
+   "energie potentielle",
+   "potential energy"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on un matériau qui laisse bien passer l'électricité ?",
+  "reponse": "Conducteur",
+  "alias": [
+   "conductor"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on un matériau qui ne laisse pas passer l'électricité ?",
+  "reponse": "Isolant",
+  "alias": [
+   "insulator"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel phénomène renvoie la lumière lorsqu'elle frappe un miroir ?",
+  "reponse": "Réflexion",
+  "alias": [
+   "reflexion",
+   "reflection"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle grandeur mesure-t-on avec un chronomètre ?",
+  "reponse": "Temps",
+  "alias": [
+   "le temps",
+   "durée",
+   "time"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Comment appelle-t-on l'ensemble des couleurs qui composent la lumière blanche ?",
+  "reponse": "Spectre",
+  "alias": [
+   "spectre lumineux",
+   "spectrum"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la quantité de matière ?",
+  "reponse": "Mole",
+  "alias": [
+   "mole"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel inventeur américain est associé à l'ampoule électrique à incandescence ?",
+  "reponse": "Edison",
+  "alias": [
+   "Thomas Edison"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel physicien anglais a découvert l'électron ?",
+  "reponse": "Thomson",
+  "alias": [
+   "J.J. Thomson",
+   "Joseph Thomson"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la distance parcourue par la lumière en un an ?",
+  "reponse": "Année-lumière",
+  "alias": [
+   "annee-lumiere",
+   "année lumière",
+   "light year",
+   "light-year",
+   "lightyear"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel savant a énoncé le principe : rien ne se perd, rien ne se crée, tout se transforme ?",
+  "reponse": "Lavoisier",
+  "alias": [
+   "Antoine Lavoisier"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle force s'exerce entre deux masses et attire les objets entre eux ?",
+  "reponse": "Gravitation",
+  "alias": [
+   "gravité",
+   "gravite",
+   "attraction",
+   "gravity",
+   "gravitation"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on la déviation de la lumière lorsqu'elle change de milieu ?",
+  "reponse": "Réfraction",
+  "alias": [
+   "refraction"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ }
+]

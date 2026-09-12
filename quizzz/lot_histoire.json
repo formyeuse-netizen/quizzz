@@ -1,0 +1,437 @@
+[
+ {
+  "question": "Qui a principalement rédigé la Déclaration d'indépendance américaine ?",
+  "reponse": "Thomas Jefferson",
+  "alias": [
+   "Jefferson"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel roi d'Angleterre a rompu avec l'Église catholique pour divorcer ?",
+  "reponse": "Henri VIII",
+  "alias": [
+   "Henry VIII",
+   "Henri 8"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle ville japonaise a subi la première bombe atomique en 1945 ?",
+  "reponse": "Hiroshima",
+  "alias": [],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "En quelle année le mur de Berlin est-il tombé ?",
+  "reponse": "1989",
+  "alias": [],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Qui dirigeait l'Union soviétique pendant la Seconde Guerre mondiale ?",
+  "reponse": "Staline",
+  "alias": [
+   "Joseph Staline",
+   "Stalin",
+   "Joseph Stalin"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel empereur a fait de Constantinople la capitale de l'Empire romain ?",
+  "reponse": "Constantin",
+  "alias": [
+   "Constantin Ier",
+   "Constantine",
+   "Constantine I"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment surnomme-t-on le débarquement allié en Normandie du 6 juin 1944 ?",
+  "reponse": "Jour J",
+  "alias": [
+   "D-Day",
+   "débarquement de Normandie",
+   "6 juin 1944",
+   "D Day"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle reine du Royaume-Uni a régné plus de 70 ans jusqu'en 2022 ?",
+  "reponse": "Elizabeth II",
+  "alias": [
+   "Elisabeth II",
+   "Elizabeth 2",
+   "reine Elizabeth",
+   "Queen Elizabeth II",
+   "Queen Elizabeth"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel navigateur portugais a lancé la première expédition à faire le tour du monde ?",
+  "reponse": "Magellan",
+  "alias": [
+   "Fernand de Magellan",
+   "Ferdinand Magellan"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel traité de 1919 a officiellement mis fin à la Première Guerre mondiale ?",
+  "reponse": "Traité de Versailles",
+  "alias": [
+   "Versailles",
+   "Treaty of Versailles"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on la période de répression menée par Robespierre après 1793 ?",
+  "reponse": "la Terreur",
+  "alias": [
+   "Terreur",
+   "the Terror",
+   "Reign of Terror",
+   "Terror"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Qui fut le premier homme envoyé dans l'espace, en 1961 ?",
+  "reponse": "Youri Gagarine",
+  "alias": [
+   "Gagarine",
+   "Gagarin",
+   "Yuri Gagarin"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel pharaon a fait construire la grande pyramide de Gizeh ?",
+  "reponse": "Khéops",
+  "alias": [
+   "Kheops",
+   "Chéops",
+   "Khufu",
+   "Cheops"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis entre 1861 et 1865 ?",
+  "reponse": "Guerre de Sécession",
+  "alias": [
+   "Sécession",
+   "guerre civile américaine",
+   "American Civil War",
+   "Civil War"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel président américain a aboli l'esclavage pendant la guerre de Sécession ?",
+  "reponse": "Abraham Lincoln",
+  "alias": [
+   "Lincoln"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel empire ottoman a atteint son apogée sous Soliman le Magnifique ?",
+  "reponse": "Empire ottoman",
+  "alias": [
+   "Ottomans",
+   "ottoman",
+   "Ottoman Empire"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle bataille navale de 1805 fut la grande victoire de l'amiral Nelson ?",
+  "reponse": "Trafalgar",
+  "alias": [
+   "bataille de Trafalgar",
+   "Battle of Trafalgar"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel général a contribué à unifier l'Italie avec l'expédition des Mille ?",
+  "reponse": "Garibaldi",
+  "alias": [
+   "Giuseppe Garibaldi"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Comment nomme-t-on la révolution qui a renversé le tsar russe en 1917 ?",
+  "reponse": "Révolution russe",
+  "alias": [
+   "révolution d'octobre",
+   "octobre 1917",
+   "révolution bolchevique",
+   "Russian Revolution",
+   "October Revolution"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle civilisation dominait le Pérou avant l'arrivée des Espagnols ?",
+  "reponse": "Incas",
+  "alias": [
+   "Inca",
+   "Empire inca",
+   "Inca Empire"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel conquérant espagnol a renversé l'Empire aztèque ?",
+  "reponse": "Cortés",
+  "alias": [
+   "Cortes",
+   "Hernan Cortes",
+   "Hernán Cortés"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel roi de France a été guillotiné en 1793 ?",
+  "reponse": "Louis XVI",
+  "alias": [
+   "Louis 16"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle cité grecque antique était la grande rivale militaire d'Athènes ?",
+  "reponse": "Sparte",
+  "alias": [
+   "Sparta"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Qui a écrit 'Le Prince', traité politique de la Renaissance ?",
+  "reponse": "Machiavel",
+  "alias": [
+   "Nicolas Machiavel",
+   "Machiavelli",
+   "Niccolo Machiavelli"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel explorateur norvégien a atteint le pôle Sud le premier, en 1911 ?",
+  "reponse": "Amundsen",
+  "alias": [
+   "Roald Amundsen"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle épidémie a ravagé l'Europe au XIVe siècle ?",
+  "reponse": "Peste noire",
+  "alias": [
+   "la peste",
+   "peste",
+   "Black Death",
+   "black plague",
+   "plague"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel empereur français a vendu la Louisiane aux États-Unis en 1803 ?",
+  "reponse": "Napoléon",
+  "alias": [
+   "Napoléon Bonaparte",
+   "Bonaparte",
+   "Napoleon",
+   "Napoleon Bonaparte"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "En quelle année ont eu lieu les attentats du 11 septembre aux États-Unis ?",
+  "reponse": "2001",
+  "alias": [],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel mouvement religieux mené par Luther a divisé la chrétienté au XVIe siècle ?",
+  "reponse": "Réforme",
+  "alias": [
+   "Réforme protestante",
+   "protestantisme",
+   "Reformation",
+   "Protestant Reformation"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle ville romaine fut ensevelie par l'éruption du Vésuve en l'an 79 ?",
+  "reponse": "Pompéi",
+  "alias": [
+   "Pompei",
+   "Pompeii"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel roi de Macédoine a conquis un immense empire jusqu'aux portes de l'Inde ?",
+  "reponse": "Alexandre le Grand",
+  "alias": [
+   "Alexandre",
+   "Alexander the Great",
+   "Alexander"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel général romain a franchi le Rubicon en marchant sur Rome ?",
+  "reponse": "Jules César",
+  "alias": [
+   "César",
+   "Cesar",
+   "Julius Caesar",
+   "Caesar"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel savant italien a été condamné par l'Église pour avoir défendu l'héliocentrisme ?",
+  "reponse": "Galilée",
+  "alias": [
+   "Galileo",
+   "Galileo Galilei"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle guerre a opposé la France et l'Angleterre pendant plus d'un siècle au Moyen Âge ?",
+  "reponse": "Guerre de Cent Ans",
+  "alias": [
+   "Cent Ans",
+   "Hundred Years War",
+   "Hundred Years' War"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel président américain a été assassiné à Dallas en 1963 ?",
+  "reponse": "Kennedy",
+  "alias": [
+   "John Kennedy",
+   "JFK",
+   "John F. Kennedy"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle héroïne française a mené les armées contre les Anglais avant d'être brûlée à Rouen ?",
+  "reponse": "Jeanne d'Arc",
+  "alias": [
+   "Jeanne dArc",
+   "Joan of Arc"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle dynastie chinoise a fait construire l'essentiel de la Cité interdite ?",
+  "reponse": "Ming",
+  "alias": [
+   "dynastie Ming"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel roi de France était surnommé le père du peuple et a signé l'édit de Nantes ?",
+  "reponse": "Henri IV",
+  "alias": [
+   "Henri 4",
+   "Henri Quatre",
+   "Henry IV"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle ville allemande fut divisée par un mur de 1961 à 1989 ?",
+  "reponse": "Berlin",
+  "alias": [],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel savant polonais a proposé que la Terre tourne autour du Soleil ?",
+  "reponse": "Copernic",
+  "alias": [
+   "Nicolas Copernic",
+   "Copernicus",
+   "Nicolaus Copernicus"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel homme d'État britannique était Premier ministre pendant la Seconde Guerre mondiale ?",
+  "reponse": "Churchill",
+  "alias": [
+   "Winston Churchill"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle grande route commerciale reliait la Chine à l'Europe dans l'Antiquité ?",
+  "reponse": "Route de la soie",
+  "alias": [
+   "la soie",
+   "Silk Road"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ }
+]
