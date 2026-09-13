@@ -215,6 +215,60 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 .choix-eq .cB{background:#4A90D9; color:#fff}
 .choix-eq button.off{opacity:.4}
 
+/* --- cartes de mode --- */
+.modes{display:grid; grid-template-columns:1fr 1fr; gap:10px}
+.mode-carte{
+  background:var(--surface); border:2px solid transparent; border-radius:16px;
+  padding:14px 14px 13px; cursor:pointer; user-select:none; position:relative;
+  transition:border-color .15s, background .15s, transform .1s}
+.mode-carte:active{transform:scale(.98)}
+.mode-carte .ic{font-size:26px; line-height:1}
+.mode-carte .ti{font-family:var(--wordmark); font-size:23px; letter-spacing:.04em;
+  margin-top:6px; color:var(--clair)}
+.mode-carte .de{font-size:12px; color:var(--doux); margin-top:3px; line-height:1.3}
+.mode-carte.on{border-color:var(--signal); background:var(--surface-haut)}
+.mode-carte.on .ti{color:var(--signal)}
+.mode-carte.ro{cursor:default}
+.mode-carte .check{position:absolute; top:10px; right:12px; color:var(--signal);
+  font-weight:700; opacity:0}
+.mode-carte.on .check{opacity:1}
+
+/* --- pouvoirs en jeu --- */
+.pouvoirs{margin-top:14px; background:var(--surface); border-radius:15px; padding:12px}
+.pouvoirs .barre-p{display:flex; align-items:center; justify-content:space-between;
+  margin-bottom:10px}
+.pouvoirs .titre-p{font-size:12px; text-transform:uppercase; letter-spacing:.12em;
+  color:var(--doux)}
+.pouvoirs .charges{font-family:var(--wordmark); font-size:15px; letter-spacing:.08em;
+  color:var(--signal)}
+.pouvoirs .charges .vide{color:var(--surface-haut)}
+.pv-grille{display:grid; grid-template-columns:repeat(4,1fr); gap:8px}
+.pv{background:var(--surface-haut); border:none; border-radius:12px; padding:10px 4px;
+  cursor:pointer; color:var(--clair); display:flex; flex-direction:column;
+  align-items:center; gap:3px; width:auto; margin:0}
+.pv .pe{font-size:20px} .pv .pn{font-size:10px; color:var(--doux)}
+.pv:disabled{opacity:.35; cursor:not-allowed}
+.pv.pret{outline:2px solid rgba(255,107,0,.5)}
+.pv.recharge{position:relative; overflow:hidden}
+
+/* --- vies (survie) + coop --- */
+.coeurs{letter-spacing:1px}
+.coeurs .mort{filter:grayscale(1) opacity(.35)}
+.eliminebox{background:rgba(255,90,82,.14); color:var(--rate); border-radius:13px;
+  padding:12px 16px; margin-top:14px; font-size:14px; text-align:center}
+.coopbar{background:var(--surface); border-radius:14px; padding:12px 14px; margin-bottom:14px}
+.coopbar .lib{font-size:12px; text-transform:uppercase; letter-spacing:.12em; color:var(--doux);
+  display:flex; justify-content:space-between}
+.coopbar .piste{height:12px; background:var(--surface-haut); border-radius:7px; overflow:hidden;
+  margin-top:8px}
+.coopbar .piste i{display:block; height:100%; background:linear-gradient(90deg,var(--juste),var(--signal));
+  transition:width .4s}
+.gelvoile{position:fixed; inset:0; background:rgba(74,144,217,.22);
+  backdrop-filter:blur(2px); display:flex; align-items:center; justify-content:center;
+  z-index:50; color:#cfe4ff; font-family:var(--wordmark); font-size:40px; letter-spacing:.05em}
+.entete-mode{font-family:var(--wordmark); font-size:34px; letter-spacing:.04em;
+  text-align:center; margin-bottom:12px}
+
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 </style>
 </head>
@@ -271,8 +325,8 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
       <div class="jetons" id="v-difs"></div>
     </div>
     <div class="bloc">
-      <label>Mode</label>
-      <div class="jetons"><span class="jeton" id="b-mode-eq">Equipes : off</span></div>
+      <label>Mode de jeu</label>
+      <div class="modes" id="v-modes"></div>
       <div id="v-equipe-choix" style="display:none; margin-top:12px"></div>
     </div>
     <div class="bloc">
@@ -294,6 +348,7 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
       <span id="v-num"></span>
     </div>
     <div id="v-eq-jeu"></div>
+    <div id="v-coop"></div>
     <div class="compteur">
       <div class="valeur" id="v-pts">10</div>
       <div class="etiquette" id="v-pts-txt">points en jeu</div>
@@ -303,6 +358,8 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
     <img id="v-image" alt="" style="display:none">
     <input type="text" id="saisie" placeholder="Ta reponse" autocomplete="off"
            autocorrect="off" autocapitalize="off" spellcheck="false">
+    <div class="pouvoirs" id="v-pouvoirs" style="display:none"></div>
+    <div id="v-elimine"></div>
     <div id="v-flash" style="margin-top:16px"></div>
     <div class="essais-titre">Reponses des joueurs</div>
     <div class="essais" id="v-essais"></div>
@@ -342,11 +399,34 @@ const CATS = {algerie:"Algerie", football:"Football", nba:"NBA", sport:"Sport",
   nature:"Nature", jeuxsociete:"Jeux de société"};
 const DIFS = {facile:"Facile", moyen:"Moyen", difficile:"Difficile"};
 
+const MODES = {
+  basique: {t:"Basique", e:"🎯", d:"Le classique. Premier au score cible gagne."},
+  equipes: {t:"Équipes", e:"🔴🔵", d:"Rouge contre Bleu, score commun."},
+  survie:  {t:"Survie", e:"❤️", d:"3 vies. Rate une manche, perds une vie. Dernier en vie gagne."},
+  blitz:   {t:"Blitz", e:"⚡", d:"Chrono ultra court, 20 manches rapides."},
+  coop:    {t:"Coop", e:"🤝", d:"Tous ensemble contre le chrono, un seul score."},
+};
+// Quels reglages sont pertinents selon le mode
+const PARAMS_MODE = {
+  basique:["duree","objectif","manches_max"],
+  equipes:["duree","objectif","manches_max"],
+  survie: ["duree"],
+  blitz:  [],
+  coop:   ["duree","objectif","manches_max"],
+};
+const POUVOIRS = {
+  indice:{e:"🔎", n:"Indice"}, gel:{e:"❄️", n:"Gel"},
+  double:{e:"✖️2", n:"Double"}, skip:{e:"⏭️", n:"Passe"},
+};
+
 let ws, jeton, jeSuisHote = false, monPseudo = "";
 let cats = Object.keys(CATS), difs = Object.keys(DIFS);
 let tickeur = null, finManche = 0, dureeManche = 20, figee = false;
 let regl = {duree:20, objectif:100, manches_max:0};
 let equipesOn = false, scoresEqCourant = null;
+let modeCourant = "basique";
+let mesCharges = 0, monElimine = false, gelTimer = null, doubleArme = false;
+let cooldownJusqua = 0;
 
 function banniereEquipes(sc, gagnant){
   if (!sc) return "";
@@ -414,35 +494,31 @@ function recevoir(m){
     if (m.objectif) regl.objectif = m.objectif;
     if (typeof m.manches_max === "number") regl.manches_max = m.manches_max;
     equipesOn = !!m.equipes;
+    if (m.mode) modeCourant = m.mode;
     dessinerJetons();
+    dessinerModes();
     dessinerParams();
-    // Mode equipes : bouton (cliquable par l'hote) + choix d'equipe pour soi.
-    const bm = $("#b-mode-eq");
-    bm.textContent = "Equipes : " + (equipesOn ? "on" : "off");
-    bm.classList.toggle("on", equipesOn);
-    bm.style.opacity = jeSuisHote ? "1" : ".6";
     const choix = $("#v-equipe-choix");
-    if (equipesOn){
+    if (modeCourant === "equipes"){
       const moi2 = m.joueurs.find(j => j.pseudo === monPseudo);
       const mine = moi2 ? moi2.equipe : null;
       choix.style.display = "block";
-      choix.innerHTML = `<label>Ton equipe</label><div class="choix-eq">
+      choix.innerHTML = `<label>Ton équipe</label><div class="choix-eq">
         <button class="cA ${mine==='A'?'':'off'}" data-eq="A">Rouge</button>
         <button class="cB ${mine==='B'?'':'off'}" data-eq="B">Bleu</button></div>`;
     } else { choix.style.display = "none"; }
     $("#v-joueurs").innerHTML = m.joueurs.map(ligneJoueur).join("");
     $("#b-demarrer").style.display = jeSuisHote ? "block" : "none";
-    const finTxt = regl.manches_max
-      ? `Partie en ${regl.manches_max} manches.`
-      : `Premier a ${regl.objectif} points.`;
     $("#v-attente").textContent = jeSuisHote
-      ? finTxt
+      ? descrFin()
       : "En attente que l'hote lance la partie.";
     if (m.etat === "salon") ecran("salon");
   }
 
   if (m.type === "manche"){
-    figee = false;
+    figee = false; doubleArme = false;
+    if (m.mode) modeCourant = m.mode;
+    finirGel();
     dureeManche = m.duree; finManche = Date.now() + m.duree * 1000;
     $("#v-cat").textContent = (CATS[m.categorie]||m.categorie) + " / " + m.difficulte;
     $("#v-num").textContent = "Manche " + m.numero;
@@ -452,14 +528,16 @@ function recevoir(m){
     else { img.style.display = "none"; img.removeAttribute("src"); }
     $("#v-flash").innerHTML = "";
     $("#v-essais").innerHTML = '<div class="essais-vide">Les essais de tout le monde s\'affichent ici.</div>';
-    $("#saisie").value = ""; $("#saisie").disabled = false;
+    $("#saisie").value = ""; $("#saisie").disabled = monElimine;
     $("#v-pts").classList.remove("fige");
     $("#v-barre").classList.remove("fige","urgent");
     $("#v-pts-txt").textContent = "points en jeu";
     $("#v-eq-jeu").innerHTML = equipesOn
       ? banniereEquipes(scoresEqCourant || {A:0,B:0}) : "";
     ecran("jeu");
-    $("#saisie").focus();
+    dessinerPouvoirs();
+    majEcranMode();
+    if (!monElimine) $("#saisie").focus();
     lancerTick();
   }
 
@@ -470,12 +548,14 @@ function recevoir(m){
   }
 
   if (m.type === "trouve"){
-    figee = true;
+    figee = true; doubleArme = false;
     $("#saisie").disabled = true;
     $("#v-pts").textContent = "+" + m.points;
     $("#v-pts").classList.add("fige");
-    $("#v-pts-txt").textContent = m.premier ? "trouve en premier" : "trouve";
+    $("#v-pts-txt").textContent = (m.double ? "×2 ! " : "")
+      + (m.premier ? "trouvé en premier" : "trouvé");
     $("#v-barre").classList.add("fige");
+    dessinerPouvoirs();
   }
 
   if (m.type === "essai"){
@@ -511,9 +591,16 @@ function recevoir(m){
       $("#v-flash").prepend(f);
       if (!figee) finManche = Date.now() + m.fin_dans * 1000;
     }
-    if (equipesOn && m.joueurs){
-      scoresEqCourant = eqDepuisJoueurs(m.joueurs);
-      $("#v-eq-jeu").innerHTML = banniereEquipes(scoresEqCourant);
+    if (m.joueurs){
+      majMoi(m.joueurs);
+      if (equipesOn){
+        scoresEqCourant = eqDepuisJoueurs(m.joueurs);
+        $("#v-eq-jeu").innerHTML = banniereEquipes(scoresEqCourant);
+      }
+      if (modeCourant === "coop"){
+        const tot = m.joueurs.reduce((s,j)=>s+j.score,0);
+        majCoop(tot);
+      }
     }
   }
 
@@ -524,24 +611,57 @@ function recevoir(m){
     $("#v-flash").prepend(f);
   }
 
+  if (m.type === "gele_debut") debutGel(m.duree, m.par);
+  if (m.type === "gele"){ /* essai ignore : voile deja affiche */ }
+  if (m.type === "charge_gagnee"){ mesCharges = m.charges;
+    toast("⚡ Charge de pouvoir gagnée"); dessinerPouvoirs(); }
+  if (m.type === "pouvoir_ok"){ mesCharges = m.charges;
+    cooldownJusqua = Date.now() + 8000;
+    if (m.pouvoir === "double") doubleArme = true;
+    if (m.pouvoir === "skip"){ figee = true; $("#saisie").disabled = true;
+      $("#v-pts-txt").textContent = "manche passée"; }
+    dessinerPouvoirs(); }
+  if (m.type === "pouvoir_refuse") toast("Pouvoir pas prêt (recharge / pas de charge)");
+  if (m.type === "pouvoir_joue" && m.pseudo !== monPseudo){
+    const p = POUVOIRS[m.pouvoir] || {n:m.pouvoir, e:""};
+    const f = document.createElement("div"); f.className = "flash";
+    f.innerHTML = `<b>${m.pseudo}</b> a utilisé ${p.n} ${p.e}`;
+    $("#v-flash").prepend(f);
+  }
+
   if (m.type === "fin_manche"){
-    clearInterval(tickeur);
+    clearInterval(tickeur); finirGel();
+    majMoi(m.joueurs);
     $("#v-reponse").textContent = m.reponse;
     if (m.scores_equipes) scoresEqCourant = m.scores_equipes;
     $("#v-eq-pause").innerHTML = banniereEquipes(m.scores_equipes);
-    $("#v-scores").innerHTML = m.joueurs.map(ligneJoueur).join("");
+    let extra = "";
+    if (m.mode === "coop" && typeof m.collectif === "number")
+      extra += `<div class="coopbar"><div class="lib"><span>Score de l'équipe</span>
+        <span>${m.collectif} / ${regl.objectif}</span></div>
+        <div class="piste"><i style="width:${Math.min(100, m.collectif/regl.objectif*100)}%"></i></div></div>`;
+    if (m.elimines && m.elimines.length)
+      extra += `<div class="eliminebox">☠️ Éliminé${m.elimines.length>1?"s":""} : ${m.elimines.join(", ")}</div>`;
+    $("#v-scores").innerHTML = extra + m.joueurs.map(ligneJoueur).join("");
     ecran("pause");
   }
 
   if (m.type === "fin_partie"){
-    clearInterval(tickeur);
+    clearInterval(tickeur); finirGel();
     const j = m.joueurs;
     let gEq = null;
     if (m.scores_equipes){
       const s = m.scores_equipes;
       gEq = s.A === s.B ? null : (s.A > s.B ? "A" : "B");
     }
-    $("#v-eq-fin").innerHTML = banniereEquipes(m.scores_equipes, gEq);
+    let tete = banniereEquipes(m.scores_equipes, gEq);
+    if (m.mode === "survie")
+      tete = `<div class="entete-mode">🏆 ${m.survivant ? m.survivant + " survit !" : "Personne ne survit"}</div>`;
+    else if (m.mode === "coop")
+      tete = m.coop_reussi
+        ? `<div class="entete-mode" style="color:var(--juste)">🎉 Objectif atteint ! ${m.collectif} pts</div>`
+        : `<div class="entete-mode" style="color:var(--rate)">😬 Raté : ${m.collectif} / ${regl.objectif}</div>`;
+    $("#v-eq-fin").innerHTML = tete;
     // Podium : 2e a gauche, 1er au milieu, 3e a droite.
     const ordre = [j[1], j[0], j[2]];
     const cls = ["p2","p1","p3"], med = ["🥈","🥇","🥉"];
@@ -570,10 +690,21 @@ function statcard(emo, titre, valeur){
 }
 
 function ligneJoueur(j, i){
-  const cls = "joueur" + (j.connecte ? "" : " absent") + (j.trouve ? " ok" : "");
+  const mort = j.elimine;
+  const cls = "joueur" + (j.connecte ? "" : " absent") + (j.trouve ? " ok" : "")
+    + (mort ? " absent" : "");
   const dot = j.equipe ? `<span class="dot dot${j.equipe}"></span>` : "";
+  let coeurs = "";
+  if (modeCourant === "survie" && typeof j.vies === "number"){
+    if (mort){ coeurs = ` <span class="coeurs">☠️</span>`; }
+    else {
+      let h = "";
+      for (let k = 0; k < 3; k++) h += `<span class="${k < j.vies ? "" : "mort"}">❤️</span>`;
+      coeurs = ` <span class="coeurs">${h}</span>`;
+    }
+  }
   return `<div class="${cls}"><span class="rang">${i+1}</span>
-    <span class="nom">${dot}${j.pseudo}</span><span class="pts">${j.score}</span></div>`;
+    <span class="nom">${dot}${j.pseudo}${coeurs}</span><span class="pts">${j.score}</span></div>`;
 }
 
 function dessinerJetons(){
@@ -584,7 +715,15 @@ function dessinerJetons(){
 }
 
 function dessinerParams(){
-  const rows = [["duree","Chrono"], ["objectif","Score cible"], ["manches_max","Nb de manches"]];
+  const libs = {duree:"Chrono",
+    objectif: modeCourant === "coop" ? "Objectif commun" : "Score cible",
+    manches_max:"Nb de manches"};
+  const keys = PARAMS_MODE[modeCourant] || Object.keys(libs);
+  if (!keys.length){
+    $("#v-params").innerHTML = `<div class="param ro"><span class="lib">Réglages automatiques pour ce mode ⚡</span></div>`;
+    return;
+  }
+  const rows = keys.map(k => [k, libs[k]]);
   const val = k => (k === "manches_max" && !regl.manches_max) ? "∞"
     : regl[k] + (k === "duree" ? " s" : "");
   $("#v-params").innerHTML = rows.map(([k,lib]) =>
@@ -594,6 +733,93 @@ function dessinerParams(){
         <span class="val">${val(k)}</span>
         <button class="step" data-k="${k}" data-op="+">+</button>
       </div></div>`).join("");
+}
+
+function dessinerModes(){
+  $("#v-modes").innerHTML = Object.entries(MODES).map(([k,v]) =>
+    `<div class="mode-carte ${modeCourant===k?"on":""} ${jeSuisHote?"":"ro"}" data-mode="${k}">
+       <span class="check">✓</span>
+       <div class="ic">${v.e}</div>
+       <div class="ti">${v.t}</div>
+       <div class="de">${v.d}</div>
+     </div>`).join("");
+}
+
+function descrFin(){
+  if (modeCourant === "survie") return "Dernier joueur en vie gagne (3 vies chacun).";
+  if (modeCourant === "blitz")  return "Chrono court, 20 manches. Le plus de points gagne.";
+  if (modeCourant === "coop")   return `Objectif commun : ${regl.objectif} points ensemble.`;
+  return regl.manches_max ? `Partie en ${regl.manches_max} manches.`
+                          : `Premier à ${regl.objectif} points.`;
+}
+
+function majMoi(js){
+  if (!js) return;
+  const moi = js.find(j => j.pseudo === monPseudo);
+  if (!moi) return;
+  if (typeof moi.charges === "number") mesCharges = moi.charges;
+  const avant = monElimine;
+  monElimine = !!moi.elimine;
+  if (monElimine !== avant && $("#ec-jeu").classList.contains("actif")) majEcranMode();
+}
+
+function dessinerPouvoirs(){
+  const box = $("#v-pouvoirs");
+  if (!$("#ec-jeu").classList.contains("actif")){ box.style.display = "none"; return; }
+  box.style.display = "block";
+  const dispo = mesCharges > 0 && !figee && !monElimine && Date.now() >= cooldownJusqua;
+  const pastilles = [0,1,2].map(i =>
+    `<span class="${i < mesCharges ? "" : "vide"}">◆</span>`).join("");
+  const btns = Object.entries(POUVOIRS).map(([k,v]) =>
+    `<button class="pv ${dispo?"pret":""}" data-pv="${k}" ${dispo?"":"disabled"}>
+       <span class="pe">${v.e}</span><span class="pn">${v.n}</span></button>`).join("");
+  box.innerHTML = `<div class="barre-p"><span class="titre-p">Pouvoirs</span>
+      <span class="charges">${pastilles}</span></div>
+      <div class="pv-grille">${btns}</div>`;
+}
+
+function majEcranMode(){
+  $("#v-coop").innerHTML = (modeCourant === "coop")
+    ? `<div class="coopbar"><div class="lib"><span>Objectif équipe</span>
+       <span id="v-coop-txt">0 / ${regl.objectif}</span></div>
+       <div class="piste"><i id="v-coop-jauge" style="width:0%"></i></div></div>` : "";
+  const eb = $("#v-elimine");
+  if (monElimine){
+    eb.innerHTML = `<div class="eliminebox">☠️ Tu es éliminé — tu regardes la fin en spectateur.</div>`;
+    $("#saisie").disabled = true; $("#saisie").placeholder = "Éliminé";
+  } else {
+    eb.innerHTML = ""; $("#saisie").placeholder = "Ta reponse";
+  }
+  dessinerPouvoirs();
+}
+
+function majCoop(tot){
+  const t = $("#v-coop-txt"), g = $("#v-coop-jauge");
+  if (t) t.textContent = `${tot} / ${regl.objectif}`;
+  if (g) g.style.width = Math.min(100, tot / regl.objectif * 100) + "%";
+}
+
+function debutGel(duree, par){
+  finirGel();
+  const v = document.createElement("div");
+  v.className = "gelvoile"; v.id = "gelvoile";
+  v.innerHTML = "❄️ Gelé " + duree + "s";
+  document.body.appendChild(v);
+  $("#saisie").disabled = true;
+  gelTimer = setTimeout(finirGel, duree * 1000);
+}
+function finirGel(){
+  if (gelTimer){ clearTimeout(gelTimer); gelTimer = null; }
+  const v = $("#gelvoile"); if (v) v.remove();
+  if (!monElimine && !figee && $("#ec-jeu").classList.contains("actif"))
+    $("#saisie").disabled = false;
+}
+
+function toast(txt){
+  const f = document.createElement("div");
+  f.className = "flash"; f.textContent = txt;
+  $("#v-flash").prepend(f);
+  setTimeout(() => f.remove(), 2600);
 }
 
 // Le compteur de points qui fond : c'est lui qui met la pression.
@@ -656,12 +882,23 @@ document.addEventListener("click", e => {
   envoyer({type:"reglages", categories:cats, difficultes:difs,
     duree:regl.duree, objectif:regl.objectif, manches_max:regl.manches_max});
 });
-$("#b-mode-eq").onclick = () => {
-  if (jeSuisHote) envoyer({type:"mode_equipes", actif:!equipesOn});
-};
+// Choix du mode (cartes) — reserve a l'hote
+document.addEventListener("click", e => {
+  const c = e.target.closest(".mode-carte");
+  if (!c || !jeSuisHote) return;
+  envoyer({type:"mode", mode:c.dataset.mode});
+});
+// Choix d'equipe (mode equipes)
 document.addEventListener("click", e => {
   const b = e.target.closest(".choix-eq button");
   if (b) envoyer({type:"choisir_equipe", equipe:b.dataset.eq});
+});
+// Utiliser un pouvoir
+document.addEventListener("click", e => {
+  const b = e.target.closest(".pv");
+  if (!b || b.disabled) return;
+  envoyer({type:"pouvoir", pouvoir:b.dataset.pv});
+  cooldownJusqua = Date.now() + 8000; dessinerPouvoirs();  // grise en attendant
 });
 dessinerJetons();
 </script>

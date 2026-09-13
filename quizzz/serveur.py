@@ -33,6 +33,19 @@ BONUS_PREMIER = 2           # points supplementaires pour celui qui trouve en 1e
 JOUEURS_MAX = 10
 DELAI_RECONNEXION = 30      # secondes avant d'evincer un joueur deconnecte
 
+# --- Modes de jeu ---
+MODES = ["basique", "equipes", "survie", "blitz", "coop"]
+VIES_SURVIE = 3            # vies de depart en mode survie
+DUREE_BLITZ = 8            # chrono court (s) en mode blitz
+FENETRE_BLITZ = 4          # fenetre (s) apres la 1re bonne reponse en blitz
+MANCHES_BLITZ = 20         # nb de manches par defaut en blitz
+
+# --- Pouvoirs (phase 2) ---
+SERIE_POUR_CHARGE = 3      # bonnes reponses d'affilee pour gagner 1 charge
+COOLDOWN_POUVOIR = 8       # secondes de recharge entre deux pouvoirs
+POUVOIRS = ["indice", "gel", "double", "skip"]
+DUREE_GEL = 3              # secondes de blocage inflige par le gel
+
 BASE = "questions.db"
 
 CATEGORIES = ["algerie", "football", "nba", "sport", "anime",
@@ -125,6 +138,8 @@ class Salon:
         self.objectif = OBJECTIF        # score qui met fin a la partie
         self.manches_max = 0            # 0 = illimite (fin au score) ; sinon nb de manches
         self.equipes = False            # mode 2 equipes (Rouge vs Bleu)
+        self.mode = "basique"           # basique | equipes | survie | blitz | coop
+        self.duree_courante = DUREE_MANCHE
         self.etat = "salon"        # salon | manche | pause | fini
         self.question = None
         self.debut = 0
@@ -142,7 +157,9 @@ class Salon:
         return [
             {"pseudo": j["pseudo"], "score": j["score"],
              "connecte": j["ws"] is not None, "hote": jeton == self.hote,
-             "trouve": j.get("trouve", False), "equipe": j.get("equipe")}
+             "trouve": j.get("trouve", False), "equipe": j.get("equipe"),
+             "vies": j.get("vies"), "elimine": j.get("elimine", False),
+             "charges": j.get("charges", 0)}
             for jeton, j in sorted(self.joueurs.items(),
                                    key=lambda x: -x[1]["score"])
         ]
@@ -162,6 +179,48 @@ class Salon:
         a = sum(j["score"] for j in self.joueurs.values() if j.get("equipe") == "A")
         b = sum(j["score"] for j in self.joueurs.values() if j.get("equipe") == "B")
         return {"A": a, "B": b}
+
+    # -- modes --
+
+    def duree_effective(self):
+        return DUREE_BLITZ if self.mode == "blitz" else self.duree
+
+    def fenetre_effective(self):
+        return FENETRE_BLITZ if self.mode == "blitz" else FENETRE_APRES_PREMIER
+
+    def score_collectif(self):
+        return sum(j["score"] for j in self.joueurs.values())
+
+    def en_jeu(self, j):
+        """Un joueur qui peut encore repondre (non elimine en survie)."""
+        return not (self.mode == "survie" and j.get("elimine"))
+
+    def evaluer_fin(self):
+        """Renvoie (fini?, extra) selon le mode."""
+        if self.mode == "survie":
+            vivants = [j for j in self.joueurs.values() if not j.get("elimine")]
+            if len(vivants) == 0 or (len(self.joueurs) >= 2 and len(vivants) <= 1):
+                return True, {"survivant": vivants[0]["pseudo"] if vivants else None}
+            return False, {}
+        if self.mode == "coop":
+            s = self.score_collectif()
+            if s >= self.objectif:
+                return True, {"coop_reussi": True, "collectif": s}
+            if self.manches_max and self.numero >= self.manches_max:
+                return True, {"coop_reussi": False, "collectif": s}
+            return False, {}
+        if self.mode == "blitz":
+            return (self.numero >= (self.manches_max or MANCHES_BLITZ)), {}
+        # basique / equipes
+        if self.equipes:
+            meilleur = max(self.scores_equipes().values(), default=0)
+        else:
+            meilleur = max((j["score"] for j in self.joueurs.values()), default=0)
+        if meilleur >= self.objectif:
+            return True, {}
+        if self.manches_max and self.numero >= self.manches_max:
+            return True, {}
+        return False, {}
 
     # -- envoi --
 
@@ -190,6 +249,7 @@ class Salon:
             "duree": self.duree,
             "manches_max": self.manches_max,
             "equipes": self.equipes,
+            "mode": self.mode,
             "scores_equipes": self.scores_equipes() if self.equipes else None,
         })
 
@@ -219,11 +279,15 @@ class Salon:
                 self.deja_posees.append(question["id"])
                 self.premier = None
                 self.indice_envoye = False
+                duree = self.duree_effective()
+                self.duree_courante = duree
                 self.debut = time.time()
-                self.fin_prevue = self.debut + self.duree
+                self.fin_prevue = self.debut + duree
                 self.etat = "manche"
                 for j in self.joueurs.values():
                     j["trouve"] = False
+                    j["gel_jusqua"] = 0
+                    j["double_arme"] = False
 
                 await self.diffuser({
                     "type": "manche",
@@ -231,13 +295,14 @@ class Salon:
                     "question": question["question"],
                     "categorie": question["categorie"],
                     "difficulte": question["difficulte"],
-                    "duree": self.duree,
+                    "duree": duree,
                     "image": question.get("image", ""),
+                    "mode": self.mode,
                 })
 
-                mi_temps = self.debut + self.duree / 2
+                mi_temps = self.debut + duree / 2
                 while time.time() < self.fin_prevue:
-                    presents = self.actifs()
+                    presents = [j for j in self.actifs() if self.en_jeu(j)]
                     if presents and all(j.get("trouve") for j in presents):
                         break
                     # Indice a mi-temps si personne n'a encore trouve.
@@ -253,30 +318,43 @@ class Salon:
                 if self.premier is None:
                     self.stats["colles"] += 1
 
+                # Survie : ceux qui n'ont pas trouve (et sont connectes) perdent
+                # une vie ; a 0 vie ils sont elimines et deviennent spectateurs.
+                elimines_ce_tour = []
+                if self.mode == "survie":
+                    for j in self.joueurs.values():
+                        if j.get("elimine") or j["ws"] is None:
+                            continue
+                        if not j.get("trouve"):
+                            j["vies"] = max(0, j.get("vies", VIES_SURVIE) - 1)
+                            if j["vies"] == 0:
+                                j["elimine"] = True
+                                elimines_ce_tour.append(j["pseudo"])
+
                 self.etat = "pause"
                 await self.diffuser({
                     "type": "fin_manche",
                     "reponse": question["reponse"],
                     "joueurs": self.liste_joueurs(),
+                    "mode": self.mode,
+                    "collectif": (self.score_collectif()
+                                  if self.mode == "coop" else None),
+                    "elimines": elimines_ce_tour or None,
                     "scores_equipes": (self.scores_equipes()
                                        if self.equipes else None),
                 })
 
-                if self.equipes:
-                    meilleur = max(self.scores_equipes().values(), default=0)
-                else:
-                    meilleur = max((j["score"] for j in self.joueurs.values()),
-                                   default=0)
-                fini_score = meilleur >= self.objectif
-                fini_manches = self.manches_max and self.numero >= self.manches_max
-                if fini_score or fini_manches:
+                fini, extra = self.evaluer_fin()
+                if fini:
                     self.etat = "fini"
                     await self.diffuser({
                         "type": "fin_partie",
                         "joueurs": self.liste_joueurs(),
                         "stats": self.bilan_stats(),
+                        "mode": self.mode,
                         "scores_equipes": (self.scores_equipes()
                                            if self.equipes else None),
+                        **extra,
                     })
                     return
 
@@ -306,10 +384,16 @@ class Salon:
         joueur = self.joueurs.get(jeton)
         if not joueur or joueur.get("trouve"):
             return
+        if not self.en_jeu(joueur):        # elimine (survie) : spectateur
+            return
+        if time.time() < joueur.get("gel_jusqua", 0):   # gele par un adversaire
+            await self.envoyer(joueur, {"type": "gele"})
+            return
 
         if not verifier_reponse(texte, self.question["reponse"],
                                 self.question["alias"]):
             await self.envoyer(joueur, {"type": "rate"})
+            joueur["serie"] = 0            # une erreur casse la serie
             # On montre l'essai rate a tout le monde (le fil des reponses).
             essai = (texte or "").strip()[:40]
             if essai:
@@ -322,17 +406,30 @@ class Salon:
             return
 
         ecoule = time.time() - self.debut
-        gagnes = points_pour(ecoule, self.duree)
+        gagnes = points_pour(ecoule, self.duree_courante)
         premier = self.premier is None
         if premier:
             self.premier = jeton
             gagnes += BONUS_PREMIER
-            # La manche se termine 10 s plus tard, sans depasser la duree prevue.
-            self.fin_prevue = min(time.time() + FENETRE_APRES_PREMIER,
-                                  self.debut + self.duree)
+            # La manche se termine plus tard, sans depasser la duree prevue.
+            self.fin_prevue = min(time.time() + self.fenetre_effective(),
+                                  self.debut + self.duree_courante)
+
+        # Pouvoir "double ou rien" arme : points de la manche doubles.
+        double = joueur.get("double_arme")
+        if double:
+            gagnes *= 2
+            joueur["double_arme"] = False
 
         joueur["score"] += gagnes
         joueur["trouve"] = True
+
+        # Serie de bonnes reponses -> charges de pouvoir.
+        joueur["serie"] = joueur.get("serie", 0) + 1
+        if joueur["serie"] % SERIE_POUR_CHARGE == 0:
+            joueur["charges"] = min(3, joueur.get("charges", 0) + 1)
+            await self.envoyer(joueur, {"type": "charge_gagnee",
+                                        "charges": joueur["charges"]})
 
         # Stats de la partie (podium + faits rigolos).
         if self.stats is not None:
@@ -352,7 +449,8 @@ class Salon:
         })
 
         await self.envoyer(joueur, {
-            "type": "trouve", "points": gagnes, "premier": premier})
+            "type": "trouve", "points": gagnes, "premier": premier,
+            "double": double})
         await self.diffuser({
             "type": "quelquun_a_trouve",
             "pseudo": joueur["pseudo"],
@@ -360,6 +458,46 @@ class Salon:
             "fin_dans": max(0, round(self.fin_prevue - time.time())),
             "joueurs": self.liste_joueurs(),
         })
+
+    async def utiliser_pouvoir(self, jeton, pouvoir, cible=None):
+        """Depense 1 charge pour declencher un pouvoir (conditions: manche en
+        cours, joueur en jeu qui n'a pas encore trouve, charge dispo, recharge
+        ecoulee)."""
+        if self.etat != "manche" or pouvoir not in POUVOIRS:
+            return
+        j = self.joueurs.get(jeton)
+        if not j or j.get("trouve") or not self.en_jeu(j) or j["ws"] is None:
+            return
+        maintenant = time.time()
+        if j.get("charges", 0) < 1 or maintenant < j.get("cooldown", 0):
+            await self.envoyer(j, {"type": "pouvoir_refuse"})
+            return
+
+        if pouvoir == "indice":
+            await self.envoyer(j, {"type": "indice",
+                                   "indice": indice_de(self.question["reponse"])})
+        elif pouvoir == "gel":
+            for k, autre in self.joueurs.items():
+                if (k != jeton and autre["ws"] is not None
+                        and self.en_jeu(autre) and not autre.get("trouve")):
+                    autre["gel_jusqua"] = maintenant + DUREE_GEL
+                    await self.envoyer(autre, {"type": "gele_debut",
+                                               "duree": DUREE_GEL,
+                                               "par": j["pseudo"]})
+        elif pouvoir == "double":
+            j["double_arme"] = True
+        elif pouvoir == "skip":
+            # Passe la manche sans penalite : compte comme "traite" (protege
+            # d'une perte de vie en survie) mais ne rapporte aucun point.
+            j["trouve"] = True
+
+        j["charges"] = j.get("charges", 0) - 1
+        j["cooldown"] = maintenant + COOLDOWN_POUVOIR
+        await self.envoyer(j, {"type": "pouvoir_ok", "pouvoir": pouvoir,
+                               "charges": j["charges"]})
+        # Petit avis public que quelqu'un a joue un pouvoir (ambiance).
+        await self.diffuser({"type": "pouvoir_joue",
+                             "pseudo": j["pseudo"], "pouvoir": pouvoir})
 
 
 def nouveau_code():
@@ -474,11 +612,18 @@ async def websocket(ws: WebSocket):
                         pass
                 await salon.diffuser_etat()
 
-            elif action == "mode_equipes" and jeton == salon.hote:
-                salon.equipes = bool(message.get("actif"))
-                if salon.equipes:
-                    salon.equilibrer()
-                await salon.diffuser_etat()
+            elif action == "mode" and jeton == salon.hote:
+                m = message.get("mode")
+                if m in MODES and salon.etat in ("salon", "fini"):
+                    salon.mode = m
+                    salon.equipes = (m == "equipes")
+                    if salon.equipes:
+                        salon.equilibrer()
+                    await salon.diffuser_etat()
+
+            elif action == "pouvoir":
+                await salon.utiliser_pouvoir(jeton, message.get("pouvoir"),
+                                             message.get("cible"))
 
             elif action == "choisir_equipe":
                 e = message.get("equipe")
@@ -494,6 +639,13 @@ async def websocket(ws: WebSocket):
                     for j in salon.joueurs.values():
                         j["score"] = 0
                         j["trouve"] = False
+                        j["vies"] = VIES_SURVIE
+                        j["elimine"] = False
+                        j["charges"] = 0
+                        j["serie"] = 0
+                        j["cooldown"] = 0
+                        j["gel_jusqua"] = 0
+                        j["double_arme"] = False
                     salon.deja_posees = []
                     salon.numero = 0
                     salon.etat = "manche"   # verrou synchrone anti double-lancement
