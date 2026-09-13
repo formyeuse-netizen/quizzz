@@ -34,7 +34,8 @@ JOUEURS_MAX = 10
 DELAI_RECONNEXION = 30      # secondes avant d'evincer un joueur deconnecte
 
 # --- Modes de jeu ---
-MODES = ["basique", "equipes", "survie", "blitz", "coop", "chacun", "tournoi", "bombe"]
+MODES = ["basique", "pouvoirs", "equipes", "survie", "blitz", "coop", "chacun",
+         "tournoi", "bombe", "quittedouble"]
 VIES_SURVIE = 3            # vies de depart en mode survie
 DUREE_BLITZ = 8            # chrono court (s) en mode blitz
 FENETRE_BLITZ = 4          # fenetre (s) apres la 1re bonne reponse en blitz
@@ -42,6 +43,9 @@ MANCHES_BLITZ = 20         # nb de manches par defaut en blitz
 DELAI_ANNONCE = 4          # secondes d'affichage des annonces de tournoi
 FUSE_MIN = 12              # duree mini (s) de la meche en mode bombe
 FUSE_MAX = 22             # duree maxi (s) de la meche en mode bombe
+START_QD = 100            # score de depart en mode quitte ou double
+MANCHES_QD = 10           # nb de manches par defaut en quitte ou double
+DUREE_MISE = 10           # secondes pour choisir sa mise
 
 # --- Pouvoirs (phase 2) ---
 SERIE_POUR_CHARGE = 3      # bonnes reponses d'affilee pour gagner 1 charge
@@ -145,6 +149,8 @@ class Salon:
         self.duree_courante = DUREE_MANCHE
         self.repondeurs = None          # None = tout le monde ; sinon set de jetons autorises
         self.tour_i = 0                 # index du joueur actif en mode "chacun son tour"
+        self.mises = {}                 # jeton -> mise (mode quitte ou double)
+        self.phase_mise = False         # True pendant la fenetre de mise (QD)
         self.etat = "salon"        # salon | manche | pause | fini
         self.question = None
         self.debut = 0
@@ -595,6 +601,80 @@ class Salon:
             self.etat = "salon"
             await self.diffuser_etat()
 
+    async def jouer_quittedouble(self):
+        """Quitte ou double : chacun part de START_QD points. Avant chaque
+        question, on mise une part de son capital ; bonne reponse -> on gagne
+        la mise, sinon on la perd (plancher a 0). Meilleur score a la fin."""
+        self.stats = {"rapide_pseudo": None, "rapide_temps": None,
+                      "firsts": {}, "colles": 0}
+        try:
+            for j in self.joueurs.values():
+                j["score"] = START_QD
+            n_max = self.manches_max or MANCHES_QD
+            while self.numero < n_max and self.etat != "fini":
+                # -- phase de mise --
+                self.mises = {}
+                self.phase_mise = True
+                self.etat = "pause"
+                await self.diffuser({
+                    "type": "mise_debut", "duree": DUREE_MISE,
+                    "manche": self.numero + 1, "manches_max": n_max,
+                    "joueurs": self.liste_joueurs(),
+                })
+                t_fin = time.time() + DUREE_MISE
+                while time.time() < t_fin:
+                    presents = [k for k, j in self.joueurs.items()
+                                if j["ws"] is not None and j["score"] > 0]
+                    if presents and all(k in self.mises for k in presents):
+                        break
+                    await asyncio.sleep(0.1)
+                self.phase_mise = False
+
+                # clamp des mises au capital courant (defaut 0 si pas de mise)
+                mise_tour = {}
+                for k, j in self.joueurs.items():
+                    m = max(0, min(int(self.mises.get(k, 0)), j["score"]))
+                    mise_tour[k] = m
+
+                # -- question --
+                ctx = {"mises": {self.joueurs[k]["pseudo"]: v
+                                 for k, v in mise_tour.items() if v > 0}}
+                ok = await self._run_manche(None, ctx)
+                if not ok:
+                    return
+
+                # -- application des mises --
+                details = []
+                for k, j in self.joueurs.items():
+                    m = mise_tour.get(k, 0)
+                    if j.get("trouve"):
+                        j["score"] += m
+                        delta = m
+                    else:
+                        j["score"] = max(0, j["score"] - m)
+                        delta = -m
+                    if m > 0 or j["ws"] is not None:
+                        details.append({"pseudo": j["pseudo"], "mise": m,
+                                        "trouve": bool(j.get("trouve")),
+                                        "delta": delta, "score": j["score"]})
+                await self.diffuser({
+                    "type": "qd_resultat", "details": details,
+                    "joueurs": self.liste_joueurs(),
+                })
+                await asyncio.sleep(PAUSE_ENTRE_MANCHES)
+
+            self.etat = "fini"
+            await self.diffuser({
+                "type": "fin_partie", "joueurs": self.liste_joueurs(),
+                "stats": self.bilan_stats(), "mode": "quittedouble",
+            })
+        except asyncio.CancelledError:
+            raise
+        except Exception as e:
+            await self.diffuser({"type": "erreur", "message": str(e)})
+            self.etat = "salon"
+            await self.diffuser_etat()
+
     def bilan_stats(self):
         s = self.stats or {}
         firsts = s.get("firsts") or {}
@@ -636,6 +716,37 @@ class Salon:
                 })
             return
 
+        # Mode "quitte ou double" : une bonne reponse marque seulement "trouve".
+        # La mise est appliquee en fin de manche (aucun point de vitesse, aucune
+        # charge de pouvoir).
+        if self.mode == "quittedouble":
+            joueur["trouve"] = True
+            premier = self.premier is None
+            if premier:
+                self.premier = jeton
+                self.fin_prevue = min(time.time() + self.fenetre_effective(),
+                                      self.debut + self.duree_courante)
+            if self.stats is not None:
+                ec = time.time() - self.debut
+                if (self.stats["rapide_temps"] is None
+                        or ec < self.stats["rapide_temps"]):
+                    self.stats["rapide_temps"] = ec
+                    self.stats["rapide_pseudo"] = joueur["pseudo"]
+                if premier:
+                    self.stats["firsts"][joueur["pseudo"]] = (
+                        self.stats["firsts"].get(joueur["pseudo"], 0) + 1)
+            await self.diffuser({"type": "essai", "pseudo": joueur["pseudo"],
+                                 "bon": True})
+            await self.envoyer(joueur, {"type": "trouve", "points": 0,
+                                        "premier": premier, "double": False})
+            await self.diffuser({
+                "type": "quelquun_a_trouve", "pseudo": joueur["pseudo"],
+                "premier": premier,
+                "fin_dans": max(0, round(self.fin_prevue - time.time())),
+                "joueurs": self.liste_joueurs(),
+            })
+            return
+
         ecoule = time.time() - self.debut
         gagnes = points_pour(ecoule, self.duree_courante)
         premier = self.premier is None
@@ -655,12 +766,13 @@ class Salon:
         joueur["score"] += gagnes
         joueur["trouve"] = True
 
-        # Serie de bonnes reponses -> charges de pouvoir.
-        joueur["serie"] = joueur.get("serie", 0) + 1
-        if joueur["serie"] % SERIE_POUR_CHARGE == 0:
-            joueur["charges"] = min(3, joueur.get("charges", 0) + 1)
-            await self.envoyer(joueur, {"type": "charge_gagnee",
-                                        "charges": joueur["charges"]})
+        # Serie de bonnes reponses -> charges de pouvoir (mode "pouvoirs" seul).
+        if self.mode == "pouvoirs":
+            joueur["serie"] = joueur.get("serie", 0) + 1
+            if joueur["serie"] % SERIE_POUR_CHARGE == 0:
+                joueur["charges"] = min(3, joueur.get("charges", 0) + 1)
+                await self.envoyer(joueur, {"type": "charge_gagnee",
+                                            "charges": joueur["charges"]})
 
         # Stats de la partie (podium + faits rigolos).
         if self.stats is not None:
@@ -694,6 +806,8 @@ class Salon:
         """Depense 1 charge pour declencher un pouvoir (conditions: manche en
         cours, joueur en jeu qui n'a pas encore trouve, charge dispo, recharge
         ecoulee)."""
+        if self.mode != "pouvoirs":
+            return                          # pouvoirs reserves au mode dedie
         if self.etat != "manche" or pouvoir not in POUVOIRS:
             return
         j = self.joueurs.get(jeton)
@@ -888,8 +1002,18 @@ async def websocket(ws: WebSocket):
                         salon.boucle = asyncio.create_task(salon.jouer_tournoi())
                     elif salon.mode == "bombe":
                         salon.boucle = asyncio.create_task(salon.jouer_bombe())
+                    elif salon.mode == "quittedouble":
+                        salon.boucle = asyncio.create_task(salon.jouer_quittedouble())
                     else:
                         salon.boucle = asyncio.create_task(salon.jouer())
+
+            elif action == "miser":
+                if (salon.mode == "quittedouble" and salon.phase_mise
+                        and jeton in salon.joueurs):
+                    try:
+                        salon.mises[jeton] = max(0, int(message.get("mise", 0)))
+                    except (TypeError, ValueError):
+                        pass
 
             elif action == "reponse":
                 await salon.traiter_reponse(jeton, message.get("texte", ""))

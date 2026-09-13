@@ -282,6 +282,34 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 .bye{background:var(--surface); border-radius:11px; padding:9px 14px;
   color:var(--doux); font-size:13px}
 
+.mise-box{background:var(--surface); border-radius:16px; padding:16px 14px; margin-bottom:14px}
+.mise-solde{text-align:center; font-size:16px; margin-bottom:12px; color:var(--clair)}
+.mise-solde b{color:var(--signal); font-family:var(--wordmark); font-size:22px}
+.mise-grille{display:grid; grid-template-columns:1fr 1fr; gap:9px}
+.mise-btn{background:var(--surface-haut); border:2px solid transparent; border-radius:13px;
+  padding:12px 10px; color:var(--clair); cursor:pointer; font-size:14px; font-weight:600;
+  display:flex; flex-direction:column; align-items:center; gap:3px; transition:.12s}
+.mise-btn span{font-size:12px; color:var(--doux); font-weight:400}
+.mise-btn:active{transform:scale(.97)}
+.mise-btn.choisi{border-color:var(--signal); background:rgba(90,169,230,.12)}
+.mise-btn.choisi span{color:var(--signal)}
+.mise-libre{display:flex; gap:8px; margin-top:10px}
+.mise-libre input{flex:1; background:var(--surface-haut); border:none; border-radius:11px;
+  padding:11px 12px; color:var(--clair); font-size:15px}
+.mise-btn.petit{flex-direction:row; padding:11px 18px}
+.mise-info{text-align:center; font-size:12px; color:var(--doux); margin-top:11px}
+.mise-info.ok{color:var(--juste)}
+.qd-res{display:flex; flex-direction:column; gap:8px}
+.qd-ligne{display:flex; align-items:center; gap:8px; background:var(--surface);
+  border-radius:13px; padding:11px 14px; font-size:14px}
+.qd-ligne .qd-nom{flex:1; font-weight:600}
+.qd-ligne .qd-mise{color:var(--doux); font-size:12px}
+.qd-ligne .qd-delta{font-family:var(--wordmark); font-size:17px; min-width:52px; text-align:right}
+.qd-ligne .qd-score{min-width:64px; text-align:right; color:var(--clair)}
+.qd-ligne.gagne .qd-delta{color:var(--juste)}
+.qd-ligne.perd .qd-delta{color:var(--rate)}
+.qd-ligne.neutre{opacity:.7}
+
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 </style>
 </head>
@@ -416,6 +444,7 @@ const DIFS = {facile:"Facile", moyen:"Moyen", difficile:"Difficile"};
 
 const MODES = {
   basique: {t:"Basique", e:"🎯", d:"Le classique. Premier au score cible gagne."},
+  pouvoirs:{t:"Pouvoirs", e:"🃏", d:"Comme le basique, mais on gagne des cartes de pouvoir : indice, gel, ×2, passe."},
   equipes: {t:"Équipes", e:"🔴🔵", d:"Rouge contre Bleu, score commun."},
   survie:  {t:"Survie", e:"❤️", d:"3 vies. Rate une manche, perds une vie. Dernier en vie gagne."},
   blitz:   {t:"Blitz", e:"⚡", d:"Chrono ultra court, 20 manches rapides."},
@@ -423,10 +452,12 @@ const MODES = {
   chacun:  {t:"Chacun son tour", e:"🎤", d:"Un joueur répond à la fois, à tour de rôle."},
   tournoi: {t:"Tournoi", e:"🏆", d:"Duels 1v1 à élimination directe jusqu'au champion."},
   bombe:   {t:"Bombe", e:"💣", d:"Patate chaude : réponds vite et refile la bombe. Celui qui l'a quand elle explose perd une vie."},
+  quittedouble:{t:"Quitte ou double", e:"🎲", d:"Mise tes points avant chaque question. Bonne réponse : tu gagnes ta mise. Ratée : tu la perds."},
 };
 // Quels reglages sont pertinents selon le mode
 const PARAMS_MODE = {
   basique:["duree","objectif","manches_max"],
+  pouvoirs:["duree","objectif","manches_max"],
   equipes:["duree","objectif","manches_max"],
   survie: ["duree"],
   blitz:  [],
@@ -434,6 +465,7 @@ const PARAMS_MODE = {
   chacun: ["duree","objectif","manches_max"],
   tournoi:["duree"],
   bombe:  [],
+  quittedouble:["duree","manches_max"],
 };
 const POUVOIRS = {
   indice:{e:"🔎", n:"Indice"}, gel:{e:"❄️", n:"Gel"},
@@ -447,7 +479,7 @@ let regl = {duree:20, objectif:100, manches_max:0};
 let equipesOn = false, scoresEqCourant = null;
 let modeCourant = "basique";
 let mesCharges = 0, monElimine = false, gelTimer = null, doubleArme = false;
-let cooldownJusqua = 0, monTour = true;
+let cooldownJusqua = 0, monTour = true, miseFaite = false;
 
 function banniereEquipes(sc, gagnant){
   if (!sc) return "";
@@ -718,6 +750,55 @@ function recevoir(m){
     ecran("pause");
   }
 
+  if (m.type === "mise_debut"){
+    clearInterval(tickeur); finirGel(); figee = false; miseFaite = false;
+    const moi = (m.joueurs||[]).find(j => j.pseudo === monPseudo);
+    const solde = moi ? moi.score : 0;
+    $("#v-reponse-bloc").style.display = "none";
+    $("#v-eq-pause").innerHTML = `<div class="entete-mode">🎲 Mise ${m.manche}/${m.manches_max}</div>`;
+    let ui;
+    if (solde <= 0){
+      ui = `<div class="mise-box"><div class="mise-solde">Tu n'as plus de points 😬</div>
+        <div class="mise-info">Tu regardes cette manche.</div></div>`;
+    } else {
+      const opts = [
+        {l:"Petite", v:Math.max(1, Math.round(solde*0.25))},
+        {l:"Moyenne", v:Math.max(1, Math.round(solde*0.5))},
+        {l:"Grosse", v:Math.max(1, Math.round(solde*0.75))},
+        {l:"Tapis", v:solde},
+      ];
+      ui = `<div class="mise-box">
+        <div class="mise-solde">Ton capital : <b>${solde}</b> pts</div>
+        <div class="mise-grille">` +
+        opts.map(o => `<button class="mise-btn" data-mise="${o.v}">${o.l}<span>${o.v} pts</span></button>`).join("") +
+        `</div>
+        <div class="mise-libre">
+          <input id="mise-input" type="number" min="0" max="${solde}" placeholder="Montant libre">
+          <button class="mise-btn petit" data-mise="input">OK</button>
+        </div>
+        <div id="mise-etat" class="mise-info">Sans choix : mise = 0 (tu ne risques rien, tu ne gagnes rien).</div>
+      </div>`;
+    }
+    $("#v-scores").innerHTML = ui + (m.joueurs||[]).map(ligneJoueur).join("");
+    ecran("pause");
+  }
+
+  if (m.type === "qd_resultat"){
+    clearInterval(tickeur); finirGel(); majMoi(m.joueurs);
+    $("#v-reponse-bloc").style.display = "block";  // garde la réponse révélée
+    $("#v-eq-pause").innerHTML = `<div class="entete-mode">🎲 Résultat des mises</div>`;
+    const lignes = (m.details||[]).map(d => {
+      const cls = d.mise === 0 ? "neutre" : (d.trouve ? "gagne" : "perd");
+      const signe = d.delta > 0 ? `+${d.delta}` : (d.delta < 0 ? `${d.delta}` : "±0");
+      return `<div class="qd-ligne ${cls}"><span class="qd-nom">${d.pseudo}</span>
+        <span class="qd-mise">misé ${d.mise}</span>
+        <span class="qd-delta">${signe}</span>
+        <span class="qd-score">${d.score} pts</span></div>`;
+    }).join("");
+    $("#v-scores").innerHTML = `<div class="qd-res">${lignes}</div>`;
+    ecran("pause");
+  }
+
   if (m.type === "fin_partie"){
     clearInterval(tickeur); finirGel();
     const j = m.joueurs;
@@ -827,6 +908,11 @@ function descrFin(){
   if (modeCourant === "coop")   return `Objectif commun : ${regl.objectif} points ensemble.`;
   if (modeCourant === "tournoi") return "Duels 1v1 à élimination directe. Il faut au moins 2 joueurs.";
   if (modeCourant === "bombe") return "Patate chaude : réponds vite et refile la bombe. Dernier en vie gagne (2 joueurs min).";
+  if (modeCourant === "pouvoirs")
+    return "Comme le basique + cartes de pouvoir (3 bonnes réponses = 1 carte). " + (regl.manches_max
+      ? `${regl.manches_max} manches.` : `Premier à ${regl.objectif} points.`);
+  if (modeCourant === "quittedouble")
+    return `Mise avant chaque question, ${regl.manches_max || 10} manches. Départ : 100 pts. Le plus gros capital gagne.`;
   if (modeCourant === "chacun")
     return "Chacun répond à son tour. " + (regl.manches_max
       ? `${regl.manches_max} manches.` : `Premier à ${regl.objectif} points.`);
@@ -846,8 +932,8 @@ function majMoi(js){
 
 function dessinerPouvoirs(){
   const box = $("#v-pouvoirs");
-  if (!$("#ec-jeu").classList.contains("actif") || modeCourant === "chacun"
-      || modeCourant === "bombe" || !monTour){
+  if (!$("#ec-jeu").classList.contains("actif") || modeCourant !== "pouvoirs"
+      || !monTour){
     box.style.display = "none"; return;
   }
   box.style.display = "block";
@@ -984,6 +1070,25 @@ document.addEventListener("click", e => {
   if (!b || b.disabled) return;
   envoyer({type:"pouvoir", pouvoir:b.dataset.pv});
   cooldownJusqua = Date.now() + 8000; dessinerPouvoirs();  // grise en attendant
+});
+// Miser (mode quitte ou double)
+document.addEventListener("click", e => {
+  const b = e.target.closest(".mise-btn");
+  if (!b) return;
+  let mise;
+  if (b.dataset.mise === "input"){
+    const inp = $("#mise-input");
+    mise = Math.max(0, Math.floor(Number(inp && inp.value) || 0));
+  } else {
+    mise = Math.max(0, parseInt(b.dataset.mise, 10) || 0);
+  }
+  envoyer({type:"miser", mise});
+  miseFaite = true;
+  document.querySelectorAll(".mise-btn").forEach(x => x.classList.remove("choisi"));
+  b.classList.add("choisi");
+  const et = $("#mise-etat");
+  if (et){ et.textContent = `Mise enregistrée : ${mise} pts. En attente des autres…`;
+    et.classList.add("ok"); }
 });
 dessinerJetons();
 </script>
