@@ -34,12 +34,14 @@ JOUEURS_MAX = 10
 DELAI_RECONNEXION = 30      # secondes avant d'evincer un joueur deconnecte
 
 # --- Modes de jeu ---
-MODES = ["basique", "equipes", "survie", "blitz", "coop", "chacun", "tournoi"]
+MODES = ["basique", "equipes", "survie", "blitz", "coop", "chacun", "tournoi", "bombe"]
 VIES_SURVIE = 3            # vies de depart en mode survie
 DUREE_BLITZ = 8            # chrono court (s) en mode blitz
 FENETRE_BLITZ = 4          # fenetre (s) apres la 1re bonne reponse en blitz
 MANCHES_BLITZ = 20         # nb de manches par defaut en blitz
 DELAI_ANNONCE = 4          # secondes d'affichage des annonces de tournoi
+FUSE_MIN = 12              # duree mini (s) de la meche en mode bombe
+FUSE_MAX = 22             # duree maxi (s) de la meche en mode bombe
 
 # --- Pouvoirs (phase 2) ---
 SERIE_POUR_CHARGE = 3      # bonnes reponses d'affilee pour gagner 1 charge
@@ -481,6 +483,118 @@ class Salon:
         await asyncio.sleep(DELAI_ANNONCE)
         return gagnant
 
+    async def _manche_bombe(self, holder, bomb_end):
+        """Une question posee au porteur de la bombe. La meche (bomb_end) est
+        partagee : elle NE se reinitialise PAS entre les passes. Renvoie
+        'passed' (bonne reponse), 'timeout' (meche ecoulee) ou 'empty'."""
+        question = piocher(self.categories, self.difficultes, self.deja_posees)
+        if question is None:
+            self.deja_posees = []
+            question = piocher(self.categories, self.difficultes, [])
+        if question is None:
+            await self.diffuser({"type": "erreur",
+                                 "message": "Aucune question pour ces categories."})
+            self.etat = "salon"
+            await self.diffuser_etat()
+            return "empty"
+
+        self.numero += 1
+        self.question = question
+        self.deja_posees.append(question["id"])
+        self.premier = None
+        self.indice_envoye = False
+        self.repondeurs = {holder}
+        reste = max(1.0, bomb_end - time.time())
+        self.debut = time.time()
+        self.duree_courante = reste
+        self.fin_prevue = bomb_end
+        self.etat = "manche"
+        for j in self.joueurs.values():
+            j["trouve"] = False
+            j["gel_jusqua"] = 0
+            j["double_arme"] = False
+
+        await self.diffuser({
+            "type": "manche", "numero": self.numero,
+            "question": question["question"], "categorie": question["categorie"],
+            "difficulte": question["difficulte"], "duree": reste,
+            "image": question.get("image", ""), "mode": "bombe",
+            "tour": self.joueurs[holder]["pseudo"],
+        })
+
+        while time.time() < bomb_end:
+            h = self.joueurs.get(holder)
+            if h and h.get("trouve"):
+                return "passed"
+            await asyncio.sleep(0.05)
+        return "timeout"
+
+    async def jouer_bombe(self):
+        """Patate chaude : le porteur doit repondre pour refiler la bombe. Quand
+        la meche (cachee, aleatoire) explose, le porteur du moment perd une vie.
+        Dernier joueur en vie gagne."""
+        self.stats = {"rapide_pseudo": None, "rapide_temps": None,
+                      "firsts": {}, "colles": 0}
+        try:
+            if len([k for k in self.joueurs if self.joueurs[k]["ws"] is not None]) < 2:
+                await self.diffuser({"type": "erreur",
+                    "message": "Il faut au moins 2 joueurs pour le mode Bombe."})
+                self.etat = "salon"
+                await self.diffuser_etat()
+                return
+
+            idx = 0
+            while True:
+                encore = [k for k in self.joueurs if not self.joueurs[k].get("elimine")]
+                if len(encore) <= 1:
+                    break
+                fuse = random.uniform(FUSE_MIN, FUSE_MAX)
+                bomb_end = time.time() + fuse
+                exploded = None
+                while time.time() < bomb_end:
+                    vivants = [k for k in self.joueurs
+                               if not self.joueurs[k].get("elimine")]
+                    if len(vivants) <= 1:
+                        break
+                    holder = vivants[idx % len(vivants)]
+                    res = await self._manche_bombe(holder, bomb_end)
+                    if res == "empty":
+                        return
+                    if res == "passed":
+                        idx += 1
+                        continue
+                    exploded = holder     # timeout : la bombe pete sur le porteur
+                    break
+
+                if exploded is not None:
+                    h = self.joueurs[exploded]
+                    h["vies"] = max(0, h.get("vies", VIES_SURVIE) - 1)
+                    if h["vies"] == 0:
+                        h["elimine"] = True
+                    self.etat = "pause"
+                    await self.diffuser({
+                        "type": "bombe_explose", "pseudo": h["pseudo"],
+                        "vies": h["vies"], "elimine": h["elimine"],
+                        "joueurs": self.liste_joueurs(),
+                    })
+                    await asyncio.sleep(DELAI_ANNONCE)
+                    idx += 1
+
+            vivants = [k for k in self.joueurs if not self.joueurs[k].get("elimine")]
+            champion = vivants[0] if vivants else None
+            self.etat = "fini"
+            await self.diffuser({
+                "type": "fin_partie", "joueurs": self.liste_joueurs(),
+                "stats": self.bilan_stats(), "mode": "bombe",
+                "survivant": self.joueurs[champion]["pseudo"] if champion else None,
+            })
+        except asyncio.CancelledError:
+            raise
+        except Exception as e:
+            await self.diffuser({"type": "erreur", "message": str(e)})
+            self.etat = "salon"
+            await self.diffuser_etat()
+
     def bilan_stats(self):
         s = self.stats or {}
         firsts = s.get("firsts") or {}
@@ -772,6 +886,8 @@ async def websocket(ws: WebSocket):
                     salon.etat = "manche"   # verrou synchrone anti double-lancement
                     if salon.mode == "tournoi":
                         salon.boucle = asyncio.create_task(salon.jouer_tournoi())
+                    elif salon.mode == "bombe":
+                        salon.boucle = asyncio.create_task(salon.jouer_bombe())
                     else:
                         salon.boucle = asyncio.create_task(salon.jouer())
 

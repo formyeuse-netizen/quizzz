@@ -421,6 +421,7 @@ const MODES = {
   coop:    {t:"Coop", e:"🤝", d:"Tous ensemble contre le chrono, un seul score."},
   chacun:  {t:"Chacun son tour", e:"🎤", d:"Un joueur répond à la fois, à tour de rôle."},
   tournoi: {t:"Tournoi", e:"🏆", d:"Duels 1v1 à élimination directe jusqu'au champion."},
+  bombe:   {t:"Bombe", e:"💣", d:"Patate chaude : réponds vite et refile la bombe. Celui qui l'a quand elle explose perd une vie."},
 };
 // Quels reglages sont pertinents selon le mode
 const PARAMS_MODE = {
@@ -431,6 +432,7 @@ const PARAMS_MODE = {
   coop:   ["duree","objectif","manches_max"],
   chacun: ["duree","objectif","manches_max"],
   tournoi:["duree"],
+  bombe:  [],
 };
 const POUVOIRS = {
   indice:{e:"🔎", n:"Indice"}, gel:{e:"❄️", n:"Gel"},
@@ -559,6 +561,10 @@ function recevoir(m){
       monTour = (m.tour === monPseudo) && !monElimine;
       banner = monTour ? "🎤 <b>À toi de jouer !</b>"
                        : `🎤 Au tour de <b>${m.tour || "?"}</b>`;
+    } else if (modeCourant === "bombe"){
+      monTour = (m.tour === monPseudo) && !monElimine;
+      banner = monTour ? "💣 <b>Vite, réponds et refile la bombe !</b>"
+                       : `💣 La bombe est chez <b>${m.tour || "?"}</b>…`;
     } else if (modeCourant === "tournoi" && m.match){
       const inMatch = m.match.includes(monPseudo);
       monTour = inMatch && !monElimine;
@@ -702,6 +708,15 @@ function recevoir(m){
     ecran("pause");
   }
 
+  if (m.type === "bombe_explose"){
+    clearInterval(tickeur); finirGel(); majMoi(m.joueurs);
+    $("#v-reponse-bloc").style.display = "none";
+    const sort = m.elimine ? " est éliminé ☠️" : ` perd une vie (${m.vies} restante${m.vies>1?"s":""})`;
+    $("#v-eq-pause").innerHTML = `<div class="entete-mode">💥 ${m.pseudo}${sort}</div>`;
+    $("#v-scores").innerHTML = (m.joueurs||[]).map(ligneJoueur).join("");
+    ecran("pause");
+  }
+
   if (m.type === "fin_partie"){
     clearInterval(tickeur); finirGel();
     const j = m.joueurs;
@@ -713,6 +728,8 @@ function recevoir(m){
     let tete = banniereEquipes(m.scores_equipes, gEq);
     if (m.mode === "tournoi")
       tete = `<div class="entete-mode">🏆 ${m.champion ? m.champion + " remporte le tournoi !" : "Tournoi terminé"}</div>`;
+    else if (m.mode === "bombe")
+      tete = `<div class="entete-mode">🏆 ${m.survivant ? m.survivant + " survit à la bombe !" : "Personne ne survit"}</div>`;
     else if (m.mode === "survie")
       tete = `<div class="entete-mode">🏆 ${m.survivant ? m.survivant + " survit !" : "Personne ne survit"}</div>`;
     else if (m.mode === "coop")
@@ -753,7 +770,7 @@ function ligneJoueur(j, i){
     + (mort ? " absent" : "");
   const dot = j.equipe ? `<span class="dot dot${j.equipe}"></span>` : "";
   let coeurs = "";
-  if (modeCourant === "survie" && typeof j.vies === "number"){
+  if ((modeCourant === "survie" || modeCourant === "bombe") && typeof j.vies === "number"){
     if (mort){ coeurs = ` <span class="coeurs">☠️</span>`; }
     else {
       let h = "";
@@ -808,6 +825,7 @@ function descrFin(){
   if (modeCourant === "blitz")  return "Chrono court, 20 manches. Le plus de points gagne.";
   if (modeCourant === "coop")   return `Objectif commun : ${regl.objectif} points ensemble.`;
   if (modeCourant === "tournoi") return "Duels 1v1 à élimination directe. Il faut au moins 2 joueurs.";
+  if (modeCourant === "bombe") return "Patate chaude : réponds vite et refile la bombe. Dernier en vie gagne (2 joueurs min).";
   if (modeCourant === "chacun")
     return "Chacun répond à son tour. " + (regl.manches_max
       ? `${regl.manches_max} manches.` : `Premier à ${regl.objectif} points.`);
@@ -827,7 +845,8 @@ function majMoi(js){
 
 function dessinerPouvoirs(){
   const box = $("#v-pouvoirs");
-  if (!$("#ec-jeu").classList.contains("actif") || modeCourant === "chacun" || !monTour){
+  if (!$("#ec-jeu").classList.contains("actif") || modeCourant === "chacun"
+      || modeCourant === "bombe" || !monTour){
     box.style.display = "none"; return;
   }
   box.style.display = "block";
