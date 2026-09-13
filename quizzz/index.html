@@ -268,6 +268,19 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
   z-index:50; color:#cfe4ff; font-family:var(--wordmark); font-size:40px; letter-spacing:.05em}
 .entete-mode{font-family:var(--wordmark); font-size:34px; letter-spacing:.04em;
   text-align:center; margin-bottom:12px}
+.tourban{background:var(--surface); border-radius:13px; padding:11px 14px;
+  margin-bottom:12px; text-align:center; font-size:15px; color:var(--clair)}
+.tourban b{color:var(--signal)}
+.bracket{display:flex; flex-direction:column; gap:9px; margin:10px 0}
+.duel{display:flex; align-items:center; gap:10px; background:var(--surface);
+  border-radius:13px; padding:12px 14px}
+.duel .vs{font-family:var(--wordmark); color:var(--doux); font-size:15px}
+.duel .n1,.duel .n2{flex:1; font-weight:600}
+.duel .n2{text-align:right}
+.duel .gagne{color:var(--juste)}
+.duel .perd{color:var(--doux); text-decoration:line-through; opacity:.6}
+.bye{background:var(--surface); border-radius:11px; padding:9px 14px;
+  color:var(--doux); font-size:13px}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
 </style>
@@ -349,6 +362,7 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
     </div>
     <div id="v-eq-jeu"></div>
     <div id="v-coop"></div>
+    <div id="v-tour"></div>
     <div class="compteur">
       <div class="valeur" id="v-pts">10</div>
       <div class="etiquette" id="v-pts-txt">points en jeu</div>
@@ -368,7 +382,7 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 
   <!-- ENTRE DEUX MANCHES -->
   <div class="ecran" id="ec-pause">
-    <div class="reponse-bloc">
+    <div class="reponse-bloc" id="v-reponse-bloc">
       <div class="quoi">La reponse etait</div>
       <div class="valeur" id="v-reponse"></div>
     </div>
@@ -405,6 +419,8 @@ const MODES = {
   survie:  {t:"Survie", e:"❤️", d:"3 vies. Rate une manche, perds une vie. Dernier en vie gagne."},
   blitz:   {t:"Blitz", e:"⚡", d:"Chrono ultra court, 20 manches rapides."},
   coop:    {t:"Coop", e:"🤝", d:"Tous ensemble contre le chrono, un seul score."},
+  chacun:  {t:"Chacun son tour", e:"🎤", d:"Un joueur répond à la fois, à tour de rôle."},
+  tournoi: {t:"Tournoi", e:"🏆", d:"Duels 1v1 à élimination directe jusqu'au champion."},
 };
 // Quels reglages sont pertinents selon le mode
 const PARAMS_MODE = {
@@ -413,6 +429,8 @@ const PARAMS_MODE = {
   survie: ["duree"],
   blitz:  [],
   coop:   ["duree","objectif","manches_max"],
+  chacun: ["duree","objectif","manches_max"],
+  tournoi:["duree"],
 };
 const POUVOIRS = {
   indice:{e:"🔎", n:"Indice"}, gel:{e:"❄️", n:"Gel"},
@@ -426,7 +444,7 @@ let regl = {duree:20, objectif:100, manches_max:0};
 let equipesOn = false, scoresEqCourant = null;
 let modeCourant = "basique";
 let mesCharges = 0, monElimine = false, gelTimer = null, doubleArme = false;
-let cooldownJusqua = 0;
+let cooldownJusqua = 0, monTour = true;
 
 function banniereEquipes(sc, gagnant){
   if (!sc) return "";
@@ -528,16 +546,30 @@ function recevoir(m){
     else { img.style.display = "none"; img.removeAttribute("src"); }
     $("#v-flash").innerHTML = "";
     $("#v-essais").innerHTML = '<div class="essais-vide">Les essais de tout le monde s\'affichent ici.</div>';
-    $("#saisie").value = ""; $("#saisie").disabled = monElimine;
+    $("#saisie").value = "";
     $("#v-pts").classList.remove("fige");
     $("#v-barre").classList.remove("fige","urgent");
     $("#v-pts-txt").textContent = "points en jeu";
     $("#v-eq-jeu").innerHTML = equipesOn
       ? banniereEquipes(scoresEqCourant || {A:0,B:0}) : "";
+    // Tour (chacun) / duel (tournoi) : qui peut repondre ?
+    monTour = !monElimine;
+    let banner = "";
+    if (modeCourant === "chacun"){
+      monTour = (m.tour === monPseudo) && !monElimine;
+      banner = monTour ? "🎤 <b>À toi de jouer !</b>"
+                       : `🎤 Au tour de <b>${m.tour || "?"}</b>`;
+    } else if (modeCourant === "tournoi" && m.match){
+      const inMatch = m.match.includes(monPseudo);
+      monTour = inMatch && !monElimine;
+      const sc = m.match_score ? ` (${m.match_score[0]}–${m.match_score[1]})` : "";
+      banner = `🏆 <b>${m.match[0]}</b> vs <b>${m.match[1]}</b>${sc}`
+             + (inMatch ? " — à toi !" : " — spectateur");
+    }
+    $("#v-tour").innerHTML = banner ? `<div class="tourban">${banner}</div>` : "";
     ecran("jeu");
-    dessinerPouvoirs();
     majEcranMode();
-    if (!monElimine) $("#saisie").focus();
+    if (monTour) $("#saisie").focus();
     lancerTick();
   }
 
@@ -632,6 +664,7 @@ function recevoir(m){
   if (m.type === "fin_manche"){
     clearInterval(tickeur); finirGel();
     majMoi(m.joueurs);
+    $("#v-reponse-bloc").style.display = "block";
     $("#v-reponse").textContent = m.reponse;
     if (m.scores_equipes) scoresEqCourant = m.scores_equipes;
     $("#v-eq-pause").innerHTML = banniereEquipes(m.scores_equipes);
@@ -646,6 +679,29 @@ function recevoir(m){
     ecran("pause");
   }
 
+  if (m.type === "tournoi_tour"){
+    clearInterval(tickeur); finirGel();
+    $("#v-reponse-bloc").style.display = "none";
+    $("#v-eq-pause").innerHTML = `<div class="entete-mode">🏆 Tournoi — Tour ${m.tour}</div>`;
+    let h = `<div class="bracket">`;
+    h += (m.paires||[]).map(p => `<div class="duel"><span class="n1">${p[0]}</span>
+       <span class="vs">VS</span><span class="n2">${p[1]}</span></div>`).join("");
+    h += (m.byes||[]).map(b => `<div class="bye">${b} passe au tour suivant (bye)</div>`).join("");
+    $("#v-scores").innerHTML = h + `</div>`;
+    ecran("pause");
+  }
+
+  if (m.type === "tournoi_match_fin"){
+    clearInterval(tickeur); finirGel();
+    $("#v-reponse-bloc").style.display = "none";
+    $("#v-eq-pause").innerHTML = `<div class="entete-mode">✅ ${m.gagnant} l'emporte !</div>`;
+    $("#v-scores").innerHTML = `<div class="duel">
+      <span class="n1 ${m.noms[0]===m.gagnant?"gagne":"perd"}">${m.noms[0]}</span>
+      <span class="vs">${m.score[0]}–${m.score[1]}</span>
+      <span class="n2 ${m.noms[1]===m.gagnant?"gagne":"perd"}">${m.noms[1]}</span></div>`;
+    ecran("pause");
+  }
+
   if (m.type === "fin_partie"){
     clearInterval(tickeur); finirGel();
     const j = m.joueurs;
@@ -655,7 +711,9 @@ function recevoir(m){
       gEq = s.A === s.B ? null : (s.A > s.B ? "A" : "B");
     }
     let tete = banniereEquipes(m.scores_equipes, gEq);
-    if (m.mode === "survie")
+    if (m.mode === "tournoi")
+      tete = `<div class="entete-mode">🏆 ${m.champion ? m.champion + " remporte le tournoi !" : "Tournoi terminé"}</div>`;
+    else if (m.mode === "survie")
       tete = `<div class="entete-mode">🏆 ${m.survivant ? m.survivant + " survit !" : "Personne ne survit"}</div>`;
     else if (m.mode === "coop")
       tete = m.coop_reussi
@@ -749,6 +807,10 @@ function descrFin(){
   if (modeCourant === "survie") return "Dernier joueur en vie gagne (3 vies chacun).";
   if (modeCourant === "blitz")  return "Chrono court, 20 manches. Le plus de points gagne.";
   if (modeCourant === "coop")   return `Objectif commun : ${regl.objectif} points ensemble.`;
+  if (modeCourant === "tournoi") return "Duels 1v1 à élimination directe. Il faut au moins 2 joueurs.";
+  if (modeCourant === "chacun")
+    return "Chacun répond à son tour. " + (regl.manches_max
+      ? `${regl.manches_max} manches.` : `Premier à ${regl.objectif} points.`);
   return regl.manches_max ? `Partie en ${regl.manches_max} manches.`
                           : `Premier à ${regl.objectif} points.`;
 }
@@ -765,9 +827,12 @@ function majMoi(js){
 
 function dessinerPouvoirs(){
   const box = $("#v-pouvoirs");
-  if (!$("#ec-jeu").classList.contains("actif")){ box.style.display = "none"; return; }
+  if (!$("#ec-jeu").classList.contains("actif") || modeCourant === "chacun" || !monTour){
+    box.style.display = "none"; return;
+  }
   box.style.display = "block";
-  const dispo = mesCharges > 0 && !figee && !monElimine && Date.now() >= cooldownJusqua;
+  const dispo = mesCharges > 0 && !figee && !monElimine && monTour
+    && Date.now() >= cooldownJusqua;
   const pastilles = [0,1,2].map(i =>
     `<span class="${i < mesCharges ? "" : "vide"}">◆</span>`).join("");
   const btns = Object.entries(POUVOIRS).map(([k,v]) =>
@@ -783,13 +848,13 @@ function majEcranMode(){
     ? `<div class="coopbar"><div class="lib"><span>Objectif équipe</span>
        <span id="v-coop-txt">0 / ${regl.objectif}</span></div>
        <div class="piste"><i id="v-coop-jauge" style="width:0%"></i></div></div>` : "";
-  const eb = $("#v-elimine");
-  if (monElimine){
-    eb.innerHTML = `<div class="eliminebox">☠️ Tu es éliminé — tu regardes la fin en spectateur.</div>`;
-    $("#saisie").disabled = true; $("#saisie").placeholder = "Éliminé";
-  } else {
-    eb.innerHTML = ""; $("#saisie").placeholder = "Ta reponse";
-  }
+  $("#v-elimine").innerHTML = monElimine
+    ? `<div class="eliminebox">☠️ Tu es éliminé — tu regardes en spectateur.</div>` : "";
+  const s = $("#saisie");
+  s.disabled = !monTour;
+  s.placeholder = monTour ? "Ta reponse"
+    : (monElimine ? "Éliminé"
+       : (modeCourant === "chacun" ? "Ce n'est pas ton tour" : "Spectateur"));
   dessinerPouvoirs();
 }
 

@@ -34,11 +34,12 @@ JOUEURS_MAX = 10
 DELAI_RECONNEXION = 30      # secondes avant d'evincer un joueur deconnecte
 
 # --- Modes de jeu ---
-MODES = ["basique", "equipes", "survie", "blitz", "coop"]
+MODES = ["basique", "equipes", "survie", "blitz", "coop", "chacun", "tournoi"]
 VIES_SURVIE = 3            # vies de depart en mode survie
 DUREE_BLITZ = 8            # chrono court (s) en mode blitz
 FENETRE_BLITZ = 4          # fenetre (s) apres la 1re bonne reponse en blitz
 MANCHES_BLITZ = 20         # nb de manches par defaut en blitz
+DELAI_ANNONCE = 4          # secondes d'affichage des annonces de tournoi
 
 # --- Pouvoirs (phase 2) ---
 SERIE_POUR_CHARGE = 3      # bonnes reponses d'affilee pour gagner 1 charge
@@ -138,8 +139,10 @@ class Salon:
         self.objectif = OBJECTIF        # score qui met fin a la partie
         self.manches_max = 0            # 0 = illimite (fin au score) ; sinon nb de manches
         self.equipes = False            # mode 2 equipes (Rouge vs Bleu)
-        self.mode = "basique"           # basique | equipes | survie | blitz | coop
+        self.mode = "basique"           # basique|equipes|survie|blitz|coop|chacun|tournoi
         self.duree_courante = DUREE_MANCHE
+        self.repondeurs = None          # None = tout le monde ; sinon set de jetons autorises
+        self.tour_i = 0                 # index du joueur actif en mode "chacun son tour"
         self.etat = "salon"        # salon | manche | pause | fini
         self.question = None
         self.debut = 0
@@ -255,103 +258,117 @@ class Salon:
 
     # -- partie --
 
+    async def _run_manche(self, repondeurs=None, ctx=None):
+        """Joue UNE manche (pioche, diffusion, attente, pause). repondeurs =
+        set de jetons autorises a repondre (None = tous). ctx = champs ajoutes
+        aux messages manche/fin_manche. Renvoie False si la banque est vide."""
+        ctx = ctx or {}
+        question = piocher(self.categories, self.difficultes, self.deja_posees)
+        if question is None:
+            self.deja_posees = []
+            question = piocher(self.categories, self.difficultes, [])
+        if question is None:
+            await self.diffuser({"type": "erreur",
+                                 "message": "Aucune question pour ces categories."})
+            self.etat = "salon"
+            await self.diffuser_etat()
+            return False
+
+        self.numero += 1
+        self.question = question
+        self.deja_posees.append(question["id"])
+        self.premier = None
+        self.indice_envoye = False
+        self.repondeurs = repondeurs
+        duree = self.duree_effective()
+        self.duree_courante = duree
+        self.debut = time.time()
+        self.fin_prevue = self.debut + duree
+        self.etat = "manche"
+        for j in self.joueurs.values():
+            j["trouve"] = False
+            j["gel_jusqua"] = 0
+            j["double_arme"] = False
+
+        await self.diffuser({
+            "type": "manche", "numero": self.numero,
+            "question": question["question"], "categorie": question["categorie"],
+            "difficulte": question["difficulte"], "duree": duree,
+            "image": question.get("image", ""), "mode": self.mode, **ctx,
+        })
+
+        def concernes():
+            if repondeurs is not None:
+                return [self.joueurs[k] for k in repondeurs
+                        if k in self.joueurs and self.joueurs[k]["ws"] is not None]
+            return [j for j in self.actifs() if self.en_jeu(j)]
+
+        mi_temps = self.debut + duree / 2
+        while time.time() < self.fin_prevue:
+            presents = concernes()
+            if presents and all(j.get("trouve") for j in presents):
+                break
+            if (not self.indice_envoye and self.premier is None
+                    and time.time() >= mi_temps):
+                self.indice_envoye = True
+                await self.diffuser({"type": "indice",
+                                     "indice": indice_de(question["reponse"])})
+            await asyncio.sleep(0.1)
+
+        if self.premier is None:
+            self.stats["colles"] += 1
+
+        # Survie : perte de vie pour les connectes qui n'ont pas trouve.
+        elimines_ce_tour = []
+        if self.mode == "survie":
+            for j in self.joueurs.values():
+                if j.get("elimine") or j["ws"] is None:
+                    continue
+                if not j.get("trouve"):
+                    j["vies"] = max(0, j.get("vies", VIES_SURVIE) - 1)
+                    if j["vies"] == 0:
+                        j["elimine"] = True
+                        elimines_ce_tour.append(j["pseudo"])
+
+        self.etat = "pause"
+        await self.diffuser({
+            "type": "fin_manche", "reponse": question["reponse"],
+            "joueurs": self.liste_joueurs(), "mode": self.mode,
+            "collectif": (self.score_collectif() if self.mode == "coop" else None),
+            "elimines": elimines_ce_tour or None,
+            "scores_equipes": (self.scores_equipes() if self.equipes else None),
+            **ctx,
+        })
+        return True
+
     async def jouer(self):
         self.stats = {"rapide_pseudo": None, "rapide_temps": None,
                       "firsts": {}, "colles": 0}
+        self.tour_i = 0
         try:
             while self.etat != "fini":
-                question = piocher(self.categories, self.difficultes,
-                                   self.deja_posees)
-                if question is None:
-                    # Banque epuisee : on repart sur l'ensemble des questions.
-                    self.deja_posees = []
-                    question = piocher(self.categories, self.difficultes, [])
-                if question is None:
-                    await self.diffuser({
-                        "type": "erreur",
-                        "message": "Aucune question pour ces categories."})
-                    self.etat = "salon"
-                    await self.diffuser_etat()
+                repondeurs, ctx = None, {}
+                if self.mode == "chacun":
+                    ordre = [k for k in self.joueurs
+                             if self.joueurs[k]["ws"] is not None]
+                    if not ordre:
+                        await asyncio.sleep(0.3)
+                        continue
+                    actif = ordre[self.tour_i % len(ordre)]
+                    self.tour_i += 1
+                    repondeurs = {actif}
+                    ctx = {"tour": self.joueurs[actif]["pseudo"]}
+
+                ok = await self._run_manche(repondeurs, ctx)
+                if not ok:
                     return
-
-                self.numero += 1
-                self.question = question
-                self.deja_posees.append(question["id"])
-                self.premier = None
-                self.indice_envoye = False
-                duree = self.duree_effective()
-                self.duree_courante = duree
-                self.debut = time.time()
-                self.fin_prevue = self.debut + duree
-                self.etat = "manche"
-                for j in self.joueurs.values():
-                    j["trouve"] = False
-                    j["gel_jusqua"] = 0
-                    j["double_arme"] = False
-
-                await self.diffuser({
-                    "type": "manche",
-                    "numero": self.numero,
-                    "question": question["question"],
-                    "categorie": question["categorie"],
-                    "difficulte": question["difficulte"],
-                    "duree": duree,
-                    "image": question.get("image", ""),
-                    "mode": self.mode,
-                })
-
-                mi_temps = self.debut + duree / 2
-                while time.time() < self.fin_prevue:
-                    presents = [j for j in self.actifs() if self.en_jeu(j)]
-                    if presents and all(j.get("trouve") for j in presents):
-                        break
-                    # Indice a mi-temps si personne n'a encore trouve.
-                    if (not self.indice_envoye and self.premier is None
-                            and time.time() >= mi_temps):
-                        self.indice_envoye = True
-                        await self.diffuser({
-                            "type": "indice",
-                            "indice": indice_de(question["reponse"]),
-                        })
-                    await asyncio.sleep(0.1)
-
-                if self.premier is None:
-                    self.stats["colles"] += 1
-
-                # Survie : ceux qui n'ont pas trouve (et sont connectes) perdent
-                # une vie ; a 0 vie ils sont elimines et deviennent spectateurs.
-                elimines_ce_tour = []
-                if self.mode == "survie":
-                    for j in self.joueurs.values():
-                        if j.get("elimine") or j["ws"] is None:
-                            continue
-                        if not j.get("trouve"):
-                            j["vies"] = max(0, j.get("vies", VIES_SURVIE) - 1)
-                            if j["vies"] == 0:
-                                j["elimine"] = True
-                                elimines_ce_tour.append(j["pseudo"])
-
-                self.etat = "pause"
-                await self.diffuser({
-                    "type": "fin_manche",
-                    "reponse": question["reponse"],
-                    "joueurs": self.liste_joueurs(),
-                    "mode": self.mode,
-                    "collectif": (self.score_collectif()
-                                  if self.mode == "coop" else None),
-                    "elimines": elimines_ce_tour or None,
-                    "scores_equipes": (self.scores_equipes()
-                                       if self.equipes else None),
-                })
 
                 fini, extra = self.evaluer_fin()
                 if fini:
                     self.etat = "fini"
                     await self.diffuser({
-                        "type": "fin_partie",
-                        "joueurs": self.liste_joueurs(),
-                        "stats": self.bilan_stats(),
-                        "mode": self.mode,
+                        "type": "fin_partie", "joueurs": self.liste_joueurs(),
+                        "stats": self.bilan_stats(), "mode": self.mode,
                         "scores_equipes": (self.scores_equipes()
                                            if self.equipes else None),
                         **extra,
@@ -365,6 +382,104 @@ class Salon:
             await self.diffuser({"type": "erreur", "message": str(e)})
             self.etat = "salon"
             await self.diffuser_etat()
+
+    async def jouer_tournoi(self):
+        """Bracket a elimination directe. Matches joues l'un apres l'autre ;
+        tout le monde regarde, seuls les 2 duellistes repondent."""
+        self.stats = {"rapide_pseudo": None, "rapide_temps": None,
+                      "firsts": {}, "colles": 0}
+        try:
+            vivants = [k for k in self.joueurs if self.joueurs[k]["ws"] is not None]
+            if len(vivants) < 2:
+                await self.diffuser({"type": "erreur",
+                    "message": "Il faut au moins 2 joueurs pour un tournoi."})
+                self.etat = "salon"
+                await self.diffuser_etat()
+                return
+
+            tour = 1
+            while len(vivants) > 1:
+                random.shuffle(vivants)
+                paires, byes, i = [], [], 0
+                while i < len(vivants):
+                    if i + 1 < len(vivants):
+                        paires.append((vivants[i], vivants[i + 1])); i += 2
+                    else:
+                        byes.append(vivants[i]); i += 1
+
+                self.etat = "pause"
+                await self.diffuser({
+                    "type": "tournoi_tour", "tour": tour,
+                    "paires": [[self.joueurs[a]["pseudo"], self.joueurs[b]["pseudo"]]
+                               for a, b in paires],
+                    "byes": [self.joueurs[b]["pseudo"] for b in byes],
+                })
+                await asyncio.sleep(DELAI_ANNONCE)
+
+                gagnants = list(byes)
+                for p1, p2 in paires:
+                    g = await self._jouer_match(p1, p2)
+                    if g is None:
+                        return          # partie interrompue (banque vide)
+                    gagnants.append(g)
+                vivants = [k for k in gagnants if k in self.joueurs]
+                if not vivants:
+                    break
+                tour += 1
+
+            champion = vivants[0] if vivants else None
+            self.etat = "fini"
+            await self.diffuser({
+                "type": "fin_partie", "joueurs": self.liste_joueurs(),
+                "stats": self.bilan_stats(), "mode": "tournoi",
+                "champion": self.joueurs[champion]["pseudo"] if champion else None,
+            })
+        except asyncio.CancelledError:
+            raise
+        except Exception as e:
+            await self.diffuser({"type": "erreur", "message": str(e)})
+            self.etat = "salon"
+            await self.diffuser_etat()
+
+    async def _jouer_match(self, p1, p2):
+        """Duel best-of-3 (premier a 2 manches gagnees). Renvoie le jeton
+        gagnant, ou None si la banque est vide."""
+        self.joueurs[p1]["match"] = 0
+        self.joueurs[p2]["match"] = 0
+        noms = [self.joueurs[p1]["pseudo"], self.joueurs[p2]["pseudo"]]
+        q = 0
+        while True:
+            q += 1
+            avant = {p1: self.joueurs[p1]["score"], p2: self.joueurs[p2]["score"]}
+            ctx = {"match": noms,
+                   "match_score": [self.joueurs[p1]["match"], self.joueurs[p2]["match"]],
+                   "match_q": q}
+            ok = await self._run_manche({p1, p2}, ctx)
+            if not ok:
+                return None
+            d1 = self.joueurs[p1]["score"] - avant[p1]
+            d2 = self.joueurs[p2]["score"] - avant[p2]
+            if d1 > d2:
+                self.joueurs[p1]["match"] += 1
+            elif d2 > d1:
+                self.joueurs[p2]["match"] += 1
+            m1, m2 = self.joueurs[p1]["match"], self.joueurs[p2]["match"]
+            if (m1 >= 2 or m2 >= 2 or q >= 3) and (m1 != m2 or q >= 6):
+                break
+            await asyncio.sleep(PAUSE_ENTRE_MANCHES)
+
+        gagnant = p1 if self.joueurs[p1]["match"] >= self.joueurs[p2]["match"] else p2
+        perdant = p2 if gagnant == p1 else p1
+        self.joueurs[perdant]["elimine"] = True
+        self.etat = "pause"
+        await self.diffuser({
+            "type": "tournoi_match_fin", "noms": noms,
+            "gagnant": self.joueurs[gagnant]["pseudo"],
+            "perdant": self.joueurs[perdant]["pseudo"],
+            "score": [self.joueurs[p1]["match"], self.joueurs[p2]["match"]],
+        })
+        await asyncio.sleep(DELAI_ANNONCE)
+        return gagnant
 
     def bilan_stats(self):
         s = self.stats or {}
@@ -384,8 +499,10 @@ class Salon:
         joueur = self.joueurs.get(jeton)
         if not joueur or joueur.get("trouve"):
             return
-        if not self.en_jeu(joueur):        # elimine (survie) : spectateur
+        if not self.en_jeu(joueur):        # elimine (survie/tournoi) : spectateur
             return
+        if self.repondeurs is not None and jeton not in self.repondeurs:
+            return                          # pas ton tour (chacun / duel tournoi)
         if time.time() < joueur.get("gel_jusqua", 0):   # gele par un adversaire
             await self.envoyer(joueur, {"type": "gele"})
             return
@@ -468,6 +585,8 @@ class Salon:
         j = self.joueurs.get(jeton)
         if not j or j.get("trouve") or not self.en_jeu(j) or j["ws"] is None:
             return
+        if self.repondeurs is not None and jeton not in self.repondeurs:
+            return                          # pouvoir reserve aux repondeurs actifs
         maintenant = time.time()
         if j.get("charges", 0) < 1 or maintenant < j.get("cooldown", 0):
             await self.envoyer(j, {"type": "pouvoir_refuse"})
@@ -646,10 +765,15 @@ async def websocket(ws: WebSocket):
                         j["cooldown"] = 0
                         j["gel_jusqua"] = 0
                         j["double_arme"] = False
+                        j["match"] = 0
                     salon.deja_posees = []
                     salon.numero = 0
+                    salon.repondeurs = None
                     salon.etat = "manche"   # verrou synchrone anti double-lancement
-                    salon.boucle = asyncio.create_task(salon.jouer())
+                    if salon.mode == "tournoi":
+                        salon.boucle = asyncio.create_task(salon.jouer_tournoi())
+                    else:
+                        salon.boucle = asyncio.create_task(salon.jouer())
 
             elif action == "reponse":
                 await salon.traiter_reponse(jeton, message.get("texte", ""))
