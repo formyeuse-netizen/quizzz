@@ -1,0 +1,477 @@
+[
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Joconde",
+  "alias": [
+   "La Joconde",
+   "Mona Lisa",
+   "Léonard de Vinci",
+   "Vinci"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_natural_color.jpg?width=500",
+  "sujet_image": "La Joconde"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Nuit étoilée",
+  "alias": [
+   "La Nuit étoilée",
+   "The Starry Night",
+   "Van Gogh"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?width=500",
+  "sujet_image": "La Nuit étoilée"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Cri",
+  "alias": [
+   "Le Cri",
+   "The Scream",
+   "Munch"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Edvard_Munch_-_The_Scream.jpg?width=500",
+  "sujet_image": "Le Cri"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Jeune Fille à la perle",
+  "alias": [
+   "La Jeune Fille à la perle",
+   "Girl with a Pearl Earring",
+   "Vermeer"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1665_Girl_with_a_Pearl_Earring.jpg?width=500",
+  "sujet_image": "La Jeune Fille à la perle"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Naissance de Vénus",
+  "alias": [
+   "La Naissance de Vénus",
+   "The Birth of Venus",
+   "Botticelli"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg?width=500",
+  "sujet_image": "La Naissance de Vénus (Botticelli)"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Cène",
+  "alias": [
+   "La Cène",
+   "The Last Supper",
+   "Vinci"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leonardo_da_Vinci_%281452-1519%29_-_The_Last_Supper_%281495-1498%29.jpg?width=500",
+  "sujet_image": "La Cène (Léonard de Vinci)"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Création d'Adam",
+  "alias": [
+   "La Création d'Adam",
+   "The Creation of Adam",
+   "Michel-Ange",
+   "Michelangelo"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Creaci%C3%B3n_de_Ad%C3%A1n.jpg?width=500",
+  "sujet_image": "La Création d'Adam"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Ménines",
+  "alias": [
+   "Les Ménines",
+   "Las Meninas",
+   "Vélasquez",
+   "Velazquez"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg?width=500",
+  "sujet_image": "Les Ménines"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Liberté guidant le peuple",
+  "alias": [
+   "La Liberté guidant le peuple",
+   "Liberty Leading the People",
+   "Delacroix"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/La_Libert%C3%A9_guidant_le_peuple_-_Eug%C3%A8ne_Delacroix_-_Mus%C3%A9e_du_Louvre_Peintures_RF_129_-_apr%C3%A8s_restauration_2024.jpg?width=500",
+  "sujet_image": "La Liberté guidant le peuple"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Baiser",
+  "alias": [
+   "Le Baiser",
+   "The Kiss",
+   "Klimt"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Kiss_-_Gustav_Klimt_-_Google_Cultural_Institute.jpg?width=500",
+  "sujet_image": "Le Baiser (Klimt)"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "American Gothic",
+  "alias": [
+   "American Gothic",
+   "Grant Wood"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grant_Wood_-_American_Gothic_%281930%29.jpg?width=500",
+  "sujet_image": "American Gothic"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Radeau de la Méduse",
+  "alias": [
+   "Le Radeau de la Méduse",
+   "The Raft of the Medusa",
+   "Géricault",
+   "Gericault"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/JEAN_LOUIS_TH%C3%89ODORE_G%C3%89RICAULT_-_La_Balsa_de_la_Medusa_%28Museo_del_Louvre%2C_1818-19%29.jpg?width=500",
+  "sujet_image": "Le Radeau de la Méduse"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Impression, soleil levant",
+  "alias": [
+   "Impression, soleil levant",
+   "Impression Sunrise",
+   "Monet"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude_Monet%2C_Impression%2C_soleil_levant.jpg?width=500",
+  "sujet_image": "Impression, soleil levant"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Tournesols",
+  "alias": [
+   "Les Tournesols",
+   "Sunflowers",
+   "Van Gogh"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Willem_van_Gogh_127.jpg?width=500",
+  "sujet_image": "Les Tournesols (Van Gogh)"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Déjeuner sur l'herbe",
+  "alias": [
+   "Le Déjeuner sur l'herbe",
+   "The Luncheon on the Grass",
+   "Manet"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%C3%89douard_Manet_-_Le_D%C3%A9jeuner_sur_l%27herbe.jpg?width=500",
+  "sujet_image": "Le Déjeuner sur l'herbe"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Grande Vague de Kanagawa",
+  "alias": [
+   "La Grande Vague de Kanagawa",
+   "The Great Wave off Kanagawa",
+   "Hokusai",
+   "grande vague"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsunami_by_hokusai_19th_century.jpg?width=500",
+  "sujet_image": "La Grande Vague de Kanagawa"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Ronde de nuit",
+  "alias": [
+   "La Ronde de nuit",
+   "The Night Watch",
+   "Rembrandt"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg?width=500",
+  "sujet_image": "La Ronde de nuit"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Jardin des délices",
+  "alias": [
+   "Le Jardin des délices",
+   "The Garden of Earthly Delights",
+   "Bosch",
+   "Jérôme Bosch"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Garden_of_earthly_delights.jpg?width=500",
+  "sujet_image": "Le Jardin des délices"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Sacre de Napoléon",
+  "alias": [
+   "Le Sacre de Napoléon",
+   "The Coronation of Napoleon",
+   "David",
+   "Jacques-Louis David"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Sacre_de_Napol%C3%A9on_-_Jacques-Louis_David_-_Mus%C3%A9e_du_Louvre_Peintures_INV_3699_%3B_MR_1437.jpg?width=500",
+  "sujet_image": "Le Sacre de Napoléon"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Bal du moulin de la Galette",
+  "alias": [
+   "Bal du moulin de la Galette",
+   "Renoir"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Renoir%2C_Pierre-Auguste_-_Dance_at_Le_Moulin_de_la_Galette%2C_1876.jpg?width=500",
+  "sujet_image": "Le Bal du moulin de la Galette"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Époux Arnolfini",
+  "alias": [
+   "Les Époux Arnolfini",
+   "The Arnolfini Portrait",
+   "Van Eyck"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Arnolfini_portrait_%281434%29.jpg?width=500",
+  "sujet_image": "Les Époux Arnolfini"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Laitière",
+  "alias": [
+   "La Laitière",
+   "The Milkmaid",
+   "Vermeer"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Johannes_Vermeer_-_Het_melkmeisje_-_Google_Art_Project.png?width=500",
+  "sujet_image": "La Laitière (Vermeer)"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Printemps",
+  "alias": [
+   "Le Printemps",
+   "Primavera",
+   "Botticelli"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandro_Botticelli_-_La_Primavera_-_Google_Art_Project.jpg?width=500",
+  "sujet_image": "Le Printemps (Botticelli)"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Un dimanche à la Grande Jatte",
+  "alias": [
+   "Un dimanche à la Grande Jatte",
+   "A Sunday on La Grande Jatte",
+   "Seurat"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg?width=500",
+  "sujet_image": "Un dimanche après-midi à l'île de la Grande Jatte"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "L'Angélus",
+  "alias": [
+   "L'Angélus",
+   "The Angelus",
+   "Millet"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/JEAN-FRAN%C3%87OIS_MILLET_-_El_%C3%81ngelus_%28Museo_de_Orsay%2C_1857-1859._%C3%93leo_sobre_lienzo%2C_55.5_x_66_cm%29.jpg?width=500",
+  "sujet_image": "L'Angélus"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Glaneuses",
+  "alias": [
+   "Les Glaneuses",
+   "The Gleaners",
+   "Millet"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean-Fran%C3%A7ois_Millet_-_Gleaners_-_Google_Art_Project_2.jpg?width=500",
+  "sujet_image": "Les Glaneuses"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Classe de danse",
+  "alias": [
+   "La Classe de danse",
+   "The Dance Class",
+   "Degas"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Edgar_Degas_-_La_Classe_de_danse.jpg?width=500",
+  "sujet_image": "La Classe de danse"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Autoportrait (Van Gogh)",
+  "alias": [
+   "Autoportrait (Van Gogh)",
+   "Van Gogh self-portrait",
+   "Van Gogh"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Self-Portrait_with_a_Bandaged_Ear_-_Vincent_van_Gogh.jpg?width=500",
+  "sujet_image": "Autoportrait à l'oreille bandée"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Déjeuner des canotiers",
+  "alias": [
+   "Le Déjeuner des canotiers",
+   "Luncheon of the Boating Party",
+   "Renoir"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pierre-Auguste_Renoir_-_Luncheon_of_the_Boating_Party_-_Google_Art_Project.jpg?width=500",
+  "sujet_image": "Le Déjeuner des canotiers"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Portrait de la mère de l'artiste",
+  "alias": [
+   "Portrait de la mère de l'artiste",
+   "Whistler's Mother",
+   "Whistler"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Whistlers_Mother_high_res.jpg?width=500",
+  "sujet_image": "Whistler's Mother"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Verrou",
+  "alias": [
+   "Le Verrou",
+   "The Bolt",
+   "Fragonard"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Le_Verrou_-_Jean-Honor%C3%A9_Fragonard_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1974_2.jpg?width=500",
+  "sujet_image": "Le Verrou (Fragonard)"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Vénus au miroir",
+  "alias": [
+   "La Vénus au miroir",
+   "Rokeby Venus",
+   "Vélasquez"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Diego_Vel%C3%A1zquez_-_Rokeby_Venus.jpg?width=500",
+  "sujet_image": "La Vénus au miroir"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Judith décapitant Holopherne",
+  "alias": [
+   "Judith décapitant Holopherne",
+   "Judith Beheading Holofernes",
+   "Caravage",
+   "Caravaggio"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio_-_Giuditta_e_Oloferne_%28ca._1599%29.jpg?width=500",
+  "sujet_image": "Judith décapitant Holopherne (Caravage)"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Cauchemar",
+  "alias": [
+   "Le Cauchemar",
+   "The Nightmare",
+   "Füssli",
+   "Fussli"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Johann_Heinrich_F%C3%BCssli_-_The_Nightmare_55.5.A-d1-2019-04-15.jpg?width=500",
+  "sujet_image": "Le Cauchemar (Füssli)"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Grande Odalisque",
+  "alias": [
+   "La Grande Odalisque",
+   "Grande Odalisque",
+   "Ingres"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/La_grande_odalisque_-_Jean-Auguste_Dominique_Ingres_-_Mus%C3%A9e_du_Louvre_Peintures_RF_1158.jpg?width=500",
+  "sujet_image": "La Grande Odalisque"
+ },
+ {
+  "question": "Quel est ce tableau ?",
+  "reponse": "Bonaparte franchissant le Grand-Saint-Bernard",
+  "alias": [
+   "Bonaparte franchissant le Grand-Saint-Bernard",
+   "Napoleon Crossing the Alps",
+   "David"
+  ],
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg?width=500",
+  "sujet_image": "Napoléon franchissant le Grand-Saint-Bernard"
+ }
+]

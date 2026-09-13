@@ -1,0 +1,1264 @@
+[
+ {
+  "question": "Combien de côtés a un hexagone ?",
+  "reponse": "6",
+  "alias": [
+   "six"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est la planète la plus proche du Soleil ?",
+  "reponse": "Mercure",
+  "alias": [
+   "Mercury"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le plus grand océan du monde ?",
+  "reponse": "océan Pacifique",
+  "alias": [
+   "Pacifique",
+   "Pacific"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel gaz les plantes absorbent-elles pour la photosynthèse ?",
+  "reponse": "dioxyde de carbone",
+  "alias": [
+   "CO2",
+   "gaz carbonique",
+   "carbon dioxide"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Combien de continents y a-t-il sur Terre ?",
+  "reponse": "7",
+  "alias": [
+   "sept",
+   "seven"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le métal liquide à température ambiante ?",
+  "reponse": "mercure",
+  "alias": [
+   "mercury"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la langue la plus parlée au monde (langue maternelle) ?",
+  "reponse": "chinois mandarin",
+  "alias": [
+   "mandarin",
+   "chinois",
+   "chinese"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel organe pompe le sang dans le corps ?",
+  "reponse": "cœur",
+  "alias": [
+   "coeur",
+   "heart"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de joueurs y a-t-il dans une équipe de football sur le terrain ?",
+  "reponse": "11",
+  "alias": [
+   "onze",
+   "eleven"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le plus grand désert chaud du monde ?",
+  "reponse": "Sahara",
+  "alias": [
+   "Sahara"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est la monnaie du Japon ?",
+  "reponse": "yen",
+  "alias": [
+   "yen",
+   "yen japonais"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel animal est le roi de la savane ?",
+  "reponse": "lion",
+  "alias": [
+   "lion"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de cordes a une guitare classique ?",
+  "reponse": "6",
+  "alias": [
+   "six",
+   "six cordes"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le symbole chimique de l'eau ?",
+  "reponse": "H2O",
+  "alias": [
+   "H2O"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le plus long fleuve du monde ?",
+  "reponse": "Nil",
+  "alias": [
+   "Nile",
+   "le Nil"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le plus haut sommet du monde ?",
+  "reponse": "Everest",
+  "alias": [
+   "Mont Everest",
+   "Mount Everest"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien de couleurs y a-t-il dans un arc-en-ciel ?",
+  "reponse": "7",
+  "alias": [
+   "sept",
+   "seven"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est la capitale des États-Unis ?",
+  "reponse": "Washington",
+  "alias": [
+   "Washington",
+   "Washington D.C.",
+   "Washington DC"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le plus grand mammifère terrestre ?",
+  "reponse": "éléphant",
+  "alias": [
+   "elephant",
+   "éléphant d'Afrique"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le plus grand animal du monde ?",
+  "reponse": "baleine bleue",
+  "alias": [
+   "blue whale",
+   "baleine"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Combien de minutes y a-t-il dans une heure ?",
+  "reponse": "60",
+  "alias": [
+   "soixante",
+   "sixty"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le sang universel donneur ?",
+  "reponse": "O négatif",
+  "alias": [
+   "O-",
+   "O neg",
+   "O négatif"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle vitamine le soleil aide-t-il à produire ?",
+  "reponse": "vitamine D",
+  "alias": [
+   "vitamin D",
+   "D"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le plus petit pays du monde ?",
+  "reponse": "Vatican",
+  "alias": [
+   "Vatican",
+   "le Vatican",
+   "Saint-Siège",
+   "Vatican City",
+   "Cité du Vatican"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Combien de dents a un adulte en moyenne ?",
+  "reponse": "32",
+  "alias": [
+   "trente-deux",
+   "thirty-two"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle planète est surnommée la planète rouge ?",
+  "reponse": "Mars",
+  "alias": [
+   "Mars"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le liquide rouge qui circule dans nos veines ?",
+  "reponse": "sang",
+  "alias": [
+   "blood"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel appareil mesure la température ?",
+  "reponse": "thermomètre",
+  "alias": [
+   "thermometer"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quelle ville se trouve la tour Eiffel ?",
+  "reponse": "Paris",
+  "alias": [
+   "Paris"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le fruit défendu dans la Bible, selon la tradition ?",
+  "reponse": "pomme",
+  "alias": [
+   "apple"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la plus grande planète du système solaire ?",
+  "reponse": "Jupiter",
+  "alias": [
+   "Jupiter"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel métal précieux a pour symbole Au ?",
+  "reponse": "or",
+  "alias": [
+   "gold",
+   "l'or"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Combien de pattes a une araignée ?",
+  "reponse": "8",
+  "alias": [
+   "huit",
+   "eight"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est l'organe de la vue ?",
+  "reponse": "œil",
+  "alias": [
+   "oeil",
+   "eye",
+   "yeux"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est la capitale de l'Australie ?",
+  "reponse": "Canberra",
+  "alias": [
+   "Canberra",
+   "Sydney"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel scientifique a formulé la théorie de la relativité ?",
+  "reponse": "Einstein",
+  "alias": [
+   "Albert Einstein"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Combien de faces a un dé classique ?",
+  "reponse": "6",
+  "alias": [
+   "six",
+   "six faces"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le plus grand pays du monde par superficie ?",
+  "reponse": "Russie",
+  "alias": [
+   "Russia",
+   "la Russie"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle mer sépare l'Europe de l'Afrique ?",
+  "reponse": "mer Méditerranée",
+  "alias": [
+   "Méditerranée",
+   "Mediterranean"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le roi des animaux dans les fables ?",
+  "reponse": "lion",
+  "alias": [
+   "lion"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel élément a pour symbole O ?",
+  "reponse": "oxygène",
+  "alias": [
+   "oxygen",
+   "oxygène"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel instrument sert à observer les étoiles ?",
+  "reponse": "télescope",
+  "alias": [
+   "telescope"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Combien y a-t-il de jours dans une année bissextile ?",
+  "reponse": "366",
+  "alias": [
+   "366"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la capitale du Canada ?",
+  "reponse": "Ottawa",
+  "alias": [
+   "Ottawa"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est le plus grand os du corps humain ?",
+  "reponse": "fémur",
+  "alias": [
+   "femur"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel animal marin possède huit bras ?",
+  "reponse": "pieuvre",
+  "alias": [
+   "poulpe",
+   "octopus"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel est le principal gaz de l'atmosphère terrestre ?",
+  "reponse": "azote",
+  "alias": [
+   "nitrogen",
+   "azote",
+   "diazote"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est la capitale de l'Égypte ?",
+  "reponse": "Le Caire",
+  "alias": [
+   "Cairo",
+   "Caire"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "En quelle année a commencé la Première Guerre mondiale ?",
+  "reponse": "1914",
+  "alias": [
+   "1914"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Qui était le premier président des États-Unis ?",
+  "reponse": "George Washington",
+  "alias": [
+   "Washington"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+  "reponse": "1969",
+  "alias": [
+   "1969"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel empereur français a été vaincu à Waterloo ?",
+  "reponse": "Napoléon",
+  "alias": [
+   "Napoleon",
+   "Napoléon Bonaparte"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle civilisation a construit les pyramides de Gizeh ?",
+  "reponse": "les Égyptiens",
+  "alias": [
+   "Égyptiens",
+   "Egyptians",
+   "Egypte antique"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "En quelle année a eu lieu la Révolution française ?",
+  "reponse": "1789",
+  "alias": [
+   "1789"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Qui a peint la chapelle Sixtine ?",
+  "reponse": "Michel-Ange",
+  "alias": [
+   "Michelangelo",
+   "Michel Ange"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel navire a coulé lors de son voyage inaugural en 1912 ?",
+  "reponse": "Titanic",
+  "alias": [
+   "le Titanic"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Qui a découvert l'Amérique en 1492 ?",
+  "reponse": "Christophe Colomb",
+  "alias": [
+   "Colomb",
+   "Columbus",
+   "Christopher Columbus"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel mur est tombé en 1989 ?",
+  "reponse": "mur de Berlin",
+  "alias": [
+   "Berlin Wall",
+   "mur Berlin"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Qui était la reine d'Égypte alliée de Jules César ?",
+  "reponse": "Cléopâtre",
+  "alias": [
+   "Cleopatra"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle guerre a opposé le Nord et le Sud des États-Unis ?",
+  "reponse": "guerre de Sécession",
+  "alias": [
+   "Civil War",
+   "American Civil War",
+   "Sécession"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel dictateur allemand a déclenché la Seconde Guerre mondiale ?",
+  "reponse": "Hitler",
+  "alias": [
+   "Adolf Hitler"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "En quelle année s'est terminée la Seconde Guerre mondiale ?",
+  "reponse": "1945",
+  "alias": [
+   "1945"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Qui a proclamé « I have a dream » ?",
+  "reponse": "Martin Luther King",
+  "alias": [
+   "MLK",
+   "Martin Luther King Jr"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel explorateur a réalisé le premier tour du monde en bateau ?",
+  "reponse": "Magellan",
+  "alias": [
+   "Magellan",
+   "Fernand de Magellan"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle ville était le centre de l'Empire romain ?",
+  "reponse": "Rome",
+  "alias": [
+   "Rome"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Qui a inventé l'imprimerie en Europe ?",
+  "reponse": "Gutenberg",
+  "alias": [
+   "Johannes Gutenberg"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel pharaon a la plus célèbre tombe découverte en 1922 ?",
+  "reponse": "Toutankhamon",
+  "alias": [
+   "Tutankhamun",
+   "Toutankhamon"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle reine a régné sur le Royaume-Uni de 1952 à 2022 ?",
+  "reponse": "Élisabeth II",
+  "alias": [
+   "Elizabeth II",
+   "Elisabeth II"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel général carthaginois a traversé les Alpes avec des éléphants ?",
+  "reponse": "Hannibal",
+  "alias": [
+   "Hannibal Barca"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "En quelle année les attentats du 11 septembre ont-ils eu lieu ?",
+  "reponse": "2001",
+  "alias": [
+   "2001"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Qui a dirigé la France sous la Ve République comme premier président ?",
+  "reponse": "Charles de Gaulle",
+  "alias": [
+   "de Gaulle"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle épidémie a décimé l'Europe au XIVe siècle ?",
+  "reponse": "peste noire",
+  "alias": [
+   "Black Death",
+   "la peste"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel empire était dirigé par les sultans depuis Istanbul ?",
+  "reponse": "Empire ottoman",
+  "alias": [
+   "Ottoman Empire",
+   "Ottomans"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Qui a écrit la théorie de l'évolution des espèces ?",
+  "reponse": "Darwin",
+  "alias": [
+   "Charles Darwin"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel roi de France est appelé le Roi-Soleil ?",
+  "reponse": "Louis XIV",
+  "alias": [
+   "Louis 14",
+   "Louis quatorze"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle bataille de 1066 a vu Guillaume le Conquérant vaincre l'Angleterre ?",
+  "reponse": "Hastings",
+  "alias": [
+   "bataille de Hastings"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel homme politique indien a prôné la non-violence ?",
+  "reponse": "Gandhi",
+  "alias": [
+   "Mahatma Gandhi"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle superpuissance s'est effondrée en 1991 ?",
+  "reponse": "URSS",
+  "alias": [
+   "Union soviétique",
+   "Soviet Union",
+   "USSR"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Qui a été le premier homme dans l'espace ?",
+  "reponse": "Gagarine",
+  "alias": [
+   "Youri Gagarine",
+   "Yuri Gagarin",
+   "Gagarin"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle route commerciale reliait la Chine à l'Europe ?",
+  "reponse": "route de la soie",
+  "alias": [
+   "Silk Road"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel président américain a aboli l'esclavage ?",
+  "reponse": "Lincoln",
+  "alias": [
+   "Abraham Lincoln"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "En quelle année la Déclaration d'indépendance américaine a-t-elle été signée ?",
+  "reponse": "1776",
+  "alias": [
+   "1776"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel conquérant macédonien a bâti un immense empire au IVe siècle av. J.-C. ?",
+  "reponse": "Alexandre le Grand",
+  "alias": [
+   "Alexander the Great",
+   "Alexandre"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle héroïne française a été brûlée à Rouen en 1431 ?",
+  "reponse": "Jeanne d'Arc",
+  "alias": [
+   "Joan of Arc"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel mouvement artistique est né en Italie au XVe siècle ?",
+  "reponse": "Renaissance",
+  "alias": [
+   "Renaissance"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Qui a peint « La Joconde » ?",
+  "reponse": "Léonard de Vinci",
+  "alias": [
+   "Leonardo da Vinci",
+   "Vinci",
+   "da Vinci"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle ville japonaise a subi la première bombe atomique ?",
+  "reponse": "Hiroshima",
+  "alias": [
+   "Hiroshima"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel traité de 1919 a mis fin à la Première Guerre mondiale ?",
+  "reponse": "traité de Versailles",
+  "alias": [
+   "Treaty of Versailles",
+   "Versailles"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel peuple guerrier scandinave a exploré les mers au Moyen Âge ?",
+  "reponse": "Vikings",
+  "alias": [
+   "les Vikings",
+   "Viking"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle grande muraille a été bâtie pour protéger la Chine ?",
+  "reponse": "Grande Muraille de Chine",
+  "alias": [
+   "Great Wall",
+   "Grande Muraille"
+  ],
+  "categorie": "histoire",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel empereur romain a incendié Rome selon la légende ?",
+  "reponse": "Néron",
+  "alias": [
+   "Nero"
+  ],
+  "categorie": "histoire",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle ville a été ensevelie par le Vésuve en 79 ?",
+  "reponse": "Pompéi",
+  "alias": [
+   "Pompeii"
+  ],
+  "categorie": "histoire",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la vitesse de la lumière (environ, en km/s) ?",
+  "reponse": "300000",
+  "alias": [
+   "300 000",
+   "3x10^5",
+   "300000 km/s"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle force nous attire vers le sol ?",
+  "reponse": "gravité",
+  "alias": [
+   "gravity",
+   "la gravité",
+   "pesanteur"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la force ?",
+  "reponse": "newton",
+  "alias": [
+   "Newton",
+   "N"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de l'énergie ?",
+  "reponse": "joule",
+  "alias": [
+   "Joule",
+   "J"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la puissance ?",
+  "reponse": "watt",
+  "alias": [
+   "Watt",
+   "W"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la fréquence ?",
+  "reponse": "hertz",
+  "alias": [
+   "Hertz",
+   "Hz"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "À quelle température l'eau bout-elle au niveau de la mer (°C) ?",
+  "reponse": "100",
+  "alias": [
+   "cent",
+   "100°C"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "À quelle température l'eau gèle-t-elle (°C) ?",
+  "reponse": "0",
+  "alias": [
+   "zéro",
+   "zero",
+   "0°C"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel scientifique a découvert la loi de la gravitation universelle ?",
+  "reponse": "Newton",
+  "alias": [
+   "Isaac Newton"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle particule a une charge négative dans l'atome ?",
+  "reponse": "électron",
+  "alias": [
+   "electron"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle particule du noyau n'a aucune charge ?",
+  "reponse": "neutron",
+  "alias": [
+   "neutron"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on le passage de l'état solide à l'état gazeux ?",
+  "reponse": "sublimation",
+  "alias": [
+   "sublimation"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel est l'astre au centre du système solaire ?",
+  "reponse": "Soleil",
+  "alias": [
+   "Sun",
+   "le Soleil"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle grandeur mesure-t-on en ampères ?",
+  "reponse": "intensité du courant",
+  "alias": [
+   "intensité",
+   "current",
+   "courant"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle grandeur mesure-t-on en volts ?",
+  "reponse": "tension",
+  "alias": [
+   "voltage",
+   "tension électrique"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel appareil transforme l'énergie lumineuse en électricité ?",
+  "reponse": "panneau solaire",
+  "alias": [
+   "solar panel",
+   "cellule photovoltaïque"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel gaz est indispensable à la respiration humaine ?",
+  "reponse": "oxygène",
+  "alias": [
+   "oxygen",
+   "dioxygène"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Comment appelle-t-on l'énergie du mouvement ?",
+  "reponse": "énergie cinétique",
+  "alias": [
+   "kinetic energy",
+   "cinétique"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel physicien a énoncé E=mc² ?",
+  "reponse": "Einstein",
+  "alias": [
+   "Albert Einstein"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quelle est l'unité de mesure de la température dans le système international ?",
+  "reponse": "kelvin",
+  "alias": [
+   "Kelvin",
+   "K"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel phénomène fait dévier la lumière quand elle change de milieu ?",
+  "reponse": "réfraction",
+  "alias": [
+   "refraction"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on le rebond de la lumière sur un miroir ?",
+  "reponse": "réflexion",
+  "alias": [
+   "reflection"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel type d'onde permet d'entendre les sons ?",
+  "reponse": "onde sonore",
+  "alias": [
+   "sound wave",
+   "son"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel savant a découvert le principe de la poussée dans l'eau ?",
+  "reponse": "Archimède",
+  "alias": [
+   "Archimedes"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle est la plus petite unité de matière conservant les propriétés d'un élément ?",
+  "reponse": "atome",
+  "alias": [
+   "atom"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel aimant a deux pôles, nord et... ?",
+  "reponse": "sud",
+  "alias": [
+   "south",
+   "pôle sud"
+  ],
+  "categorie": "physique",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Comment appelle-t-on un mélange de deux métaux ?",
+  "reponse": "alliage",
+  "alias": [
+   "alloy"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle énergie est produite par la fission de l'uranium ?",
+  "reponse": "énergie nucléaire",
+  "alias": [
+   "nuclear energy",
+   "nucléaire"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel instrument mesure la pression atmosphérique ?",
+  "reponse": "baromètre",
+  "alias": [
+   "barometer"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est la formule chimique du sel de table ?",
+  "reponse": "NaCl",
+  "alias": [
+   "NaCl",
+   "chlorure de sodium"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on le changement de l'état liquide à solide ?",
+  "reponse": "solidification",
+  "alias": [
+   "solidification",
+   "freezing"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quelle grandeur exprime-t-on en pascals ?",
+  "reponse": "pression",
+  "alias": [
+   "pressure"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel effet fait flotter un ballon d'hélium ?",
+  "reponse": "poussée d'Archimède",
+  "alias": [
+   "poussée",
+   "Archimedes principle",
+   "buoyancy"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel est l'élément le plus léger du tableau périodique ?",
+  "reponse": "hydrogène",
+  "alias": [
+   "hydrogen",
+   "H"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Comment appelle-t-on une étoile en fin de vie qui explose ?",
+  "reponse": "supernova",
+  "alias": [
+   "supernova"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quel savant a développé la théorie des quanta ?",
+  "reponse": "Planck",
+  "alias": [
+   "Max Planck"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Quelle est l'unité de la résistance électrique ?",
+  "reponse": "ohm",
+  "alias": [
+   "Ohm"
+  ],
+  "categorie": "physique",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel appareil transforme le courant continu en alternatif ?",
+  "reponse": "onduleur",
+  "alias": [
+   "inverter"
+  ],
+  "categorie": "physique",
+  "difficulte": "difficile"
+ }
+]

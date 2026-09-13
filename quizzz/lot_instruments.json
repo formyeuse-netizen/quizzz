@@ -1,0 +1,346 @@
+[
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "piano",
+  "alias": [
+   "piano"
+  ],
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Two_pianos_-_grand_piano_and_upright_piano.jpg?width=500",
+  "sujet_image": "Piano"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "guitare",
+  "alias": [
+   "guitare",
+   "guitar"
+  ],
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Acoustic_guitar1.svg?width=500",
+  "sujet_image": "Guitare"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "violon",
+  "alias": [
+   "violon",
+   "violin"
+  ],
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Violin_VL100.png?width=500",
+  "sujet_image": "Violon"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "violoncelle",
+  "alias": [
+   "violoncelle",
+   "cello"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cello_front_side.png?width=500",
+  "sujet_image": "Violoncelle"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "contrebasse",
+  "alias": [
+   "contrebasse",
+   "double bass",
+   "upright bass"
+  ],
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/AGK_bass1_full.jpg?width=500",
+  "sujet_image": "Contrebasse"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "harpe",
+  "alias": [
+   "harpe",
+   "harp"
+  ],
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Guillon_Lethi%C3%A8re_-_Portrait_of_Ad%C3%A8le_Papin_playing_harp.jpg?width=500",
+  "sujet_image": "Harpe"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "flûte traversière",
+  "alias": [
+   "flûte traversière",
+   "flute",
+   "flûte"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Western_concert_flute_%28Yamaha%29.jpg?width=500",
+  "sujet_image": "Flûte traversière"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "clarinette",
+  "alias": [
+   "clarinette",
+   "clarinet"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Leitner%2BKraus_410_320.png?width=500",
+  "sujet_image": "Clarinette"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "hautbois",
+  "alias": [
+   "hautbois",
+   "oboe"
+  ],
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/M%C3%B6nnig%2C_Oboe_Modell_155_Albrecht_Mayer.jpg?width=500",
+  "sujet_image": "Hautbois"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "basson",
+  "alias": [
+   "basson",
+   "bassoon"
+  ],
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/FoxBassoon.png?width=500",
+  "sujet_image": "Basson"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "saxophone",
+  "alias": [
+   "saxophone",
+   "sax"
+  ],
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CurvedSopranoAltoTenorSaxophone.jpg?width=500",
+  "sujet_image": "Saxophone"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "trompette",
+  "alias": [
+   "trompette",
+   "trumpet"
+  ],
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yamaha_Trumpet_YTR-8335LA_crop.jpg?width=500",
+  "sujet_image": "Trompette"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "trombone",
+  "alias": [
+   "trombone"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yamaha_Tenor_trombone_YSL-891Z_%28re-crop%29.jpg?width=500",
+  "sujet_image": "Trombone"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "batterie",
+  "alias": [
+   "batterie",
+   "drums",
+   "drum kit"
+  ],
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bateria.jpg?width=500",
+  "sujet_image": "Batterie (musique)"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "xylophone",
+  "alias": [
+   "xylophone"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Xylophone.jpg?width=500",
+  "sujet_image": "Xylophone"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "accordéon",
+  "alias": [
+   "accordéon",
+   "accordion"
+  ],
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/A_converter_free-bass_piano-accordion_and_a_Russian_bayan.jpg?width=500",
+  "sujet_image": "Accordéon"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "orgue",
+  "alias": [
+   "orgue",
+   "organ"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Neunkirchen_am_Brand_Kirche_Orgel-20210411-RM-155230.jpg?width=500",
+  "sujet_image": "Orgue (musique)"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "harmonica",
+  "alias": [
+   "harmonica"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/16-hole_chrom_10-hole_diatonic.jpg?width=500",
+  "sujet_image": "Harmonica"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "mandoline",
+  "alias": [
+   "mandoline",
+   "mandolin"
+  ],
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandolin_MET_DP169023.jpg?width=500",
+  "sujet_image": "Mandoline"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "djembé",
+  "alias": [
+   "djembé",
+   "djembe"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Djemb%C3%A9_player.JPG?width=500",
+  "sujet_image": "Djembé"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "maracas",
+  "alias": [
+   "maracas"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sambaballen.JPG?width=500",
+  "sujet_image": "Maracas"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "cymbale",
+  "alias": [
+   "cymbale",
+   "cymbal"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cymbal_NAM_Athens_7959.jpg?width=500",
+  "sujet_image": "Cymbale"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "sitar",
+  "alias": [
+   "sitar"
+  ],
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sitar3.jpg?width=500",
+  "sujet_image": "Sitar"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "balalaïka",
+  "alias": [
+   "balalaïka",
+   "balalaika"
+  ],
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balala%C3%AFka_%22%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_80%22.jpg?width=500",
+  "sujet_image": "Balalaïka"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "oud",
+  "alias": [
+   "oud",
+   "luth arabe"
+  ],
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luth%27ud_cor.jpg?width=500",
+  "sujet_image": "Oud"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "castagnettes",
+  "alias": [
+   "castagnettes",
+   "castanets"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Castanets_%28PSF%29.jpg?width=500",
+  "sujet_image": "Castagnettes"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "flûte de Pan",
+  "alias": [
+   "flûte de Pan",
+   "pan flute",
+   "flûte de pan"
+  ],
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pan_flute_Gibonus_FP-12.jpg?width=500",
+  "sujet_image": "Flûte de Pan"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "vibraphone",
+  "alias": [
+   "vibraphone"
+  ],
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vibraphone.jpg?width=500",
+  "sujet_image": "Vibraphone"
+ },
+ {
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "gong",
+  "alias": [
+   "gong"
+  ],
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/COLLECTIE_TROPENMUSEUM_Gong_hangend_in_een_standaard_onderdeel_van_gamelan_Semar_Pagulingan_TMnr_1340-13.jpg?width=500",
+  "sujet_image": "Gong"
+ }
+]

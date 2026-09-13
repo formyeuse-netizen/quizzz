@@ -1,0 +1,557 @@
+[
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "aigle",
+  "alias": [
+   "aigle",
+   "eagle"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aquila_chrysaetos_Flickr.jpg?width=500",
+  "sujet_image": "Aigle"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "manchot",
+  "alias": [
+   "manchot",
+   "penguin",
+   "pingouin"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Penguins_collage.png?width=500",
+  "sujet_image": "Manchot"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "autruche",
+  "alias": [
+   "autruche",
+   "ostrich"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Struthio_Diversity.jpg?width=500",
+  "sujet_image": "Autruche"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "flamant rose",
+  "alias": [
+   "flamant rose",
+   "flamingo",
+   "flamant"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Flamant_Rose_Villeneuve-l%C3%A8s-Maguelone.jpg?width=500",
+  "sujet_image": "Flamant rose"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "toucan",
+  "alias": [
+   "toucan"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Toucan_%28PSF%29.png?width=500",
+  "sujet_image": "Toucan"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "ara",
+  "alias": [
+   "ara",
+   "macaw",
+   "perroquet ara"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scarlet_Macaw_and_Blue-and-gold_Macaw.jpg?width=500",
+  "sujet_image": "Ara (oiseau)"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "paon",
+  "alias": [
+   "paon",
+   "peacock"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Okyo_Peacock_and_Peahen.jpg?width=500",
+  "sujet_image": "Paon"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cygne",
+  "alias": [
+   "cygne",
+   "swan"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CygneVaires.jpg?width=500",
+  "sujet_image": "Cygne"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "canard",
+  "alias": [
+   "canard",
+   "duck",
+   "canard colvert"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_male_female_quadrat.jpg?width=500",
+  "sujet_image": "Canard colvert"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "oie",
+  "alias": [
+   "oie",
+   "goose"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anser_anser_1_%28Piotr_Kuczynski%29.jpg?width=500",
+  "sujet_image": "Oie"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "coq",
+  "alias": [
+   "coq",
+   "rooster",
+   "cock"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Male_and_female_chicken_sitting_together.jpg?width=500",
+  "sujet_image": "Coq domestique"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "dinde",
+  "alias": [
+   "dinde",
+   "turkey",
+   "dindon"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Large_White_turkey_female.jpg?width=500",
+  "sujet_image": "Dindon"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "pigeon",
+  "alias": [
+   "pigeon"
+  ],
+  "categorie": "animaux",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Paloma_brav%C3%ADa_%28Columba_livia%29%2C_Palacio_de_Nymphenburg%2C_M%C3%BAnich%2C_Alemania01.JPG?width=500",
+  "sujet_image": "Pigeon biset"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "corbeau",
+  "alias": [
+   "corbeau",
+   "crow",
+   "raven"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Karga_9107.svg?width=500",
+  "sujet_image": "Corbeau"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "pie",
+  "alias": [
+   "pie",
+   "magpie"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eurasian_Magpie_2023-10-16_01.jpg?width=500",
+  "sujet_image": "Pie bavarde"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "moineau",
+  "alias": [
+   "moineau",
+   "sparrow"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/House_sparrow_David_Raju_%282%29.jpg?width=500",
+  "sujet_image": "Moineau domestique"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "hirondelle",
+  "alias": [
+   "hirondelle",
+   "swallow"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%B5%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B0%D1%81%D1%82%D0%BE%D1%87%D0%BA%D0%B0_%28Hirundo_rustica%29%2C_%D0%9C%D0%B5%D0%BB%D0%B8%D1%85%D0%BE%D0%B2%D0%BE.jpg?width=500",
+  "sujet_image": "Hirondelle rustique"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "rouge-gorge",
+  "alias": [
+   "rouge-gorge",
+   "robin"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/030_European_robin_in_the_Camargue_Photo_by_Giles_Laurent.jpg?width=500",
+  "sujet_image": "Rouge-gorge familier"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "chouette",
+  "alias": [
+   "chouette",
+   "owl",
+   "chouette effraie",
+   "barn owl"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/20181203_-_22.11_Kerkuil_%28Tyto_alba%29_22.jpg?width=500",
+  "sujet_image": "Chouette effraie"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "hibou",
+  "alias": [
+   "hibou",
+   "owl",
+   "eagle-owl",
+   "grand-duc"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubo_bubo_1_%28Martin_Mecnarowski%29.jpg?width=500",
+  "sujet_image": "Hibou grand-duc"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "faucon",
+  "alias": [
+   "faucon",
+   "falcon",
+   "peregrine"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Faucon_pelerin_7_mai.jpg?width=500",
+  "sujet_image": "Faucon pèlerin"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "vautour",
+  "alias": [
+   "vautour",
+   "vulture"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gyps_fulvus_-_Vautours_du_Verdon.jpg?width=500",
+  "sujet_image": "Vautour fauve"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "condor",
+  "alias": [
+   "condor"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vultur_gryphus_-Dou%C3%A9-la-Fontaine_Zoo%2C_France-8a.jpg?width=500",
+  "sujet_image": "Condor des Andes"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "héron",
+  "alias": [
+   "héron",
+   "heron"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_cinerea_2013-09-16_2.jpg?width=500",
+  "sujet_image": "Héron cendré"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cigogne",
+  "alias": [
+   "cigogne",
+   "stork"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stork_%28Palic%2C_Serbia%29.jpg?width=500",
+  "sujet_image": "Cigogne blanche"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "grue",
+  "alias": [
+   "grue",
+   "crane",
+   "grue cendrée"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Common_crane_grus_grus.jpg?width=500",
+  "sujet_image": "Grue cendrée"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "pélican",
+  "alias": [
+   "pélican",
+   "pelican"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/0_Pelecanus_crispus_-_P%C3%A9licans_fris%C3%A9s_%281%29.JPG?width=500",
+  "sujet_image": "Pélican"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "mouette",
+  "alias": [
+   "mouette",
+   "seagull",
+   "gull"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Black-headed_Gull_from_the_Crossley_ID_Guide_Britain_and_Ireland.jpg?width=500",
+  "sujet_image": "Mouette rieuse"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "albatros",
+  "alias": [
+   "albatros",
+   "albatross"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Diomedea_exulans_in_flight_-_SE_Tasmania.jpg?width=500",
+  "sujet_image": "Albatros"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "colibri",
+  "alias": [
+   "colibri",
+   "hummingbird"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hummingbird_%28PSF%29.png?width=500",
+  "sujet_image": "Colibri"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "pivert",
+  "alias": [
+   "pivert",
+   "woodpecker",
+   "pic vert",
+   "pic-vert"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/European_green_woodpecker_%28Picus_viridis%29_female.jpg?width=500",
+  "sujet_image": "Pic vert"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "kiwi",
+  "alias": [
+   "kiwi"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Apteryx_mantelli_-Rotorua%2C_North_Island%2C_New_Zealand-8a.jpg?width=500",
+  "sujet_image": "Kiwi (oiseau)"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "émeu",
+  "alias": [
+   "émeu",
+   "emu"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Emu_1_-_Tidbinbilla.jpg?width=500",
+  "sujet_image": "Émeu d'Australie"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "faisan",
+  "alias": [
+   "faisan",
+   "pheasant"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Common_pheasant_%28Phasianus_colchicus%29_cock_2.jpg?width=500",
+  "sujet_image": "Faisan de Colchide"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "martin-pêcheur",
+  "alias": [
+   "martin-pêcheur",
+   "kingfisher"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Common_Kingfisher_Alcedo_atthis.jpg?width=500",
+  "sujet_image": "Martin-pêcheur d'Europe"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "huppe",
+  "alias": [
+   "huppe",
+   "hoopoe"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/ABUBILLA_%28Upupa_epops%29.jpg?width=500",
+  "sujet_image": "Huppe fasciée"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "cacatoès",
+  "alias": [
+   "cacatoès",
+   "cockatoo"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Palm_Cockatoo_%2824506682294%29.jpg?width=500",
+  "sujet_image": "Cacatoès"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "perruche",
+  "alias": [
+   "perruche",
+   "budgerigar",
+   "parakeet"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Budgerigar%2C_Innamincka_SA_5731%2C_Australia_imported_from_iNaturalist_photo_121274817.jpg?width=500",
+  "sujet_image": "Perruche ondulée"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "rossignol",
+  "alias": [
+   "rossignol",
+   "nightingale"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Luscinia_megarhynchos_-_01.jpg?width=500",
+  "sujet_image": "Rossignol philomèle"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "mésange",
+  "alias": [
+   "mésange",
+   "tit",
+   "great tit"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parus_major_2_Luc_Viatour.jpg?width=500",
+  "sujet_image": "Mésange charbonnière"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "merle",
+  "alias": [
+   "merle",
+   "blackbird"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%B4%D1%80%D0%BE%D0%B7%D0%B4_%28Turdus_merula%2C_per_aspera%29%2C_%D0%91%D0%B8%D1%82%D1%86%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%BB%D0%B5%D1%81.jpg?width=500",
+  "sujet_image": "Merle noir"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "perroquet gris",
+  "alias": [
+   "perroquet gris",
+   "african grey parrot"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Psittacus_erithacus_qtl1.jpg?width=500",
+  "sujet_image": "Perroquet gris du Gabon"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "goéland",
+  "alias": [
+   "goéland",
+   "herring gull"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Larus_argentatus_1.JPG?width=500",
+  "sujet_image": "Goéland argenté"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "aigle royal",
+  "alias": [
+   "aigle royal",
+   "golden eagle",
+   "eagle"
+  ],
+  "categorie": "animaux",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/015_Wild_Golden_Eagle_in_flight_at_Pfyn-Finges_%28Switzerland%29_Photo_by_Giles_Laurent.jpg?width=500",
+  "sujet_image": "Aigle royal"
+ },
+ {
+  "question": "Quel est cet animal ?",
+  "reponse": "chardonneret",
+  "alias": [
+   "chardonneret",
+   "goldfinch"
+  ],
+  "categorie": "animaux",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carduelis_carduelis_%282012%29.jpg?width=500",
+  "sujet_image": "Chardonneret élégant"
+ }
+]
