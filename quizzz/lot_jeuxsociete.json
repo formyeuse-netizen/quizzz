@@ -1,0 +1,422 @@
+[
+ {
+  "question": "Dans quel jeu achète-t-on des rues et des maisons, paie-t-on des loyers et peut-on finir en prison ?",
+  "reponse": "Monopoly",
+  "alias": [
+   "Monopoly"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu construit-on des routes et des colonies en récoltant bois, argile, laine, blé et minerai ?",
+  "reponse": "Catan",
+  "alias": [
+   "Catan",
+   "Les Colons de Catane",
+   "Colons de Catane",
+   "Settlers of Catan"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu enquête-t-on pour trouver le coupable, l'arme et la pièce du meurtre ?",
+  "reponse": "Cluedo",
+  "alias": [
+   "Cluedo",
+   "Clue"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu de stratégie cherche-t-on à conquérir le monde avec des armées ?",
+  "reponse": "Risk",
+  "alias": [
+   "Risk",
+   "Risque"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu forme-t-on des mots sur une grille avec des lettres qui rapportent des points ?",
+  "reponse": "Scrabble",
+  "alias": [
+   "Scrabble"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Quel jeu de culture générale se gagne en remplissant un pion de camemberts de couleur ?",
+  "reponse": "Trivial Pursuit",
+  "alias": [
+   "Trivial Pursuit",
+   "Trivial"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu de cartes doit-on annoncer quand il ne reste qu'une seule carte en main ?",
+  "reponse": "Uno",
+  "alias": [
+   "Uno"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu doit-on faire deviner un mot à son équipe en le dessinant ?",
+  "reponse": "Pictionary",
+  "alias": [
+   "Pictionary"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu pose-t-on des questions oui/non pour deviner le personnage choisi par l'adversaire ?",
+  "reponse": "Qui est-ce ?",
+  "alias": [
+   "Qui est-ce",
+   "Qui est ce",
+   "Guess Who"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu annonce-t-on des coordonnées pour couler les navires cachés de l'adversaire ?",
+  "reponse": "Bataille navale",
+  "alias": [
+   "Bataille navale",
+   "Battleship"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu place-t-on mains et pieds sur des pastilles de couleur au sol ?",
+  "reponse": "Twister",
+  "alias": [
+   "Twister"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu fait-on tomber des jetons dans une grille pour en aligner quatre de sa couleur ?",
+  "reponse": "Puissance 4",
+  "alias": [
+   "Puissance 4",
+   "Puissance quatre",
+   "Connect Four",
+   "Connect 4"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu retire-t-on des blocs de bois d'une tour sans la faire s'effondrer ?",
+  "reponse": "Jenga",
+  "alias": [
+   "Jenga"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile"
+ },
+ {
+  "question": "Dans quel jeu de cartes cherche-t-on le seul symbole commun entre deux images ?",
+  "reponse": "Dobble",
+  "alias": [
+   "Dobble",
+   "Spot It"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu se jette-t-on sur un totem en bois dès que deux cartes se ressemblent ?",
+  "reponse": "Jungle Speed",
+  "alias": [
+   "Jungle Speed"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu de cartes parcourt-on des kilomètres en évitant crevaisons et pannes d'essence ?",
+  "reponse": "Mille Bornes",
+  "alias": [
+   "Mille Bornes",
+   "1000 Bornes"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu d'ambiance les villageois cherchent-ils à démasquer les loups-garous cachés parmi eux ?",
+  "reponse": "Loups-Garous de Thiercelieux",
+  "alias": [
+   "Loups-Garous de Thiercelieux",
+   "Loup-Garou",
+   "Loups-Garous",
+   "Werewolf"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu fait-on deviner des célébrités en trois manches de plus en plus limitées ?",
+  "reponse": "Time's Up",
+  "alias": [
+   "Time's Up",
+   "Times Up"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu pose-t-on des tuiles pour bâtir villes, routes et prés en plaçant des meeples ?",
+  "reponse": "Carcassonne",
+  "alias": [
+   "Carcassonne"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel jeu développe-t-on une civilisation en se passant des cartes autour de la table (draft) ?",
+  "reponse": "7 Wonders",
+  "alias": [
+   "7 Wonders",
+   "Seven Wonders",
+   "7 merveilles"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel jeu coopératif l'équipe soigne-t-elle des maladies pour sauver le monde ensemble ?",
+  "reponse": "Pandemic",
+  "alias": [
+   "Pandemic",
+   "Pandémie",
+   "Pandemie"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel jeu fait-on deviner un mot sans prononcer les mots interdits inscrits sur la carte ?",
+  "reponse": "Taboo",
+  "alias": [
+   "Taboo",
+   "Tabou"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Dans quel jeu fait-on deviner une carte illustrée à l'aide d'une phrase ou d'un mot poétique ?",
+  "reponse": "Dixit",
+  "alias": [
+   "Dixit"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel jeu pose-t-on des pièces géométriques colorées qui ne peuvent se toucher que par les coins ?",
+  "reponse": "Blokus",
+  "alias": [
+   "Blokus"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile"
+ },
+ {
+  "question": "Dans quel jeu retire-t-on de petits objets du corps d'un patient sans toucher les bords, sous peine de buzzer ?",
+  "reponse": "Docteur Maboul",
+  "alias": [
+   "Docteur Maboul",
+   "Operation"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "échecs",
+  "alias": [
+   "échecs",
+   "echecs",
+   "chess",
+   "jeu d'échecs"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/ChessSet.jpg?width=500",
+  "sujet_image": "Jeu d'échecs"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "go",
+  "alias": [
+   "go",
+   "jeu de go",
+   "baduk",
+   "weiqi"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Go_game.jpg?width=500",
+  "sujet_image": "Go (jeu)"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "dames",
+  "alias": [
+   "dames",
+   "checkers",
+   "draughts",
+   "jeu de dames"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CheckersStandard.jpg?width=500",
+  "sujet_image": "Dames (jeu)"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "backgammon",
+  "alias": [
+   "backgammon"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Backgammon_lg.jpg?width=500",
+  "sujet_image": "Backgammon"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "dominos",
+  "alias": [
+   "dominos",
+   "dominoes",
+   "domino"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dominospiel.JPG?width=500",
+  "sujet_image": "Dominos"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "mah-jong",
+  "alias": [
+   "mah-jong",
+   "mahjong",
+   "mah jong"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mahjong_in_Hangzhou.jpg?width=500",
+  "sujet_image": "Mah-jong"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "dames chinoises",
+  "alias": [
+   "dames chinoises",
+   "Chinese checkers"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/ChineseCheckersboard.jpeg?width=500",
+  "sujet_image": "Dames chinoises"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "awalé",
+  "alias": [
+   "awalé",
+   "awale",
+   "mancala",
+   "oware"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Awal%C3%A9.jpg?width=500",
+  "sujet_image": "Awalé"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "mikado",
+  "alias": [
+   "mikado",
+   "pick-up sticks",
+   "jonchets"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mikadospiel_W.jpg?width=500",
+  "sujet_image": "Mikado (jeu)"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "jeu de l'oie",
+  "alias": [
+   "jeu de l'oie",
+   "game of the goose",
+   "jeu de l oie"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Goosy_Goosy_Gander_02.JPG?width=500",
+  "sujet_image": "Jeu de l'oie"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "petits chevaux",
+  "alias": [
+   "petits chevaux",
+   "ludo",
+   "les petits chevaux"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/PetitsChevaux2.jpg?width=500",
+  "sujet_image": "Petits chevaux"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "Rubik's Cube",
+  "alias": [
+   "Rubik's Cube",
+   "rubiks cube",
+   "rubik cube",
+   "rubik",
+   "cube"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rubik%27s_cube.svg?width=500",
+  "sujet_image": "Rubik's Cube"
+ },
+ {
+  "question": "Quel est ce jeu de société ?",
+  "reponse": "shogi",
+  "alias": [
+   "shogi",
+   "échecs japonais"
+  ],
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shogi_Ban_Koma.jpg?width=500",
+  "sujet_image": "Shogi"
+ }
+]

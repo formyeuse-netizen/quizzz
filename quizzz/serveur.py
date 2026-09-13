@@ -38,7 +38,8 @@ BASE = "questions.db"
 CATEGORIES = ["algerie", "football", "nba", "sport", "anime",
               "film", "series", "culture_g", "geographie", "histoire", "physique",
               "musique", "animaux", "voitures", "jeuxvideo", "logos", "drapeaux",
-              "aliments", "langues", "corps", "cuisine", "espace", "races"]
+              "aliments", "langues", "corps", "cuisine", "espace", "races",
+              "nature", "jeuxsociete"]
 DIFFICULTES = ["facile", "moyen", "difficile"]
 
 app = FastAPI()

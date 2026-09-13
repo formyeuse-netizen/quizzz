@@ -1,0 +1,505 @@
+[
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Grand Canyon",
+  "alias": [
+   "Grand Canyon"
+  ],
+  "categorie": "nature",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grand_Canyon_North.jpg?width=500",
+  "sujet_image": "Grand Canyon"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Chutes du Niagara",
+  "alias": [
+   "Chutes du Niagara",
+   "Niagara Falls",
+   "Niagara",
+   "chutes Niagara"
+  ],
+  "categorie": "nature",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Niagara_Falls_Sunset_%28cropped%29.jpg?width=500",
+  "sujet_image": "Chutes du Niagara"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Mont Everest",
+  "alias": [
+   "Mont Everest",
+   "Mount Everest",
+   "Everest"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006_edit_1.jpg?width=500",
+  "sujet_image": "Everest"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Kilimandjaro",
+  "alias": [
+   "Kilimandjaro",
+   "Kilimanjaro",
+   "Mount Kilimanjaro"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kilimanjaro_from_Amboseli.jpg?width=500",
+  "sujet_image": "Kilimandjaro"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Uluru",
+  "alias": [
+   "Uluru",
+   "Ayers Rock",
+   "Ayers"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Uluru%2C_helicopter_view%2C_cropped.jpg?width=500",
+  "sujet_image": "Uluru"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Chutes Victoria",
+  "alias": [
+   "Chutes Victoria",
+   "Victoria Falls"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/VictoriaFalls3.JPG?width=500",
+  "sujet_image": "Chutes Victoria"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Grande Barrière de corail",
+  "alias": [
+   "Grande Barrière de corail",
+   "Great Barrier Reef"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/GreatBarrierReef-EO.JPG?width=500",
+  "sujet_image": "Grande Barrière de corail"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Mont Fuji",
+  "alias": [
+   "Mont Fuji",
+   "Mount Fuji",
+   "Fuji",
+   "Fujiyama"
+  ],
+  "categorie": "nature",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fuji_Kawaguchi_357.JPG?width=500",
+  "sujet_image": "Mont Fuji"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Chutes d'Iguazú",
+  "alias": [
+   "Chutes d'Iguazú",
+   "Iguazu Falls",
+   "Iguazu",
+   "Iguaçu",
+   "chutes Iguazu"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Iguacu-004.jpg?width=500",
+  "sujet_image": "Chutes d'Iguazú"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Mont Blanc",
+  "alias": [
+   "Mont Blanc"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mont_Blanc_depuis_Valmorel_2.jpg?width=500",
+  "sujet_image": "Mont Blanc"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Cervin",
+  "alias": [
+   "Cervin",
+   "Matterhorn"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Matterhorn_as_seen_from_Zermatt%2C_Wallis%2C_Switzerland%2C_2012_August.jpg?width=500",
+  "sujet_image": "Cervin"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Salar d'Uyuni",
+  "alias": [
+   "Salar d'Uyuni",
+   "Uyuni",
+   "Uyuni Salt Flat",
+   "salar Uyuni"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Salar_Uyuni_au01.jpg?width=500",
+  "sujet_image": "Salar d'Uyuni"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Monument Valley",
+  "alias": [
+   "Monument Valley"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Monument_Valley%2C_Utah%2C_USA_%2823611451292%29.jpg?width=500",
+  "sujet_image": "Monument Valley"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Cappadoce",
+  "alias": [
+   "Cappadoce",
+   "Cappadocia"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cappadocia_Aerial_View_Landscape.jpg?width=500",
+  "sujet_image": "Cappadoce"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Baie d'Ha Long",
+  "alias": [
+   "Baie d'Ha Long",
+   "Ha Long Bay",
+   "Halong Bay",
+   "baie Halong",
+   "baie Along"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Halong_ensemble_%28colour_corrected%29.jpg?width=500",
+  "sujet_image": "Baie d'Along"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Antelope Canyon",
+  "alias": [
+   "Antelope Canyon"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lower_Antelope_Canyon_478.jpg?width=500",
+  "sujet_image": "Antelope Canyon"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Pamukkale",
+  "alias": [
+   "Pamukkale"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pamukkale_30.jpg?width=500",
+  "sujet_image": "Pamukkale"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Chaussée des Géants",
+  "alias": [
+   "Chaussée des Géants",
+   "Giant's Causeway",
+   "Giants Causeway"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Causeway-code_poet-4.jpg?width=500",
+  "sujet_image": "Chaussée des Géants"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Yosemite",
+  "alias": [
+   "Yosemite",
+   "Yosemite Valley",
+   "vallée Yosemite"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Yosemite_Morning.jpg?width=500",
+  "sujet_image": "Vallée de Yosemite"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Zhangjiajie",
+  "alias": [
+   "Zhangjiajie"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1_tianzishan_wulingyuan_zhangjiajie_2012.jpg?width=500",
+  "sujet_image": "Parc forestier national de Zhangjiajie"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Grand Prismatic Spring",
+  "alias": [
+   "Grand Prismatic Spring",
+   "Grand Prismatic",
+   "Yellowstone"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg?width=500",
+  "sujet_image": "Grand Prismatic Spring"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Sahara",
+  "alias": [
+   "Sahara",
+   "Sahara desert",
+   "désert du Sahara"
+  ],
+  "categorie": "nature",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Merzouga_Dunes_2011.jpg?width=500",
+  "sujet_image": "Sahara"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Geirangerfjord",
+  "alias": [
+   "Geirangerfjord",
+   "fjord",
+   "fjord de Geiranger"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/GeirangerFjord.jpg?width=500",
+  "sujet_image": "Geirangerfjord"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Torres del Paine",
+  "alias": [
+   "Torres del Paine"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Torres_del_Paine.jpg?width=500",
+  "sujet_image": "Parc national Torres del Paine"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Glacier Perito Moreno",
+  "alias": [
+   "Glacier Perito Moreno",
+   "Perito Moreno",
+   "Perito Moreno Glacier",
+   "glacier Perito Moreno"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Perito_Moreno_Glacier_2023.jpg?width=500",
+  "sujet_image": "Perito Moreno (glacier)"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Wadi Rum",
+  "alias": [
+   "Wadi Rum"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/21_Lawrence_of_Arabia_Spring_-_Magnificent_Views_at_the_Top_of_the_Trail_-_panoramio.jpg?width=500",
+  "sujet_image": "Wadi Rum"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Bryce Canyon",
+  "alias": [
+   "Bryce Canyon"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/USA_10654_Bryce_Canyon_Luca_Galuzzi_2007.jpg?width=500",
+  "sujet_image": "Bryce Canyon"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Pain de Sucre",
+  "alias": [
+   "Pain de Sucre",
+   "Sugarloaf",
+   "Sugarloaf Mountain",
+   "pain de sucre"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%A3o_de_A%C3%A7ucar_-_Sugarloaf_Mountain_-_Zuckerhut_-_2022.jpg?width=500",
+  "sujet_image": "Pain de Sucre (Rio de Janeiro)"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Montagne de la Table",
+  "alias": [
+   "Montagne de la Table",
+   "Table Mountain"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Signal_Hill.jpg?width=500",
+  "sujet_image": "Montagne de la Table"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Falaises de Moher",
+  "alias": [
+   "Falaises de Moher",
+   "Cliffs of Moher"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ireland_CliffsMoher.JPG?width=500",
+  "sujet_image": "Falaises de Moher"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Etna",
+  "alias": [
+   "Etna",
+   "Mount Etna"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Etna_and_Catania.JPG?width=500",
+  "sujet_image": "Etna"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Vésuve",
+  "alias": [
+   "Vésuve",
+   "Vesuvius",
+   "Vesuve"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Il_cratere_del_Vulcano_-_panoramio.jpg?width=500",
+  "sujet_image": "Vésuve"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Météores",
+  "alias": [
+   "Météores",
+   "Meteora"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Meteora%27s_monastery_2.jpg?width=500",
+  "sujet_image": "Météores (Grèce)"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Deadvlei",
+  "alias": [
+   "Deadvlei",
+   "Namib",
+   "Sossusvlei"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dead_Vlei_4.jpg?width=500",
+  "sujet_image": "Deadvlei"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Denali",
+  "alias": [
+   "Denali",
+   "Mount McKinley"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wonder_Lake_and_Denali.jpg?width=500",
+  "sujet_image": "Denali"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Gorges du Verdon",
+  "alias": [
+   "Gorges du Verdon",
+   "Verdon",
+   "Verdon Gorge",
+   "gorges Verdon"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Verdon_Gorge_1.jpg?width=500",
+  "sujet_image": "Gorges du Verdon"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Lacs de Plitvice",
+  "alias": [
+   "Lacs de Plitvice",
+   "Plitvice",
+   "Plitvice Lakes",
+   "lacs Plitvice"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Plitvice_Lakes_National_Park.jpg?width=500",
+  "sujet_image": "Parc national des lacs de Plitvice"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Chutes Salto Ángel",
+  "alias": [
+   "Chutes Salto Ángel",
+   "Angel Falls",
+   "Salto Angel",
+   "Salto Ángel"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/SaltoAngel1.jpg?width=500",
+  "sujet_image": "Chutes Salto Ángel"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Half Dome",
+  "alias": [
+   "Half Dome"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Half_Dome_from_Glacier_Point%2C_Yosemite_NP_-_Diliff.jpg?width=500",
+  "sujet_image": "Half Dome"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Rocher de Gibraltar",
+  "alias": [
+   "Rocher de Gibraltar",
+   "Rock of Gibraltar",
+   "Gibraltar"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock_of_Gibraltar_northwest.jpg?width=500",
+  "sujet_image": "Rocher de Gibraltar"
+ }
+]
