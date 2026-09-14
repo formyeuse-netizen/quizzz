@@ -1,0 +1,737 @@
+[
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Leonardo DiCaprio",
+  "alias": [
+   "Leonardo DiCaprio",
+   "DiCaprio",
+   "Leonardo di Caprio"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/LeoPTABFI191125-28_%28cropped%29.jpg?width=500",
+  "sujet_image": "Leonardo DiCaprio"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Angelina Jolie",
+  "alias": [
+   "Angelina Jolie",
+   "Jolie"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Angelina_Jolie-643531_%28cropped%29.jpg?width=500",
+  "sujet_image": "Angelina Jolie"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Tom Cruise",
+  "alias": [
+   "Tom Cruise",
+   "Cruise"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tom_Cruise_at_Saturn_Awards_2026_01.jpg?width=500",
+  "sujet_image": "Tom Cruise"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Denzel Washington",
+  "alias": [
+   "Denzel Washington",
+   "Denzel"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Denzel_Washington_at_the_2025_Cannes_Film_Festival.jpg?width=500",
+  "sujet_image": "Denzel Washington"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Al Pacino",
+  "alias": [
+   "Al Pacino",
+   "Pacino"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Al_Pacino_-_Killing_Castro_-_Q%26A_-_Tribeca_2026_-_by_%40JJxFile-23_%28cropped%29.jpg?width=500",
+  "sujet_image": "Al Pacino"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Scarlett Johansson",
+  "alias": [
+   "Scarlett Johansson",
+   "Johansson",
+   "Scarlett"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scarlett_Johansson_293_%28cropped2%29.jpg?width=500",
+  "sujet_image": "Scarlett Johansson"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Chris Hemsworth",
+  "alias": [
+   "Chris Hemsworth",
+   "Hemsworth"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris_Hemsworth_-_Crime_101.jpg?width=500",
+  "sujet_image": "Chris Hemsworth"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Ryan Gosling",
+  "alias": [
+   "Ryan Gosling",
+   "Gosling"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/GoslingBFI081223_%2810_of_30%29_%2853389077811%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Ryan Gosling"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Emma Stone",
+  "alias": [
+   "Emma Stone",
+   "Stone"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Emma_Stone_at_the_2025_Venice_Film_Festival-6313_%28cropped%29.jpg?width=500",
+  "sujet_image": "Emma Stone"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Anne Hathaway",
+  "alias": [
+   "Anne Hathaway",
+   "Hathaway"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anne_Hathaway-_Press_conference_for_the_film_%22The_Devil_Wears_Prada_2%22_-_55194764955_%28cropped%29.jpg?width=500",
+  "sujet_image": "Anne Hathaway"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Nicole Kidman",
+  "alias": [
+   "Nicole Kidman",
+   "Kidman"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/MKr384262_Nicole_Kidman_%28Women_In_Motion%2C_Cannes_2025%29.jpg?width=500",
+  "sujet_image": "Nicole Kidman"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Keanu Reeves",
+  "alias": [
+   "Keanu Reeves",
+   "Keanu",
+   "Reeves"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Keanu_Reeves_at_TIFF_2025_02_%28Cropped%29.jpg?width=500",
+  "sujet_image": "Keanu Reeves"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Hugh Jackman",
+  "alias": [
+   "Hugh Jackman",
+   "Jackman"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hugh_Jackman_Is_This_Thing_On-68_%28cropped%29.jpg?width=500",
+  "sujet_image": "Hugh Jackman"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Matt Damon",
+  "alias": [
+   "Matt Damon",
+   "Damon"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/MattDamon-byPhilipRomano2.jpg?width=500",
+  "sujet_image": "Matt Damon"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "George Clooney",
+  "alias": [
+   "George Clooney",
+   "Clooney"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/George_Clooney_83rd_Venice_Film_Festival_2.jpg?width=500",
+  "sujet_image": "George Clooney"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Nicolas Cage",
+  "alias": [
+   "Nicolas Cage",
+   "Cage"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nicolas_Cage_Deauville_2013_2.jpg?width=500",
+  "sujet_image": "Nicolas Cage"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Adam Sandler",
+  "alias": [
+   "Adam Sandler",
+   "Sandler"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Adam_Sandler_Jay_Kelly-33_%28cropped%29.jpg?width=500",
+  "sujet_image": "Adam Sandler"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Jason Statham",
+  "alias": [
+   "Jason Statham",
+   "Statham"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jason_Statham_2018.jpg?width=500",
+  "sujet_image": "Jason Statham"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Arnold Schwarzenegger",
+  "alias": [
+   "Arnold Schwarzenegger",
+   "Schwarzenegger",
+   "Arnold"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arnold_Schwarzenegger_-_Austrian_World_Summit_2026_BHO-2906.jpg?width=500",
+  "sujet_image": "Arnold Schwarzenegger"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Bruce Willis",
+  "alias": [
+   "Bruce Willis",
+   "Willis"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruce_Willis_by_Gage_Skidmore_3.jpg?width=500",
+  "sujet_image": "Bruce Willis"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Jack Nicholson",
+  "alias": [
+   "Jack Nicholson",
+   "Nicholson"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jack_Nicholson_2001.jpg?width=500",
+  "sujet_image": "Jack Nicholson"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Idris Elba",
+  "alias": [
+   "Idris Elba",
+   "Elba"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Idris_Elba_A_House_of_Dynamite-23.jpg?width=500",
+  "sujet_image": "Idris Elba"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Joaquin Phoenix",
+  "alias": [
+   "Joaquin Phoenix",
+   "Phoenix"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Joaquin_Phoenix-64987_%28cropped%29.jpg?width=500",
+  "sujet_image": "Joaquin Phoenix"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Chris Pratt",
+  "alias": [
+   "Chris Pratt",
+   "Pratt"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chris_Pratt_%2828046106184%29_%28cropped%29.jpg?width=500",
+  "sujet_image": "Chris Pratt"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Zendaya",
+  "alias": [
+   "Zendaya"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zendaya-byPhilipRomano.jpg?width=500",
+  "sujet_image": "Zendaya"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Timothée Chalamet",
+  "alias": [
+   "Timothée Chalamet",
+   "Chalamet"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Timoth%C3%A9e_Chalamet_2025_2_%28cropped%29.jpg?width=500",
+  "sujet_image": "Timothée Chalamet"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Pedro Pascal",
+  "alias": [
+   "Pedro Pascal",
+   "Pascal"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pedro_Pascal_at_the_2025_Cannes_Film_Festival_02.jpg?width=500",
+  "sujet_image": "Pedro Pascal"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Cillian Murphy",
+  "alias": [
+   "Cillian Murphy",
+   "Murphy"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CillianMurphy-TIFF2025-01-Cropped_%28cropped%29.png?width=500",
+  "sujet_image": "Cillian Murphy"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Florence Pugh",
+  "alias": [
+   "Florence Pugh",
+   "Pugh"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Actress_Florence_Pugh_-_Thunderbolts_-_L.A._Premiere_%28cropped%29.jpg?width=500",
+  "sujet_image": "Florence Pugh"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Jenna Ortega",
+  "alias": [
+   "Jenna Ortega",
+   "Ortega"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jenna_Ortega_at_the_2026_Sundance_Film_Festival_09_%28cropped%29.jpg?width=500",
+  "sujet_image": "Jenna Ortega"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Jean Dujardin",
+  "alias": [
+   "Jean Dujardin",
+   "Dujardin"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Christophe_Lambert_et_Jean_Dujardin_%28Cropped%29.jpg?width=500",
+  "sujet_image": "Jean Dujardin"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Omar Sy",
+  "alias": [
+   "Omar Sy"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Omar_Sy_%282020%29.jpg?width=500",
+  "sujet_image": "Omar Sy"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Marion Cotillard",
+  "alias": [
+   "Marion Cotillard",
+   "Cotillard"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Marion_Cotillard-1061_%28cropped%29.jpg?width=500",
+  "sujet_image": "Marion Cotillard"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Vincent Cassel",
+  "alias": [
+   "Vincent Cassel",
+   "Cassel"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent_Cassel_at_the_2025_Toronto_International_Film_Festival.jpg?width=500",
+  "sujet_image": "Vincent Cassel"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Jean Reno",
+  "alias": [
+   "Jean Reno",
+   "Reno"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jean_Reno_Cannes_2016.jpg?width=500",
+  "sujet_image": "Jean Reno"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Louis de Funès",
+  "alias": [
+   "Louis de Funès",
+   "de Funès",
+   "Funes"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis_de_Fun%C3%A8s_%E2%80%94_L%27Homme_orchestre_%281970%29_%28recadr%C3%A9%29.jpg?width=500",
+  "sujet_image": "Louis de Funès"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Alain Delon",
+  "alias": [
+   "Alain Delon",
+   "Delon"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alain_Delon_1959_Rome.jpg?width=500",
+  "sujet_image": "Alain Delon"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Sophie Marceau",
+  "alias": [
+   "Sophie Marceau",
+   "Marceau"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sophie_Marceau_Cannes_2015.jpg?width=500",
+  "sujet_image": "Sophie Marceau"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Catherine Deneuve",
+  "alias": [
+   "Catherine Deneuve",
+   "Deneuve"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Catherine_Deneuve_1995.jpg?width=500",
+  "sujet_image": "Catherine Deneuve"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Martin Scorsese",
+  "alias": [
+   "Martin Scorsese",
+   "Scorsese"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Martin_Scorsese_Taxi_Driver_Tribeca_Festival_2026-7.jpg?width=500",
+  "sujet_image": "Martin Scorsese"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Christopher Nolan",
+  "alias": [
+   "Christopher Nolan",
+   "Nolan"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/ChristopherNolan-byPhilipRomano.jpg?width=500",
+  "sujet_image": "Christopher Nolan"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Tim Burton",
+  "alias": [
+   "Tim Burton",
+   "Burton"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tim_Burton-63605.jpg?width=500",
+  "sujet_image": "Tim Burton"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Pasteur",
+  "alias": [
+   "Pasteur",
+   "Louis Pasteur"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Louis_Pasteur_%281822_-_1895%29%2C_microbiologist_and_chemist_Wellcome_V0026980.jpg?width=500",
+  "sujet_image": "Louis Pasteur"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Fleming",
+  "alias": [
+   "Fleming",
+   "Alexander Fleming"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alexander_Fleming_1945.jpg?width=500",
+  "sujet_image": "Alexander Fleming"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Faraday",
+  "alias": [
+   "Faraday",
+   "Michael Faraday"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael_Faraday_001.jpg?width=500",
+  "sujet_image": "Michael Faraday"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Turing",
+  "alias": [
+   "Turing",
+   "Alan Turing"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University.jpg?width=500",
+  "sujet_image": "Alan Turing"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Kepler",
+  "alias": [
+   "Kepler",
+   "Johannes Kepler"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/JKepler.jpg?width=500",
+  "sujet_image": "Johannes Kepler"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Mendeleïev",
+  "alias": [
+   "Mendeleïev",
+   "Mendeleiev",
+   "Mendeleev"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/DIMendeleevCab.jpg?width=500",
+  "sujet_image": "Dmitri Mendeleïev"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Jane Goodall",
+  "alias": [
+   "Jane Goodall",
+   "Goodall"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "difficile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Deputy_Secretary_Higginbottom_Poses_for_a_Photo_With_Dr._Jane_Goodall_and_the_State_Department%27s_Global_Health_Diplomacy_Director_Jordan_in_Washington_%2822365513310%29_%282%29_%28cropped_2%29.jpg?width=500",
+  "sujet_image": "Jane Goodall"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Obama",
+  "alias": [
+   "Obama",
+   "Barack Obama"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/President_Barack_Obama.jpg?width=500",
+  "sujet_image": "Barack Obama"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Mère Teresa",
+  "alias": [
+   "Mère Teresa",
+   "Mother Teresa",
+   "Teresa"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mutter_Teresa_von_Kalkutta.jpg?width=500",
+  "sujet_image": "Mère Teresa"
+ },
+ {
+  "question": "Qui est cette personne célèbre ?",
+  "reponse": "Dalí",
+  "alias": [
+   "Dalí",
+   "Salvador Dali",
+   "Dali"
+  ],
+  "categorie": "culture_g",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Salvador_Dal%C3%AD_1939.jpg?width=500",
+  "sujet_image": "Salvador Dalí"
+ },
+ {
+  "question": "Quel chanteur ou quelle chanteuse est-ce ?",
+  "reponse": "Taylor Swift",
+  "alias": [
+   "Taylor Swift",
+   "Swift"
+  ],
+  "categorie": "musique",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Taylor_Swift_at_the_Golden_Globes_2024_%28Enhanced%2C_cropped%29_2.jpg?width=500",
+  "sujet_image": "Taylor Swift"
+ },
+ {
+  "question": "Quel chanteur ou quelle chanteuse est-ce ?",
+  "reponse": "Rihanna",
+  "alias": [
+   "Rihanna"
+  ],
+  "categorie": "musique",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rihanna_Fenty_2018.png?width=500",
+  "sujet_image": "Rihanna"
+ },
+ {
+  "question": "Quel chanteur ou quelle chanteuse est-ce ?",
+  "reponse": "Ed Sheeran",
+  "alias": [
+   "Ed Sheeran",
+   "Sheeran"
+  ],
+  "categorie": "musique",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ed_Sheeran-6826_%28cropped%29.jpg?width=500",
+  "sujet_image": "Ed Sheeran"
+ },
+ {
+  "question": "Quel chanteur ou quelle chanteuse est-ce ?",
+  "reponse": "Dua Lipa",
+  "alias": [
+   "Dua Lipa"
+  ],
+  "categorie": "musique",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dua_Lipa-69798_%28cropped%29.jpg?width=500",
+  "sujet_image": "Dua Lipa"
+ },
+ {
+  "question": "Quel chanteur ou quelle chanteuse est-ce ?",
+  "reponse": "The Weeknd",
+  "alias": [
+   "The Weeknd",
+   "Weeknd"
+  ],
+  "categorie": "musique",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/The_Weeknd_Portrait_by_Brian_Ziff.jpg?width=500",
+  "sujet_image": "The Weeknd"
+ },
+ {
+  "question": "Quel chanteur ou quelle chanteuse est-ce ?",
+  "reponse": "Bruno Mars",
+  "alias": [
+   "Bruno Mars"
+  ],
+  "categorie": "musique",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bruno_Mars_-_24K_Magic_Tour_%2837320927992%29.jpg?width=500",
+  "sujet_image": "Bruno Mars"
+ },
+ {
+  "question": "Quel chanteur ou quelle chanteuse est-ce ?",
+  "reponse": "Lady Gaga",
+  "alias": [
+   "Lady Gaga",
+   "Gaga"
+  ],
+  "categorie": "musique",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Youtube_X_Lady_Gaga_en_La_Paloma_04.jpg?width=500",
+  "sujet_image": "Lady Gaga"
+ },
+ {
+  "question": "Quel chanteur ou quelle chanteuse est-ce ?",
+  "reponse": "Angèle",
+  "alias": [
+   "Angèle",
+   "Angele"
+  ],
+  "categorie": "musique",
+  "difficulte": "moyen",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/P2NAngele_2.jpg?width=500",
+  "sujet_image": "Angèle (chanteuse)"
+ },
+ {
+  "question": "Quel chanteur ou quelle chanteuse est-ce ?",
+  "reponse": "Aya Nakamura",
+  "alias": [
+   "Aya Nakamura",
+   "Nakamura"
+  ],
+  "categorie": "musique",
+  "difficulte": "facile",
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aya_Nakamura_IMG_4756_%28cropped%29.jpg?width=500",
+  "sujet_image": "Aya Nakamura"
+ }
+]
