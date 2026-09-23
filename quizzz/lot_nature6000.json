@@ -1,0 +1,328 @@
+[
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Milford Sound",
+  "alias": [
+   "Milford Sound",
+   "milford sound"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Milford_Sound_%28New_Zealand%29.JPG/500px-Milford_Sound_%28New_Zealand%29.JPG",
+  "sujet_image": "Milford Sound"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Désert d'Atacama",
+  "alias": [
+   "Désert d'Atacama",
+   "atacama",
+   "atacama desert"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Licancabur_from_Moon_Valley.JPG/500px-Licancabur_from_Moon_Valley.JPG",
+  "sujet_image": "Désert d'Atacama"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Désert du Namib",
+  "alias": [
+   "Désert du Namib",
+   "namib",
+   "namib desert",
+   "sossusvlei"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Sossusvlei_Dune_Rippled_cropped.jpg/500px-Sossusvlei_Dune_Rippled_cropped.jpg",
+  "sujet_image": "Désert du Namib"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Lac Moraine",
+  "alias": [
+   "Lac Moraine",
+   "moraine lake",
+   "lac moraine"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Lac_Moraine.jpg/500px-Lac_Moraine.jpg",
+  "sujet_image": "Lac Moraine"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Lac de Côme",
+  "alias": [
+   "Lac de Côme",
+   "lake como",
+   "lac de come"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/LagoSanPrimo.jpg/500px-LagoSanPrimo.jpg",
+  "sujet_image": "Lac de Côme"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Gullfoss",
+  "alias": [
+   "Gullfoss",
+   "gullfoss"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/GullfossOverview.jpg/500px-GullfossOverview.jpg",
+  "sujet_image": "Gullfoss"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Skógafoss",
+  "alias": [
+   "Skógafoss",
+   "skogafoss"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Sk%C3%B3gafoss_July_2014.JPG/500px-Sk%C3%B3gafoss_July_2014.JPG",
+  "sujet_image": "Skógafoss"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Seljalandsfoss",
+  "alias": [
+   "Seljalandsfoss",
+   "seljalandsfoss"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Seljalandsfoss%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_117.JPG/500px-Seljalandsfoss%2C_Su%C3%B0urland%2C_Islandia%2C_2014-08-17%2C_DD_117.JPG",
+  "sujet_image": "Seljalandsfoss"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Trolltunga",
+  "alias": [
+   "Trolltunga",
+   "trolltunga"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Trolltunga_2.jpg/500px-Trolltunga_2.jpg",
+  "sujet_image": "Trolltunga"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Preikestolen",
+  "alias": [
+   "Preikestolen",
+   "preikestolen",
+   "pulpit rock"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Preikestolen_de_face.jpg/500px-Preikestolen_de_face.jpg",
+  "sujet_image": "Preikestolen"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Montagnes de Zhangye Danxia",
+  "alias": [
+   "Montagnes de Zhangye Danxia",
+   "zhangye danxia",
+   "rainbow mountains"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Zhangye_National_Geopark_5.jpg/500px-Zhangye_National_Geopark_5.jpg",
+  "sujet_image": "Montagnes de Zhangye Danxia"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Great Blue Hole",
+  "alias": [
+   "Great Blue Hole",
+   "great blue hole",
+   "grand trou bleu"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Great_Blue_Hole.jpg/500px-Great_Blue_Hole.jpg",
+  "sujet_image": "Great Blue Hole"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Bora-Bora",
+  "alias": [
+   "Bora-Bora",
+   "bora bora"
+  ],
+  "categorie": "nature",
+  "difficulte": "facile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Bora_Bora_ISS006.jpg/500px-Bora_Bora_ISS006.jpg",
+  "sujet_image": "Bora-Bora"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Vallée de la Mort",
+  "alias": [
+   "Vallée de la Mort",
+   "death valley",
+   "vallee de la mort"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Death_Valley_Mesquite_Flats_Sand_Dunes_2013.jpg/500px-Death_Valley_Mesquite_Flats_Sand_Dunes_2013.jpg",
+  "sujet_image": "Vallée de la Mort"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "K2",
+  "alias": [
+   "K2",
+   "k2"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/K2%2C_Mount_Godwin_Austen%2C_Chogori%2C_Savage_Mountain.jpg/500px-K2%2C_Mount_Godwin_Austen%2C_Chogori%2C_Savage_Mountain.jpg",
+  "sujet_image": "K2"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Stromboli",
+  "alias": [
+   "Stromboli",
+   "stromboli"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Aerial_image_of_Stromboli_%28view_from_the_northeast%29.jpg/500px-Aerial_image_of_Stromboli_%28view_from_the_northeast%29.jpg",
+  "sujet_image": "Stromboli"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Fish River Canyon",
+  "alias": [
+   "Fish River Canyon",
+   "fish river canyon"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Fish_River_Canyon_Namibia.jpg/500px-Fish_River_Canyon_Namibia.jpg",
+  "sujet_image": "Fish River Canyon"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Champs de tulipes des Pays-Bas",
+  "alias": [
+   "Champs de tulipes des Pays-Bas",
+   "keukenhof",
+   "tulip fields",
+   "champs de tulipes"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Keukenhof_340.JPG/500px-Keukenhof_340.JPG",
+  "sujet_image": "Champs de tulipes des Pays-Bas"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Cratère du Ngorongoro",
+  "alias": [
+   "Cratère du Ngorongoro",
+   "ngorongoro"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Ngorongoro-1001-2.jpg/500px-Ngorongoro-1001-2.jpg",
+  "sujet_image": "Cratère du Ngorongoro"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Delta de l'Okavango",
+  "alias": [
+   "Delta de l'Okavango",
+   "okavango delta",
+   "okavango"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Okavango_Delta%2C_Botswana1.jpg/500px-Okavango_Delta%2C_Botswana1.jpg",
+  "sujet_image": "Delta de l'Okavango"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Île de Socotra",
+  "alias": [
+   "Île de Socotra",
+   "socotra",
+   "dragon blood tree"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Dragonblood_tree_in_Socotra_2.jpg/500px-Dragonblood_tree_in_Socotra_2.jpg",
+  "sujet_image": "Île de Socotra"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Baie de Kotor",
+  "alias": [
+   "Baie de Kotor",
+   "bay of kotor",
+   "kotor"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Kotor_aerial_1.jpg/500px-Kotor_aerial_1.jpg",
+  "sujet_image": "Baie de Kotor"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Vallée de Jiuzhaigou",
+  "alias": [
+   "Vallée de Jiuzhaigou",
+   "jiuzhaigou"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg/500px-1_jiuzhaigou_valley_wu_hua_hai_2011b.jpg",
+  "sujet_image": "Vallée de Jiuzhaigou"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Cenote",
+  "alias": [
+   "Cenote",
+   "cenote"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Cenote_swimming.jpg/500px-Cenote_swimming.jpg",
+  "sujet_image": "Cenote"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Randonnée du Colorado / Horseshoe Bend",
+  "alias": [
+   "Randonnée du Colorado / Horseshoe Bend",
+   "horseshoe bend"
+  ],
+  "categorie": "nature",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Grand_Canyon_Horseshoe_Bend.jpg/500px-Grand_Canyon_Horseshoe_Bend.jpg",
+  "sujet_image": "Randonnée du Colorado / Horseshoe Bend"
+ },
+ {
+  "question": "Quel est ce lieu naturel ?",
+  "reponse": "Popocatépetl",
+  "alias": [
+   "Popocatépetl",
+   "popocatepetl"
+  ],
+  "categorie": "nature",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Mexico-Popocatepetl.jpg/500px-Mexico-Popocatepetl.jpg",
+  "sujet_image": "Popocatépetl"
+ }
+]

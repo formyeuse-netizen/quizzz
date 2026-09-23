@@ -1,0 +1,244 @@
+[
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "io",
+  "alias": [
+   "io",
+   "io moon"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Io_highest_resolution_true_color.jpg/500px-Io_highest_resolution_true_color.jpg",
+  "sujet_image": "io"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "voie lactée",
+  "alias": [
+   "voie lactée",
+   "milky way",
+   "voie lactee"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/ESO-VLT-Laser-phot-33a-07.jpg/500px-ESO-VLT-Laser-phot-33a-07.jpg",
+  "sujet_image": "voie lactée"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "piliers de la création",
+  "alias": [
+   "piliers de la création",
+   "pillars of creation"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Eagle_nebula_pillars.jpg/500px-Eagle_nebula_pillars.jpg",
+  "sujet_image": "piliers de la création"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "galaxie du sombrero",
+  "alias": [
+   "galaxie du sombrero",
+   "sombrero galaxy"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/NGC_4594_SDSS.jpg/500px-NGC_4594_SDSS.jpg",
+  "sujet_image": "galaxie du sombrero"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "grande tache rouge",
+  "alias": [
+   "grande tache rouge",
+   "great red spot"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Jupiter%27s_storm.jpg/500px-Jupiter%27s_storm.jpg",
+  "sujet_image": "grande tache rouge"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "comète de halley",
+  "alias": [
+   "comète de halley",
+   "halley",
+   "halleys comet",
+   "comete de halley"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Lspn_comet_halley.jpg/500px-Lspn_comet_halley.jpg",
+  "sujet_image": "comète de halley"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "télescope james webb",
+  "alias": [
+   "télescope james webb",
+   "james webb",
+   "jwst",
+   "james webb telescope",
+   "telescope james webb"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/James_Webb_Space_Telescope.jpg/500px-James_Webb_Space_Telescope.jpg",
+  "sujet_image": "télescope james webb"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "spoutnik",
+  "alias": [
+   "spoutnik",
+   "sputnik"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Sputnik_asm.jpg/500px-Sputnik_asm.jpg",
+  "sujet_image": "spoutnik"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "fusée saturn v",
+  "alias": [
+   "fusée saturn v",
+   "saturn v",
+   "fusee saturn v",
+   "saturn 5"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Apollo_4_Saturn_V%2C_s67-50531.jpg/500px-Apollo_4_Saturn_V%2C_s67-50531.jpg",
+  "sujet_image": "fusée saturn v"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "navette spatiale",
+  "alias": [
+   "navette spatiale",
+   "space shuttle"
+  ],
+  "categorie": "espace",
+  "difficulte": "facile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/STS120LaunchHiRes-edit1.jpg/500px-STS120LaunchHiRes-edit1.jpg",
+  "sujet_image": "navette spatiale"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "rover curiosity",
+  "alias": [
+   "rover curiosity",
+   "curiosity",
+   "curiosity rover"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg/500px-Curiosity_Self-Portrait_at_%27Big_Sky%27_Drilling_Site.jpg",
+  "sujet_image": "rover curiosity"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "sonde voyager",
+  "alias": [
+   "sonde voyager",
+   "voyager",
+   "voyager 1"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Voyager_spacecraft.jpg/500px-Voyager_spacecraft.jpg",
+  "sujet_image": "sonde voyager"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "falcon 9",
+  "alias": [
+   "falcon 9"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/45th_Space_Wing_Supports_Successful_Transporter-1_Launch_%28210124-X-QO603-1025%29_%28cropped%29.jpg/500px-45th_Space_Wing_Supports_Successful_Transporter-1_Launch_%28210124-X-QO603-1025%29_%28cropped%29.jpg",
+  "sujet_image": "falcon 9"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "starship",
+  "alias": [
+   "starship",
+   "spacex starship"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/SpaceX_Starship_ignition_during_IFT-5.jpg/500px-SpaceX_Starship_ignition_during_IFT-5.jpg",
+  "sujet_image": "starship"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "soyouz",
+  "alias": [
+   "soyouz",
+   "soyuz"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Soyuz_MS-20_docking_%28cropped%29.jpg/500px-Soyuz_MS-20_docking_%28cropped%29.jpg",
+  "sujet_image": "soyouz"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "module lunaire",
+  "alias": [
+   "module lunaire",
+   "lunar module",
+   "lem"
+  ],
+  "categorie": "espace",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Apollo_16_LM.jpg/500px-Apollo_16_LM.jpg",
+  "sujet_image": "module lunaire"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "système solaire",
+  "alias": [
+   "système solaire",
+   "solar system",
+   "systeme solaire"
+  ],
+  "categorie": "espace",
+  "difficulte": "facile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Solar_System_True_Color_FR.png/500px-Solar_System_True_Color_FR.png",
+  "sujet_image": "système solaire"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "cratère de météore",
+  "alias": [
+   "cratère de météore",
+   "meteor crater",
+   "barringer crater",
+   "cratere meteore"
+  ],
+  "categorie": "espace",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Barringer_Meteor_Crater%2C_Arizona.jpg/500px-Barringer_Meteor_Crater%2C_Arizona.jpg",
+  "sujet_image": "cratère de météore"
+ },
+ {
+  "question": "Quel est cet objet céleste ? / What celestial object is this?",
+  "reponse": "astronaute",
+  "alias": [
+   "astronaute",
+   "astronaut",
+   "spationaute"
+  ],
+  "categorie": "espace",
+  "difficulte": "facile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/STS41B-35-1613_-_Bruce_McCandless_II_during_EVA_%28Retouched%29.jpg/500px-STS41B-35-1613_-_Bruce_McCandless_II_during_EVA_%28Retouched%29.jpg",
+  "sujet_image": "astronaute"
+ }
+]

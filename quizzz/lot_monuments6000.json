@@ -1,0 +1,364 @@
+[
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Djamaa el Djazaïr",
+  "alias": [
+   "Djamaa el Djazaïr",
+   "great mosque of algiers",
+   "grande mosquee alger",
+   "mosquee alger"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Djama%C3%A2_El-Djaza%C3%AFr_-_20240405_200416206.jpg/500px-Djama%C3%A2_El-Djaza%C3%AFr_-_20240405_200416206.jpg",
+  "sujet_image": "Djamaa el Djazaïr"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Notre-Dame d'Afrique",
+  "alias": [
+   "Notre-Dame d'Afrique",
+   "notre dame afrique"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Alger-Notre-Dame-D%27Afrique_Basilique.jpg/500px-Alger-Notre-Dame-D%27Afrique_Basilique.jpg",
+  "sujet_image": "Notre-Dame d'Afrique"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Mosquée Hassan II",
+  "alias": [
+   "Mosquée Hassan II",
+   "hassan ii mosque",
+   "mosquee hassan 2"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/fr/thumb/f/fc/Mosqu%C3%A9e_Hassan_II_-_2016-04-13.jpg/500px-Mosqu%C3%A9e_Hassan_II_-_2016-04-13.jpg",
+  "sujet_image": "Mosquée Hassan II"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Abou Simbel",
+  "alias": [
+   "Abou Simbel",
+   "abu simbel",
+   "abou simbel"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Panorama_Abu_Simbel_crop.jpg/500px-Panorama_Abu_Simbel_crop.jpg",
+  "sujet_image": "Abou Simbel"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Temple de Karnak",
+  "alias": [
+   "Temple de Karnak",
+   "karnak"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Templo_de_Karnak%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_148.jpg/500px-Templo_de_Karnak%2C_Luxor%2C_Egipto%2C_2022-04-03%2C_DD_148.jpg",
+  "sujet_image": "Temple de Karnak"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Mosquée Bleue",
+  "alias": [
+   "Mosquée Bleue",
+   "blue mosque",
+   "sultan ahmet"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Istanbul_%2834223582516%29_%28cropped%29.jpg/500px-Istanbul_%2834223582516%29_%28cropped%29.jpg",
+  "sujet_image": "Mosquée Bleue"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Palais de Topkapı",
+  "alias": [
+   "Palais de Topkapı",
+   "topkapi",
+   "topkapi palace"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Topkapi_Palace_Seen_From_Harem.JPG/500px-Topkapi_Palace_Seen_From_Harem.JPG",
+  "sujet_image": "Palais de Topkapı"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Kinkaku-ji",
+  "alias": [
+   "Kinkaku-ji",
+   "golden pavilion",
+   "pavillon d'or",
+   "kinkakuji"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Water_reflection_of_Kinkaku-ji_Temple_a_sunny_day%2C_Kyoto%2C_Japan.jpg/500px-Water_reflection_of_Kinkaku-ji_Temple_a_sunny_day%2C_Kyoto%2C_Japan.jpg",
+  "sujet_image": "Kinkaku-ji"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Château de Himeji",
+  "alias": [
+   "Château de Himeji",
+   "himeji castle",
+   "himeji"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Himeji_castle_in_may_2015.jpg/500px-Himeji_castle_in_may_2015.jpg",
+  "sujet_image": "Château de Himeji"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Grand Bouddha de Kamakura",
+  "alias": [
+   "Grand Bouddha de Kamakura",
+   "great buddha of kamakura",
+   "kamakura buddha"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/230128_Kamakura_Daibutsu_Japan01s3.jpg/500px-230128_Kamakura_Daibutsu_Japan01s3.jpg",
+  "sujet_image": "Grand Bouddha de Kamakura"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Château de Chambord",
+  "alias": [
+   "Château de Chambord",
+   "chateau de chambord",
+   "chambord"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Chambord_Castle_Northwest_facade.jpg/500px-Chambord_Castle_Northwest_facade.jpg",
+  "sujet_image": "Château de Chambord"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Casa Batlló",
+  "alias": [
+   "Casa Batlló",
+   "casa batllo"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Casa_Batllo_Overview_Barcelona_Spain_cut.jpg/500px-Casa_Batllo_Overview_Barcelona_Spain_cut.jpg",
+  "sujet_image": "Casa Batlló"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Musée Guggenheim de Bilbao",
+  "alias": [
+   "Musée Guggenheim de Bilbao",
+   "guggenheim bilbao"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg/500px-Museo_Guggenheim%2C_Bilbao_%2831273245344%29.jpg",
+  "sujet_image": "Musée Guggenheim de Bilbao"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "London Eye",
+  "alias": [
+   "London Eye",
+   "london eye",
+   "grande roue londres"
+  ],
+  "categorie": "monuments",
+  "difficulte": "facile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/London_Eye_seen_from_the_north_bank_of_the_Thames%2C_London.jpg/500px-London_Eye_seen_from_the_north_bank_of_the_Thames%2C_London.jpg",
+  "sujet_image": "London Eye"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "The Shard",
+  "alias": [
+   "The Shard",
+   "the shard",
+   "shard londres"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/The_Shard_in_March_2017_%28cropped%29.jpg/500px-The_Shard_in_March_2017_%28cropped%29.jpg",
+  "sujet_image": "The Shard"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Tours Petronas",
+  "alias": [
+   "Tours Petronas",
+   "petronas towers",
+   "tours petronas",
+   "petronas"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Petronas_Towers_at_Night_-_from_the_base_upwards.jpg/500px-Petronas_Towers_at_Night_-_from_the_base_upwards.jpg",
+  "sujet_image": "Tours Petronas"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Temple d'Or",
+  "alias": [
+   "Temple d'Or",
+   "golden temple",
+   "temple or amritsar",
+   "harmandir sahib"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/The_Golden_Temple_of_Amrithsar_7.jpg/500px-The_Golden_Temple_of_Amrithsar_7.jpg",
+  "sujet_image": "Temple d'Or"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Manneken-Pis",
+  "alias": [
+   "Manneken-Pis",
+   "manneken pis"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Bruxelles_Manneken_Pis_cropped.jpg/500px-Bruxelles_Manneken_Pis_cropped.jpg",
+  "sujet_image": "Manneken-Pis"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Grand-Place de Bruxelles",
+  "alias": [
+   "Grand-Place de Bruxelles",
+   "grand place brussels",
+   "grand place bruxelles"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Grand_Place_Bruselas_2.jpg/500px-Grand_Place_Bruselas_2.jpg",
+  "sujet_image": "Grand-Place de Bruxelles"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Pont Charles",
+  "alias": [
+   "Pont Charles",
+   "charles bridge",
+   "pont charles prague"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Puente_Carlos%2C_Praga%2C_Rep%C3%BAblica_Checa%2C_2022-07-02%2C_DD_215.jpg/500px-Puente_Carlos%2C_Praga%2C_Rep%C3%BAblica_Checa%2C_2022-07-02%2C_DD_215.jpg",
+  "sujet_image": "Pont Charles"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Hollywood Sign",
+  "alias": [
+   "Hollywood Sign",
+   "hollywood sign",
+   "panneau hollywood"
+  ],
+  "categorie": "monuments",
+  "difficulte": "facile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Hollywood_sign_in_Los_Angeles.jpg/500px-Hollywood_sign_in_Los_Angeles.jpg",
+  "sujet_image": "Hollywood Sign"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Gateway Arch",
+  "alias": [
+   "Gateway Arch",
+   "gateway arch",
+   "arche de saint louis"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/St_Louis_night_expblend_cropped.jpg/500px-St_Louis_night_expblend_cropped.jpg",
+  "sujet_image": "Gateway Arch"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Maison-Blanche",
+  "alias": [
+   "Maison-Blanche",
+   "white house",
+   "maison blanche"
+  ],
+  "categorie": "monuments",
+  "difficulte": "facile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/White_House_north_and_south_sides.jpg/500px-White_House_north_and_south_sides.jpg",
+  "sujet_image": "Maison-Blanche"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Capitole des États-Unis",
+  "alias": [
+   "Capitole des États-Unis",
+   "us capitol",
+   "capitole washington"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/United_States_Capitol_west_front_edit2.jpg/500px-United_States_Capitol_west_front_edit2.jpg",
+  "sujet_image": "Capitole des États-Unis"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Pont de Brooklyn",
+  "alias": [
+   "Pont de Brooklyn",
+   "brooklyn bridge",
+   "pont de brooklyn"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Brooklyn_Bridge_and_the_Lower_Manhattan_skyline_from_Pebble_Beach%2C_New_York.jpg/500px-Brooklyn_Bridge_and_the_Lower_Manhattan_skyline_from_Pebble_Beach%2C_New_York.jpg",
+  "sujet_image": "Pont de Brooklyn"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Ponte Vecchio",
+  "alias": [
+   "Ponte Vecchio",
+   "ponte vecchio"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Arno_River_and_Ponte_Vecchio%2C_Florence.jpg/500px-Arno_River_and_Ponte_Vecchio%2C_Florence.jpg",
+  "sujet_image": "Ponte Vecchio"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Cathédrale Sainte-Marie-de-la-Fleur",
+  "alias": [
+   "Cathédrale Sainte-Marie-de-la-Fleur",
+   "duomo florence",
+   "cathedrale florence",
+   "santa maria del fiore"
+  ],
+  "categorie": "monuments",
+  "difficulte": "moyen",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Catedral%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_91.jpg/500px-Catedral%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_91.jpg",
+  "sujet_image": "Cathédrale Sainte-Marie-de-la-Fleur"
+ },
+ {
+  "question": "Quel est ce monument ?",
+  "reponse": "Mole Antonelliana",
+  "alias": [
+   "Mole Antonelliana",
+   "mole antonelliana"
+  ],
+  "categorie": "monuments",
+  "difficulte": "difficile",
+  "url_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Mole_Antonelliana_02.jpg/500px-Mole_Antonelliana_02.jpg",
+  "sujet_image": "Mole Antonelliana"
+ }
+]
