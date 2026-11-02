@@ -38,6 +38,12 @@ def ouvrir_base():
         );
         CREATE INDEX IF NOT EXISTS idx_cat ON questions(categorie, difficulte);
     """)
+    # Colonnes des questions speciales ("citez" / "duel")
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(questions)")}
+    if "type" not in cols:
+        conn.execute("ALTER TABLE questions ADD COLUMN type TEXT NOT NULL DEFAULT 'normal'")
+    if "extra" not in cols:
+        conn.execute("ALTER TABLE questions ADD COLUMN extra TEXT DEFAULT ''")
     conn.commit()
     return conn
 
@@ -89,14 +95,23 @@ def charger(chemin):
         if url_image:
             cle = cle + "|" + url_image
 
+        qtype = q.get("type") or "normal"
+        if qtype not in ("normal", "citez", "duel"):
+            qtype = "normal"
+        extra = json.dumps(q.get("extra") or {}, ensure_ascii=False) if qtype != "normal" else ""
+        if qtype == "duel":
+            # meme texte possible pour 2 duels differents : on distingue par les options
+            cle = cle + "|" + extra
+
         try:
             conn.execute(
                 "INSERT INTO questions (question, cle, reponse, alias, "
-                "categorie, difficulte, avec_image, url_image, sujet_image) "
-                "VALUES (?,?,?,?,?,?,?,?,?)",
+                "categorie, difficulte, avec_image, url_image, sujet_image, "
+                "type, extra) "
+                "VALUES (?,?,?,?,?,?,?,?,?,?,?)",
                 (question, cle, reponse,
                  json.dumps(alias, ensure_ascii=False), categorie, difficulte,
-                 avec_image, url_image, sujet_image),
+                 avec_image, url_image, sujet_image, qtype, extra),
             )
             ajoutees += 1
         except sqlite3.IntegrityError:
