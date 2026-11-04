@@ -16,7 +16,8 @@ CATEGORIES = ["algerie", "football", "nba", "sport", "anime",
               "film", "series", "culture_g", "geographie", "histoire", "physique",
               "musique", "animaux", "voitures", "jeuxvideo", "logos", "drapeaux",
               "aliments", "langues", "corps", "cuisine", "espace", "races",
-              "nature", "jeuxsociete", "monuments", "tableaux", "instruments"]
+              "nature", "jeuxsociete", "monuments", "tableaux", "instruments",
+              "emojis"]
 
 
 def ouvrir_base():
@@ -94,6 +95,9 @@ def charger(chemin):
         cle = normaliser(question)
         if url_image:
             cle = cle + "|" + url_image
+        if categorie == "emojis":
+            # les emojis disparaissent a la normalisation : on les garde dans la cle
+            cle = cle + "|" + question
 
         qtype = q.get("type") or "normal"
         if qtype not in ("normal", "citez", "duel"):

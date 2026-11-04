@@ -367,6 +367,13 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 .cadre-img{overflow:hidden; border-radius:16px; margin:4px 0 20px}
 .cadre-img #v-image{margin:0}
 
+/* --- rebus emojis --- */
+.rebus-type{display:block; font-size:12px; text-transform:uppercase; letter-spacing:.14em;
+  color:var(--doux); font-weight:600; margin-bottom:8px}
+.rebus{display:block; font-size:58px; line-height:1.2; letter-spacing:6px; text-align:center;
+  word-break:break-word; margin:6px 0 4px}
+@media (max-width:380px){ .rebus{font-size:46px} }
+
 /* --- reactions --- */
 .reacts{display:none; position:fixed; left:50%; transform:translateX(-50%);
   bottom:calc(10px + env(safe-area-inset-bottom)); z-index:40; gap:4px;
@@ -570,7 +577,8 @@ const CATS = {algerie:"Algerie", football:"Football", nba:"NBA", sport:"Sport",
   aliments:"Aliments", langues:"Langues", corps:"Corps humain",
   cuisine:"Cuisine du monde", espace:"Espace", races:"Chiens & chats",
   nature:"Nature", jeuxsociete:"Jeux de société",
-  monuments:"Monuments", tableaux:"Tableaux", instruments:"Instruments"};
+  monuments:"Monuments", tableaux:"Tableaux", instruments:"Instruments",
+  emojis:"Rébus émojis"};
 const DIFS = {facile:"Facile", moyen:"Moyen", difficile:"Difficile"};
 
 const MODES = {
@@ -745,7 +753,7 @@ function recevoir(m){
     dureeManche = m.duree; finManche = Date.now() + m.duree * 1000;
     $("#v-cat").textContent = (CATS[m.categorie]||m.categorie) + " / " + m.difficulte;
     $("#v-num").textContent = m.total ? `Question ${m.numero}/${m.total}` : "Manche " + m.numero;
-    $("#v-question").textContent = m.question;
+    afficherQuestion(m.question, m.categorie);
     qtypeCourant = m.qtype || "normal";
     debutManche = Date.now() - (m.ecoule || 0) * 1000;
     flouManche = !!m.flou;
@@ -1388,6 +1396,17 @@ document.addEventListener("click", e => {
   if (et){ et.textContent = `Mise enregistrée : ${mise} pts. En attente des autres…`;
     et.classList.add("ok"); }
 });
+// Rebus emojis : « Film : 🦁👑 » -> petit libelle + emojis en grand
+function afficherQuestion(texte, categorie){
+  const q = $("#v-question");
+  const i = texte.indexOf(" : ");
+  if (categorie === "emojis" && i > 0){
+    q.innerHTML = `<span class="rebus-type">${echap(texte.slice(0, i))} — devine !</span>`
+      + `<span class="rebus">${echap(texte.slice(i + 3))}</span>`;
+  } else {
+    q.textContent = texte;
+  }
+}
 function echap(t){
   return String(t).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }

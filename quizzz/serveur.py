@@ -84,7 +84,8 @@ CATEGORIES = ["algerie", "football", "nba", "sport", "anime",
               "film", "series", "culture_g", "geographie", "histoire", "physique",
               "musique", "animaux", "voitures", "jeuxvideo", "logos", "drapeaux",
               "aliments", "langues", "corps", "cuisine", "espace", "races",
-              "nature", "jeuxsociete", "monuments", "tableaux", "instruments"]
+              "nature", "jeuxsociete", "monuments", "tableaux", "instruments",
+              "emojis"]
 DIFFICULTES = ["facile", "moyen", "difficile"]
 
 app = FastAPI()
