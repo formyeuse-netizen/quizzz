@@ -1,0 +1,1610 @@
+[
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "oreille",
+  "alias": [
+   "ear"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Close%20up%20of%20man%27s%20ear.jpg?width=500",
+  "sujet_image": "oreille"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "nez",
+  "alias": [
+   "nose"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fort%20Ross%20Elena%20wearing%20Traditional%20Russian%20Costume%20%28cropped%29.jpg?width=500",
+  "sujet_image": "nez"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "langue",
+  "alias": [
+   "tongue"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%D8%B2%D8%A8%D8%A7%D9%86%20tongue.jpg?width=500",
+  "sujet_image": "langue"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "lèvres",
+  "alias": [
+   "levre",
+   "lips",
+   "bouche"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mouth.jpg?width=500",
+  "sujet_image": "lèvres"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "pied",
+  "alias": [
+   "foot"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Foot%20on%20white%20background.jpg?width=500",
+  "sujet_image": "pied"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "genou",
+  "alias": [
+   "knee"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Knee.female.jpg?width=500",
+  "sujet_image": "genou"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "coude",
+  "alias": [
+   "elbow"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elbow%20coude.JPG?width=500",
+  "sujet_image": "coude"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "nombril",
+  "alias": [
+   "ombilic",
+   "belly button",
+   "navel"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Human%20navel%2C%20female.jpg?width=500",
+  "sujet_image": "nombril"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "omoplate",
+  "alias": [
+   "scapula"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Scapula%20-%20posterior%20view2.png?width=500",
+  "sujet_image": "omoplate"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "globules rouges",
+  "alias": [
+   "globule rouge",
+   "hématies",
+   "red blood cells",
+   "sang"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Redbloodcells.jpg?width=500",
+  "sujet_image": "globules rouges"
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quel est cet organe ou cette partie du corps ?",
+  "reponse": "neurone",
+  "alias": [
+   "neuron",
+   "cellule nerveuse"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/PLoSBiol4.e126.Fig6fNeuron.jpg?width=500",
+  "sujet_image": "neurone"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "banjo",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/White%20Banjo.svg?width=500",
+  "sujet_image": "banjo"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "ukulélé",
+  "alias": [
+   "ukulele"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/JMG%20archtop%20soprano%20ukulele%20treble.jpg?width=500",
+  "sujet_image": "ukulélé"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "cor",
+  "alias": [
+   "cor d'harmonie",
+   "french horn",
+   "horn"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/French%20horn%20front.png?width=500",
+  "sujet_image": "cor"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "tuba",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tuba%20Melton%20Meinl%20Weston.png?width=500",
+  "sujet_image": "tuba"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "triangle",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Triangel1.jpg?width=500",
+  "sujet_image": "triangle"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "timbales",
+  "alias": [
+   "timbale",
+   "timpani"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Burgwindheim%20Pauken-20180909-RM-150632.jpg?width=500",
+  "sujet_image": "timbales"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "darbouka",
+  "alias": [
+   "derbouka",
+   "darbuka"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Goblet%20drum%2001.jpg?width=500",
+  "sujet_image": "darbouka"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "bendir",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bendir.jpg?width=500",
+  "sujet_image": "bendir"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "qanûn",
+  "alias": [
+   "qanun",
+   "kanoun",
+   "kanun"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Q%C4%81n%C5%ABn%20-%20MET%2089.4.330.jpg?width=500",
+  "sujet_image": "qanûn"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "ney",
+  "alias": [
+   "nay"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Persian%20ney%20with%206%20holes.jpg?width=500",
+  "sujet_image": "ney"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "kora",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kora%20DSC%200355.JPG?width=500",
+  "sujet_image": "kora"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "balafon",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Balafoon.jpg?width=500",
+  "sujet_image": "balafon"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "didgeridoo",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Australiandidgeridoos.jpg?width=500",
+  "sujet_image": "didgeridoo"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "steel drum",
+  "alias": [
+   "steelpan",
+   "steel pan",
+   "pan"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aasteeldrum.jpg?width=500",
+  "sujet_image": "steel drum"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "synthétiseur",
+  "alias": [
+   "synthetiseur",
+   "synthé",
+   "synthesizer",
+   "synth"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Access%20Virus%20TI.jpg?width=500",
+  "sujet_image": "synthétiseur"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "guitare électrique",
+  "alias": [
+   "guitare electrique",
+   "electric guitar"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Madrid-Gibson%20Les%20Paul%20%282009%29.jpg?width=500",
+  "sujet_image": "guitare électrique"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "guitare basse",
+  "alias": [
+   "basse",
+   "bass",
+   "basse électrique"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fender%20Precision%20Bass.jpg?width=500",
+  "sujet_image": "guitare basse"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "tabla",
+  "alias": [
+   "tablas"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Prop.%20Tabla.jpg?width=500",
+  "sujet_image": "tabla"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "erhu",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Erhu.jpg?width=500",
+  "sujet_image": "erhu"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "koto",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Koto%20by%20Fumie%20Hihara%202016.png?width=500",
+  "sujet_image": "koto"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "ocarina",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/2016-01%20Ocarina%20front.jpg?width=500",
+  "sujet_image": "ocarina"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "kalimba",
+  "alias": [
+   "sanza",
+   "mbira"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ene%20mbira.jpg?width=500",
+  "sujet_image": "kalimba"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "cajón",
+  "alias": [
+   "cajon"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cajondevant.jpg?width=500",
+  "sujet_image": "cajón"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "bongos",
+  "alias": [
+   "bongo"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bongo.jpg?width=500",
+  "sujet_image": "bongos"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "congas",
+  "alias": [
+   "conga",
+   "tumbadora"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Congas.JPG?width=500",
+  "sujet_image": "congas"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "flûte à bec",
+  "alias": [
+   "flute a bec",
+   "recorder"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/VariousRecorderFlutes.jpg?width=500",
+  "sujet_image": "flûte à bec"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "mélodica",
+  "alias": [
+   "melodica",
+   "pianica"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Melodicas.jpg?width=500",
+  "sujet_image": "mélodica"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "guimbarde",
+  "alias": [
+   "jew's harp",
+   "mouth harp"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jew%27s%20harp.jpg?width=500",
+  "sujet_image": "guimbarde"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "cornemuse",
+  "alias": [
+   "bagpipes",
+   "bagpipe"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sonneur%20Bagad%20An%20Erge%20Vras.%20Ergu%C3%A9%20Gab%C3%A9ric.jpg?width=500",
+  "sujet_image": "cornemuse"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "clavecin",
+  "alias": [
+   "harpsichord"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Deless-10.jpg?width=500",
+  "sujet_image": "clavecin"
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel est cet instrument de musique ?",
+  "reponse": "mandole",
+  "alias": [
+   "mandole algérien",
+   "mandoline"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandole%20Algerien.jpg?width=500",
+  "sujet_image": "mandole"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "malinois",
+  "alias": [
+   "berger belge",
+   "berger belge malinois",
+   "belgian malinois"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grupp%201%2C%20BELGISK%20VALLHUND%2C%20MALINOIS%2C%20Krokasmedens%20Epic%20%2824014622180%29.jpg?width=500",
+  "sujet_image": "malinois"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "facile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "pitbull",
+  "alias": [
+   "pit bull",
+   "american pit bull terrier"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/000%20American%20Pit%20Bull%20Terrier.jpg?width=500",
+  "sujet_image": "pitbull"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "bull terrier",
+  "alias": [
+   "bullterrier"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bull%20terrier.jpg?width=500",
+  "sujet_image": "bull terrier"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "shih tzu",
+  "alias": [
+   "shih-tzu"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Shih-Tzu.JPG?width=500",
+  "sujet_image": "shih tzu"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "cavalier king charles",
+  "alias": [
+   "king charles",
+   "cavalier"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/CarterBIS.Tiki.13.6.09.jpg?width=500",
+  "sujet_image": "cavalier king charles"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "bouvier bernois",
+  "alias": [
+   "bernese",
+   "bernese mountain dog"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bouvier%20Bernois%20de%20face.jpg?width=500",
+  "sujet_image": "bouvier bernois"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "dogue allemand",
+  "alias": [
+   "great dane",
+   "dogue"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dogge%20Odin-2.jpg?width=500",
+  "sujet_image": "dogue allemand"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "schnauzer",
+  "alias": [],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Schanuzer%20nain.jpg?width=500",
+  "sujet_image": "schnauzer"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "westie",
+  "alias": [
+   "west highland white terrier",
+   "west highland"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Westie%20%22Creamy%22%2C%20bient%C3%B4t%2012ans.jpg?width=500",
+  "sujet_image": "westie"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "loulou de Poméranie",
+  "alias": [
+   "pomeranian",
+   "spitz nain",
+   "pomeranien",
+   "loulou"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Speedy%20le%20Spitz%20Nain.jpg?width=500",
+  "sujet_image": "loulou de Poméranie"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "setter irlandais",
+  "alias": [
+   "irish setter",
+   "setter"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Irish%20Setter%20in%20Tallinn%202.JPG?width=500",
+  "sujet_image": "setter irlandais"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "épagneul breton",
+  "alias": [
+   "epagneul breton",
+   "brittany"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Brittany%20Spaniel%20standing.jpg?width=500",
+  "sujet_image": "épagneul breton"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "basset hound",
+  "alias": [
+   "basset"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bvdb-bassethound2.jpg?width=500",
+  "sujet_image": "basset hound"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "saint-hubert",
+  "alias": [
+   "chien de saint-hubert",
+   "bloodhound"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bloodhound%20800.jpg?width=500",
+  "sujet_image": "saint-hubert"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "lévrier afghan",
+  "alias": [
+   "levrier afghan",
+   "afghan hound",
+   "afghan"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Afghan%20Hound%20in%20Tallinn.JPG?width=500",
+  "sujet_image": "lévrier afghan"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "cane corso",
+  "alias": [
+   "corso"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Helios%20Cane%20Corso%202%20years%20old.jpg?width=500",
+  "sujet_image": "cane corso"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "colley",
+  "alias": [
+   "rough collie",
+   "collie",
+   "lassie"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rough%20Collie%20600.jpg?width=500",
+  "sujet_image": "colley"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "shar-pei",
+  "alias": [
+   "shar pei",
+   "sharpei"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Adult%20sharpei.jpg?width=500",
+  "sujet_image": "shar-pei"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "pékinois",
+  "alias": [
+   "pekinois",
+   "pekingese"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/1AKC%20Pekingese%20Dog%20Show%202011.jpg?width=500",
+  "sujet_image": "pékinois"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "boston terrier",
+  "alias": [
+   "boston"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Boston-terrier-carlos-de.JPG?width=500",
+  "sujet_image": "boston terrier"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "sloughi",
+  "alias": [
+   "lévrier arabe",
+   "levrier arabe",
+   "slougui",
+   "lévrier",
+   "levrier"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sloughi%20sandcolor.jpg?width=500",
+  "sujet_image": "sloughi"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "kangal",
+  "alias": [
+   "berger d'anatolie"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kangal%20front%20on.jpg?width=500",
+  "sujet_image": "kangal"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "norvégien",
+  "alias": [
+   "chat des forêts norvégiennes",
+   "chat norvegien",
+   "norwegian forest cat"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Norwegianblackandwhitecat.jpg?width=500",
+  "sujet_image": "norvégien"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "sacré de Birmanie",
+  "alias": [
+   "birman",
+   "sacre de birmanie",
+   "birmanie"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Minerva-25.jpg?width=500",
+  "sujet_image": "sacré de Birmanie"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "bleu russe",
+  "alias": [
+   "russe bleu",
+   "russian blue",
+   "chat bleu russe"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bleu%20russe%2001.jpg?width=500",
+  "sujet_image": "bleu russe"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "savannah",
+  "alias": [
+   "chat savannah"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Savannah%20Cat%20portrait.jpg?width=500",
+  "sujet_image": "savannah"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "turc de Van",
+  "alias": [
+   "turkish van",
+   "van turc"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/GizemliKediler%20Bey%20Bunyamin%20%28Beebe%29%20TUV%20d%2063%20male%20EX1%20CAC.JPG?width=500",
+  "sujet_image": "turc de Van"
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chien ou de chat est-ce ? / Which dog or cat breed?",
+  "reponse": "exotic shorthair",
+  "alias": [
+   "exotic",
+   "exotique"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nipsu-Nappulan%20Non-Stop%20Exotic%20shorthair.JPG?width=500",
+  "sujet_image": "exotic shorthair"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "grenade",
+  "alias": [
+   "pomegranate",
+   "romane"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pomegranate%20DSW.JPG?width=500",
+  "sujet_image": "grenade"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "avocat",
+  "alias": [
+   "avocado"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Avocado%20Hass%20-%20single%20and%20halved.jpg?width=500",
+  "sujet_image": "avocat"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "mûre",
+  "alias": [
+   "mure",
+   "blackberry",
+   "mûres"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Blackberries%20%28Rubus%20fruticosus%29.jpg?width=500",
+  "sujet_image": "mûre"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "cassis",
+  "alias": [
+   "blackcurrant"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Schwarzejohannisbeere.jpg?width=500",
+  "sujet_image": "cassis"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "fruit de la passion",
+  "alias": [
+   "maracuja",
+   "passion fruit",
+   "passiflore"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Passionfruit%20%28whole%20and%20half%29.jpg?width=500",
+  "sujet_image": "fruit de la passion"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "fruit du dragon",
+  "alias": [
+   "pitaya",
+   "pitahaya",
+   "dragon fruit"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dragon%20Fruit%20cut%20by%20Shyamal.jpg?width=500",
+  "sujet_image": "fruit du dragon"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "goyave",
+  "alias": [
+   "guava"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Goiaba%20vermelha.jpg?width=500",
+  "sujet_image": "goyave"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "citron vert",
+  "alias": [
+   "lime"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Backyard%20limes.jpg?width=500",
+  "sujet_image": "citron vert"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "coing",
+  "alias": [
+   "quince"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Quince.jpg?width=500",
+  "sujet_image": "coing"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "figue de Barbarie",
+  "alias": [
+   "karmous",
+   "figue de barbarie",
+   "prickly pear",
+   "figue"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Opuntia%20ficus-indica%20fruit9.jpg?width=500",
+  "sujet_image": "figue de Barbarie"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "olive",
+  "alias": [
+   "olives",
+   "zitoun"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Des%20olives%20vertes%20sur%20leur%20branche..jpg?width=500",
+  "sujet_image": "olive"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "amande",
+  "alias": [
+   "amandes",
+   "almond"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandel%20aufgebrochen.jpg?width=500",
+  "sujet_image": "amande"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "noix",
+  "alias": [
+   "walnut"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Whole%20walnut%20kernel%20and%20shell.jpg?width=500",
+  "sujet_image": "noix"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "noisette",
+  "alias": [
+   "hazelnut"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hazelnuts%20%28Corylus%20avellana%29%20-%20whole%20with%20kernels.jpg?width=500",
+  "sujet_image": "noisette"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "pistache",
+  "alias": [
+   "pistachio"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pistachio%20nuts%20from%20Iran.jpg?width=500",
+  "sujet_image": "pistache"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "cacahuète",
+  "alias": [
+   "cacahuete",
+   "arachide",
+   "peanut"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Roasted%20Peanuts%20with%20shell.jpg?width=500",
+  "sujet_image": "cacahuète"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "châtaigne",
+  "alias": [
+   "chataigne",
+   "marron",
+   "chestnut"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chestnuts%20roasted.jpg?width=500",
+  "sujet_image": "châtaigne"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "betterave",
+  "alias": [
+   "beetroot",
+   "beet"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Round%20textured%20slices%20of%20beetroot%20%2840640184925%29.jpg?width=500",
+  "sujet_image": "betterave"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "céleri",
+  "alias": [
+   "celeri",
+   "celery"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Celery%20%28177029685%29.jpeg?width=500",
+  "sujet_image": "céleri"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "fenouil",
+  "alias": [
+   "fennel"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fennel%20bulb%20from%20Brazil.jpg?width=500",
+  "sujet_image": "fenouil"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "poireau",
+  "alias": [
+   "leek"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Poireaux.JPG?width=500",
+  "sujet_image": "poireau"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "champignon de Paris",
+  "alias": [
+   "champignon",
+   "mushroom"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Champignons%20Agaricus.jpg?width=500",
+  "sujet_image": "champignon de Paris"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "gingembre",
+  "alias": [
+   "ginger"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Liat%20Portal%20for%20Foodie%20Disorder%20-%20Fresh%20ginger%20root%20from%20San%20Francisco%20farmers%20market.jpg?width=500",
+  "sujet_image": "gingembre"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "chou de Bruxelles",
+  "alias": [
+   "choux de bruxelles",
+   "brussels sprouts"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Spruitjes.jpg?width=500",
+  "sujet_image": "chou de Bruxelles"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "endive",
+  "alias": [
+   "chicon",
+   "endives"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Witlof%20en%20wortel.jpg?width=500",
+  "sujet_image": "endive"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "pois chiche",
+  "alias": [
+   "pois chiches",
+   "chickpea",
+   "hommos"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Soaked%20and%20dried%20chickpeas.jpg?width=500",
+  "sujet_image": "pois chiche"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "lentilles",
+  "alias": [
+   "lentille",
+   "lentils"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Split%20Red%20Lentil.jpg?width=500",
+  "sujet_image": "lentilles"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "fève",
+  "alias": [
+   "feve",
+   "fèves",
+   "broad bean"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%2030880%20Green%20Bean.JPG?width=500",
+  "sujet_image": "fève"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "gombo",
+  "alias": [
+   "okra"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bucket%20of%20raw%20okra%20pods.jpg?width=500",
+  "sujet_image": "gombo"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "menthe",
+  "alias": [
+   "mint",
+   "naanaa"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fresh%20Mint%20leaves.jpg?width=500",
+  "sujet_image": "menthe"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "persil",
+  "alias": [
+   "parsley"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Parsley%20Leaves.jpg?width=500",
+  "sujet_image": "persil"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "basilic",
+  "alias": [
+   "basil"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ocimum%20basilicum%208zz.jpg?width=500",
+  "sujet_image": "basilic"
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel est ce fruit ou légume ?",
+  "reponse": "mandarine",
+  "alias": [
+   "mandarin"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mandarine.jpg?width=500",
+  "sujet_image": "mandarine"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Dame à l'hermine",
+  "alias": [
+   "dame a l'hermine"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lady%20with%20an%20Ermine%20-%20Leonardo%20da%20Vinci%20-%20Google%20Art%20Project.jpg?width=500",
+  "sujet_image": "La Dame à l'hermine"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "facile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "L'Homme de Vitruve",
+  "alias": [
+   "homme de vitruve",
+   "vitruve",
+   "vitruvian man"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vitruvian%20Man%20by%20Leonardo%20da%20Vinci.jpg?width=500",
+  "sujet_image": "L'Homme de Vitruve"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Tour de Babel",
+  "alias": [
+   "tour de babel",
+   "babel"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter%20Bruegel%20the%20Elder%20-%20The%20Tower%20of%20Babel%20%28Vienna%29%20-%20Google%20Art%20Project%20-%20edited.jpg?width=500",
+  "sujet_image": "La Tour de Babel"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Chasseurs dans la neige",
+  "alias": [
+   "chasseurs dans la neige",
+   "hunters in the snow"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pieter%20Bruegel%20the%20Elder%20-%20Hunters%20in%20the%20Snow%20%28Winter%29%20-%20Google%20Art%20Project.jpg?width=500",
+  "sujet_image": "Chasseurs dans la neige"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Joueurs de cartes",
+  "alias": [
+   "joueurs de cartes",
+   "card players"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Les%20Joueurs%20de%20cartes%2C%20par%20Paul%20C%C3%A9zanne.jpg?width=500",
+  "sujet_image": "Les Joueurs de cartes"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Nymphéas",
+  "alias": [
+   "nympheas",
+   "water lilies"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Bassin%20aux%20nymph%C3%A9as%20%281917-1919%29%20Claude%20Monet%20%28Wildenstein%20revised%20cat.%20raisonn%C3%A9%29.jpg?width=500",
+  "sujet_image": "Les Nymphéas"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Coquelicots",
+  "alias": [
+   "coquelicots",
+   "poppies"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Claude%20Monet%20-%20Poppy%20Field%20-%20Google%20Art%20Project.jpg?width=500",
+  "sujet_image": "Les Coquelicots"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Femme à l'ombrelle",
+  "alias": [
+   "femme a l'ombrelle"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Femme%20%C3%A0%20l%27ombrelle%20tourn%C3%A9e%20vers%20la%20gauche%20-%20Claude%20Monnet%20-%20Mus%C3%A9e%20d%27Orsay%20RF%202621.jpg?width=500",
+  "sujet_image": "La Femme à l'ombrelle"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Fifre",
+  "alias": [
+   "fifre"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Manet%2C%20Edouard%20-%20Young%20Flautist%2C%20or%20The%20Fifer%2C%201866%20%282%29.jpg?width=500",
+  "sujet_image": "Le Fifre"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Un bar aux Folies Bergère",
+  "alias": [
+   "bar aux folies bergere",
+   "folies bergere"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Edouard%20Manet%2C%20A%20Bar%20at%20the%20Folies-Berg%C3%A8re.jpg?width=500",
+  "sujet_image": "Un bar aux Folies Bergère"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Chambre à Arles",
+  "alias": [
+   "chambre a arles",
+   "la chambre",
+   "bedroom in arles"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vincent%20van%20Gogh%20-%20De%20slaapkamer%20-%20Google%20Art%20Project.jpg?width=500",
+  "sujet_image": "La Chambre à Arles"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Terrasse du café le soir",
+  "alias": [
+   "terrasse du cafe",
+   "cafe terrace at night"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Van%20Gogh%20-%20Terrace%20of%20a%20Caf%C3%A9%20at%20Night%20%28Place%20du%20Forum%29%201888.jpg?width=500",
+  "sujet_image": "Terrasse du café le soir"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Mangeurs de pommes de terre",
+  "alias": [
+   "mangeurs de pommes de terre",
+   "potato eaters"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/De%20aardappeleters%20-%20s0005V1962%20-%20Van%20Gogh%20Museum.jpg?width=500",
+  "sujet_image": "Les Mangeurs de pommes de terre"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Raboteurs de parquet",
+  "alias": [
+   "raboteurs de parquet"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave%20Caillebotte%20-%20The%20Floor%20Planers%20-%20Google%20Art%20Project.jpg?width=500",
+  "sujet_image": "Les Raboteurs de parquet"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Rue de Paris, temps de pluie",
+  "alias": [
+   "rue de paris",
+   "temps de pluie"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caillebotte%20Rue%20de%20Paris.jpg?width=500",
+  "sujet_image": "Rue de Paris, temps de pluie"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Leçon d'anatomie du docteur Tulp",
+  "alias": [
+   "lecon d'anatomie",
+   "docteur tulp",
+   "anatomy lesson"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rembrandt%20-%20The%20Anatomy%20Lesson%20of%20Dr%20Nicolaes%20Tulp.jpg?width=500",
+  "sujet_image": "La Leçon d'anatomie du docteur Tulp"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Saturne dévorant un de ses fils",
+  "alias": [
+   "saturne devorant",
+   "saturne"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%2C%20Saturno%20devorando%20a%20su%20hijo%20%281819-1823%29.jpg?width=500",
+  "sujet_image": "Saturne dévorant un de ses fils"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Tres de mayo",
+  "alias": [
+   "el tres de mayo",
+   "3 mai 1808",
+   "trois mai",
+   "fusillades du 3 mai"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Francisco%20de%20Goya%20y%20Lucientes%20-%20Los%20fusilamientos%20del%20tres%20de%20mayo%20-%201814.jpg?width=500",
+  "sujet_image": "Tres de mayo"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Voyageur contemplant une mer de nuages",
+  "alias": [
+   "voyageur contemplant",
+   "mer de nuages",
+   "wanderer above the sea of fog"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caspar%20David%20Friedrich%20-%20Wanderer%20above%20the%20sea%20of%20fog.jpg?width=500",
+  "sujet_image": "Le Voyageur contemplant une mer de nuages"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Mort de Marat",
+  "alias": [
+   "mort de marat",
+   "marat"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Death%20of%20Marat%20by%20David.jpg?width=500",
+  "sujet_image": "La Mort de Marat"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Serment des Horaces",
+  "alias": [
+   "serment des horaces",
+   "horaces"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Le%20Serment%20des%20Horaces%20-%20Jacques-Louis%20David%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%203692%20%3B%20MR%201432.jpg?width=500",
+  "sujet_image": "Le Serment des Horaces"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Femmes d'Alger dans leur appartement",
+  "alias": [
+   "femmes d'alger",
+   "les femmes d'alger"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Femmes%20d%27Alger%20dans%20leur%20appartement%2C%20Eug%C3%A8ne%20Delacroix%20-%20Mus%C3%A9e%20du%20Louvre%20Peintures%20INV%203824.jpg?width=500",
+  "sujet_image": "Femmes d'Alger dans leur appartement"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Portrait d'Adele Bloch-Bauer I",
+  "alias": [
+   "adele bloch-bauer",
+   "adele bloch bauer",
+   "la dame en or",
+   "woman in gold"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustav%20Klimt%2C%201907%2C%20Adele%20Bloch-Bauer%20I%2C%20Neue%20Galerie%20New%20York.jpg?width=500",
+  "sujet_image": "Portrait d'Adele Bloch-Bauer I"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "L'Arbre de vie",
+  "alias": [
+   "arbre de vie",
+   "tree of life"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Klimt%20-%20Nine%20Cartoons%20for%20the%20Stoclet%20Frieze-%20Part%204%2C%20Part%20of%20the%20tree%20of%20life%20%281910-11%29.jpg?width=500",
+  "sujet_image": "L'Arbre de vie"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Bohémienne endormie",
+  "alias": [
+   "bohemienne endormie",
+   "sleeping gypsy"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/La%20Boh%C3%A9mienne%20endormie.jpg?width=500",
+  "sujet_image": "La Bohémienne endormie"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Composition VIII",
+  "alias": [
+   "composition 8",
+   "composition viii"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vassily%20Kandinsky%2C%201923%20-%20Composition%208%2C%20huile%20sur%20toile%2C%20140%20cm%20x%20201%20cm%2C%20Mus%C3%A9e%20Guggenheim%2C%20New%20York.jpg?width=500",
+  "sujet_image": "Composition VIII"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel est ce tableau ?",
+  "reponse": "L'École d'Athènes",
+  "alias": [
+   "ecole d'athenes",
+   "school of athens"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/%22The%20School%20of%20Athens%22%20by%20Raffaello%20Sanzio%20da%20Urbino.jpg?width=500",
+  "sujet_image": "L'École d'Athènes"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Vertumne",
+  "alias": [
+   "vertumnus"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Giuseppe%20Arcimboldo%20-%20Rudolf%20II%20of%20Habsburg%20as%20Vertumnus%20-%20Google%20Art%20Project.jpg?width=500",
+  "sujet_image": "Vertumne"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Les Ambassadeurs",
+  "alias": [
+   "ambassadeurs",
+   "the ambassadors"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hans%20Holbein%20the%20Younger%20-%20The%20Ambassadors%20-%20Google%20Art%20Project.jpg?width=500",
+  "sujet_image": "Les Ambassadeurs"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Vue de Delft",
+  "alias": [
+   "vue de delft",
+   "view of delft"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vermeer-view-of-delft.jpg?width=500",
+  "sujet_image": "Vue de Delft"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "D'où venons-nous ? Que sommes-nous ? Où allons-nous ?",
+  "alias": [
+   "d'ou venons-nous",
+   "ou allons-nous",
+   "que sommes-nous"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gauguin%20-%20Where%20Do%20We%20Come%20From%3F%20What%20Are%20We%3F%20Where%20Are%20We%20Going%3F%20%281897-98%29.jpg?width=500",
+  "sujet_image": "D'où venons-nous ? Que sommes-nous ? Où allons-nous ?"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Le Désespéré",
+  "alias": [
+   "desespere",
+   "le desespere"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gustave%20Courbet%20-%20Le%20D%C3%A9sesp%C3%A9r%C3%A9%20%281843%29.jpg?width=500",
+  "sujet_image": "Le Désespéré"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "Broadway Boogie-Woogie",
+  "alias": [
+   "broadway boogie woogie"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Piet%20Mondrian%2C%201942%20-%20Broadway%20Boogie%20Woogie.jpg?width=500",
+  "sujet_image": "Broadway Boogie-Woogie"
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel est ce tableau ?",
+  "reponse": "La Vocation de saint Matthieu",
+  "alias": [
+   "vocation de saint matthieu"
+  ],
+  "url_image": "https://commons.wikimedia.org/wiki/Special:FilePath/Caravaggio%20%E2%80%94%20The%20Calling%20of%20Saint%20Matthew.jpg?width=500",
+  "sujet_image": "La Vocation de saint Matthieu"
+ }
+]
