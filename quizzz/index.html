@@ -437,6 +437,7 @@ body.avec-reacts #app{padding-bottom:64px}
 .rq .marque{flex:none; font-size:18px; line-height:1; color:var(--rate)}
 .rq.ok .marque{color:var(--juste)}
 button.recap-btn{margin-top:14px}
+button.rev-btn{background:#8B7CF6; color:#fff}
 .defi-prochain{text-align:center; font-size:13px; color:var(--doux); margin-top:14px}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
@@ -1573,13 +1574,15 @@ function afficherRecap(recap, ouvert){
   const liste = `<div class="recap"><div class="recap-titre">📋 Revoir les questions
       <small>${bons}/${recap.length} trouvées</small></div>
       ${recap.map(q => ligneRecap(q, multi)).join("")}</div>`;
-  const rates = recap.some(q => q.qtype !== "citez" && (q.joueurs||{})[monPseudo]
-                                && !q.joueurs[monPseudo].trouve);
-  const note = rates && !revisionCourant
-    ? `<p class="recap-note">🧠 Tes questions ratées sont ajoutées à « Réviser mes erreurs », sur l'accueil.</p>` : "";
-  if (ouvert){ z.innerHTML = liste + note; return; }
-  z.innerHTML = `<button class="discret recap-btn" id="b-recap">📋 Revoir les ${recap.length} questions</button>`;
-  $("#b-recap").onclick = () => { z.innerHTML = liste + note; };
+  // Bouton direct vers la revision des questions ratees (aussi sur l'accueil).
+  const nd = revisionCourant ? 0 : erreursDues(lireErreurs()).length;
+  const note = nd ? `<button class="recap-btn rev-btn" id="b-rev-fin">🧠 Réviser mes erreurs (${nd})</button>
+    <p class="recap-note">Tes questions ratées sont gardées ici et sur l'accueil.</p>` : "";
+  const brancher = () => { const b = $("#b-rev-fin"); if (b) b.onclick = () => lancerRevision(); };
+  if (ouvert){ z.innerHTML = liste + note; brancher(); return; }
+  z.innerHTML = `<button class="discret recap-btn" id="b-recap">📋 Revoir les ${recap.length} questions</button>` + note;
+  brancher();
+  $("#b-recap").onclick = () => { z.innerHTML = liste + note; brancher(); };
 }
 function toastFin(t){
   const p = $("#v-prochain"); if (!p) return;
@@ -1667,6 +1670,23 @@ $("#b-installer").onclick = async () => {
   const installee = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
   if (ios && !installee) $("#v-ios-aide").style.display = "block";
 })();
+// --- Mise a jour automatique de l'appli installee ---
+// Sur telephone, l'appli reste ouverte en arriere-plan avec l'ancienne page.
+// Quand on revient dessus (ou toutes les 5 min), on demande au serveur sa
+// version : si le site a change, on recharge, mais seulement sur l'accueil
+// pour ne jamais couper une partie.
+const VERSION_PAGE = "__VERSION__";
+async function verifierMaj(){
+  if (VERSION_PAGE.startsWith("__")) return;
+  if (!$("#ec-accueil").classList.contains("actif")) return;
+  try {
+    const r = await fetch("/version", {cache: "no-store"});
+    const v = (await r.json()).v;
+    if (v && v !== VERSION_PAGE && $("#ec-accueil").classList.contains("actif")) location.reload();
+  } catch(e) {}
+}
+document.addEventListener("visibilitychange", () => { if (!document.hidden) verifierMaj(); });
+setInterval(verifierMaj, 5 * 60e3);
 if ("serviceWorker" in navigator){
   window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js").catch(() => {}));
 }

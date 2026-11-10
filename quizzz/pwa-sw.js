@@ -1,7 +1,7 @@
 // Service worker de Break the Quiz : rend le site installable comme une appli.
 // Le jeu a besoin d'internet (WebSocket) : on garde juste la page d'accueil et
 // les icones en cache pour un demarrage rapide, et une page "hors ligne".
-const CACHE = "btq-v1";
+const CACHE = "btq-v2";
 const COQUILLE = ["/", "/manifest.webmanifest", "/pwa/icon-192.png", "/pwa/icon-512.png"];
 
 self.addEventListener("install", e => {
@@ -16,9 +16,12 @@ self.addEventListener("fetch", e => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== location.origin) return;          // images externes : navigateur normal
+  if (url.pathname === "/version" || url.pathname === "/ws") return;
+  // La page elle-meme : jamais le cache du navigateur, toujours la derniere version.
+  const page = req.mode === "navigate" || url.pathname === "/";
   // Reseau d'abord (toujours la derniere version), cache si hors ligne.
   e.respondWith(
-    fetch(req).then(r => {
+    (page ? fetch(req.url, {cache: "no-store", credentials: "same-origin"}) : fetch(req)).then(r => {
       if (r.ok && (url.pathname === "/" || url.pathname.startsWith("/pwa/"))) {
         const copie = r.clone();
         caches.open(CACHE).then(c => c.put(req, copie));

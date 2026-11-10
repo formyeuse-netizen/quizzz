@@ -21,7 +21,7 @@ import urllib.request
 import os
 
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
-from fastapi.responses import FileResponse, Response
+from fastapi.responses import FileResponse, Response, HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
 from matching import verifier_reponse, normaliser, levenshtein, tolerance_fautes
@@ -1232,9 +1232,30 @@ def nouveau_code():
 
 # --- Routes ----------------------------------------------------------------
 
+# Version de la page : change a chaque mise en ligne. L'appli installee sur le
+# telephone la compare pour se recharger toute seule quand le site a change.
+PAS_DE_CACHE = {"Cache-Control": "no-cache"}
+_page = {"mtime": None, "html": "", "version": ""}
+
+
+def page_accueil():
+    m = os.path.getmtime("index.html")
+    if _page["mtime"] != m:
+        brut = open("index.html", encoding="utf-8").read()
+        v = hashlib.sha1(brut.encode("utf-8")).hexdigest()[:10]
+        _page.update(mtime=m, version=v, html=brut.replace("__VERSION__", v))
+    return _page
+
+
 @app.get("/")
 async def accueil():
-    return FileResponse("index.html")
+    return HTMLResponse(page_accueil()["html"], headers=PAS_DE_CACHE)
+
+
+@app.get("/version")
+async def version():
+    return JSONResponse({"v": page_accueil()["version"]},
+                        headers={"Cache-Control": "no-store"})
 
 
 # --- Appli installable (PWA) ---
