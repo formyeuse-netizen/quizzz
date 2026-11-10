@@ -335,6 +335,11 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 .defi-carte .de{font-size:13px; color:var(--doux); margin-top:2px}
 .defi-carte.fait{border-color:var(--surface-haut)}
 .defi-carte.fait .ti{color:var(--juste)}
+.revision-carte{border-color:#8B7CF6}
+.revision-carte .ti{color:#B3A8FF}
+.revision-carte.fait{border-color:var(--surface-haut); cursor:default}
+.revision-carte.fait .ti{color:var(--doux)}
+.recap-note{font-size:13px; color:var(--doux); text-align:center; margin:4px 8px 0}
 .installer{display:none; margin-top:18px}
 .ios-aide{display:none; margin-top:14px; font-size:13px; color:var(--doux); text-align:center;
   background:var(--surface); border-radius:12px; padding:11px 14px}
@@ -412,6 +417,26 @@ body.avec-reacts #app{padding-bottom:64px}
   margin-bottom:16px}
 .defi-legende i{display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:5px;
   vertical-align:-1px}
+/* recap de fin : revoir les questions */
+.recap{margin:18px 0 6px}
+.recap-titre{font-family:var(--display); font-weight:800; font-size:17px; margin:0 2px 10px;
+  display:flex; justify-content:space-between; align-items:baseline; gap:10px}
+.recap-titre small{font-family:var(--corps); font-weight:400; font-size:13px; color:var(--doux)}
+.rq{display:flex; gap:12px; background:var(--surface); border-radius:14px; padding:12px;
+  margin-bottom:8px; border-left:4px solid var(--surface-haut); text-align:left}
+.rq.ok{border-left-color:var(--juste)} .rq.ko{border-left-color:var(--rate)}
+.rq img{width:64px; height:64px; object-fit:cover; border-radius:10px; flex:none; background:var(--surface-haut)}
+.rq .corps{min-width:0; flex:1}
+.rq .num{font-size:11px; color:var(--doux); text-transform:uppercase; letter-spacing:.08em}
+.rq .qq{font-size:14px; line-height:1.35; margin:3px 0 6px; overflow-wrap:anywhere}
+.rq .qq .em{font-size:26px; letter-spacing:3px}
+.rq .bonne{font-weight:700; color:var(--juste); overflow-wrap:anywhere}
+.rq .ta{font-size:13px; color:var(--doux); margin-top:3px; overflow-wrap:anywhere}
+.rq .ta s{color:var(--rate)}
+.rq .plus{display:inline-block; margin-top:6px; font-size:12px; color:var(--signal); text-decoration:none}
+.rq .marque{flex:none; font-size:18px; line-height:1; color:var(--rate)}
+.rq.ok .marque{color:var(--juste)}
+button.recap-btn{margin-top:14px}
 .defi-prochain{text-align:center; font-size:13px; color:var(--doux); margin-top:14px}
 
 @media (prefers-reduced-motion:reduce){*{animation:none!important; transition:none!important}}
@@ -457,6 +482,11 @@ body.avec-reacts #app{padding-bottom:64px}
       <div class="ic">📅</div>
       <div><div class="ti" id="v-defi-ti">Défi du jour</div>
       <div class="de" id="v-defi-de">10 questions, les mêmes pour tout le monde. Partage ton score !</div></div>
+    </div>
+    <div class="defi-carte revision-carte" id="b-revision" style="display:none">
+      <div class="ic">🧠</div>
+      <div><div class="ti" id="v-rev-ti">Réviser mes erreurs</div>
+      <div class="de" id="v-rev-de"></div></div>
     </div>
     <div class="sep">ou</div>
     <div class="bloc">
@@ -559,6 +589,7 @@ body.avec-reacts #app{padding-bottom:64px}
       <p class="sous" id="v-classement-titre">Classement final</p>
       <div id="v-classement"></div>
     </div>
+    <div id="v-recap"></div>
     <button id="b-rejouer">Rejouer</button>
     <button class="discret" id="b-fin-accueil" style="display:none">Retour à l'accueil</button>
   </div>
@@ -623,7 +654,7 @@ let equipesOn = false, scoresEqCourant = null;
 let modeCourant = "basique";
 let mesCharges = 0, monElimine = false, gelTimer = null, doubleArme = false;
 let cooldownJusqua = 0, monTour = true, miseFaite = false;
-let soloCourant = false, defiCourant = null, flouOn = false, specialesOn = true;
+let soloCourant = false, defiCourant = null, revisionCourant = false, flouOn = false, specialesOn = true;
 let qtypeCourant = "normal", flouManche = false, debutManche = 0;
 let avatarsPseudo = {};
 let monAvatar = "";
@@ -679,8 +710,9 @@ function connecter(action, opts){
   monPseudo = $("#pseudo").value.trim();
   if (!monPseudo) return erreur("Choisis un pseudo d'abord.");
   localStorage.setItem("pseudo", monPseudo);
-  soloCourant = !!(opts.solo || opts.defi);
+  soloCourant = !!(opts.solo || opts.defi || opts.revision);
   defiCourant = opts.defi ? {numero: numeroDefi()} : null;
+  revisionCourant = !!opts.revision;
   try { if (ws) { ws.onclose = null; ws.close(); } } catch(e) {}
 
   const ouvrir = () => {
@@ -688,7 +720,8 @@ function connecter(action, opts){
     ws = new WebSocket(`${p}://${location.host}/ws`);
     ws.onopen = () => envoyer({type:action, pseudo:monPseudo, jeton, avatar:monAvatar,
                                code:$("#code").value.trim().toUpperCase(),
-                               solo:!!opts.solo, defi:!!opts.defi});
+                               solo:!!opts.solo, defi:!!opts.defi,
+                               revision: opts.revision || undefined});
     ws.onmessage = e => recevoir(JSON.parse(e.data));
     ws.onclose = () => { if (!$("#ec-accueil").classList.contains("actif"))
       setTimeout(() => { action = "rejoindre"; opts = {}; ouvrir(); }, 1500); };
@@ -703,14 +736,15 @@ function recevoir(m){
   if (m.type === "entre"){
     soloCourant = !!m.solo;
     if (m.defi) defiCourant = m.defi;
+    if (m.revision) revisionCourant = true;
     $("#v-code").textContent = m.code;
     $("#v-code-mini").textContent = titreBarre(m.code);
     $("#code").value = m.code;
     $("#v-code-zone").style.display = soloCourant ? "none" : "block";
-    $("#v-solo-tete").style.display = (soloCourant && !defiCourant) ? "block" : "none";
+    $("#v-solo-tete").style.display = (soloCourant && !defiCourant && !revisionCourant) ? "block" : "none";
     $("#v-joueurs-bloc").style.display = soloCourant ? "none" : "block";
     majReacts();
-    if (!defiCourant) ecran("salon");
+    if (!defiCourant && !revisionCourant) ecran("salon");
   }
 
   if (m.type === "salon"){
@@ -1032,10 +1066,12 @@ function recevoir(m){
     clearInterval(tickeur); finirGel();
     const j = m.joueurs;
     retenirAvatars(j);
+    const bilanErr = noterErreurs(m.recap);
     if (m.defi){
       const moi = j.find(x => x.pseudo === monPseudo) || j[0];
       const r = {numero:m.defi.numero, grille:m.defi.grille, trouves:m.defi.trouves,
-                 total:m.defi.total, score: moi ? moi.score : 0, date: m.defi.date};
+                 total:m.defi.total, score: moi ? moi.score : 0, date: m.defi.date,
+                 recap: m.recap || []};
       ecrireDefi(r);
       afficherDefi(r);
       return;
@@ -1059,6 +1095,11 @@ function recevoir(m){
       tete = `<div class="entete-mode">❤️ Tu as tenu ${m.manches} manche${m.manches>1?"s":""}</div>`;
     else if (m.mode === "survie")
       tete = `<div class="entete-mode">🏆 ${m.survivant ? m.survivant + " survit !" : "Personne ne survit"}</div>`;
+    else if (m.mode === "revision"){
+      const ok = (m.recap||[]).filter(q => ((q.joueurs||{})[monPseudo]||{}).trouve).length;
+      tete = `<div class="entete-mode">🧠 Révision : ${ok}/${(m.recap||[]).length} retrouvées</div>`
+        + (bilanErr.effacees ? `<p class="recap-note">✨ ${bilanErr.effacees} question${bilanErr.effacees>1?"s":""} maîtrisée${bilanErr.effacees>1?"s":""} : effacée${bilanErr.effacees>1?"s":""} de ta liste</p>` : "");
+    }
     else if (m.mode === "coop")
       tete = m.coop_reussi
         ? `<div class="entete-mode" style="color:var(--juste)">🎉 Objectif atteint ! ${m.collectif} pts</div>`
@@ -1080,8 +1121,16 @@ function recevoir(m){
       `${st.roi_premier.pseudo} · ${st.roi_premier.n}×`);
     if (st.colles) s += statcard("🙈","Questions où personne n'a trouvé", `${st.colles}`);
     $("#v-stats").innerHTML = s;
+    if (revisionCourant){ $("#v-podium").innerHTML = ""; $("#v-stats").innerHTML = ""; }
     $("#v-classement").innerHTML = j.map(ligneJoueur).join("");
     $("#b-rejouer").style.display = "block";   // n'importe qui peut relancer
+    $("#b-rejouer").textContent = "Rejouer";
+    if (revisionCourant){
+      const n = erreursDues(lireErreurs()).length;
+      $("#b-rejouer").textContent = `🧠 Réviser encore (${n})`;
+      $("#b-rejouer").style.display = n ? "block" : "none";
+    }
+    afficherRecap(m.recap, soloCourant);
     ecran("fin");
   }
 }
@@ -1282,10 +1331,15 @@ $("#b-rejoindre").onclick = () => {
   connecter("rejoindre");
 };
 $("#b-demarrer").onclick = () => envoyer({type:"demarrer"});
-$("#b-rejouer").onclick = () => envoyer({type:"demarrer"});
+$("#b-rejouer").onclick = () => {
+  if (revisionCourant) return lancerRevision();
+  envoyer({type:"demarrer"});
+};
+$("#b-revision").onclick = () => lancerRevision();
 $("#b-home").onclick = () => {
   // On repasse sur l'accueil AVANT de fermer : evite la reconnexion auto.
-  ecran("accueil"); majCarteDefi(); soloCourant = false; defiCourant = null; majReacts();
+  ecran("accueil"); majCarteDefi(); soloCourant = false; defiCourant = null;
+  revisionCourant = false; majReacts();
   try { if (ws) ws.close(); } catch (e) {}
 };
 $("#b-signaler").onclick = () => {
@@ -1412,6 +1466,7 @@ function echap(t){
 }
 function titreBarre(code){
   if (defiCourant) return "Défi #" + defiCourant.numero;
+  if (revisionCourant) return "Révision";
   if (soloCourant) return "Solo";
   return "Salon " + code;
 }
@@ -1471,8 +1526,60 @@ function afficherDefi(r){
     catch(e) { prompt("Copie ce texte :", t); }
   };
   majProchain();
+  afficherRecap(r.recap, true);
   ecran("fin");
   $("#v-code-mini").textContent = "Défi #" + r.numero;
+}
+// --- Recap de fin : revoir toutes les questions posees ---
+function questionRecap(q){
+  const i = q.question.indexOf(" : ");
+  if (q.categorie === "emojis" && i > 0)
+    return `${echap(q.question.slice(0, i))} — <span class="em">${echap(q.question.slice(i + 3))}</span>`;
+  return echap(q.question);
+}
+function ligneRecap(q, multi){
+  const moi = (q.joueurs || {})[monPseudo];
+  const tous = Object.values(q.joueurs || {});
+  const ok = moi ? moi.trouve : tous.some(x => x.trouve);
+  let ta = "";
+  if (q.qtype === "citez"){
+    const n = (q.trouvees || []).length;
+    ta = n ? `Trouvées : ${(q.trouvees).map(t => echap(t[0])).join(", ")}` : "Aucune trouvée";
+  } else if (moi && moi.trouve){
+    ta = `Trouvé${moi.temps != null ? " en " + moi.temps + " s" : ""}`;
+  } else if (moi){
+    ta = moi.saisie ? `Ta réponse : <s>${echap(moi.saisie)}</s>` : "Pas de réponse";
+  }
+  if (multi && tous.length > 1){
+    const n = tous.filter(x => x.trouve).length;
+    ta += (ta ? " · " : "") + `${n}/${tous.length} joueur${tous.length>1?"s":""} ont trouvé`;
+  }
+  const cherche = encodeURIComponent(String(q.reponse).split(/[,/(]/)[0].trim());
+  const img = q.image ? `<img src="${echap(q.image)}" alt="" loading="lazy" onerror="this.remove()">` : "";
+  return `<div class="rq ${ok ? "ok" : "ko"}">${img}
+    <div class="corps"><div class="num">Question ${q.n} · ${echap(CATS[q.categorie]||q.categorie)}</div>
+      <div class="qq">${questionRecap(q)}</div>
+      <div class="bonne">${echap(q.reponse)}</div>
+      ${ta ? `<div class="ta">${ta}</div>` : ""}
+      <a class="plus" target="_blank" rel="noopener"
+         href="https://fr.wikipedia.org/w/index.php?search=${cherche}">En savoir plus ↗</a></div>
+    <span class="marque">${ok ? "✔" : "✗"}</span></div>`;
+}
+function afficherRecap(recap, ouvert){
+  const z = $("#v-recap");
+  if (!recap || !recap.length){ z.innerHTML = ""; return; }
+  const multi = !soloCourant && !defiCourant;
+  const bons = recap.filter(q => { const m = (q.joueurs||{})[monPseudo]; return m && m.trouve; }).length;
+  const liste = `<div class="recap"><div class="recap-titre">📋 Revoir les questions
+      <small>${bons}/${recap.length} trouvées</small></div>
+      ${recap.map(q => ligneRecap(q, multi)).join("")}</div>`;
+  const rates = recap.some(q => q.qtype !== "citez" && (q.joueurs||{})[monPseudo]
+                                && !q.joueurs[monPseudo].trouve);
+  const note = rates && !revisionCourant
+    ? `<p class="recap-note">🧠 Tes questions ratées sont ajoutées à « Réviser mes erreurs », sur l'accueil.</p>` : "";
+  if (ouvert){ z.innerHTML = liste + note; return; }
+  z.innerHTML = `<button class="discret recap-btn" id="b-recap">📋 Revoir les ${recap.length} questions</button>`;
+  $("#b-recap").onclick = () => { z.innerHTML = liste + note; };
 }
 function toastFin(t){
   const p = $("#v-prochain"); if (!p) return;
@@ -1487,7 +1594,55 @@ function majProchain(){
   const h = Math.floor(s/3600), mn = Math.floor((s%3600)/60);
   p.textContent = `Prochain défi dans ${h} h ${String(mn).padStart(2,"0")}`;
 }
+// --- Reviser mes erreurs : les questions ratees sont gardees sur l'appareil.
+// Une question ratee revient a la prochaine revision ; trouvee une fois, elle
+// revient le lendemain ; trouvee 2 fois de suite, elle sort de la liste.
+const ATTENTE_REVISION = 20 * 3600e3;
+function lireErreurs(){
+  try { return JSON.parse(localStorage.getItem("erreurs") || "{}") || {}; } catch(e){ return {}; }
+}
+function ecrireErreurs(e){ try { localStorage.setItem("erreurs", JSON.stringify(e)); } catch(x){} }
+function erreursDues(e){
+  const now = Date.now();
+  return Object.entries(e).filter(([k, v]) => v.s === 0 || now - v.t >= ATTENTE_REVISION)
+    .sort((a, b) => a[1].t - b[1].t).map(([k]) => +k);
+}
+function noterErreurs(recap){
+  let effacees = 0;
+  if (!recap || !recap.length) return {effacees};
+  const e = lireErreurs(), now = Date.now();
+  recap.forEach(q => {
+    if (!q.id || q.qtype === "citez") return;
+    const moi = (q.joueurs || {})[monPseudo]; if (!moi) return;
+    const k = String(q.id);
+    if (!moi.trouve) e[k] = {s: 0, t: now};
+    else if (e[k]){
+      e[k] = {s: e[k].s + 1, t: now};
+      if (e[k].s >= 2){ delete e[k]; effacees++; }
+    }
+  });
+  const ks = Object.keys(e);
+  if (ks.length > 200) ks.sort((a, b) => e[a].t - e[b].t).slice(0, ks.length - 200).forEach(k => delete e[k]);
+  ecrireErreurs(e);
+  return {effacees};
+}
+function lancerRevision(){
+  const d = erreursDues(lireErreurs());
+  if (!d.length) return erreur("Rien à réviser pour l'instant : reviens demain !");
+  connecter("creer", {revision: d.slice(0, 10)});
+}
+function majCarteRevision(){
+  const e = lireErreurs(), n = Object.keys(e).length, d = erreursDues(e).length;
+  const c = $("#b-revision");
+  c.style.display = n ? "flex" : "none";
+  c.classList.toggle("fait", !d);
+  $("#v-rev-ti").textContent = d ? `Réviser mes erreurs (${d})` : "Réviser mes erreurs ✔";
+  $("#v-rev-de").textContent = d
+    ? "Les questions que tu as ratées. Trouve-les 2 fois pour les effacer."
+    : `${n} question${n>1?"s":""} en attente : reviens demain pour les revoir.`;
+}
 function majCarteDefi(){
+  majCarteRevision();
   const r = lireDefi(), c = $("#b-defi");
   c.classList.toggle("fait", !!r);
   $("#v-defi-ti").textContent = r ? `Défi #${r.numero} ✔` : `Défi du jour #${numeroDefi()}`;

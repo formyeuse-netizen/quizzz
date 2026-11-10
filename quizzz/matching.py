@@ -88,6 +88,12 @@ def verifier_reponse(saisie: str, reponse: str, alias=None) -> bool:
             return True
         if levenshtein(saisie_norm, candidat_norm) <= tolerance_fautes(candidat_norm):
             return True
+        # Noms dans l'autre ordre : "Heung-min Son" = "Son Heung-min".
+        if " " in candidat_norm and " " in saisie_norm:
+            a = " ".join(sorted(saisie_norm.split()))
+            b = " ".join(sorted(candidat_norm.split()))
+            if levenshtein(a, b) <= tolerance_fautes(candidat_norm):
+                return True
 
     return False
 
@@ -106,6 +112,10 @@ if __name__ == "__main__":
         ("ross", "Rome", [], False),
         ("les fennecs", "Équipe d'Algérie de football", ["Fennecs", "Algérie"], True),
         ("", "Paris", [], False),
+        ("heung min son", "Son Heung-min", ["Son"], True),
+        ("hung min son", "Son Heung-min", ["Son"], True),
+        ("son", "Son Heung-min", ["Son"], True),
+        ("sun", "Son Heung-min", ["Son"], False),
     ]
 
     echecs = 0

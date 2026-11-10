@@ -63,6 +63,8 @@ PART_SPECIALES = 0.15      # proportion de questions speciales quand l'option es
 # --- Solo / defi du jour ---
 MODES_SOLO = ["basique", "blitz", "survie", "quittedouble"]
 DEFI_N = 10                 # questions du defi du jour
+REVISION_MAX = 10           # "Reviser mes erreurs" : questions par serie
+REVISION_DUREE = 30         # chrono plus long : on revise, on ne court pas
 DEFI_DUREE = 20             # chrono fixe du defi
 DEFI_RAPIDE = 6             # trouve en moins de X s = case orange
 DEFI_EPOCH = datetime.date(2026, 11, 1)   # defi n°1 = 2 novembre 2026
@@ -346,8 +348,10 @@ class Salon:
         self.speciales = True           # questions "Citez-en un" / "Lequel est le plus"
         self.solo = False               # partie solo (personne ne peut rejoindre)
         self.defi = None                # dict du defi du jour (mode "defi")
+        self.revision = []              # ids a revoir (mode "revision")
         self.pris = {}                  # citez : index de groupe -> pseudo
         self.ctx_manche = {}
+        self.historique = []            # recap de fin : une entree par question posee
 
     # -- joueurs --
 
@@ -383,6 +387,8 @@ class Salon:
     def duree_effective(self):
         if self.mode == "defi":
             return DEFI_DUREE
+        if self.mode == "revision":
+            return REVISION_DUREE
         return DUREE_BLITZ if self.mode == "blitz" else self.duree
 
     def pause_effective(self):
@@ -416,6 +422,8 @@ class Salon:
             return (self.numero >= (self.manches_max or MANCHES_BLITZ)), {}
         if self.mode == "defi":
             return self.numero >= len(self.defi["ids"]), {}
+        if self.mode == "revision":
+            return self.numero >= len(self.revision), {}
         # basique / equipes
         if self.equipes:
             meilleur = max(self.scores_equipes().values(), default=0)
@@ -468,6 +476,9 @@ class Salon:
             i = self.numero
             ids = self.defi["ids"]
             return question_par_id(ids[i]) if i < len(ids) else None
+        if self.mode == "revision":
+            i = self.numero
+            return question_par_id(self.revision[i]) if i < len(self.revision) else None
         if self.speciales and random.random() < PART_SPECIALES:
             types = [random.choice(TYPES_SPECIAUX)]   # moitie citez, moitie duel
         else:
@@ -496,6 +507,8 @@ class Salon:
         }
         if self.mode == "defi":
             m["total"] = len(self.defi["ids"])
+        if self.mode == "revision":
+            m["total"] = len(self.revision)
         if m["qtype"] == "duel":
             m["options"] = [o[0] for o in q["extra"].get("options", [])]
         if m["qtype"] == "citez":
@@ -590,6 +603,8 @@ class Salon:
                         j["elimine"] = True
                         elimines_ce_tour.append(j["pseudo"])
 
+        self._noter_historique(question, elimines_ce_tour)
+
         self.etat = "pause"
         extra_fin = {}
         if question.get("qtype") == "citez":
@@ -630,6 +645,8 @@ class Salon:
 
                 fini, extra = self.evaluer_fin()
                 if fini:
+                    # On laisse le temps de lire la derniere reponse avant le score.
+                    await asyncio.sleep(self.pause_effective())
                     self.etat = "fini"
                     if self.mode == "defi":
                         g = self.defi["grille"]
@@ -645,6 +662,7 @@ class Salon:
                         "scores_equipes": (self.scores_equipes()
                                            if self.equipes else None),
                         "manches": self.numero, "solo": self.solo,
+                        "recap": self.historique,
                         **extra,
                     })
                     return
@@ -706,6 +724,7 @@ class Salon:
             await self.diffuser({
                 "type": "fin_partie", "joueurs": self.liste_joueurs(),
                 "stats": self.bilan_stats(), "mode": "tournoi",
+                "recap": self.historique,
                 "champion": self.joueurs[champion]["pseudo"] if champion else None,
             })
         except asyncio.CancelledError:
@@ -738,9 +757,9 @@ class Salon:
             elif d2 > d1:
                 self.joueurs[p2]["match"] += 1
             m1, m2 = self.joueurs[p1]["match"], self.joueurs[p2]["match"]
+            await asyncio.sleep(PAUSE_ENTRE_MANCHES)   # lire la reponse avant la suite
             if (m1 >= 2 or m2 >= 2 or q >= 3) and (m1 != m2 or q >= 6):
                 break
-            await asyncio.sleep(PAUSE_ENTRE_MANCHES)
 
         gagnant = p1 if self.joueurs[p1]["match"] >= self.joueurs[p2]["match"] else p2
         perdant = p2 if gagnant == p1 else p1
@@ -922,7 +941,7 @@ class Salon:
             await self.diffuser({
                 "type": "fin_partie", "joueurs": self.liste_joueurs(),
                 "stats": self.bilan_stats(), "mode": "quittedouble",
-                "solo": self.solo,
+                "solo": self.solo, "recap": self.historique,
             })
         except asyncio.CancelledError:
             raise
@@ -1092,6 +1111,33 @@ class Salon:
             "joueurs": self.liste_joueurs(),
         })
 
+    def _noter_historique(self, question, elimines_ce_tour=()):
+        """Garde la question, la bonne reponse et le resultat de chacun (recap)."""
+        ent = {
+            "id": question.get("id"), "n": self.numero, "question": question["question"],
+            "categorie": question["categorie"], "image": question.get("image", ""),
+            "qtype": question.get("qtype", "normal"), "reponse": question["reponse"],
+            "joueurs": {},
+        }
+        if ent["qtype"] == "citez":
+            ent["trouvees"] = [[question["extra"]["groupes"][i][0], p]
+                               for i, p in self.pris.items()]
+        for k, j in self.joueurs.items():
+            if self.repondeurs is not None and k not in self.repondeurs:
+                continue
+            if (self.repondeurs is None and not self.en_jeu(j)
+                    and j["pseudo"] not in (elimines_ce_tour or ())):
+                continue
+            ent["joueurs"][j["pseudo"]] = {
+                "trouve": bool(j.get("trouve")),
+                "temps": (round(j["t_trouve"], 1) if j.get("trouve") and j.get("t_trouve")
+                          else None),
+                "saisie": "" if j.get("trouve") else j.get("derniere_saisie", ""),
+            }
+        self.historique.append(ent)
+        if len(self.historique) > 60:          # parties tres longues : on garde la fin
+            self.historique = self.historique[-60:]
+
     def lancer(self):
         """Remet les compteurs a zero et lance la boucle du mode choisi.
         Renvoie False si une partie tourne deja (verrou anti double-lancement)."""
@@ -1113,6 +1159,7 @@ class Salon:
         self.deja_posees = []
         self.numero = 0
         self.repondeurs = None
+        self.historique = []
         if self.mode == "defi":
             self.defi["grille"] = []
         self.etat = "manche"   # verrou synchrone anti double-lancement
@@ -1238,6 +1285,21 @@ async def websocket(ws: WebSocket):
                         "type": "erreur", "message": "Choisis un pseudo."}))
                     continue
 
+                ids_rev = []
+                if action == "creer" and isinstance(message.get("revision"), list):
+                    for x in message["revision"][:REVISION_MAX]:
+                        try:
+                            x = int(x)
+                        except (TypeError, ValueError):
+                            continue
+                        if x not in ids_rev and question_par_id(x):
+                            ids_rev.append(x)
+                    if not ids_rev:
+                        await ws.send_text(json.dumps({
+                            "type": "erreur",
+                            "message": "Rien à réviser pour l'instant."}))
+                        continue
+
                 if action == "creer":
                     code = nouveau_code()
                     salons[code] = Salon(code)
@@ -1251,6 +1313,10 @@ async def websocket(ws: WebSocket):
                         salon.defi = {"date": jour.isoformat(),
                                       "numero": numero_defi(jour),
                                       "ids": choisir_defi(jour), "grille": []}
+                    elif ids_rev:
+                        salon.solo = True
+                        salon.mode = "revision"
+                        salon.revision = ids_rev
                 else:
                     code = (message.get("code") or "").strip().upper()
                     salon = salons.get(code)
@@ -1291,11 +1357,12 @@ async def websocket(ws: WebSocket):
                     "type": "entre", "code": salon.code, "jeton": jeton,
                     "solo": salon.solo, "mode": salon.mode,
                     "defi": ({"numero": salon.defi["numero"]}
-                             if salon.defi else None)}, ensure_ascii=False))
+                             if salon.defi else None),
+                    "revision": len(salon.revision) or None}, ensure_ascii=False))
                 await salon.diffuser_etat()
 
                 # Le defi demarre tout seul des l'arrivee du joueur.
-                if salon.mode == "defi" and salon.etat == "salon":
+                if salon.mode in ("defi", "revision") and salon.etat == "salon":
                     salon.lancer()
                     continue
 
@@ -1342,7 +1409,7 @@ async def websocket(ws: WebSocket):
                 m = message.get("mode")
                 if salon.solo and m not in MODES_SOLO:
                     m = None
-                if salon.mode == "defi":
+                if salon.mode in ("defi", "revision"):
                     m = None
                 if m in MODES and salon.etat in ("salon", "fini"):
                     salon.mode = m
@@ -1364,7 +1431,7 @@ async def websocket(ws: WebSocket):
             elif action == "demarrer":
                 # N'importe quel joueur peut (re)lancer : le gagnant n'est pas
                 # forcement l'hote. Le defi du jour ne se rejoue pas.
-                if salon.mode != "defi":
+                if salon.mode not in ("defi", "revision"):
                     salon.lancer()
 
             elif action == "miser":
