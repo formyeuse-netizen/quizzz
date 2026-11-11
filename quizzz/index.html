@@ -341,6 +341,7 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
 .revision-carte.fait .ti{color:var(--doux)}
 .recap-note{font-size:13px; color:var(--doux); text-align:center; margin:4px 8px 0}
 .installer{display:none; margin-top:18px}
+.version{margin-top:22px; text-align:center; font-size:11px; color:#5E5A52; letter-spacing:.06em}
 .ios-aide{display:none; margin-top:14px; font-size:13px; color:var(--doux); text-align:center;
   background:var(--surface); border-radius:12px; padding:11px 14px}
 
@@ -497,6 +498,7 @@ button.rev-btn{background:#8B7CF6; color:#fff}
     </div>
     <button class="discret" id="b-rejoindre">Rejoindre</button>
     <button class="discret installer" id="b-installer">📲 Installer l'appli sur mon téléphone</button>
+    <p class="version" id="v-version"></p>
     <div class="ios-aide" id="v-ios-aide">📲 Pour installer l'appli sur iPhone : touche <b>Partager</b> puis <b>Sur l'écran d'accueil</b>.</div>
   </div>
 
@@ -1631,18 +1633,21 @@ function noterErreurs(recap){
 }
 function lancerRevision(){
   const d = erreursDues(lireErreurs());
-  if (!d.length) return erreur("Rien à réviser pour l'instant : reviens demain !");
+  if (!d.length) return erreur(Object.keys(lireErreurs()).length
+    ? "Rien à réviser pour l'instant : reviens demain !"
+    : "Joue une partie : les questions que tu rates arriveront ici.");
   connecter("creer", {revision: d.slice(0, 10)});
 }
 function majCarteRevision(){
   const e = lireErreurs(), n = Object.keys(e).length, d = erreursDues(e).length;
   const c = $("#b-revision");
-  c.style.display = n ? "flex" : "none";
+  c.style.display = "flex";
   c.classList.toggle("fait", !d);
-  $("#v-rev-ti").textContent = d ? `Réviser mes erreurs (${d})` : "Réviser mes erreurs ✔";
+  $("#v-rev-ti").textContent = d ? `Réviser mes erreurs (${d})` : "Réviser mes erreurs";
   $("#v-rev-de").textContent = d
     ? "Les questions que tu as ratées. Trouve-les 2 fois pour les effacer."
-    : `${n} question${n>1?"s":""} en attente : reviens demain pour les revoir.`;
+    : (n ? `${n} question${n>1?"s":""} en attente : reviens demain pour les revoir.`
+         : "Vide pour l'instant : les questions que tu rates en partie arriveront ici.");
 }
 function majCarteDefi(){
   majCarteRevision();
@@ -1676,6 +1681,7 @@ $("#b-installer").onclick = async () => {
 // version : si le site a change, on recharge, mais seulement sur l'accueil
 // pour ne jamais couper une partie.
 const VERSION_PAGE = "__VERSION__";
+$("#v-version").textContent = "version " + (VERSION_PAGE.startsWith("__") ? "locale" : VERSION_PAGE.slice(0, 6));
 async function verifierMaj(){
   if (VERSION_PAGE.startsWith("__")) return;
   if (!$("#ec-accueil").classList.contains("actif")) return;
