@@ -1,0 +1,4165 @@
+[
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Combien de dents de lait a un enfant ?",
+  "reponse": "20",
+  "alias": []
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Combien de cavités (oreillettes + ventricules) compte le cœur ?",
+  "reponse": "4",
+  "alias": [
+   "quatre"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quels organes filtrent le sang pour fabriquer l'urine ?",
+  "reponse": "les reins",
+  "alias": [
+   "rein",
+   "reins"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quel gaz le sang transporte-t-il des poumons vers les organes ?",
+  "reponse": "l'oxygène",
+  "alias": [
+   "oxygene",
+   "o2"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel gaz rejette-t-on en expirant, produit par nos cellules ?",
+  "reponse": "le dioxyde de carbone",
+  "alias": [
+   "co2",
+   "gaz carbonique",
+   "dioxyde de carbone"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quelle protéine des globules rouges transporte l'oxygène ?",
+  "reponse": "l'hémoglobine",
+  "alias": [
+   "hemoglobine"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel groupe sanguin est appelé « donneur universel » ?",
+  "reponse": "O négatif",
+  "alias": [
+   "o negatif",
+   "o moins",
+   "o"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quel groupe sanguin est appelé « receveur universel » ?",
+  "reponse": "AB positif",
+  "alias": [
+   "ab plus",
+   "ab"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel muscle en forme de dôme, sous les poumons, permet de respirer ?",
+  "reponse": "le diaphragme",
+  "alias": [
+   "diaphragme"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quel est le plus gros muscle du corps humain ?",
+  "reponse": "le grand fessier",
+  "alias": [
+   "fessier",
+   "fessiers",
+   "grand fessier"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Combien de litres de sang environ contient le corps d'un adulte ?",
+  "reponse": "5 litres",
+  "alias": [
+   "5",
+   "cinq"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quelle partie colorée de l'œil donne la couleur des yeux ?",
+  "reponse": "l'iris",
+  "alias": [
+   "iris"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Comment s'appelle le trou noir au centre de l'œil qui laisse passer la lumière ?",
+  "reponse": "la pupille",
+  "alias": [
+   "pupille"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quelle membrane au fond de l'œil capte la lumière ?",
+  "reponse": "la rétine",
+  "alias": [
+   "retine"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel organe produit la bile ?",
+  "reponse": "le foie",
+  "alias": [
+   "foie"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Dans quel petit organe la bile est-elle stockée ?",
+  "reponse": "la vésicule biliaire",
+  "alias": [
+   "vesicule biliaire",
+   "vesicule"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel est le plus gros organe interne du corps ?",
+  "reponse": "le foie",
+  "alias": [
+   "foie"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Combien de paires de côtes avons-nous ?",
+  "reponse": "12",
+  "alias": [
+   "douze"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Combien de vertèbres compte le cou (vertèbres cervicales) ?",
+  "reponse": "7",
+  "alias": [
+   "sept"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quelle glande en forme de papillon, dans le cou, règle le métabolisme ?",
+  "reponse": "la thyroïde",
+  "alias": [
+   "thyroide"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quelle hormone accélère le cœur quand on a peur ?",
+  "reponse": "l'adrénaline",
+  "alias": [
+   "adrenaline"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quelle hormone, sécrétée la nuit, régule le sommeil ?",
+  "reponse": "la mélatonine",
+  "alias": [
+   "melatonine"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quelle vitamine la peau fabrique-t-elle grâce au soleil ?",
+  "reponse": "la vitamine D",
+  "alias": [
+   "vitamine d"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quel pigment donne sa couleur à la peau et aux cheveux ?",
+  "reponse": "la mélanine",
+  "alias": [
+   "melanine"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel tendon relie le mollet au talon ?",
+  "reponse": "le tendon d'Achille",
+  "alias": [
+   "achille",
+   "tendon d achille"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quel poumon est le plus petit, pour laisser de la place au cœur ?",
+  "reponse": "le gauche",
+  "alias": [
+   "gauche",
+   "poumon gauche"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Comment appelle-t-on les vaisseaux qui transportent le sang du cœur vers les organes ?",
+  "reponse": "les artères",
+  "alias": [
+   "arteres",
+   "artere"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quelle est la plus grosse artère du corps ?",
+  "reponse": "l'aorte",
+  "alias": [
+   "aorte"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Comment s'appellent les plus fins vaisseaux sanguins ?",
+  "reponse": "les capillaires",
+  "alias": [
+   "capillaire",
+   "capillaires"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quelles cellules du sang défendent le corps contre les infections ?",
+  "reponse": "les globules blancs",
+  "alias": [
+   "globule blanc",
+   "leucocytes"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quels éléments du sang permettent la coagulation ?",
+  "reponse": "les plaquettes",
+  "alias": [
+   "plaquette",
+   "thrombocytes"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quelle partie du cerveau gère l'équilibre et la coordination ?",
+  "reponse": "le cervelet",
+  "alias": [
+   "cervelet"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quelle partie de l'oreille interne a la forme d'un escargot ?",
+  "reponse": "la cochlée",
+  "alias": [
+   "cochlee",
+   "limaçon",
+   "limacon"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Dans quel organe du cou se trouvent les cordes vocales ?",
+  "reponse": "le larynx",
+  "alias": [
+   "larynx"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel est le plus long nerf du corps humain ?",
+  "reponse": "le nerf sciatique",
+  "alias": [
+   "sciatique"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel os se trouve dans le bras, entre l'épaule et le coude ?",
+  "reponse": "l'humérus",
+  "alias": [
+   "humerus"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quel os de l'avant-bras se trouve du côté du pouce ?",
+  "reponse": "le radius",
+  "alias": [
+   "radius"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel est le gros os à l'avant de la jambe, sous le genou ?",
+  "reponse": "le tibia",
+  "alias": [
+   "tibia"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quelle est la température normale du corps humain (en °C) ?",
+  "reponse": "37 °C",
+  "alias": [
+   "37",
+   "37 degres",
+   "37 c"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quel tissu, à l'intérieur des os, fabrique les globules rouges ?",
+  "reponse": "la moelle osseuse",
+  "alias": [
+   "moelle",
+   "moelle osseuse"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Combien de chromosomes contient une cellule humaine ?",
+  "reponse": "46",
+  "alias": []
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Combien de paires de chromosomes a l'être humain ?",
+  "reponse": "23",
+  "alias": []
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quel organe est surnommé le « deuxième cerveau » ?",
+  "reponse": "l'intestin",
+  "alias": [
+   "intestins",
+   "ventre",
+   "intestin"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "facile",
+  "question": "Quel liquide de la bouche commence la digestion ?",
+  "reponse": "la salive",
+  "alias": [
+   "salive"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Quelle est la matière la plus dure du corps humain ?",
+  "reponse": "l'émail dentaire",
+  "alias": [
+   "email",
+   "email des dents",
+   "émail"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Comment s'appelle l'os de la mâchoire inférieure ?",
+  "reponse": "la mandibule",
+  "alias": [
+   "mandibule"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "question": "Quel acide fort se trouve dans l'estomac ?",
+  "reponse": "l'acide chlorhydrique",
+  "alias": [
+   "acide chlorhydrique",
+   "hcl"
+  ]
+ },
+ {
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "question": "Combien de poumons a l'être humain ?",
+  "reponse": "2",
+  "alias": [
+   "deux"
+  ]
+ },
+ {
+  "type": "citez",
+  "question": "Citez un des cinq sens",
+  "categorie": "corps",
+  "difficulte": "facile",
+  "reponse": "vue, ouïe, odorat, goût, toucher (5 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "vue"
+    ],
+    [
+     "ouïe",
+     "ouie",
+     "audition"
+    ],
+    [
+     "odorat"
+    ],
+    [
+     "goût"
+    ],
+    [
+     "toucher"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez un organe du système digestif",
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "reponse": "estomac, intestin grêle, gros intestin, œsophage, foie, pancréas… (10 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "estomac"
+    ],
+    [
+     "intestin grêle",
+     "intestin grele"
+    ],
+    [
+     "gros intestin",
+     "côlon",
+     "colon"
+    ],
+    [
+     "œsophage",
+     "oesophage"
+    ],
+    [
+     "foie"
+    ],
+    [
+     "pancréas"
+    ],
+    [
+     "bouche",
+     "langue"
+    ],
+    [
+     "rectum"
+    ],
+    [
+     "vésicule biliaire",
+     "vesicule"
+    ],
+    [
+     "anus"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez un os du corps humain",
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "reponse": "fémur, tibia, péroné, humérus, radius, cubitus… (22 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "fémur"
+    ],
+    [
+     "tibia"
+    ],
+    [
+     "péroné",
+     "fibula"
+    ],
+    [
+     "humérus"
+    ],
+    [
+     "radius"
+    ],
+    [
+     "cubitus",
+     "ulna"
+    ],
+    [
+     "crâne"
+    ],
+    [
+     "mandibule"
+    ],
+    [
+     "rotule",
+     "patella"
+    ],
+    [
+     "clavicule"
+    ],
+    [
+     "omoplate",
+     "scapula"
+    ],
+    [
+     "sternum"
+    ],
+    [
+     "côte",
+     "cotes"
+    ],
+    [
+     "vertèbre",
+     "vertebres"
+    ],
+    [
+     "bassin",
+     "os iliaque"
+    ],
+    [
+     "sacrum"
+    ],
+    [
+     "coccyx"
+    ],
+    [
+     "étrier",
+     "etrier"
+    ],
+    [
+     "marteau"
+    ],
+    [
+     "enclume"
+    ],
+    [
+     "calcanéum",
+     "calcaneum"
+    ],
+    [
+     "phalange",
+     "phalanges"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Quel organe est le plus lourd ?",
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "reponse": "le foie",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "le foie"
+    ],
+    [
+     "le cerveau"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Qui a le plus d'os ?",
+  "categorie": "corps",
+  "difficulte": "moyen",
+  "reponse": "un bébé",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "un bébé"
+    ],
+    [
+     "un adulte"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Lequel n'est PAS un os ?",
+  "categorie": "corps",
+  "difficulte": "difficile",
+  "reponse": "le biceps",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "le cubitus"
+    ],
+    [
+     "le biceps"
+    ]
+   ],
+   "bonne": 1
+  }
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle marque de vêtements a un crocodile pour logo ?",
+  "reponse": "Lacoste",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle marque automobile a un cheval cabré noir sur fond jaune ?",
+  "reponse": "Ferrari",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle marque automobile a un taureau pour emblème ?",
+  "reponse": "Lamborghini",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque automobile française a un lion pour emblème ?",
+  "reponse": "Peugeot",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle marque automobile a pour logo quatre anneaux entrelacés ?",
+  "reponse": "Audi",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "difficile",
+  "question": "Quelle marque automobile italienne a un trident pour logo ?",
+  "reponse": "Maserati",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque de sport a un félin bondissant pour logo ?",
+  "reponse": "Puma",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle chaîne de cafés a une sirène verte pour logo ?",
+  "reponse": "Starbucks",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque de baskets a un grand « N » sur le côté ?",
+  "reponse": "New Balance",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle compagnie pétrolière a un coquillage pour logo ?",
+  "reponse": "Shell",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque automobile américaine a pour logo un « nœud papillon » doré ?",
+  "reponse": "Chevrolet",
+  "alias": [
+   "chevy"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "difficile",
+  "question": "Quelle marque automobile japonaise a pour logo l'amas d'étoiles des Pléiades ?",
+  "reponse": "Subaru",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque automobile coréenne a pour logo un « H » penché ?",
+  "reponse": "Hyundai",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle maison de luxe a pour logo deux « C » entrelacés et dos à dos ?",
+  "reponse": "Chanel",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle maison de luxe italienne a pour logo deux « G » entrelacés ?",
+  "reponse": "Gucci",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle maison de luxe a pour monogramme les lettres « LV » ?",
+  "reponse": "Louis Vuitton",
+  "alias": [
+   "vuitton"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "difficile",
+  "question": "Quelle maison de luxe française a pour logo une calèche tirée par un cheval ?",
+  "reponse": "Hermès",
+  "alias": [
+   "hermes"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque de pneus a pour mascotte un bonhomme fait de pneus ?",
+  "reponse": "Michelin",
+  "alias": [
+   "bibendum"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "difficile",
+  "question": "Quelle marque de jeans a une petite étiquette rouge sur la poche arrière ?",
+  "reponse": "Levi's",
+  "alias": [
+   "levis",
+   "levi strauss"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque automobile britannique a pour emblème un félin bondissant ?",
+  "reponse": "Jaguar",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "difficile",
+  "question": "Quelle marque automobile italienne a dans son logo un serpent qui avale un homme ?",
+  "reponse": "Alfa Romeo",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "difficile",
+  "question": "Quelle marque automobile allemande a un cheval cabré au centre d'un blason ?",
+  "reponse": "Porsche",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle marque a pour slogan « Just Do It » ?",
+  "reponse": "Nike",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque a pour slogan « Impossible Is Nothing » ?",
+  "reponse": "Adidas",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle marque de fast-food a pour slogan « I'm lovin' it » ?",
+  "reponse": "McDonald's",
+  "alias": [
+   "mcdo",
+   "mcdonalds"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "difficile",
+  "question": "Quelle marque a utilisé le slogan « Think Different » ?",
+  "reponse": "Apple",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque de cosmétiques dit « Parce que vous le valez bien » ?",
+  "reponse": "L'Oréal",
+  "alias": [
+   "loreal"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle boisson « donne des ailes » et a deux taureaux rouges pour logo ?",
+  "reponse": "Red Bull",
+  "alias": [
+   "redbull"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "facile",
+  "question": "Quelle chaîne de poulet frit a pour visage le colonel Sanders ?",
+  "reponse": "KFC",
+  "alias": [
+   "kentucky fried chicken"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque de vêtements a pour logo un joueur de polo à cheval ?",
+  "reponse": "Ralph Lauren",
+  "alias": [
+   "polo ralph lauren"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "difficile",
+  "question": "Quelle marque chinoise de téléphones a pour logo une fleur aux pétales rouges ?",
+  "reponse": "Huawei",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque de bonbons au chocolat a des lettres « m » imprimées dessus ?",
+  "reponse": "M&M's",
+  "alias": [
+   "m&m",
+   "mms",
+   "m et m s"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque de soda a un logo rouge écrit en lettres cursives blanches ?",
+  "reponse": "Coca-Cola",
+  "alias": [
+   "coca",
+   "coca cola"
+  ]
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "question": "Quelle marque de jouets danoise a un logo rouge avec des lettres blanches ?",
+  "reponse": "Lego",
+  "alias": []
+ },
+ {
+  "categorie": "logos",
+  "difficulte": "difficile",
+  "question": "Quel constructeur automobile suédois a pour logo le symbole du fer (cercle et flèche) ?",
+  "reponse": "Volvo",
+  "alias": []
+ },
+ {
+  "type": "citez",
+  "question": "Citez une marque dont le logo est une lettre ou un monogramme",
+  "categorie": "logos",
+  "difficulte": "facile",
+  "reponse": "McDonald's, Chanel, Gucci, Louis Vuitton, Hyundai, Honda… (16 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "McDonald's"
+    ],
+    [
+     "Chanel"
+    ],
+    [
+     "Gucci"
+    ],
+    [
+     "Louis Vuitton"
+    ],
+    [
+     "Hyundai"
+    ],
+    [
+     "Honda"
+    ],
+    [
+     "Facebook"
+    ],
+    [
+     "Netflix"
+    ],
+    [
+     "Tesla"
+    ],
+    [
+     "Volkswagen"
+    ],
+    [
+     "Motorola"
+    ],
+    [
+     "Pinterest"
+    ],
+    [
+     "New Balance"
+    ],
+    [
+     "Yves Saint Laurent",
+     "ysl"
+    ],
+    [
+     "Dior"
+    ],
+    [
+     "Fendi"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Quelle marque a une pomme pour logo ?",
+  "categorie": "logos",
+  "difficulte": "facile",
+  "reponse": "Apple",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "Apple"
+    ],
+    [
+     "BlackBerry"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Quelle marque a trois diamants rouges pour logo ?",
+  "categorie": "logos",
+  "difficulte": "moyen",
+  "reponse": "Mitsubishi",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "Suzuki"
+    ],
+    [
+     "Mitsubishi"
+    ]
+   ],
+   "bonne": 1
+  }
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "question": "Combien de cordes a un violon ?",
+  "reponse": "4",
+  "alias": [
+   "quatre"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Combien de cordes a une guitare basse standard ?",
+  "reponse": "4",
+  "alias": [
+   "quatre"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Combien de cordes a un ukulélé ?",
+  "reponse": "4",
+  "alias": [
+   "quatre"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "À quelle famille d'instruments appartient la trompette ?",
+  "reponse": "les cuivres",
+  "alias": [
+   "cuivre",
+   "cuivres"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Le saxophone est en métal, mais à quelle famille d'instruments appartient-il ?",
+  "reponse": "les bois",
+  "alias": [
+   "bois"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel est le plus grand et le plus grave des instruments à cordes frottées ?",
+  "reponse": "la contrebasse",
+  "alias": [
+   "contrebasse"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel instrument donne le « la » à l'orchestre pour qu'il s'accorde ?",
+  "reponse": "le hautbois",
+  "alias": [
+   "hautbois"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel inventeur belge a donné son nom au saxophone ?",
+  "reponse": "Adolphe Sax",
+  "alias": [
+   "sax"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "question": "De quel instrument jouait Jimi Hendrix ?",
+  "reponse": "la guitare électrique",
+  "alias": [
+   "guitare",
+   "guitare electrique"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "question": "De quel instrument jouait Louis Armstrong ?",
+  "reponse": "la trompette",
+  "alias": [
+   "trompette"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "De quel instrument jouait John Coltrane ?",
+  "reponse": "le saxophone",
+  "alias": [
+   "saxophone",
+   "sax"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Pour quel instrument Chopin a-t-il écrit presque toute son œuvre ?",
+  "reponse": "le piano",
+  "alias": [
+   "piano"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "De quel instrument le virtuose Niccolò Paganini jouait-il ?",
+  "reponse": "le violon",
+  "alias": [
+   "violon"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "De quel instrument joue Yo-Yo Ma ?",
+  "reponse": "le violoncelle",
+  "alias": [
+   "violoncelle"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "De quel instrument jouait Ringo Starr dans les Beatles ?",
+  "reponse": "la batterie",
+  "alias": [
+   "batterie"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "De quel instrument jouait Ravi Shankar ?",
+  "reponse": "le sitar",
+  "alias": [
+   "sitar"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel instrument à cordes est emblématique du chaâbi algérois ?",
+  "reponse": "le mandole",
+  "alias": [
+   "mandole",
+   "mandol"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel luth à trois cordes est l'instrument central de la musique gnawa ?",
+  "reponse": "le guembri",
+  "alias": [
+   "guembri",
+   "gumbri",
+   "sintir",
+   "hajhouj"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quelle vièle à une corde, classée à l'UNESCO, est jouée par les femmes touarègues ?",
+  "reponse": "l'imzad",
+  "alias": [
+   "imzad"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel tambour joué par les femmes touarègues donne aussi son nom à un genre musical ?",
+  "reponse": "le tindé",
+  "alias": [
+   "tinde",
+   "tindi"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quelles grosses castagnettes en métal rythment la musique gnawa ?",
+  "reponse": "les qraqeb",
+  "alias": [
+   "qraqeb",
+   "karkabou",
+   "krakeb",
+   "qarqabou"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel hautbois traditionnel au son puissant accompagne les fêtes au Maghreb ?",
+  "reponse": "la zorna",
+  "alias": [
+   "zorna",
+   "ghaita",
+   "rhaita",
+   "zurna",
+   "ghaïta"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "question": "Quel instrument à clavier, fait de tuyaux, trouve-t-on dans les églises ?",
+  "reponse": "l'orgue",
+  "alias": [
+   "orgue"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Comment s'appelle la tige de bois et de crin qui sert à jouer du violon ?",
+  "reponse": "l'archet",
+  "alias": [
+   "archet"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Comment s'appelle la fine lamelle de roseau qui vibre dans une clarinette ?",
+  "reponse": "l'anche",
+  "alias": [
+   "anche"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "question": "Quel instrument électronique se joue sans le toucher, en bougeant les mains près de deux antennes ?",
+  "reponse": "le thérémine",
+  "alias": [
+   "theremine",
+   "theremin"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "question": "Quel instrument a une coulisse qu'on avance et recule pour changer de note ?",
+  "reponse": "le trombone",
+  "alias": [
+   "trombone"
+  ]
+ },
+ {
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "question": "Quel petit instrument de métal en forme de triangle se joue avec une baguette ?",
+  "reponse": "le triangle",
+  "alias": [
+   "triangle"
+  ]
+ },
+ {
+  "type": "citez",
+  "question": "Citez un instrument à cordes",
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "reponse": "guitare, violon, violoncelle, contrebasse, alto, harpe… (22 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "guitare"
+    ],
+    [
+     "violon"
+    ],
+    [
+     "violoncelle"
+    ],
+    [
+     "contrebasse"
+    ],
+    [
+     "alto"
+    ],
+    [
+     "harpe"
+    ],
+    [
+     "piano"
+    ],
+    [
+     "banjo"
+    ],
+    [
+     "ukulélé",
+     "ukulele"
+    ],
+    [
+     "mandoline"
+    ],
+    [
+     "oud"
+    ],
+    [
+     "mandole"
+    ],
+    [
+     "sitar"
+    ],
+    [
+     "balalaïka",
+     "balalaika"
+    ],
+    [
+     "luth"
+    ],
+    [
+     "basse",
+     "guitare basse"
+    ],
+    [
+     "koto"
+    ],
+    [
+     "kora"
+    ],
+    [
+     "guembri",
+     "gumbri"
+    ],
+    [
+     "clavecin"
+    ],
+    [
+     "cithare"
+    ],
+    [
+     "qanûn",
+     "qanun",
+     "kanoun"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez un instrument à vent",
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "reponse": "flûte, clarinette, saxophone, trompette, trombone, tuba… (19 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "flûte"
+    ],
+    [
+     "clarinette"
+    ],
+    [
+     "saxophone"
+    ],
+    [
+     "trompette"
+    ],
+    [
+     "trombone"
+    ],
+    [
+     "tuba"
+    ],
+    [
+     "hautbois"
+    ],
+    [
+     "basson"
+    ],
+    [
+     "cor"
+    ],
+    [
+     "harmonica"
+    ],
+    [
+     "cornemuse"
+    ],
+    [
+     "ney",
+     "nay"
+    ],
+    [
+     "zorna",
+     "ghaita"
+    ],
+    [
+     "didgeridoo"
+    ],
+    [
+     "ocarina"
+    ],
+    [
+     "flûte de pan"
+    ],
+    [
+     "cornet"
+    ],
+    [
+     "piccolo"
+    ],
+    [
+     "mélodica",
+     "melodica"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez un instrument de percussion",
+  "categorie": "instruments",
+  "difficulte": "facile",
+  "reponse": "batterie, tambour, darbouka, djembé, bendir, xylophone… (22 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "batterie"
+    ],
+    [
+     "tambour"
+    ],
+    [
+     "darbouka",
+     "derbouka"
+    ],
+    [
+     "djembé",
+     "djembe"
+    ],
+    [
+     "bendir"
+    ],
+    [
+     "xylophone"
+    ],
+    [
+     "triangle"
+    ],
+    [
+     "cymbale",
+     "cymbales"
+    ],
+    [
+     "timbales",
+     "timbale"
+    ],
+    [
+     "maracas"
+    ],
+    [
+     "castagnettes"
+    ],
+    [
+     "gong"
+    ],
+    [
+     "tabla"
+    ],
+    [
+     "bongos",
+     "bongo"
+    ],
+    [
+     "congas",
+     "conga"
+    ],
+    [
+     "cajón",
+     "cajon"
+    ],
+    [
+     "tambourin",
+     "tambourine"
+    ],
+    [
+     "vibraphone"
+    ],
+    [
+     "marimba"
+    ],
+    [
+     "qraqeb",
+     "karkabou"
+    ],
+    [
+     "glockenspiel"
+    ],
+    [
+     "steel drum"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Lequel de ces cuivres n'a PAS de pistons ?",
+  "categorie": "instruments",
+  "difficulte": "moyen",
+  "reponse": "le trombone à coulisse",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "la trompette"
+    ],
+    [
+     "le trombone à coulisse"
+    ]
+   ],
+   "bonne": 1
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Le piano est un instrument à…",
+  "categorie": "instruments",
+  "difficulte": "difficile",
+  "reponse": "cordes (frappées)",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "cordes (frappées)"
+    ],
+    [
+     "vent"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Combien de pièces chaque joueur a-t-il au début d'une partie d'échecs ?",
+  "reponse": "16",
+  "alias": []
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Quel coup spécial des échecs fait bouger le roi et une tour en même temps ?",
+  "reponse": "le roque",
+  "alias": [
+   "roque"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "question": "Quelle expression annonce la fin d'une partie d'échecs, le roi ne pouvant plus s'échapper ?",
+  "reponse": "échec et mat",
+  "alias": [
+   "echec et mat",
+   "mat"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Comment s'appelle la prise d'un pion qui vient d'avancer de deux cases, par un pion adverse à côté ?",
+  "reponse": "la prise en passant",
+  "alias": [
+   "en passant",
+   "prise en passant"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "En quelle pièce transforme-t-on le plus souvent un pion arrivé au bout de l'échiquier ?",
+  "reponse": "la dame",
+  "alias": [
+   "dame",
+   "reine"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Quel joueur norvégien a été champion du monde d'échecs de 2013 à 2023 ?",
+  "reponse": "Magnus Carlsen",
+  "alias": [
+   "carlsen"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Quel ordinateur d'IBM a battu le champion du monde d'échecs en 1997 ?",
+  "reponse": "Deep Blue",
+  "alias": []
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Quel champion d'échecs russe a été battu par Deep Blue en 1997 ?",
+  "reponse": "Garry Kasparov",
+  "alias": [
+   "kasparov"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "question": "Quelle série Netflix suit Beth Harmon, une prodige des échecs ?",
+  "reponse": "Le Jeu de la dame",
+  "alias": [
+   "jeu de la dame",
+   "the queen's gambit",
+   "queens gambit"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Aux échecs, quelle couleur joue toujours le premier coup ?",
+  "reponse": "les blancs",
+  "alias": [
+   "blanc",
+   "blancs"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Combien de pions chaque joueur a-t-il au jeu de dames international ?",
+  "reponse": "20",
+  "alias": [
+   "vingt"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Sur un damier international, combien de cases y a-t-il par côté ?",
+  "reponse": "10",
+  "alias": [
+   "dix",
+   "10x10"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Quelle est la case la plus chère du Monopoly français ?",
+  "reponse": "rue de la Paix",
+  "alias": [
+   "la paix"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Quelle est la première rue qu'on peut acheter après la case Départ au Monopoly français ?",
+  "reponse": "boulevard de Belleville",
+  "alias": [
+   "belleville"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "question": "Combien de gares y a-t-il sur un plateau de Monopoly ?",
+  "reponse": "4",
+  "alias": [
+   "quatre"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Combien d'armes y a-t-il dans le Cluedo classique ?",
+  "reponse": "6",
+  "alias": [
+   "six"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Combien de lettres a-t-on sur son chevalet au Scrabble ?",
+  "reponse": "7",
+  "alias": [
+   "sept"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Combien de points de bonus rapporte un « scrabble » (poser ses 7 lettres d'un coup) ?",
+  "reponse": "50",
+  "alias": [
+   "50 points"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Combien de cartes distribue-t-on à chaque joueur au début d'une partie de Uno ?",
+  "reponse": "7",
+  "alias": [
+   "sept"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "question": "Quelle carte Uno fait piocher 4 cartes au joueur suivant ?",
+  "reponse": "le +4",
+  "alias": [
+   "plus 4",
+   "4",
+   "super joker",
+   "joker plus 4"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Sur un dé classique, combien fait la somme de deux faces opposées ?",
+  "reponse": "7",
+  "alias": [
+   "sept"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Combien de points y a-t-il au total sur un dé classique à 6 faces ?",
+  "reponse": "21",
+  "alias": []
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Combien de pièces compte un jeu de dominos classique (double-six) ?",
+  "reponse": "28",
+  "alias": []
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Combien de cartes compte un jeu de belote ?",
+  "reponse": "32",
+  "alias": []
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Combien de cartes compte le jeu espagnol utilisé pour la ronda ?",
+  "reponse": "40",
+  "alias": []
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Sur une grille de combien de lignes par côté se joue une partie de go standard ?",
+  "reponse": "19",
+  "alias": [
+   "19x19"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Quel programme de DeepMind a battu le champion de go Lee Sedol en 2016 ?",
+  "reponse": "AlphaGo",
+  "alias": [
+   "alpha go"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Combien de pions (« dames ») chaque joueur a-t-il au backgammon ?",
+  "reponse": "15",
+  "alias": []
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Quel architecte hongrois a inventé le Rubik's Cube ?",
+  "reponse": "Ernő Rubik",
+  "alias": [
+   "erno rubik",
+   "rubik"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Aux Colons de Catan, quelle ressource produisent les montagnes ?",
+  "reponse": "le minerai",
+  "alias": [
+   "minerai",
+   "pierre"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Aux Loups-Garous, quel personnage peut découvrir le rôle d'un joueur chaque nuit ?",
+  "reponse": "la voyante",
+  "alias": [
+   "voyante"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Aux Loups-Garous, quel personnage désigne deux amoureux la première nuit ?",
+  "reponse": "Cupidon",
+  "alias": []
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Combien de « camemberts » faut-il pour remplir son pion au Trivial Pursuit ?",
+  "reponse": "6",
+  "alias": [
+   "six"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Au Mille Bornes, quelle botte protège contre les crevaisons ?",
+  "reponse": "l'increvable",
+  "alias": [
+   "increvable"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "question": "Combien de kilomètres faut-il parcourir pour gagner au Mille Bornes ?",
+  "reponse": "1000",
+  "alias": [
+   "mille"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Combien de blocs compte une tour de Jenga ?",
+  "reponse": "54",
+  "alias": []
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Combien de colonnes a la grille du Puissance 4 ?",
+  "reponse": "7",
+  "alias": [
+   "sept"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Combien de trous (cases) compte un plateau d'awalé ?",
+  "reponse": "12",
+  "alias": [
+   "douze"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Au tarot, comment s'appelle la carte sans numéro qui permet de ne pas jouer la couleur ?",
+  "reponse": "l'Excuse",
+  "alias": [
+   "excuse"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "question": "Au tarot, comment s'appelle le 1 d'atout ?",
+  "reponse": "le Petit",
+  "alias": [
+   "petit"
+  ]
+ },
+ {
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "question": "Quelle est la meilleure main possible au poker ?",
+  "reponse": "la quinte flush royale",
+  "alias": [
+   "quinte flush royale",
+   "royal flush"
+  ]
+ },
+ {
+  "type": "citez",
+  "question": "Citez un suspect du Cluedo (version française)",
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "reponse": "Moutarde, Rose, Olive, Pervenche, Violet, Leblanc (6 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "Moutarde",
+     "colonel moutarde"
+    ],
+    [
+     "Rose",
+     "mademoiselle rose"
+    ],
+    [
+     "Olive",
+     "docteur olive",
+     "reverend olive"
+    ],
+    [
+     "Pervenche",
+     "madame pervenche"
+    ],
+    [
+     "Violet",
+     "professeur violet"
+    ],
+    [
+     "Leblanc",
+     "madame leblanc"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez une couleur (enseigne) d'un jeu de cartes classique",
+  "categorie": "jeuxsociete",
+  "difficulte": "facile",
+  "reponse": "cœur, carreau, trèfle, pique (4 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "cœur",
+     "coeur"
+    ],
+    [
+     "carreau"
+    ],
+    [
+     "trèfle",
+     "trefle"
+    ],
+    [
+     "pique"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez une ressource des Colons de Catan",
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "reponse": "bois, argile, blé, laine, minerai (5 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "bois"
+    ],
+    [
+     "argile",
+     "brique"
+    ],
+    [
+     "blé",
+     "ble"
+    ],
+    [
+     "laine",
+     "mouton"
+    ],
+    [
+     "minerai",
+     "pierre"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Au poker, quelle main gagne ?",
+  "categorie": "jeuxsociete",
+  "difficulte": "moyen",
+  "reponse": "le full",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "le full"
+    ],
+    [
+     "la couleur"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Au Scrabble français, quelle lettre rapporte le plus ?",
+  "categorie": "jeuxsociete",
+  "difficulte": "difficile",
+  "reponse": "le Z",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "le M"
+    ],
+    [
+     "le Z"
+    ]
+   ],
+   "bonne": 1
+  }
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Dans quelle langue dit-on « arigatō » pour remercier ?",
+  "reponse": "japonais",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Dans quelle langue dit-on « gracias » pour remercier ?",
+  "reponse": "espagnol",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Dans quelle langue dit-on « grazie » pour remercier ?",
+  "reponse": "italien",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Dans quelle langue dit-on « danke » pour remercier ?",
+  "reponse": "allemand",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Dans quelle langue dit-on « choukran » pour remercier ?",
+  "reponse": "arabe",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Dans quelle langue dit-on « spassiba » pour remercier ?",
+  "reponse": "russe",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Dans quelle langue dit-on « teşekkürler » pour remercier ?",
+  "reponse": "turc",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Dans quelle langue dit-on « xièxie » pour remercier ?",
+  "reponse": "chinois",
+  "alias": [
+   "mandarin"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Dans quelle langue dit-on « kamsahamnida » pour remercier ?",
+  "reponse": "coréen",
+  "alias": [
+   "coreen"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Dans quelle langue dit-on « obrigado » pour remercier ?",
+  "reponse": "portugais",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Dans quelle langue dit-on « dank je » pour remercier ?",
+  "reponse": "néerlandais",
+  "alias": [
+   "neerlandais",
+   "hollandais"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Dans quelle langue dit-on « efcharistó » pour remercier ?",
+  "reponse": "grec",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Dans quelle langue dit-on « tanemmirt » pour remercier ?",
+  "reponse": "kabyle",
+  "alias": [
+   "tamazight",
+   "berbere"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Dans quelle langue dit-on « asante » pour remercier ?",
+  "reponse": "swahili",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Dans quelle langue dit-on « toda » pour remercier ?",
+  "reponse": "hébreu",
+  "alias": [
+   "hebreu"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Dans quelle langue dit-on « dziękuję » pour remercier ?",
+  "reponse": "polonais",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Comment dit-on « merci » en japonais ?",
+  "reponse": "arigatō",
+  "alias": [
+   "arigato",
+   "arigatou"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Comment dit-on « bonjour » en japonais ?",
+  "reponse": "konnichiwa",
+  "alias": [
+   "konichiwa"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Comment dit-on « merci » en espagnol ?",
+  "reponse": "gracias",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Comment dit-on « merci » en kabyle ?",
+  "reponse": "tanemmirt",
+  "alias": [
+   "tanmirt"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Quelle langue officielle parle-t-on au Brésil ?",
+  "reponse": "portugais",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Quelle langue officielle parle-t-on au Mexique ?",
+  "reponse": "espagnol",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Quelle langue officielle parle-t-on en Iran ?",
+  "reponse": "persan",
+  "alias": [
+   "farsi"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Quelle langue officielle parle-t-on en Autriche ?",
+  "reponse": "allemand",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Quelle langue officielle parle-t-on en Argentine ?",
+  "reponse": "espagnol",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Quelle langue officielle parle-t-on en Angola ?",
+  "reponse": "portugais",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Quelle langue officielle parle-t-on au Suriname ?",
+  "reponse": "néerlandais",
+  "alias": [
+   "neerlandais",
+   "hollandais"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Quelle langue officielle parle-t-on au Pakistan (langue nationale) ?",
+  "reponse": "ourdou",
+  "alias": [
+   "urdu"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Quelle langue officielle parle-t-on en Israël ?",
+  "reponse": "hébreu",
+  "alias": [
+   "hebreu"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Quelle langue officielle parle-t-on en Éthiopie (langue de travail fédérale) ?",
+  "reponse": "amharique",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Quelle langue officielle parle-t-on au Mozambique ?",
+  "reponse": "portugais",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Quelle langue officielle parle-t-on au Cap-Vert ?",
+  "reponse": "portugais",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Quelle langue officielle parle-t-on en Guinée équatoriale (langue principale) ?",
+  "reponse": "espagnol",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Quelle langue est la langue nationale du Kenya et de la Tanzanie ?",
+  "reponse": "swahili",
+  "alias": [
+   "kiswahili"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Quel alphabet utilise la langue russe ?",
+  "reponse": "cyrillique",
+  "alias": [
+   "alphabet cyrillique"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Dans quel sens s'écrit l'arabe ?",
+  "reponse": "de droite à gauche",
+  "alias": [
+   "droite a gauche"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Comment s'appelle l'alphabet berbère, avec des lettres comme ⵣ ?",
+  "reponse": "tifinagh",
+  "alias": [
+   "tifinar"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Combien de lettres compte l'alphabet arabe ?",
+  "reponse": "28",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "facile",
+  "question": "Combien de lettres compte l'alphabet français ?",
+  "reponse": "26",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Combien de lettres compte l'alphabet grec ?",
+  "reponse": "24",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Quelle est la dernière lettre de l'alphabet grec ?",
+  "reponse": "oméga",
+  "alias": [
+   "omega"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Les hiragana et les katakana sont des écritures de quelle langue ?",
+  "reponse": "japonais",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Le hangul est l'alphabet de quelle langue ?",
+  "reponse": "coréen",
+  "alias": [
+   "coreen"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Quelle langue Zamenhof a-t-il inventée pour qu'elle devienne universelle ?",
+  "reponse": "espéranto",
+  "alias": [
+   "esperanto"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Quelle langue parlent les Klingons dans Star Trek ?",
+  "reponse": "klingon",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Quelle langue elfique Tolkien a-t-il inventée pour Le Seigneur des anneaux ?",
+  "reponse": "quenya",
+  "alias": [
+   "sindarin",
+   "elfique"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "De quelle langue vient le mot « algèbre » ?",
+  "reponse": "arabe",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "De quelle langue vient le mot « robot » ?",
+  "reponse": "tchèque",
+  "alias": [
+   "tcheque"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "De quelle langue vient le mot « tsunami » ?",
+  "reponse": "japonais",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "De quelle langue amérindienne vient le mot « chocolat » ?",
+  "reponse": "nahuatl",
+  "alias": [
+   "azteque",
+   "aztèque"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "De quelle langue vient le mot « sauna » ?",
+  "reponse": "finnois",
+  "alias": [
+   "finlandais"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "De quelle langue vient le mot « safari » ?",
+  "reponse": "swahili",
+  "alias": []
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "question": "Combien de langues officielles l'ONU compte-t-elle ?",
+  "reponse": "6",
+  "alias": [
+   "six"
+  ]
+ },
+ {
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "question": "Quel sigle désigne la langue des signes française ?",
+  "reponse": "LSF",
+  "alias": []
+ },
+ {
+  "type": "citez",
+  "question": "Citez une langue officielle de la Suisse",
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "reponse": "allemand, français, italien, romanche (4 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "allemand"
+    ],
+    [
+     "français"
+    ],
+    [
+     "italien"
+    ],
+    [
+     "romanche"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez une langue romane (issue du latin)",
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "reponse": "français, espagnol, italien, portugais, roumain, catalan… (13 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "français"
+    ],
+    [
+     "espagnol"
+    ],
+    [
+     "italien"
+    ],
+    [
+     "portugais"
+    ],
+    [
+     "roumain"
+    ],
+    [
+     "catalan"
+    ],
+    [
+     "occitan"
+    ],
+    [
+     "corse"
+    ],
+    [
+     "sarde"
+    ],
+    [
+     "galicien"
+    ],
+    [
+     "romanche"
+    ],
+    [
+     "wallon"
+    ],
+    [
+     "moldave"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez une langue qui s'écrit avec l'alphabet cyrillique",
+  "categorie": "langues",
+  "difficulte": "difficile",
+  "reponse": "russe, ukrainien, bulgare, serbe, biélorusse, macédonien… (10 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "russe"
+    ],
+    [
+     "ukrainien"
+    ],
+    [
+     "bulgare"
+    ],
+    [
+     "serbe"
+    ],
+    [
+     "biélorusse",
+     "bielorusse"
+    ],
+    [
+     "macédonien",
+     "macedonien"
+    ],
+    [
+     "kazakh"
+    ],
+    [
+     "mongol"
+    ],
+    [
+     "kirghize"
+    ],
+    [
+     "tadjik"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Quelle langue a le plus de locuteurs natifs ?",
+  "categorie": "langues",
+  "difficulte": "moyen",
+  "reponse": "l'espagnol",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "l'espagnol"
+    ],
+    [
+     "l'anglais"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Quelle langue s'écrit de droite à gauche ?",
+  "categorie": "langues",
+  "difficulte": "facile",
+  "reponse": "l'hébreu",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "le grec"
+    ],
+    [
+     "l'hébreu"
+    ]
+   ],
+   "bonne": 1
+  }
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Avec quel fruit fabrique-t-on le cidre ?",
+  "reponse": "la pomme",
+  "alias": [
+   "pomme",
+   "pommes"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Avec quel fruit fabrique-t-on le poiré ?",
+  "reponse": "la poire",
+  "alias": [
+   "poire",
+   "poires"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "De quelle fleur extrait-on le safran ?",
+  "reponse": "le crocus",
+  "alias": [
+   "crocus"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Comment appelle-t-on une prune séchée ?",
+  "reponse": "un pruneau",
+  "alias": [
+   "pruneau"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Avec quelle plante fabrique-t-on le tofu ?",
+  "reponse": "le soja",
+  "alias": [
+   "soja"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Avec quelle céréale fabrique-t-on la semoule du couscous ?",
+  "reponse": "le blé",
+  "alias": [
+   "ble",
+   "ble dur",
+   "blé dur"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quelle céréale éclate pour donner du popcorn ?",
+  "reponse": "le maïs",
+  "alias": [
+   "mais"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel fruit à coque est mélangé au cacao dans le Nutella ?",
+  "reponse": "la noisette",
+  "alias": [
+   "noisette",
+   "noisettes"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel fruit tropical, surnommé « roi des fruits », est célèbre pour son odeur forte ?",
+  "reponse": "le durian",
+  "alias": [
+   "durian"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quelle vitamine trouve-t-on en abondance dans les agrumes ?",
+  "reponse": "la vitamine C",
+  "alias": [
+   "vitamine c",
+   "c"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "De quel continent la pomme de terre est-elle originaire ?",
+  "reponse": "l'Amérique du Sud",
+  "alias": [
+   "amerique du sud",
+   "amerique",
+   "andes",
+   "perou"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel fruit porte ses graines à l'extérieur ?",
+  "reponse": "la fraise",
+  "alias": [
+   "fraise"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "Quel chou vert aux pointes en spirale ressemble à une fractale ?",
+  "reponse": "le romanesco",
+  "alias": [
+   "romanesco",
+   "chou romanesco"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel légume-fruit est la base du ketchup ?",
+  "reponse": "la tomate",
+  "alias": [
+   "tomate"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quelle épice jaune-orangé colore le curry ?",
+  "reponse": "le curcuma",
+  "alias": [
+   "curcuma"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "question": "Dans quel pays le kiwi est-il originaire ?",
+  "reponse": "la Chine",
+  "alias": [
+   "chine"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quelle céréale cultive-t-on dans des rizières ?",
+  "reponse": "le riz",
+  "alias": [
+   "riz"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quelle légumineuse est la base du houmous ?",
+  "reponse": "le pois chiche",
+  "alias": [
+   "pois chiche",
+   "pois chiches"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quelle graine est la base de la tahina ?",
+  "reponse": "le sésame",
+  "alias": [
+   "sesame"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "La deglet nour est une variété de quel fruit ?",
+  "reponse": "la datte",
+  "alias": [
+   "datte",
+   "dattes"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel fruit à coque est en réalité une légumineuse, comme les lentilles ?",
+  "reponse": "la cacahuète",
+  "alias": [
+   "cacahuete",
+   "arachide"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel fruit sec obtient-on en faisant sécher du raisin ?",
+  "reponse": "le raisin sec",
+  "alias": [
+   "raisin sec",
+   "raisins secs"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "question": "Quel fruit est utilisé pour faire le guacamole ?",
+  "reponse": "l'avocat",
+  "alias": [
+   "avocat"
+  ]
+ },
+ {
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "question": "Quel légume racine rouge colore le bortsch ?",
+  "reponse": "la betterave",
+  "alias": [
+   "betterave"
+  ]
+ },
+ {
+  "type": "citez",
+  "question": "Citez un agrume",
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "reponse": "orange, citron, mandarine, clémentine, pamplemousse, citron vert… (11 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "orange"
+    ],
+    [
+     "citron"
+    ],
+    [
+     "mandarine"
+    ],
+    [
+     "clémentine",
+     "clementine"
+    ],
+    [
+     "pamplemousse"
+    ],
+    [
+     "citron vert",
+     "lime"
+    ],
+    [
+     "bergamote"
+    ],
+    [
+     "kumquat"
+    ],
+    [
+     "pomelo"
+    ],
+    [
+     "yuzu"
+    ],
+    [
+     "cédrat",
+     "cedrat"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez un fruit rouge",
+  "categorie": "aliments",
+  "difficulte": "facile",
+  "reponse": "fraise, framboise, cerise, groseille, cassis, myrtille… (10 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "fraise"
+    ],
+    [
+     "framboise"
+    ],
+    [
+     "cerise"
+    ],
+    [
+     "groseille"
+    ],
+    [
+     "cassis"
+    ],
+    [
+     "myrtille"
+    ],
+    [
+     "mûre",
+     "mure"
+    ],
+    [
+     "canneberge",
+     "cranberry"
+    ],
+    [
+     "airelle"
+    ],
+    [
+     "grenade"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez une légumineuse",
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "reponse": "lentille, pois chiche, haricot, petit pois, fève, soja… (10 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "lentille"
+    ],
+    [
+     "pois chiche",
+     "pois chiches"
+    ],
+    [
+     "haricot",
+     "haricots"
+    ],
+    [
+     "petit pois",
+     "petits pois"
+    ],
+    [
+     "fève",
+     "feve"
+    ],
+    [
+     "soja"
+    ],
+    [
+     "cacahuète",
+     "arachide"
+    ],
+    [
+     "lupin"
+    ],
+    [
+     "flageolet"
+    ],
+    [
+     "pois cassé",
+     "pois casses"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Botaniquement, la tomate est…",
+  "categorie": "aliments",
+  "difficulte": "moyen",
+  "reponse": "un fruit",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "un fruit"
+    ],
+    [
+     "un légume"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Lequel contient le plus de vitamine C ?",
+  "categorie": "aliments",
+  "difficulte": "difficile",
+  "reponse": "le kiwi",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "le kiwi"
+    ],
+    [
+     "l'orange"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "question": "De quel pays vient la marque automobile Toyota ?",
+  "reponse": "Japon",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile Volvo ?",
+  "reponse": "Suède",
+  "alias": [
+   "suede"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile Škoda ?",
+  "reponse": "République tchèque",
+  "alias": [
+   "tchequie",
+   "republique tcheque",
+   "tchéquie"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile Seat ?",
+  "reponse": "Espagne",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "question": "De quel pays vient la marque automobile Hyundai ?",
+  "reponse": "Corée du Sud",
+  "alias": [
+   "coree",
+   "coree du sud"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile Dacia ?",
+  "reponse": "Roumanie",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "question": "De quel pays vient la marque automobile Fiat ?",
+  "reponse": "Italie",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile Tata ?",
+  "reponse": "Inde",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile Lada ?",
+  "reponse": "Russie",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile Opel ?",
+  "reponse": "Allemagne",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile Land Rover ?",
+  "reponse": "Royaume-Uni",
+  "alias": [
+   "angleterre",
+   "royaume uni",
+   "uk"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "question": "De quel pays vient la marque automobile Geely ?",
+  "reponse": "Chine",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile BYD ?",
+  "reponse": "Chine",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "De quel pays vient la marque automobile Kia ?",
+  "reponse": "Corée du Sud",
+  "alias": [
+   "coree",
+   "coree du sud"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "question": "De quel pays vient la marque automobile Saab ?",
+  "reponse": "Suède",
+  "alias": [
+   "suede"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "question": "De quel pays vient la marque automobile Proton ?",
+  "reponse": "Malaisie",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "question": "Dans quelle ville italienne se trouve le siège de Ferrari ?",
+  "reponse": "Maranello",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "Quel modèle Renault a été le premier assemblé en Algérie, à Oued Tlélat ?",
+  "reponse": "Renault Symbol",
+  "alias": [
+   "symbol"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "Quelle marque assemble ses voitures à l'usine de Tafraoui, près d'Oran, depuis fin 2023 ?",
+  "reponse": "Fiat",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "question": "Quelle célèbre course automobile d'endurance dure 24 heures en France ?",
+  "reponse": "les 24 Heures du Mans",
+  "alias": [
+   "le mans",
+   "24 heures du mans"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "Quelle marque fabrique la Model Y ?",
+  "reponse": "Tesla",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "question": "Que signifie le sigle SUV ?",
+  "reponse": "Sport Utility Vehicle",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "Quel fabricant de tracteurs italien a créé une marque pour concurrencer Ferrari ?",
+  "reponse": "Lamborghini",
+  "alias": [
+   "ferruccio lamborghini"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "question": "Quelle marque allemande signifie « voiture du peuple » ?",
+  "reponse": "Volkswagen",
+  "alias": [
+   "vw"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "Quelle marque britannique est associée à James Bond depuis Goldfinger ?",
+  "reponse": "Aston Martin",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "Quelle est la voiture la plus vendue de l'histoire ?",
+  "reponse": "la Toyota Corolla",
+  "alias": [
+   "corolla",
+   "toyota corolla"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "Quel pays produit le plus de voitures au monde ?",
+  "reponse": "la Chine",
+  "alias": [
+   "chine"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "Qui a fondé la marque Ford ?",
+  "reponse": "Henry Ford",
+  "alias": []
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "question": "Quelle marque de luxe britannique a pour emblème « l'Esprit d'extase » sur le capot ?",
+  "reponse": "Rolls-Royce",
+  "alias": [
+   "rolls royce",
+   "rolls"
+  ]
+ },
+ {
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "question": "Quelle marque française de voitures de sport a fabriqué la Veyron et la Chiron ?",
+  "reponse": "Bugatti",
+  "alias": []
+ },
+ {
+  "type": "citez",
+  "question": "Citez une marque automobile allemande",
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "reponse": "Volkswagen, BMW, Mercedes, Audi, Porsche, Opel… (8 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "Volkswagen"
+    ],
+    [
+     "BMW"
+    ],
+    [
+     "Mercedes",
+     "mercedes-benz"
+    ],
+    [
+     "Audi"
+    ],
+    [
+     "Porsche"
+    ],
+    [
+     "Opel"
+    ],
+    [
+     "Maybach"
+    ],
+    [
+     "Smart"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez une marque automobile japonaise",
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "reponse": "Toyota, Honda, Nissan, Mazda, Subaru, Mitsubishi… (12 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "Toyota"
+    ],
+    [
+     "Honda"
+    ],
+    [
+     "Nissan"
+    ],
+    [
+     "Mazda"
+    ],
+    [
+     "Subaru"
+    ],
+    [
+     "Mitsubishi"
+    ],
+    [
+     "Suzuki"
+    ],
+    [
+     "Lexus"
+    ],
+    [
+     "Infiniti"
+    ],
+    [
+     "Daihatsu"
+    ],
+    [
+     "Isuzu"
+    ],
+    [
+     "Acura"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez une marque automobile italienne",
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "reponse": "Fiat, Ferrari, Lamborghini, Maserati, Alfa Romeo, Lancia… (8 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "Fiat"
+    ],
+    [
+     "Ferrari"
+    ],
+    [
+     "Lamborghini"
+    ],
+    [
+     "Maserati"
+    ],
+    [
+     "Alfa Romeo"
+    ],
+    [
+     "Lancia"
+    ],
+    [
+     "Pagani"
+    ],
+    [
+     "Abarth"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez une marque automobile française",
+  "categorie": "voitures",
+  "difficulte": "facile",
+  "reponse": "Renault, Peugeot, Citroën, Bugatti, Alpine, DS (6 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "Renault"
+    ],
+    [
+     "Peugeot"
+    ],
+    [
+     "Citroën",
+     "citroen"
+    ],
+    [
+     "Bugatti"
+    ],
+    [
+     "Alpine"
+    ],
+    [
+     "DS"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Quelle marque appartient au groupe Volkswagen ?",
+  "categorie": "voitures",
+  "difficulte": "moyen",
+  "reponse": "Porsche",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "Ferrari"
+    ],
+    [
+     "Porsche"
+    ]
+   ],
+   "bonne": 1
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Quelle marque est la plus ancienne ?",
+  "categorie": "voitures",
+  "difficulte": "difficile",
+  "reponse": "Peugeot",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "Renault"
+    ],
+    [
+     "Peugeot"
+    ]
+   ],
+   "bonne": 1
+  }
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "De quelle race est Milou, le chien de Tintin ?",
+  "reponse": "fox-terrier",
+  "alias": [
+   "fox terrier",
+   "terrier"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "De quelle race est Scooby-Doo ?",
+  "reponse": "dogue allemand",
+  "alias": [
+   "dogue",
+   "danois",
+   "grand danois"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "De quelle race est Snoopy ?",
+  "reponse": "beagle",
+  "alias": []
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "De quelle race est Lassie ?",
+  "reponse": "colley",
+  "alias": [
+   "collie"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "facile",
+  "question": "Quelle race de chien est la plus petite du monde ?",
+  "reponse": "chihuahua",
+  "alias": []
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien est la plus rapide à la course ?",
+  "reponse": "lévrier",
+  "alias": [
+   "levrier",
+   "greyhound",
+   "levrier anglais"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "facile",
+  "question": "Quelle race de chat n'a presque pas de poils ?",
+  "reponse": "sphynx",
+  "alias": [
+   "sphinx"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chat a les oreilles pliées vers l'avant ?",
+  "reponse": "scottish fold",
+  "alias": []
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quel lévrier élancé est élevé par les Touaregs du Sahel ?",
+  "reponse": "azawakh",
+  "alias": []
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quel lévrier du Maghreb est une race algérienne et marocaine ?",
+  "reponse": "sloughi",
+  "alias": []
+ },
+ {
+  "categorie": "races",
+  "difficulte": "facile",
+  "question": "Quelle race de chien de traîneau a souvent les yeux bleus ?",
+  "reponse": "husky",
+  "alias": [
+   "husky siberien"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "facile",
+  "question": "Quel chien sauveteur des Alpes est représenté avec un tonnelet ?",
+  "reponse": "saint-bernard",
+  "alias": [
+   "saint bernard"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "facile",
+  "question": "De quelle race sont les chiots des « 101 » du film Disney ?",
+  "reponse": "dalmatien",
+  "alias": []
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chat est la plus grande parmi les chats domestiques ?",
+  "reponse": "maine coon",
+  "alias": []
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "De quelle race était Hachikō, le chien fidèle de Tokyo ?",
+  "reponse": "akita",
+  "alias": [
+   "akita inu"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien aimait la reine Elizabeth II ?",
+  "reponse": "corgi",
+  "alias": [
+   "welsh corgi"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "moyen",
+  "question": "Quelle race de chien a une langue bleu-noir ?",
+  "reponse": "chow-chow",
+  "alias": [
+   "chow chow"
+  ]
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quelle race de chat thaïlandais a un corps clair et le bout des pattes, oreilles et queue foncé ?",
+  "reponse": "siamois",
+  "alias": []
+ },
+ {
+  "categorie": "races",
+  "difficulte": "difficile",
+  "question": "Quel grand berger d'Anatolie est utilisé pour protéger les troupeaux contre les loups ?",
+  "reponse": "kangal",
+  "alias": [
+   "berger d anatolie"
+  ]
+ },
+ {
+  "type": "citez",
+  "question": "Citez une race de chien de berger",
+  "categorie": "races",
+  "difficulte": "moyen",
+  "reponse": "berger allemand, malinois, border collie, berger australien, colley, bouvier bernois… (11 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "berger allemand"
+    ],
+    [
+     "malinois",
+     "berger belge"
+    ],
+    [
+     "border collie"
+    ],
+    [
+     "berger australien"
+    ],
+    [
+     "colley",
+     "collie"
+    ],
+    [
+     "bouvier bernois"
+    ],
+    [
+     "beauceron"
+    ],
+    [
+     "briard",
+     "berger de brie"
+    ],
+    [
+     "corgi"
+    ],
+    [
+     "kangal"
+    ],
+    [
+     "berger blanc suisse"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "citez",
+  "question": "Citez une race de chat",
+  "categorie": "races",
+  "difficulte": "moyen",
+  "reponse": "siamois, persan, maine coon, sphynx, bengal, chartreux… (17 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "siamois"
+    ],
+    [
+     "persan"
+    ],
+    [
+     "maine coon"
+    ],
+    [
+     "sphynx"
+    ],
+    [
+     "bengal"
+    ],
+    [
+     "chartreux"
+    ],
+    [
+     "british shorthair"
+    ],
+    [
+     "ragdoll"
+    ],
+    [
+     "sacré de birmanie",
+     "birman"
+    ],
+    [
+     "bleu russe"
+    ],
+    [
+     "scottish fold"
+    ],
+    [
+     "abyssin"
+    ],
+    [
+     "angora"
+    ],
+    [
+     "savannah"
+    ],
+    [
+     "norvégien",
+     "norvegien"
+    ],
+    [
+     "exotic shorthair"
+    ],
+    [
+     "turc de van"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Quelle race de chien est la plus grande ?",
+  "categorie": "races",
+  "difficulte": "moyen",
+  "reponse": "le dogue allemand",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "le dogue allemand"
+    ],
+    [
+     "le berger allemand"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "facile",
+  "question": "Qui a peint « La Nuit étoilée » ?",
+  "reponse": "Vincent van Gogh",
+  "alias": [
+   "van gogh"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « Le Cri » ?",
+  "reponse": "Edvard Munch",
+  "alias": [
+   "munch"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "facile",
+  "question": "Qui a peint « Guernica » ?",
+  "reponse": "Pablo Picasso",
+  "alias": [
+   "picasso"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « La Persistance de la mémoire (les montres molles) » ?",
+  "reponse": "Salvador Dalí",
+  "alias": [
+   "dali"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « La Jeune Fille à la perle » ?",
+  "reponse": "Johannes Vermeer",
+  "alias": [
+   "vermeer"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « La Ronde de nuit » ?",
+  "reponse": "Rembrandt",
+  "alias": []
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « La Création d'Adam » ?",
+  "reponse": "Michel-Ange",
+  "alias": [
+   "michel ange",
+   "michelangelo"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « Le Baiser (1908, feuilles d'or) » ?",
+  "reponse": "Gustav Klimt",
+  "alias": [
+   "klimt"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « La Liberté guidant le peuple » ?",
+  "reponse": "Eugène Delacroix",
+  "alias": [
+   "delacroix"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « Les Nymphéas » ?",
+  "reponse": "Claude Monet",
+  "alias": [
+   "monet"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « La Naissance de Vénus » ?",
+  "reponse": "Sandro Botticelli",
+  "alias": [
+   "botticelli"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Qui a peint « Les Ménines » ?",
+  "reponse": "Diego Velázquez",
+  "alias": [
+   "velazquez",
+   "velasquez"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Qui a peint « Le Radeau de la Méduse » ?",
+  "reponse": "Théodore Géricault",
+  "alias": [
+   "gericault"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Qui a peint « American Gothic » ?",
+  "reponse": "Grant Wood",
+  "alias": [
+   "wood"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « Les Demoiselles d'Avignon » ?",
+  "reponse": "Pablo Picasso",
+  "alias": [
+   "picasso"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Qui a peint « Femmes d'Alger dans leur appartement (1834) » ?",
+  "reponse": "Eugène Delacroix",
+  "alias": [
+   "delacroix"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Qui a peint « La Grande Vague de Kanagawa » ?",
+  "reponse": "Hokusai",
+  "alias": [
+   "katsushika hokusai"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Qui a peint « Le Fils de l'homme (l'homme à la pomme verte) » ?",
+  "reponse": "René Magritte",
+  "alias": [
+   "magritte"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "facile",
+  "question": "Quelle peintre mexicaine est célèbre pour ses autoportraits aux sourcils joints ?",
+  "reponse": "Frida Kahlo",
+  "alias": [
+   "frida",
+   "kahlo"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel artiste du pop art a peint des boîtes de soupe Campbell ?",
+  "reponse": "Andy Warhol",
+  "alias": [
+   "warhol"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel artiste de rue britannique anonyme a créé « La Petite Fille au ballon » ?",
+  "reponse": "Banksy",
+  "alias": []
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "facile",
+  "question": "Dans quel musée parisien est exposée La Joconde ?",
+  "reponse": "le Louvre",
+  "alias": [
+   "louvre",
+   "musee du louvre"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel peintre algérien est célèbre pour ses miniatures et enluminures ?",
+  "reponse": "Mohammed Racim",
+  "alias": [
+   "racim"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quel peintre orientaliste français, converti à l'islam, a vécu à Bou Saâda ?",
+  "reponse": "Étienne Dinet",
+  "alias": [
+   "dinet",
+   "nasreddine dinet"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "difficile",
+  "question": "Quelle peintre algérienne autodidacte, née Fatma Haddad, a exposé à Paris dès 1947 ?",
+  "reponse": "Baya",
+  "alias": [
+   "baya mahieddine"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel mouvement artistique tire son nom du tableau « Impression, soleil levant » ?",
+  "reponse": "l'impressionnisme",
+  "alias": [
+   "impressionnisme"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel mouvement de Picasso et Braque décompose les formes en facettes ?",
+  "reponse": "le cubisme",
+  "alias": [
+   "cubisme"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel mouvement de Dalí et Magritte s'inspire des rêves ?",
+  "reponse": "le surréalisme",
+  "alias": [
+   "surrealisme"
+  ]
+ },
+ {
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "question": "Quel peintre belge a écrit « Ceci n'est pas une pipe » sous un tableau ?",
+  "reponse": "René Magritte",
+  "alias": [
+   "magritte"
+  ]
+ },
+ {
+  "type": "citez",
+  "question": "Citez un peintre impressionniste",
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "reponse": "Monet, Renoir, Degas, Pissarro, Sisley, Manet… (10 réponses possibles)",
+  "alias": [],
+  "extra": {
+   "groupes": [
+    [
+     "Monet",
+     "claude monet"
+    ],
+    [
+     "Renoir"
+    ],
+    [
+     "Degas"
+    ],
+    [
+     "Pissarro"
+    ],
+    [
+     "Sisley"
+    ],
+    [
+     "Manet"
+    ],
+    [
+     "Berthe Morisot",
+     "morisot"
+    ],
+    [
+     "Caillebotte"
+    ],
+    [
+     "Cézanne",
+     "cezanne"
+    ],
+    [
+     "Mary Cassatt",
+     "cassatt"
+    ]
+   ]
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Qui a peint La Cène ?",
+  "categorie": "tableaux",
+  "difficulte": "facile",
+  "reponse": "Léonard de Vinci",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "Léonard de Vinci"
+    ],
+    [
+     "Raphaël"
+    ]
+   ],
+   "bonne": 0
+  }
+ },
+ {
+  "type": "duel",
+  "question": "Qui a peint Les Tournesols ?",
+  "categorie": "tableaux",
+  "difficulte": "moyen",
+  "reponse": "Van Gogh",
+  "alias": [],
+  "extra": {
+   "options": [
+    [
+     "Gauguin"
+    ],
+    [
+     "Van Gogh"
+    ]
+   ],
+   "bonne": 1
+  }
+ }
+]
