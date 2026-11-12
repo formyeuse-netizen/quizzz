@@ -528,6 +528,7 @@ class Salon:
         for j in self.joueurs.values():
             j["trouve"] = False
             j["bloque"] = False
+            j["passe"] = False
             j["gel_jusqua"] = 0
             j["double_arme"] = False
             j["t_trouve"] = None
@@ -1133,6 +1134,7 @@ class Salon:
                 "temps": (round(j["t_trouve"], 1) if j.get("trouve") and j.get("t_trouve")
                           else None),
                 "saisie": "" if j.get("trouve") else j.get("derniere_saisie", ""),
+                "passe": bool(j.get("passe")),
             }
         self.historique.append(ent)
         if len(self.historique) > 60:          # parties tres longues : on garde la fin
@@ -1465,6 +1467,15 @@ async def websocket(ws: WebSocket):
 
             elif action == "reponse":
                 await salon.traiter_reponse(jeton, message.get("texte", ""))
+
+            elif action == "passer":
+                # Solo uniquement (pas le defi) : on abandonne la question en
+                # cours au lieu d'attendre la fin du chrono.
+                j = salon.joueurs.get(jeton)
+                if (salon.solo and salon.mode != "defi" and salon.etat == "manche"
+                        and j and not j.get("trouve")):
+                    j["passe"] = True
+                    j["bloque"] = True
 
             elif action == "signaler":
                 q = salon.question

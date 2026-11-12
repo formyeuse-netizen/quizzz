@@ -169,6 +169,7 @@ button.mini{width:auto; padding:9px 14px; font-size:13px; margin:0}
   color:var(--juste); margin-top:8px}
 
 .pied{margin-top:22px; display:flex; justify-content:center}
+button.passer{margin-top:10px; padding:11px; font-size:14px; color:var(--doux)}
 .lien{background:none; border:none; color:var(--doux); font-size:13px;
   text-decoration:underline; cursor:pointer; width:auto; padding:6px; margin:0}
 .erreur{background:rgba(255,107,107,.14); color:var(--rate); padding:13px 16px;
@@ -555,6 +556,7 @@ button.rev-btn{background:#8B7CF6; color:#fff}
     <div id="v-duel"></div>
     <input type="text" id="saisie" placeholder="Ta reponse" autocomplete="off"
            autocorrect="off" autocapitalize="off" spellcheck="false">
+    <button class="discret passer" id="b-passer" style="display:none">⏭ Passer cette question</button>
     <div class="pouvoirs" id="v-pouvoirs" style="display:none"></div>
     <div id="v-elimine"></div>
     <div id="v-flash" style="margin-top:16px"></div>
@@ -790,6 +792,9 @@ function recevoir(m){
     dureeManche = m.duree; finManche = Date.now() + m.duree * 1000;
     $("#v-cat").textContent = (CATS[m.categorie]||m.categorie) + " / " + m.difficulte;
     $("#v-num").textContent = m.total ? `Question ${m.numero}/${m.total}` : "Manche " + m.numero;
+    const bp = $("#b-passer");
+    bp.style.display = (soloCourant && !defiCourant) ? "block" : "none";
+    bp.disabled = false;
     afficherQuestion(m.question, m.categorie);
     qtypeCourant = m.qtype || "normal";
     debutManche = Date.now() - (m.ecoule || 0) * 1000;
@@ -1101,7 +1106,8 @@ function recevoir(m){
     else if (m.mode === "revision"){
       const ok = (m.recap||[]).filter(q => ((q.joueurs||{})[monPseudo]||{}).trouve).length;
       tete = `<div class="entete-mode">🧠 Révision : ${ok}/${(m.recap||[]).length} retrouvées</div>`
-        + (bilanErr.effacees ? `<p class="recap-note">✨ ${bilanErr.effacees} question${bilanErr.effacees>1?"s":""} maîtrisée${bilanErr.effacees>1?"s":""} : effacée${bilanErr.effacees>1?"s":""} de ta liste</p>` : "");
+        + (bilanErr.effacees ? `<p class="recap-note">✨ ${bilanErr.effacees} question${bilanErr.effacees>1?"s":""} maîtrisée${bilanErr.effacees>1?"s":""} : effacée${bilanErr.effacees>1?"s":""} de ta liste</p>` : "")
+        + (bilanErr.passees ? `<p class="recap-note">⏭ ${bilanErr.passees} question${bilanErr.passees>1?"s":""} passée${bilanErr.passees>1?"s":""} : retirée${bilanErr.passees>1?"s":""} de ta liste</p>` : "");
     }
     else if (m.mode === "coop")
       tete = m.coop_reussi
@@ -1334,6 +1340,10 @@ $("#b-rejoindre").onclick = () => {
   connecter("rejoindre");
 };
 $("#b-demarrer").onclick = () => envoyer({type:"demarrer"});
+$("#b-passer").onclick = () => {
+  $("#b-passer").disabled = true;
+  envoyer({type:"passer"});
+};
 $("#b-rejouer").onclick = () => {
   if (revisionCourant) return lancerRevision();
   envoyer({type:"demarrer"});
@@ -1548,6 +1558,8 @@ function ligneRecap(q, multi){
   if (q.qtype === "citez"){
     const n = (q.trouvees || []).length;
     ta = n ? `Trouvées : ${(q.trouvees).map(t => echap(t[0])).join(", ")}` : "Aucune trouvée";
+  } else if (moi && moi.passe){
+    ta = "Passée";
   } else if (moi && moi.trouve){
     ta = `Trouvé${moi.temps != null ? " en " + moi.temps + " s" : ""}`;
   } else if (moi){
@@ -1613,13 +1625,14 @@ function erreursDues(e){
     .sort((a, b) => a[1].t - b[1].t).map(([k]) => +k);
 }
 function noterErreurs(recap){
-  let effacees = 0;
-  if (!recap || !recap.length) return {effacees};
+  let effacees = 0, passees = 0;
+  if (!recap || !recap.length) return {effacees, passees};
   const e = lireErreurs(), now = Date.now();
   recap.forEach(q => {
     if (!q.id || q.qtype === "citez") return;
     const moi = (q.joueurs || {})[monPseudo]; if (!moi) return;
     const k = String(q.id);
+    if (moi.passe){ if (e[k]) passees++; delete e[k]; return; }   // "ca ne m'interesse pas"
     if (!moi.trouve) e[k] = {s: 0, t: now};
     else if (e[k]){
       e[k] = {s: e[k].s + 1, t: now};
@@ -1629,7 +1642,7 @@ function noterErreurs(recap){
   const ks = Object.keys(e);
   if (ks.length > 200) ks.sort((a, b) => e[a].t - e[b].t).slice(0, ks.length - 200).forEach(k => delete e[k]);
   ecrireErreurs(e);
-  return {effacees};
+  return {effacees, passees};
 }
 function lancerRevision(){
   const d = erreursDues(lireErreurs());
